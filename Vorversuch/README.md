@@ -95,6 +95,8 @@ Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um Textzellen
   %run ./tools/run_phyFit.py -s -f png yaml/data.yaml
   ```
 
+  
+
 # Parameteranpassung mit dem Skript  *run_phyFit.py*
 
 Es empfiehlt sich, bevor Sie mit der Auswertung des Versuchs beginnen, sich mit der Nutzung des Skripts *run_phyFit.py* und der Struktur der notwendigen *yaml*-Datei ein wenig vertraut zu machen. Im Folgenden ist die Durchführung einer Anpassung an einen Beispieldatensatz, bestehend aus 14 datenpunkten, mit Hilfe der Datei [*yaml/data.yml*](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vorversuch/yaml/data.yaml) gezeigt: 
@@ -129,7 +131,7 @@ model_function: |
       return A*np.exp(-x/x0)
 ```
 
-Führen Sie das Skript mit der Konfigurationsdatei *yaml/data.yaml* in Ihrer Jupyter-Umgebung aus, sollten Sie das folgende Bild erhalten: 
+Führen Sie das Skript mit der Konfigurationsdatei *yaml/data.yaml* aus einer Cod-Zelle eines Jupyter-notebook in Ihrer Jupyter-Umgebung aus, sollten Sie das folgende Bild erhalten: 
 
 ```python
 %run ./tools/run_phyFit.py yaml/data.yaml
