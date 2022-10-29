@@ -89,13 +89,11 @@ Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um Textzellen
   %run ./tools/run_phyFit.py --help
   ```
 
--  Es empfiehlt sich alle angegebenen Skripte zunächst, wie oben demonstriert mit der Option *–help* aufzurufen. Zum einen erfahren Sie, ob sich das entsprechende Skript grundsätzlich fehlerfrei aufrufen lässt. Zum anderen erfahren Sie, wie und mit welchen weiteren Konfigurationsparametern Sie das jeweilige Skript aufrufen können. Zum Beispiel können Sie mit den folgenden weiteren Parametern ein Bild eine Anpassung direkt im arbeitsverzeichnis Ihrer Jupyter-Umgebung abspreichern:
+-  Es empfiehlt sich alle angegebenen Skripte zunächst, wie oben demonstriert mit der Option *–help* aufzurufen. Zum einen erfahren Sie, ob sich das entsprechende Skript grundsätzlich fehlerfrei aufrufen lässt. Zum anderen erfahren Sie, wie und mit welchen weiteren Konfigurationsparametern Sie das jeweilige Skript aufrufen können. Zum Beispiel können Sie mit den folgenden weiteren Parametern das Bild der konfigurierten Anpassung direkt im Arbeitsverzeichnis Ihrer Jupyter-Umgebung abspeichern:
 
   ```python
   %run ./tools/run_phyFit.py -s -f png yaml/data.yaml
   ```
-
-  
 
 # Parameteranpassung mit dem Skript  *run_phyFit.py*
 
@@ -131,7 +129,7 @@ model_function: |
       return A*np.exp(-x/x0)
 ```
 
-Führen Sie das Skript mit der Konfigurationsdatei *yaml/data.yaml* aus einer Cod-Zelle eines Jupyter-notebook in Ihrer Jupyter-Umgebung aus, sollten Sie das folgende Bild erhalten: 
+Führen Sie das Skript mit der Konfigurationsdatei *yaml/data.yaml* aus einer Code-Zelle eines Jupyter-notebook in Ihrer Jupyter-Umgebung aus, sollten Sie das folgende Bild erhalten: 
 
 ```python
 %run ./tools/run_phyFit.py yaml/data.yaml
