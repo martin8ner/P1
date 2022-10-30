@@ -1,4 +1,4 @@
-<img src="/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/AnleitungPendel/Logo_KIT.svg" style="zoom:15%;float:right;" />
+<img src="./figures/Logo_KIT.svg" style="zoom:15%;float:right;" />
 
 # Fakultät für Physik 
 
