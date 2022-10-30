@@ -1,4 +1,4 @@
-<img src="./figures/Logo_KIT.svg" style="zoom:15%;float:right;" />
+<img src="./figures/Logo_KIT.svg"  width=200px style="float:right;" />
 
 # Fakultät für Physik 
 
@@ -102,7 +102,7 @@ Der nächste Schritt ist die Anpassung eines einfachen Modells an die beobachtet
 ```yaml
 model_label: "Hamonic oscillation"
 model_function: |
-  def my_model(x, phi0=0.8, omega=4., delta=0.):
+  def my_model(x, A=0.8, omega=4., phi=0.):
       return A*np.cos(omega*x+phi)
 ```
 
