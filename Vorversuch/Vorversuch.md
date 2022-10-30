@@ -38,7 +38,7 @@ Machen Sie sich zur Vorbereitung auf das Praktikum den folgenden Umstand bewusst
 
 Wir haben die *app* [phyphox](https://phyphox.org/de/home-de/) auf ein Smartphone geladen und das Smartphone mit Klebestreifen auf eines der [Reversionspendel](https://de.wikipedia.org/wiki/Reversionspendel) aus dem Versuch "P1-20, 21, 22 Pendel" montiert. Für die Messung haben wir die Anwendung "Beschleunigung ohne $g$" verwendet. Der Versuchsaufbau ist im folgenden Bild skizziert:
 
-![Versuchsaufbau](/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/AnleitungVorversuch/PendelVorversuch.png)
+![Versuchsaufbau](./figures/PendelVorversuch.png)
 
 Wir haben das Pendel in Schwingung versetzt, die resultierende Bewegung mit Hilfe der im Smartphone verbauten Beschleunigungssensoren ausgelesen und uns die resultierenden Datensätze im [csv-Format](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) per Mail zugeschickt. Außerdem haben wir alle für unsere Messung relevanten äußeren Parameter festgehalten. Die Datensätze, die wir aufgenommen haben finden Sie in dieser [zip-Datei](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/p1/p1-versuchsanleitungen/Datenverarbeitung.zip). 
 

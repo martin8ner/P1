@@ -29,26 +29,26 @@ Im **Verzeichnis *params*** finden Sie einige Meta-Informationen, die Sie bei de
 
 Diese Dateien haben wir in Form einer *zip*-Datei auch auf der Webseite des P1 für Sie verlinkt. 
 
-Im **Verzeichnis *tools*** finden Sie die [PhyPraKit/tools](PhyPraKit/tools), die für diesen Vorversuch von  Relevanz sein werden. Wir haben Ihnen diese tools aus dem [PhyPraKit](https://git.scc.kit.edu/yh5078/PhyPraKit) Repository direkt dorthin kopiert, damit Sie sie während des Versuchs leichter finden und ausführen können. Es handelt sich um die Skripte: 
+Im **Verzeichnis *tools*** finden Sie die [PhyPraKit/tools](https://git.scc.kit.edu/yh5078/PhyPraKit/-/tree/master/tools), die für diesen Vorversuch von  Relevanz sein werden. Wir haben Ihnen diese tools aus dem [PhyPraKit](https://git.scc.kit.edu/yh5078/PhyPraKit) Repository direkt dorthin kopiert, damit Sie sie während des Versuchs leichter finden und ausführen können. Es handelt sich um die Skripte: 
 
 - [*csv2yml.py*](https://git.scc.kit.edu/yh5078/PhyPraKit/-/blob/master/tools/csv2yml.py): Dieses Skript können Sie verwenden, um Daten vom *csv*- ins *yaml*-Format zu konvertieren. 
 - [*plotCSV.py*](https://git.scc.kit.edu/yh5078/PhyPraKit/-/blob/master/tools/plotData.py): Dieses Skript können Sie verwenden, um sich die rohen Daten, wie sie im *csv*-Format vom Smartphone übertragen wurden direkt bildlich darzustellen. 
 - [*plotData.py*](https://git.scc.kit.edu/yh5078/PhyPraKit/-/blob/master/tools/plotData.py): Dieses Skript können Sie verwenden, um sich die Daten nach der Konversion in *yaml*-Format anzuschauen. Beachten Sie, dass dieses Skript die Daten in einem speziellen *yaml*-Format erwartet. Eine Beispieldatei, mit der Sie das Skript ausführen können finden Sie im **Verzeichnis *yaml***. Dieses Skript werden Sie vermutlich nicht oft in Verwendung haben.
-- [*run_phyFit.py*](https://git.scc.kit.edu/yh5078/PhyPraKit/-/blob/master/tools/run_phyFit.py): Hierbei handelt es sich um das Skript, dass Sie in erster Linie zur Anpassung physikalischer Modelle an die Daten verwenden können. Beachten Sie, dass dieses Skript die Daten in einem speziellen *yaml*-Format erwartet. Eine Beispieldatei, mit der Sie das Skript ausführen können finden Sie im **Verzeichnis *yaml***.
+- [*run_phyFit.py*](https://git.scc.kit.edu/yh5078/PhyPraKit/-/blob/master/tools/run_phyFit.py): Hierbei handelt es sich um jenes Skript, welches Sie in erster Linie zur Anpassung physikalischer Modelle an die Daten verwenden können. Beachten Sie, dass dieses Skript die Daten in einem speziellen *yaml*-Format erwartet. Eine Beispieldatei, mit der Sie das Skript ausführen können finden Sie im **Verzeichnis *yaml***.
 
 Im **Verzeichnis *yaml*** können Sie ihre selbst-erzeugten *yaml*-Dateien ablegen. Sie finden dort auch eine Beispieldatei für die Verwendung mit den Skripten *plotData.py* und *run_phyFit.py*. 
 
 # Arbeiten auf dem Jupyter-server
 
-Zugang zum Jupyter-server erhalten Sie über die Webadresse: [https://jupytermachine.etp.kit.edu/](https://jupytermachine.etp.kit.edu/). Als Login verwenden Sie Ihren Studenten Account am KIT. Wählen Sie, wenn Sie danach gefragt werden die Option *Python* aus und starten sie den Server. 
+Zugang zum Jupyter-server erhalten Sie über die Webadresse: [https://jupytermachine.etp.kit.edu/](https://jupytermachine.etp.kit.edu/). Als Login verwenden Sie Ihren Studenten Account am KIT. Wählen Sie, wenn Sie danach gefragt werden die Option **Python** aus und starten sie den Server. 
 
 Falls der Zugang zum Server nicht für Sie freigeschaltet sein sollte können Sie die Freischaltung [hier](https://comp.physik.kit.edu/Account/) veranlassen. Stellen Sie bitte **vor Praktikumsbeginn** fest, dass Sie einen gültigen Account haben und sich entsprechend auf dem Jupyter-server einlogen können. 
 
-Nach dem Start sollten Sie einen zweigeteiltes Fenster in Ihrem Browser vorfinden: 
+Nach dem Start sollten Sie ein zweigeteiltes Fenster in Ihrer Jupyter-Umgebung vorfinden: 
 
 <img src="./figures/JupyterAccount.png" alt="figures" style="zoom:100%;" />
 
-Auf der linken Seite befindet sich ein Navigationsfenster mit der Verzeichnisstruktur Ihrer Jupyter-Umgebung, rechts daneben befindet sich ein Fenster (der sog. Launcher) in dem Sie auswählen können, welche Art von Notebook Sie öffnen möchten. Sie können, wenn Sie möchten, die Option **Notebook** und  **Phython 3** (das erste Icon oben links im Launcher) anwählen.   
+Auf der linken Seite befindet sich ein Navigationsfenster mit der Verzeichnisstruktur Ihrer Jupyter-Umgebung, rechts daneben befindet sich ein Fenster (der sog. Launcher) in dem Sie auswählen können, welche Art von Notebook Sie öffnen möchten. Sie können, wenn Sie möchten, die Option **Notebook** und  **Phython 3** (das erste Icon oben links im Launcher) anwählen. Das rechte Fenster der Jupyter-Umgebung kann mehrere Register enthalten.  
 
 Die aktuellste Version des Vorversuchs finden Sie auf dem gitlab-Server des SCC unter der Webadresse: [https://git.scc.kit.edu/etp-lehre/p1-for-students](https://git.scc.kit.edu/etp-lehre/p1-for-students):
 
@@ -57,39 +57,39 @@ Die aktuellste Version des Vorversuchs finden Sie auf dem gitlab-Server des SCC 
 Um dieses Repository in Ihre Jupyter-Umgebung zu laden, gehen Sie z.B. wie folgt vor: 
 
 - Gehen Sie im Menü Ihrer Jupyter-Umgebung auf das Verzeichnis **Git** und wählen Sie die Option **Clone a Repository** aus. 
-- In einem neuen Fenster werden Sie daraufhin aufgefordert die URI-Adresse des zu klonenden Repositorys anzugeben. Diese finden Sie im [SCC Gitlab Repository](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vorversuch). 
-- Öffnen Sie das [SCC Gitlab Repository](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vorversuch) in einem neuen Reiter Ihres Browers und klicken Sie den Knopf **Clone** (blauer Knopf, rechts im obigen Bild). Wählen Sie aus dem sich öffnenden Untermenü die Option **Clone with HTTPS** aus. Die entsprechende Webadresse wird in den Arbeitsspeicher Ihres Computers geladen.
-- Wechseln Sie wieder in den Reiter mit Ihrer Jupyter-Umgebung und geben Sie die Webadresse des zu klonenden SCC Gitlab Repositorys in Ihrer Jupyter-Umgebung an. 
-- Sie werden darauf hin nochmal gebeten sich dem SCC Gitlab Server gegenüber zu identifizieren. Verwenden Sie hierzu erneut Ihren KIT Account. 
+- In einem neuen Fenster werden Sie daraufhin aufgefordert die URI-Adresse für das Repository anzugeben, das Sie klonen möchten. Diese finden Sie im [SCC Gitlab Repository](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vorversuch). 
+- Öffnen Sie das [SCC Gitlab Repository](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vorversuch) z.B. in einem neuen Reiter Ihres Browsers und klicken Sie den Knopf **Clone** (blauer Knopf, rechts im obigen Bild). Wählen Sie aus dem sich öffnenden Untermenü die Option **Clone with HTTPS** aus. Die entsprechende Webadresse wird in den Arbeitsspeicher Ihres Computers geladen.
+- Wechseln Sie in Ihrem Browser wieder in den Reiter mit Ihrer Jupyter-Umgebung und geben Sie die Webadresse für das zu klonende SCC Gitlab Repository an. 
+- Sie werden daraufhin nochmal gebeten sich dem SCC Gitlab Server gegenüber zu identifizieren. Verwenden Sie hierzu erneut Ihren KIT Account. 
 
-Nach erfolgreicher Durchführung sollten Sie eine Verzeichnis-Struktur **p1-for-students/Vorversuch** auf Ihrem Account vorfinden. Im Verzeichnis **Vorversuch** können Sie die Durchführung und Auswertung des Versuchs beginnen.
+Nach erfolgreicher Durchführung sollten Sie eine Verzeichnis-Struktur **p1-for-students/Vorversuch** in Ihrer Jupyter-Umgebung vorfinden. Im Verzeichnis **Vorversuch** können Sie die Durchführung und Auswertung des Versuchs beginnen.
 
 # Arbeiten mit dem Jupyter-notebook
 
-Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um Textzellen (z.B. in Markdown) oder um Code-Zellen handeln, in die Sie direkt Python-Code eingeben können. Eine kurze Einführung in Jupyter-notebook können Sie [hier](https://www-ekp.physik.uni-karlsruhe.de/~quast/jupyter/jupyterTutorial.html) finden. Ein Jupyter-cheat sheet finden Sie z.B. [hier](https://www.edureka.co/blog/wp-content/uploads/2018/10/Jupyter_Notebook_CheatSheet_Edureka.pdf). Für die Durchführung des Versuchs sind die folgenden Jupyter-*features* von Bedeutung/Nutzen: 
+Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um **Textzellen** (z.B. in Markdown) oder um **Code-Zellen** handeln, in die Sie direkt Python-Code eingeben können. Eine kurze Einführung in Jupyter-notebook können Sie [hier](https://www-ekp.physik.uni-karlsruhe.de/~quast/jupyter/jupyterTutorial.html) finden. Ein Jupyter-cheat sheet finden Sie z.B. [hier](https://www.edureka.co/blog/wp-content/uploads/2018/10/Jupyter_Notebook_CheatSheet_Edureka.pdf). Für die Durchführung des Versuchs können die folgenden Jupyter-*features* von Bedeutung/Nutzen für Sie sein: 
 
 - *Esc+m*: Wechsele Zellenmodus zu Markdown
 
 - *Esc-y*: Wechsele Zellenmodus zu Code (d.h. Python)
 
-- Befindet sich eine Zelle im Code-Modus können Sie direkt Kommandos in Python eingeben. Das folgende Beispiel importiert eine Variable aus der Datei *parameters_task_3.py* aus dem *params*-Verzeichnis ihrer Jupyter-Umgebung und gibt den Wert der Variablen auf dem Bildschirm aus, sobald Sie die Zelle ausführen. 
+- Befindet sich eine Zelle im Code-Modus können Sie direkt Kommandos in Python eingeben. Das folgende Beispiel importiert die Variable $l$ aus der Datei *parameters_task_3.py* aus dem *params*-Verzeichnis ihrer Jupyter-Umgebung und gibt den Wert der Variablen auf dem Bildschirm aus, sobald Sie die Zelle ausführen. 
 
   ```python
   from params.parameters_task_3 import l
   print(l)
   ```
 
-- *strg+enter*: Ausführen eine Zelle.
+- *Strg+Enter*: Ausführen eine Zelle.
 
-- Sie sollten außerdem wissen, dass Sie jede der in der Verzeichnisstruktur Ihrer Jupyter-Umgebung befindlichen Dateien per Doppelklick im rechten Fenster Ihres Browsers öffnen, bearbeiten und nach der Bearbeitung abspeichern können. 
+- Sie sollten außerdem wissen, dass Sie jede der in der Verzeichnisstruktur Ihrer Jupyter-Umgebung befindlichen Dateien per Doppelklick im rechten Fenster der Umgebung öffnen, bearbeiten und nach der Bearbeitung abspeichern können. 
 
-- Möchten Sie ein Skript aus Ihrer Jupyter-Umgebung direkt aus dem Jupyter-notebook ausführen tun Sie dies in einer Code-Zelle mit dem  [Magic command](https://ipython.readthedocs.io/en/stable/interactive/magics.html) *%run*. Im Folgenden ist z.B. gezeigt, wie man das Skript *run_phyFit.py* aus dem *tools*-Verzeichnis Ihrer Jupyter-Umgebung direkt aus einer Code-Zelle eines Jupyter-notebooks aufrufen kann: 
+- Möchten Sie ein Skript aus Ihrer Jupyter-Umgebung direkt aus dem Jupyter-notebook ausführen tun Sie dies in einer Code-Zelle mit dem  [Magic command](https://ipython.readthedocs.io/en/stable/interactive/magics.html) **%run**. Im Folgenden ist z.B. gezeigt, wie man das Skript *run_phyFit.py* aus dem *tools*-Verzeichnis Ihrer Jupyter-Umgebung direkt aus einer Code-Zelle eines Jupyter-notebooks aufrufen kann: 
 
   ```python
   %run ./tools/run_phyFit.py --help
   ```
 
--  Es empfiehlt sich alle angegebenen Skripte zunächst, wie oben demonstriert mit der Option *–help* aufzurufen. Zum einen erfahren Sie, ob sich das entsprechende Skript grundsätzlich fehlerfrei aufrufen lässt. Zum anderen erfahren Sie, wie und mit welchen weiteren Konfigurationsparametern Sie das jeweilige Skript aufrufen können. Zum Beispiel können Sie mit den folgenden weiteren Parametern das Bild der konfigurierten Anpassung direkt im Arbeitsverzeichnis Ihrer Jupyter-Umgebung abspeichern:
+-  Es empfiehlt sich alle angegebenen Skripte zunächst, wie oben demonstriert mit der Option *–help* aufzurufen. Zum einen erfahren Sie, ob sich das entsprechende Skript grundsätzlich fehlerfrei aufrufen lässt. Zum anderen erfahren Sie, wie und mit welchen weiteren Konfigurationsparametern Sie das jeweilige Skript aufrufen können. Zum Beispiel können Sie mit den folgenden weiteren Parametern das Bild der konfigurierten Anpassung direkt im Arbeitsverzeichnis Ihrer Jupyter-Umgebung in *png*-Format abspeichern:
 
   ```python
   %run ./tools/run_phyFit.py -s -f png yaml/data.yaml
@@ -97,7 +97,7 @@ Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um Textzellen
 
 # Parameteranpassung mit dem Skript  *run_phyFit.py*
 
-Es empfiehlt sich, bevor Sie mit der Auswertung des Versuchs beginnen, sich mit der Nutzung des Skripts *run_phyFit.py* und der Struktur der notwendigen *yaml*-Datei ein wenig vertraut zu machen. Im Folgenden ist die Durchführung einer Anpassung an einen Beispieldatensatz, bestehend aus 14 datenpunkten, mit Hilfe der Datei [*yaml/data.yml*](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vorversuch/yaml/data.yaml) gezeigt: 
+Es empfiehlt sich, bevor Sie mit der Auswertung des Versuchs beginnen, sich mit der Nutzung des Skripts *run_phyFit.py* und der Struktur der notwendigen *yaml*-Datei ein wenig vertraut zu machen. Im Folgenden ist die Durchführung einer Anpassung an einen Beispieldatensatz, bestehend aus 14 freigewählten Datenpunkten, mit Hilfe der Datei [*yaml/data.yml*](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vorversuch/yaml/data.yaml) gezeigt: 
 
 Die wichtigsten Strukturelemente der *yaml*-Datei sind in den folgenden Kommentarzeilen kurz erklärt: 
 
@@ -129,7 +129,7 @@ model_function: |
       return A*np.exp(-x/x0)
 ```
 
-Führen Sie das Skript mit der Konfigurationsdatei *yaml/data.yaml* aus einer Code-Zelle eines Jupyter-notebook in Ihrer Jupyter-Umgebung aus, sollten Sie das folgende Bild erhalten: 
+Wenn Sie das Skript mit der Konfigurationsdatei *yaml/data.yaml* aus einer Code-Zelle eines Jupyter-notebook in Ihrer Jupyter-Umgebung ausführen, sollten Sie das folgende Bild erhalten: 
 
 ```python
 %run ./tools/run_phyFit.py yaml/data.yaml
@@ -139,32 +139,32 @@ Führen Sie das Skript mit der Konfigurationsdatei *yaml/data.yaml* aus einer Co
 
 Das Modell einer Exponentialfunktion mit den Parametern $A$ und $x_{0}$ wurde an die Datenpunkte angepasst.
 
-Sie sollten die angepassten Parameter $A$ und $x_{0}$ der Modellfunktion, Das Datenlabel, das Label der Modellfunktion und die Achsenbeschriftungen wiedererkennen. 
+Sie sollten die angepassten Parameter $A$ und $x_{0}$ der Modellfunktion, das Datenlabel, das Label der Modellfunktion und die Achsenbeschriftungen mit den entsprechenden Schlüsselworten in der *yaml*-Datei identifizieren können. 
 
 ## Ein paar Tipps für Anfänger auf diesem Gebiet: 
 
-- *yaml* ist eine Struktursprache, die aus beliebigen "Schlüsselworten" und "Werten" besteht. Diese sind durch einen Doppelpunkt voneinander getrennt. 
-- Die Schlüsselworte, die wir in der oben gezeigten Datei verwenden haben nichts mit der Sprache *yaml* selbst zu tun. Die Sprache ist nur das Medium, um das Skript *run_phyFit.py* zu konfigurieren. Es handelt sich um Schlüsselworte, die das Programm **erwartet**. 
-- Sie können keine Anpassung an Daten durchführen, wenn Sie dem Skript die Daten als Werte zu den Schlüsselworten *x_data* und *y_data* bekannt machen. Ebenso erwartet das Skript Unsicherheiten auf die Datenpunkte, die man mit dem Schlüsselworten *x_errors* und *y_errors* übergibt und eine Modellfunktion.
--  Halten Sie sich exakt an die Schlüsselworte. Die Worte *x-data*, *x_Data* oder *x_data* sind nicht identisch. Beachten Sie Groß- und Kleinschreibung.
-- Wenn Sie für einen Wert Anführungsstriche öffnen, müssen Sie diese auch wieder schließen. Sowas sind klassiche Tippfehler für einen Anfänger. 
+- *yaml* ist eine Struktursprache, die aus Paaren von beliebigen "Schlüsselworten" und "Werten" besteht. Diese sind durch einen Doppelpunkt voneinander getrennt. 
+- Die Schlüsselworte, die wir in der oben gezeigten Datei verwenden haben nichts mit der Sprache *yaml* an sich zu tun. Die Sprache ist nur das Medium, um das Skript *run_phyFit.py* zu konfigurieren. Es handelt sich um Schlüsselworte, die das Skript **erwartet**. 
+- Sie können keine Anpassung einer Funktion an Daten durchführen, wenn Sie dem Skript die Daten nicht als Werte zu den Schlüsselworten *x_data* und *y_data* bekannt machen. Ebenso erwartet das Skript Werte für die Unsicherheiten auf die Datenpunkte, die man mit den Schlüsselworten *x_errors* und *y_errors* übergibt, und eine anzupassende Modellfunktion. Diese einfachen Anforderungen erklären die Schlüsselworte, für die Sie in der *yaml*-Datei Werte zur Verfügung stellen sollten.
+-  Halten Sie sich exakt an die Syntax der Schlüsselworte. Die Worte *x-data*, *x_Data* oder *x_data* sind **nicht identisch**. Beachten Sie Groß- und Kleinschreibung.
+- Wenn Sie für einen Wert (einfache oder doppelte) Anführungsstriche öffnen, müssen Sie diese auch mit gleichartigen Anführungsstrichen wieder schließen. Das sind klassische Tippfehler für einen Anfänger. 
 
-Sie werden sehen, dass Sie den Bogen mit etwas Übung ganz gut rausbekommen werden. Falls Sie im Laufe des Versuchs mit Ihren eigenen *yaml*-Dateien mal nicht klarkommen sollten vergleichen Sie sie mit der Beispieldatei oder jeder anderen funktionierenden Datei. 
+Sie werden sehen, dass Sie den Bogen mit etwas Übung ganz gut raus bekommen werden. Falls Sie im Laufe des Versuchs mit Ihren eigenen *yaml*-Dateien mal nicht klarkommen sollten vergleichen Sie sie mit der Beispieldatei oder jeder anderen funktionierenden Datei, bis Sie den Unterschied gefunden haben. 
 
 **Anm.:** Mit der gleichen *yaml*-Datei können Sie das Skript *plotData.py* ausführen.  
 
 # Durchführung und Auswertung
 
- Zur Durchführung und Auswertung des Versuchs können Sie entweder Ihr eigenes Jupyter-notebook starten (siehe Abschnitt "Arbeiten auf dem Jupyter-server"), oder Sie öffnen die Anleitung als Jupyter-notebook per Doppelklick in Ihrer Jupyter-Umgebung. 
+ Zur Durchführung und Auswertung des Versuchs können Sie entweder ein neues Jupyter-notebook starten (siehe Abschnitt "Arbeiten auf dem Jupyter-server"), oder Sie öffnen die Anleitung als Jupyter-notebook per Doppelklick in Ihrer Jupyter-Umgebung. 
 
-Im lezteren Fall verwenden Sie einfach die Zellen, mit den Überschriften **"Lösung"**. Sie können den kursiv-gestellten Text aus den Zellen löschen. 
+Im letzteren Fall verwenden Sie einfach die Zellen, mit den Überschriften **"Lösung"**. Sie können den *kursiv*-gestellten Text aus den Zellen löschen. 
 
-Vergessen Sie nicht das Jupyter-notebook bevor Sie den Kontakt zum Server schließen zu speichern (*strg+s*). Andernfalls wäre Ihre Arbeit verloren.
+Vergessen Sie nicht das Jupyter-notebook bevor Sie den Kontakt zum Server schließen (z.B. mit *Strg+s*) zu speichern. Andernfalls wäre Ihre Arbeit verloren.
 
 Sie sollten die fertige Auswertung zur Abgabe in ein nicht weiter editierbares Format bringen, das Sie dann als Gruppe auf der ILIAS-Seite des P1 hochladen können. Hierzu empfehlen sich derzeit die folgenden Schritte: 
 
 - Exportieren Sie das Jupyter-notebook nach *html*. 
-- Laden Sie sich hierzu gegebenenfalls die Bilder, die in das Jupyter-notebook eingebunden werden sollen, vom Jupyter-server auf Ihren lokalen Rechner. Die einzubinden Bilddateien sollten sich im gleichen Verzeichnis, wie die exportierte *html*-Datei befinden.
-- Sie können die *html*-Datei dann von Ihrem Browser aus z.B. nach *pdf* formatieren. Wenn das *pdf*-Format nicht ganz einwandfrei die Seiten umbricht, ist das für uns kein Problem. 
+- Laden Sie sich hierzu gegebenenfalls die Bilder, die in das Jupyter-notebook eingebunden werden sollen, vom Jupyter-server auf Ihren lokalen Rechner. Die einzubinden Bilddateien sollten sich dann im gleichen Verzeichnis, wie die exportierte *html*-Datei befinden.
+- Sie können die *html*-Datei dann von Ihrem Browser aus z.B. nach *pdf* formatieren. Wenn das *pdf*-Format die Seiten nicht ganz einwandfrei umbricht, ist das für uns kein Problem. 
 - Je nach Absprache mit dem Tutoren können Sie auch das Jupyter-notebook zusätzlich auf ILIAS hochladen.  
 
