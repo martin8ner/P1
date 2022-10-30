@@ -233,7 +233,7 @@ Beachten Sie, dass das der Wert von $\Delta g$ aus der Anpassung aus Aufgabe 4.2
 
 *Sie können Ihre Lösung/Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
 
-## Bonusaufgabe: Vom bloßen Messen zu Kunst
+## Bonusaufgabe: Vom bloßen Messen zur Kunst
 
 Die Anmerkung zu Aufgabe 4.2 wirft eine Frage auf, die wir im Rahmen dieses Vorversuchs bisher offen gelassen haben: wie sind die Unsicherheiten auf die zusätzlichen Parameter der Messung korreliert? Wenn Sie möchten können Sie dieser Frage mit den folgenden Bonusaufgaben nachgehen. Die Bearbeitung dieser Fragen ist jedoch nicht verpflichtend.
 
