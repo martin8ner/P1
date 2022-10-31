@@ -199,7 +199,7 @@ verwenden. Dieser Wert wurde aus der Global Gravtiy Database des Bureau Gravimet
 Eine offensichtliche Unzulänglichkeit des vorherigen Modells besteht in der Vernachlässigung der physikalischen Ausdehnungen des Pendels. Wir werden unser Modell entsprechend erweitern. Die Formel zur Bestimmung von $g$ nimmt dadurch die folgende Form an: 
 
 $$
-g = \frac{4\,\pi^{2}}{T^{2}}\frac{I}{m\,g\,\ell},
+g = \frac{4\,\pi^{2}}{T^{2}}\frac{I}{m\,\ell},
 $$
 wobei $I$ und $m$ dem Trägheitsmoment und der Masse der gesamten Pendelkonstruktion (inklusive aller Montageteile und Smartphone!) und $\ell$ dem Abstand des Schwerpunkts dieser Konstruktion vom Angelpunkt des Pendels entsprechen.  Zusätzliche Information zu den im Folgenden diskutierten Modellen finden Sie in der Datei 
 
@@ -219,7 +219,7 @@ Sie können $g$ und $\Delta g$ auch direkt aus der Anpassung bestimmen. Formulie
 
 Das Pendel erfährt in seiner Bewegung zusätzlich eine Dämpfung. Legen wir ein Modell linearer Dämpfung zugrunde verändert sich die Formel zur Bestimmung von $g$ wie folgt: 
 $$
-g = \left(\frac{4\,\pi^{2}}{T^{2}}+\frac{1}{\tau}\right)\frac{I}{m\,g\,\ell},
+g = \left(\frac{4\,\pi^{2}}{T^{2}}+\frac{1}{\tau}\right)\frac{I}{m\,\ell},
 $$
 wobei $1/\tau$ einer Abklingzeit in Sekunden entspricht. Wie Sie sehen handelt es sich um eine Korrektur, die die Abschätzung von $g$ zu größeren Werten hin beeinflusst. Verändern Sie ihr Modell entsprechend und beantworten Sie die folgenden Fragen: ist das zugrundeliegende Modell mit den Daten kompatibel? Wie könnten Sie die Hypothese, dass das zugrundeliegende Modell die Daten beschreiben kann, besser testen? Wie groß ist der Einfluss, den dieser Effekt ggf. auf die Messung von $g$ hat? 
 
