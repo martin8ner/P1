@@ -219,7 +219,7 @@ Sie können $g$ und $\Delta g$ auch direkt aus der Anpassung bestimmen. Formulie
 
 Das Pendel erfährt in seiner Bewegung zusätzlich eine Dämpfung. Legen wir ein Modell linearer Dämpfung zugrunde verändert sich die Formel zur Bestimmung von $g$ wie folgt: 
 $$
-g = \left(\frac{4\,\pi^{2}}{T^{2}}+\frac{1}{\tau}\right)\frac{I}{m\,\ell},
+g = \left(\frac{4\,\pi^{2}}{T^{2}}+\frac{1}{\tau^{2}}\right)\frac{I}{m\,\ell},
 $$
 wobei $1/\tau$ einer Abklingzeit in Sekunden entspricht. Wie Sie sehen handelt es sich um eine Korrektur, die die Abschätzung von $g$ zu größeren Werten hin beeinflusst. Verändern Sie ihr Modell entsprechend und beantworten Sie die folgenden Fragen: ist das zugrundeliegende Modell mit den Daten kompatibel? Wie könnten Sie die Hypothese, dass das zugrundeliegende Modell die Daten beschreiben kann, besser testen? Wie groß ist der Einfluss, den dieser Effekt ggf. auf die Messung von $g$ hat? 
 
