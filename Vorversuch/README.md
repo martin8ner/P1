@@ -40,7 +40,7 @@ Im **Verzeichnis *yaml*** können Sie ihre selbst-erzeugten *yaml*-Dateien ableg
 
 # Arbeiten auf dem Jupyter-server
 
-Zugang zum Jupyter-server erhalten Sie über die Webadresse: [https://jupytermachine.etp.kit.edu/](https://jupytermachine.etp.kit.edu/). Als Login verwenden Sie Ihren Studenten Account am KIT. Wählen Sie, wenn Sie danach gefragt werden die Option **Python** aus und starten sie den Server. 
+Zugang zum Jupyter-server erhalten Sie über die Webadresse: [https://jupytermachine.etp.kit.edu/](https://jupytermachine.etp.kit.edu/). Als Login verwenden Sie Ihren Studenten Account am KIT. Wählen Sie, wenn Sie danach gefragt werden die Option **Python** aus und starten Sie den Server. 
 
 Falls der Zugang zum Server nicht für Sie freigeschaltet sein sollte können Sie die Freischaltung [hier](https://comp.physik.kit.edu/Account/) veranlassen. Stellen Sie bitte **vor Praktikumsbeginn** fest, dass Sie einen gültigen Account haben und sich entsprechend auf dem Jupyter-server einlogen können. 
 
