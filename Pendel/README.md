@@ -33,10 +33,9 @@ Im **Verzeichnis *yaml*** können Sie ihre selbst-erzeugten *yaml*-Dateien ableg
 
 # Wichtige Hinweise zu Protokoll und Auswertung
 
-Beachten Sie zudem die Hinweise zu den folgenden Themen in der [README.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vorversuch/README.md) Datei des P1-Vorversuchs: 
+Beachten Sie zudem die Hinweise zu den folgenden Themen in dieser [README.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/README.md) Datei: 
 
 - Arbeiten mit dem Jupyter-server;
-- Arbeiten mit dem Jupyter-notebook
-- Parameteranpassung mit dem Skript *run_phyFit.py*;
+- Arbeiten mit dem Jupyter-notebook;
+- Parameteranpassung mit dem PhyPraKit Skript *run_phyFit.py*;
 - Durchführung und Auswertung.
-
