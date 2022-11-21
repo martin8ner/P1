@@ -84,7 +84,7 @@ Bei den Berechnungen handelt es sich um wichtige Vorbereitungen für die Durchf�
 
 ### Aufgabe 1.2: Justierung der Apparatur und Messung
 
-**Justieren Sie die Apparatur**. Gehen Sie dabei entlang des Strahlengangs, wie folgt, vor: 
+**Vollziehen Sie für sich die Justierung der Apparatur nach**. Gehen Sie dabei entlang des Strahlengangs, wie folgt, vor: 
 
 - *Laser – Drehspiegel*: Der horizontal ausgesandte Laserstrahl sollte den ruhenden Drehspiegel mittig treffen und horizontal wieder verlassen. 
 - *Drehspiegel – Umlenkspiegel*: Richten Sie den Drehspiegelwinkel so aus, dass der reflektierte Strahl (noch ohne Linse) auf die Mitte des Umlenkspiegels fällt. Decken Sie hierzu den Endspiegel ab.
@@ -95,6 +95,8 @@ Bei den Berechnungen handelt es sich um wichtige Vorbereitungen für die Durchf�
 - *Schirm und USB-Mikroskop*: Positionieren Sie das USB-Mikroskop hinter dem Schirm mit der Skala. Laser und Skala sind gleich weit vom Strahlteiler entfernt. 
 - *Frequenzmessung am Drehspiegel*: Positionieren Sie den Phototransistor für die Messung der Rotationsfrequenz des Drehspiegels.
 
+Beachten Sie hierzu Anmerkung 1.2. 
+
 **Messung der Lichtgeschwindigkeit**. Tragen Sie den Ort des beobachteten Lichtpunkts als Funktion der Rotationsfrequenz des Drehspiegels auf und bestimmen Sie aus dem in Aufgabe 1.1 bestimmten funktionalen Zusammenhang den Wert $c$ der Lichtgeschwindigkeit. Zur Kalibration des Frequenzzählers in einem Punkt stellen Sie die Rotationsfrequenz des Drehspiegels von $440\,\mathrm{Hz}$ anhand der auftretenden Schwebung zwischen dem Motorengeräusch des Drehspiegels und dem Stimmgabelton für den Kammerton "A" ein und vergleichen Sie den erhaltenen Wert mit der elektronischen Frequenzanzeige. Diskutieren Sie systematische und statistische Unsicherheiten bei der Bestimmung von $c$ und bestimmen Sie die Unsicherheit $\Delta c$ auf den bestimmten Wert.
 
 ## Anmerkungen zu Aufgabe 1
@@ -102,6 +104,10 @@ Bei den Berechnungen handelt es sich um wichtige Vorbereitungen für die Durchf�
 ### Anmerkung 1.1 – **Achtung**
 
 Die Strahlung des verwendeten Lasers ([Klasse 2](https://de.wikipedia.org/wiki/Laser#Laserklassen)) ist, wenn Sie direkt in den Strahl hinein blicken **gefährlich für Ihre Augen!** Dies ist insbesondere der Fall, da Sie mit Spiegeln arbeiten. Bei ruhendem (oder sehr langsam rotierendem) Spiegel müssen Sie daher zu Ihrem eigenen Schutz eine der ausgelegten Schutzbrillen tragen.
+
+### Anmerkung 1.2  
+
+Optische Apparaturen sind sehr sensibel. Eine grundsätzliche Neujustierung kann mehrere Stunden dauern. Während des P1 sollten Sie die Justierung nach Möglichkeit also so belassen, wie Sie sie vorfinden. 
 
 ## Lösung:
 
@@ -122,16 +128,27 @@ Beantworten Sie zur Vorbereitung auf den Versuch die folgenden Fragen:
 
 Überprüfen Sie die Verbindungskabel anhand des Anschlussschemas auf der Frontplatte des Hauptnetzgeräts. Richten Sie mit Hilfe der Justierschrauben zur Zentrierung der Leuchtdiode des Senders und des verschiebbaren Kondensors am Lichtsendergehäuse einen möglichst parallelen Strahl vom Sender in Richtung des Empfängers ein. Stellen Sie die Sammellinse vor der Photodiode des Empfängers so auf, dass die Photodiode optimal ausgeleuchtet wird. Beachten Sie hier zu Anmerkung 2.2. 
 
-Überprüfen und notieren Sie mit dem Oszilloskop die Differenzfrequenz $(\omega-\omega')$. Dabei entspricht $\omega=2\,\pi\cdot60\,\mathrm{MHz}$ der Kreisfrequenz des für die Messung verwendeten Referenzsignals und $\omega' = 2\,\pi\cdot59,9\,\mathrm{MHz}$ der Kreisfrequenz des beigemischten Signals zum Zweck der Amplitudenmodulation. Beachten Sie hierzu Anmerkung 2.1. Für eine zuverlässige Frequenzmessung benötigt das Oszilloskop mehrere vollständige Wellenzüge im Anzeigebereich.
-
 ### Aufgabe 2.3: Lichtgeschwindigkeit und Brechungsindex
 
 Absolvieren Sie das folgende Messprogramm: 
 
-- Messen Sie die zeitliche Differenz $\Delta t$ zwischen Sender und Empfänger als Funktion von deren Abstand $\ell$ aus der Phasenverschiebung $\Delta\varphi$ zwischen Empfänger- und Referenzsignal. Beachten Sie den Zeitdehnungsfaktor aus Gleichung (4) in Anmerkung 2.1. Entnehmen Sie der Auftragung die Lichtgeschwindigkeit $c$ in Luft mit entsprechender Unsicherheit $\Delta c$ und diskutieren Sie die Quellen der dominanten Unsicherheiten.
-- Bestimmen Sie den Brechungsindex $n_{\mathrm{H_{2}O}}$von Wasser aus der Messung der Laufzeitdifferenz, wenn $1\,\mathrm{m}$ Lichtweg in Luft durch $1\,\mathrm{m}$ Lichtweg in Wasser ersetzt wird.
-- Bestimmen Sie analog den Brechungsindex $n_{\mathrm{Plex}}$ von Plexiglas mit Hilfe der $8$ und $30\,\mathrm{cm}$ langen Plexiglaszylinder.
-- Bestimmen Sie die Lichtgeschwindigkeit in Luft durch Messung von $\lambda /2$ mit Hilfe von [Lissajous-Figuren](https://de.wikipedia.org/wiki/Lissajous-Figur) im X/Y-Betrieb des Oszilloskops. Da Sie fast die gesamte zur Verfügung stehende Strecke der Führungsschiene benötigen, müssen Sie bei minimalem Abstand die Phase am Betriebsgerät geeignet einstellen.
+#### Aufgabe 2.3.1
+
+Überprüfen und notieren Sie mit dem Oszilloskop die Differenzfrequenz $(\omega-\omega')$. Dabei entspricht $\omega=2\,\pi\cdot60\,\mathrm{MHz}$ der Kreisfrequenz des für die Messung verwendeten Referenzsignals und $\omega' = 2\,\pi\cdot59,9\,\mathrm{MHz}$ der Kreisfrequenz des beigemischten Signals zum Zweck der Amplitudenmodulation. Beachten Sie hierzu Anmerkung 2.1. Für eine zuverlässige Frequenzmessung benötigt das Oszilloskop mehrere vollständige Wellenzüge im Anzeigebereich.
+
+#### Aufgabe 2.3.2
+
+Messen Sie die zeitliche Differenz $\Delta t$ zwischen Sender und Empfänger als Funktion von deren Abstand $\ell$ aus der Phasenverschiebung $\Delta\varphi$ zwischen Empfänger- und Referenzsignal. Beachten Sie den Zeitdehnungsfaktor aus Gleichung (4) in Anmerkung 2.1. Entnehmen Sie der Auftragung die Lichtgeschwindigkeit $c$ in Luft mit entsprechender Unsicherheit $\Delta c$ und diskutieren Sie die Quellen der dominanten Unsicherheiten.
+
+#### Aufgabe 2.3.3
+
+Bestimmen Sie den Brechungsindex $n_{\mathrm{H_{2}O}}$von Wasser aus der Messung der Laufzeitdifferenz, wenn $1\,\mathrm{m}$ Lichtweg in Luft durch $1\,\mathrm{m}$ Lichtweg in Wasser ersetzt wird.
+
+Bestimmen Sie analog den Brechungsindex $n_{\mathrm{Plex}}$ von Plexiglas mit Hilfe der $8$ und $30\,\mathrm{cm}$ langen Plexiglaszylinder.
+
+#### Aufgabe 2.3.4
+
+Bestimmen Sie die Lichtgeschwindigkeit in Luft durch Messung von $\lambda /2$ mit Hilfe von [Lissajous-Figuren](https://de.wikipedia.org/wiki/Lissajous-Figur) im X/Y-Betrieb des Oszilloskops. Da Sie fast die gesamte zur Verfügung stehende Strecke der Führungsschiene benötigen, müssen Sie bei minimalem Abstand die Phase am Betriebsgerät geeignet einstellen.
 
 ## Anmerkungen zu Aufgabe 2
 
