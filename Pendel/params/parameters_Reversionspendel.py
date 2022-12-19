@@ -17,8 +17,8 @@ rho = 4.94                   # Längendichte des Stabs (in g/cm)
                              # Ohne Angabe von Unsicherheiten
 
 Del = 1.0                    # Abstand des Auflagepunktes vom obersten Rand der Montagespange (in cm) NB: gilt für beide Spangen.
-Del_UPPER = 1.52             # +Unsicherheit
-Del_LOWER = 1.48             # -Unsicherheit
+Del_UPPER = 1.02             # +Unsicherheit
+Del_LOWER = 0.98             # -Unsicherheit
 
 m1P1 = 86                    # Masse der festen Montagespange von Pendel P1 (in g)
 m1P1_UPPER = 86.5            # +Unsicherheit
