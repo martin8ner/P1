@@ -31,7 +31,7 @@ In Zeiten vor der Digitalisierung wurden Protokolle z.B. in Form von Laborbüche
 - die Messwerte, einschließlich der Einschätzung der Unsicherheiten *aller* aufgezeichneten Daten; 
 - die Weiterverarbeitung der Daten und daraus resultierende Teilergebnisse dokumentieren. 
 
-Am Ende des Praktikumstages mündet das Protokoll in die Auswertung des Versuchs. Die Anleitung in Jupyter-notebook Format sollte Ihnen bei der Erstellung des Protokolls als Vorlage dienen können. Praktische Hinweise zur Arbeit mit dem Jupyter-notebook finden Sie im Abschnitt [Praktische Hinweise zu Durchführung und Auswertung](#Praktische-Hinweise-zu-Durchführung-und-Auswertung) in diesem Dokument. 
+Am Ende des Praktikumstages mündet das Protokoll in die Auswertung des Versuchs. Die Anleitung in Jupyter-notebook Format sollte Ihnen bei der Erstellung des Protokolls als Vorlage dienen können. Praktische Hinweise zur Arbeit mit dem Jupyter-notebook finden Sie im Abschnitt [Praktische Hinweise zu Durchführung und Auswertung](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/#praktische-hinweise-zu-durchf%C3%BChrung-und-auswertung) in diesem Dokument. 
 
 ### Begriffsklärung
 
