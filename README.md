@@ -111,7 +111,7 @@ Die jeweils aktuelle Version aller Versuchsanleitungen und die dazugehörigen Da
 
 * [https://git.scc.kit.edu/etp-lehre/p2-for-students](https://git.scc.kit.edu/etp-lehre/p2-for-students). 
 
-Wie Sie die Anleitungen vom gitlab-Server des SCC auf Ihre Arbeitsumgebung auf dem Jupyter-server herunterladen und bearbeiten können erfahren Sie aus dem Dokument [Arbeiten auf dem Jupyter-server][https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Jupyter-server.md].  
+Wie Sie die Anleitungen vom gitlab-Server des SCC auf Ihre Arbeitsumgebung auf dem Jupyter-server herunterladen und bearbeiten können erfahren Sie aus dem Dokument [Arbeiten auf dem Jupyter-server](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Jupyter-server.md).  
 
 Zur Durchführung und Auswertung des Versuchs können Sie entweder ein neues Jupyter-notebook starten, oder Sie öffnen die Anleitung als Jupyter-notebook per Doppelklick in Ihrer Jupyter-Umgebung. 
 
@@ -125,11 +125,11 @@ Wir gehen davon aus, dass Sie in der Regel zu allen aufgenommenen Daten entsprec
 
 #### kafe2
 
-Wir gehen davon aus, dass Studierende mit dem Hauptfach Physik mit dem Programmpaket [kafe2][https://etpwww.etp.kit.edu/~quast/kafe2/htmldoc/] zur Datenauswertung vertraut sind. Auf dem Jupyter-server finden Sie die aktuelle Version des Programmpakets vorinstalliert, dessen Module Sie problemlos mit dem Python-Schlüsselwort `import` in jede Code-Zelle des Jupyter-notebooks importieren können. Eine kurze Einführung finden Sie in der Beschriebung [Verwendung des Programm-Pakets kafe2][to be filled]. 
+Wir gehen davon aus, dass Studierende mit dem Hauptfach Physik mit dem Programmpaket [kafe2](https://etpwww.etp.kit.edu/~quast/kafe2/htmldoc/) zur Datenauswertung vertraut sind. Auf dem Jupyter-server finden Sie die aktuelle Version des Programmpakets vorinstalliert, dessen Module Sie problemlos mit dem Python-Schlüsselwort `import` in jede Code-Zelle des Jupyter-notebooks importieren können. Eine kurze Einführung finden Sie in der Beschriebung [Verwendung des Programm-Pakets kafe2](to be filled). 
 
 #### PhyPraKit
 
-Für diejenigen unter Ihnen, die [kafe2][https://etpwww.etp.kit.edu/~quast/kafe2/htmldoc/] nicht kennen, oder sich im Umgang damit nicht sicher fühlen, stellt die Fakultät die Modulsammlung [PhyPraKit][https://etpwww.etp.kit.edu/~quast/PhyPraKit/htmldoc/] bereit, aus der Sie voraussichtlich lediglich die Skripte *run_phyFit.py* und ggf. *plotData.py* benötigen werden. Beide Skripte können Sie mit einer verhältnismäßig einfachen Konfigurationsdatei ansteuern. Die Verwendung dieser beiden Skripte und der zugehörigen Konfigurationsdatei erklären wir Ihnen im Dokument [Verwendung der PhyPraKit Module][https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/PhyPraKit.md]. 
+Für diejenigen unter Ihnen, die [kafe2](https://etpwww.etp.kit.edu/~quast/kafe2/htmldoc/) nicht kennen, oder sich im Umgang damit nicht sicher fühlen, stellt die Fakultät die Modulsammlung [PhyPraKit](https://etpwww.etp.kit.edu/~quast/PhyPraKit/htmldoc/) bereit, aus der Sie voraussichtlich lediglich die Skripte *run_phyFit.py* und ggf. *plotData.py* benötigen werden. Beide Skripte können Sie mit einer verhältnismäßig einfachen Konfigurationsdatei ansteuern. Die Verwendung dieser beiden Skripte und der zugehörigen Konfigurationsdatei erklären wir Ihnen im Dokument [Verwendung der PhyPraKit Module](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/PhyPraKit.md). 
 
 #### Alternative Methoden
 
