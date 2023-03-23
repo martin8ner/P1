@@ -14,7 +14,7 @@ Mit der Option `–-help` in diesen Beispielen, rufen Sie lediglich den "Hilfe"-
 
 Alle in diesem Text verwendeten Code-Beispiele beziehen sich auf dem [Vorversuch Datenverarbeitung](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vorversuch) des P1. Wenn Sie diesen aus dem entsprechenden SCC-gitlab Repository in Ihre Umgebung auf dem Jupyter-server der Fakultät laden, sollten Sie alle Code-Beispiele dort direkt ausführen können. Im Dokument [Arbeiten auf dem Jupyter-server](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Jupyter-server.md) erhalten Sie weitere Hinweise, wie Sie dies erreichen können.
 
-[^1]: Beachten Sie die Verwendung des [Magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html) **%run** zur Ausführung des Skripts aus eine Code-Zelle des Jupyter-notebooks. Weitere Hinweise hierzu erhalten Sie in der Beschreibung [Arbeiten auf dem Jupyter-server](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Jupyter-server.md).
+[^1]: Beachten Sie die Verwendung des [Magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html) **%run** zur Ausführung des Skripts aus eine Code-Zelle des Jupyter-notebooks. Weitere Hinweise hierzu erhalten Sie im Dokument [Arbeiten auf dem Jupyter-server](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Jupyter-server.md).
 
 ## Parameteranpassung mit dem Skript *run_phyFit.py*
 
