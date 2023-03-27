@@ -1,4 +1,4 @@
-# Praktische Hinweise zu Durchführung und Auswertung der Versuche
+# Praktische Hinweise zur Durchführung und Auswertung der Versuche
 
 ## Versuchsanleitung
 
@@ -47,7 +47,7 @@ Für uns steht das Experimentieren und die inhaltlich konsistente und vollständ
 - sich ein Bild über die mit den aufgenommenen Daten verbundenen Unsicherheiten gemacht haben; 
 - alle Daten und Parameter zur Berechnung der (Teil-)Ergebnisse, einschließlich ihrer Unsicherheiten im Protokoll nachvollziehbar dokumentiert haben. 
 
-Wir gehen davon aus, dass das Protokoll, als Jupyter-notebook, während der Versuchsdurchführung entsteht. Hierzu empfehlen wir die Anleitung als Jupyter-notebook als Vorlage zu verwenden. 
+Wir gehen davon aus, dass das Protokoll, als Jupyter-notebook, während der Versuchsdurchführung entsteht. Hierzu empfehlen wir die Anleitung im Jupyter-notebook-Format als Vorlage zu verwenden. 
 
 Das Protokoll geht durch die folgenden letzten Schritte in die einzureichende Auswertung über: 
 
@@ -56,7 +56,7 @@ Das Protokoll geht durch die folgenden letzten Schritte in die einzureichende Au
 
 Eine strukturierte und organisierte Vorgehensweise bei der Protokollführung, ebenso wie ein sehr gutes, grundlegendes Verständnis für alle den Versuch betreffenden physikalischen Zusammenhänge sind Grundvoraussetzungen, um diese Anforderungen erfüllen zu können.
 
-Wir wünschen im Protokoll jedoch explizit **keine langen Herleitungen** physikalischer Zusammenhänge, die ohnehin aus der Literatur entnehmbar sind. Wir wünschen auch **keine Formatierung in Latex**, die über den in Markdown verwendbaren Satz physikalischer Formeln hinausgeht. Beides ist Ihnen freigestellt. Es geht jedoch weder in die Bewertung der eingereichten Auswertungen noch in das von uns veranschlagte Zeitbudget für den Arbeitsaufwand für die erfolgreiche Teilnahme an den P1 und P2 Praktika ein.
+Wir wünschen im Protokoll jedoch ausdrücklich **keine langen Herleitungen** physikalischer Zusammenhänge, die ohnehin aus der Literatur entnehmbar sind. Wir wünschen auch **keine Formatierung in Latex**, die über den in Markdown verwendbaren Satz physikalischer Formeln hinausgeht. Beides ist Ihnen freigestellt. Es geht jedoch weder in die Bewertung der eingereichten Auswertungen noch in das von uns veranschlagte Zeitbudget für den Arbeitsaufwand für die erfolgreiche Teilnahme an den P1 und P2 Praktika ein.
 
 ### Bevorzugtes Dokumentenformat
 
@@ -70,7 +70,7 @@ Ausnahmen von dieser Regel sind zulässig. Beachten Sie jedoch, dass Sie in jede
 Um Jupyter-notebook nach *pdf* zu formatieren empfehlen sich derzeit die folgenden Schritte: 
 
 - Exportieren Sie das Jupyter-notebook ins *html*-Format. 
-- Laden Sie sich hierzu gegebenenfalls die Bilder, die in das Jupyter-notebook eingebunden werden sollen, vom Jupyter-server auf Ihren lokalen Rechner. Die einzubinden Bilddateien sollten sich dann im gleichen Verzeichnis, wie die exportierte *html*-Datei befinden.
+- Laden Sie sich hierzu gegebenenfalls die Bilder, die in das Jupyter-notebook eingebunden werden sollen, vom Jupyter-server auf Ihren lokalen Rechner. Die einzubindenden Bilddateien sollten sich dann im gleichen Verzeichnis, wie die exportierte *html*-Datei befinden.
 - Sie können die *html*-Datei dann von Ihrem Browser aus z.B. nach *pdf* formatieren. Wenn das *pdf*-Format die Seiten nicht einwandfrei umbricht, ist das für uns *kein Problem*.   
 
 ### Bewertung
@@ -78,9 +78,9 @@ Um Jupyter-notebook nach *pdf* zu formatieren empfehlen sich derzeit die folgend
 Ihr:e Tutor:in wird die von Ihnen eingereichte Versuchsauswertung im *pdf*-Format durchsehen und entsprechend kommentieren. Wir sehen dabei die folgenden Kategorien von Kommentaren vor: 
 
 - **Beanstandungen**: Hierbei handelt es sich z.B. um inhaltliche Fehler; Unzulänglichkeiten, die Ihr Protokoll/Ihre Auswertung nicht nachvollziehbar oder unverständlich machen; nicht gekennzeichnete oder näher dokumentierte fehlende Aufgabenteile oder; fehlende Einschätzungen oder Unsicherheiten der (Teil-)Ergebnisse. Dabei geht es uns v.a. um inhaltliche Beanstandungen, die von substantieller Natur für das Verständnis des Versuchs und die sachliche Einschätzung Ihrer Arbeit und Ihrer Ergebnisse sind. Beachten Sie, dass es für uns in erster Linie unerheblich ist, wie genau oder ungenau Sie mit Ihrer Messung eine gegebene Erwartung getroffen haben. Wichtig ist die Einschätzung innerhalb der von Ihnen während des Versuchs eingeschätzten Unsicherheiten. Selbst wenn Sie im Rahmen dieser Unsicherheiten, nach Ihrem Dafürhalten, mit Ihrem Ergebnis "weit von Ihrer Erwartung abweichen" sollten kann dies für uns immer noch in Ordnung sein kann, wenn Sie Ihre Messung ernsthaft und sorgfältig auf den Prüfstand stellen, reflektieren und diskutieren.   
-- **Anmerkungen**: Hierbei handelt es sich um alle weiteren Kommentare zu Ihrer Auswertung. Sie sollten den Anspruch haben eine semantisch, grammatikalisch und orthographisch einwandfreie Auswertung abzugeben. Ihre physikalische Argumentation sollte, nach Einschätzung Ihre:r Tutor:in korrekt sein. Vielleicht ist Ihr:e Tutor:in geneigt Ihnen den ein oder anderen Tipp an die Hand zu geben, wie Sie Ihre Messung oder Auswertung besser hätten durchführen können.  
+- **Anmerkungen**: Hierbei handelt es sich um alle weiteren Kommentare zu Ihrer Auswertung. Sie sollten den Anspruch haben eine semantisch, grammatikalisch und orthographisch einwandfreie Auswertung abzugeben. Ihre physikalische Argumentation sollte, nach Einschätzung Ihre:r Tutor:in korrekt sein. Vielleicht ist Ihr:e Tutor:in geneigt Ihnen den ein oder anderen Tipp an die Hand zu geben, wie Sie Ihre Messung oder Auswertung besser noch hätten durchführen können.  
 
-**Beanstandungen sollten Sie auf jeden Fall korrigieren** und die korrigierte Auswertung erneut auf das ILIAS-System hochladen. Wir empfehlen Ihnen auch auf die Anmerkungen Ihr:er Tutor:in einzugehen. 
+**Beanstandungen sollten Sie auf jeden Fall korrigieren** und die korrigierte Auswertung (als Version $\mathrm{v2}$) erneut auf das ILIAS-System hochladen. Wir empfehlen Ihnen dabei auch auf die Anmerkungen Ihr:er Tutor:in einzugehen. 
 
 Die Bewertung der Auswertung erfolgt **spätestens 14 reguläre Studientage (d.h. während des laufenden Betriebs zwei Versuchstage) nach Versuchsdurchführung**, per Eintrag ins Praktikumsbuch, wie folgt:
 
@@ -94,21 +94,21 @@ Anmerkungen gehen im Allgemeinen nicht und wenn doch, dann nur in groben Fällen
 
 Für die Rückgabe der Auswertung sehen wir den folgenden zeitlichen Ablauf vor: 
 
-- $T_{0}$: Am Ende jedes Versuchstags besprechen Sie Ihre Ergebnisse mit Ihr:er Tutor:in und laden Ihr Protokoll als Version $\mathrm{v0}$ ins ILIAS-System hoch. Dieser Vorgang gilt gleichzeitig als Nachweis, dass Sie den Versuch durchgeführt haben. Sie haben von diesem Zeiptunk an **7 reguläre Studientage (d.h. bis zum nächsten Versuchstag) Zeit** Ihr Protokoll zur Abgabe aufzubereiten, über den Versuchsablauf zu reflektieren und die erzielten Ergebnisse abschließend zu diskutieren. Wenn Sie denken, dass Ihre Versuchsauswertung zur Abgabe bereit ist können Sie sie jederzeit als Version $\mathrm{v1}$ und auf das ILIAS-System hochladen und Ihre:n Tutor:in mit der Bitte um einen Termin zur Nachbesprechung kontaktieren. Die im ILIAS-System hinterlegte Version $\mathrm{v1}$ Ihres Protokolls gilt als Ihre Versuchsauswertung. Falls Ihr:e Tutor.in bereits vor Ablauf dieser Frist Beanstandungen zu Ihrer Auswertung anzeigt können Sie die diese beliebig oft überarbeiten und erneut (als Version $\mathrm{v1}$) auf das ILIAS-System hochladen.   
-- $T_{1}$: Am nächsten Versuchstag (d.h. spätestens 7 reguläre Studientage nach Versuchsdurchführung) sollten Sie die Version $\mathrm{v1}$ Ihres Protokolls als Versuchsauswertung auf das ILIAS-System hochgeladen haben. Gibt es zu diesem Zeitpunkt keine Beanstandungen zu Ihrer Versuchsauswertung gilt die Auswertung als testiert mit dem Vermerk "**0**" oder "**+**". Liegen noch Beanstandungen vor haben Sie weitere **7 reguläre Studientage (d.h. bis zum nächsten Versuchstag) Zeit** diese in Absprache mit Ihr:er Tutor:in zu beheben. Laden Sie die entsprechend korrigierte Version Ihrer Auswertung als Version $\mathrm{v2}$ auf das ILIAS-System hoch. Wie zuvor können Sie dies zu jedem Zeitpunkt innerhalb dieser Zeitspanne tun, sich entsprechendes Feedback Ihre:r Tutor:in einholen, Ihre Auswertung beliebig oft überarbeiten und erneut (als Version $\mathrm{v2}$) auf das ILIAS-System hochladen.  
-- $T_{2}$: Am wiederum nächsten Versuchstag (d.h. spätestens 14 reguläre Studientage nach Versuchsdurchführung) wird Ihre Auswertung, wie Sie im ILIAS-System hinterlegt ist, ohne weiteren Hinweis testiert. Liegen zu diesem Zeitpunkt noch Beanstandungen vor wird dies im Praktikumsbuch mit einem "**-**" vermerkt.    
+- $T_{0}$: Am Ende jedes Versuchstags besprechen Sie Ihre Ergebnisse mit Ihr:er Tutor:in und laden Ihr Protokoll als Version $\mathrm{v0}$ ins ILIAS-System hoch. Dieser Vorgang gilt gleichzeitig als Nachweis dafür, dass Sie den Versuch durchgeführt haben. Sie haben von diesem Zeiptunk an **7 reguläre Studientage (d.h. während des laufenden Betriebs bis zum nächsten Versuchstag) Zeit** Ihr Protokoll zur Abgabe aufzubereiten, über den Versuchsablauf zu reflektieren und die erzielten Ergebnisse abschließend zu diskutieren. Wenn Sie denken, dass Ihre Versuchsauswertung zur Abgabe bereit ist können Sie sie jederzeit als Version $\mathrm{v1}$ und auf das ILIAS-System hochladen und Ihre:n Tutor:in mit der Bitte um einen Termin zur Nachbesprechung kontaktieren. Die im ILIAS-System hinterlegte Version $\mathrm{v1}$ Ihres Protokolls gilt als Ihre Versuchsauswertung. Falls Ihr:e Tutor:in bereits vor Ablauf dieser Frist Beanstandungen zu Ihrer Auswertung anzeigen sollte können Sie diese beliebig oft überarbeiten und erneut (als Version $\mathrm{v1}$) auf das ILIAS-System hochladen.   
+- $T_{1}$: Spätestens am nächsten Versuchstag (d.h. 7 reguläre Studientage nach Versuchsdurchführung) sollten Sie die Version $\mathrm{v1}$ Ihres Protokolls als Versuchsauswertung auf das ILIAS-System hochgeladen haben. Gibt es zu diesem Zeitpunkt keine Beanstandungen zu Ihrer Versuchsauswertung gilt die Auswertung als testiert mit dem Vermerk "**0**" oder "**+**". Liegen noch Beanstandungen vor haben Sie weitere **7 reguläre Studientage (d.h. während des laufenden Betriebs wiederum bis zum nächsten Versuchstag) Zeit** diese in Absprache mit Ihr:er Tutor:in zu beheben. Laden Sie innerhalb dieser Frist die entsprechend korrigierte Version Ihrer Auswertung als Version $\mathrm{v2}$ auf das ILIAS-System hoch. Wie zuvor können Sie dies zu jedem Zeitpunkt innerhalb dieser Zeitspanne tun, sich entsprechendes Feedback Ihre:r Tutor:in einholen, Ihre Auswertung beliebig oft überarbeiten und erneut (als Version $\mathrm{v2}$) auf das ILIAS-System hochladen.  
+- $T_{2}$: Am wiederum nächsten Versuchstag (d.h. 14 reguläre Studientage nach Versuchsdurchführung) wird Ihre Auswertung, wie Sie im ILIAS-System hinterlegt ist, ohne weiteren Hinweis testiert. Liegen zu diesem Zeitpunkt noch Beanstandungen vor wird dies im Praktikumsbuch mit einem "**-**" vermerkt.    
 
 Nach Ablauf des Praktikums müssen Sie **für jeden Versuch eine Auswertung** (d.h. ein Protokoll in der Version $\mathrm{v1}$) auf dem ILIAS-System hinterlegt haben. Ansonsten gilt der Versuch als "nicht durchgeführt" und muss ggf. nochmal von Ihnen durchgeführt werden. Dies liegt im Ermessen der Dozenten des Praktikums. 
 
-Weiterhin dürfen Sie sich nach Ablauf des Praktikums **nicht mehr als zwei Auswertung mit dem Vermerk "**-**" im Praktikumsbuch** leisten. Je nach Beanstandung müssen Sie entsprechende Versuche während der Nachholtermine nach Ablauf des Praktikums erneut Durchführen oder die Anleitungen entsprechend überarbeiten. Auch dies liegt im Ermessen der Dozenten des Praktikums.  
+Weiterhin dürfen Sie sich nach Ablauf des Praktikums **nicht mehr als zwei Auswertung mit dem Vermerk "**-**" im Praktikumsbuch** leisten. Je nach Beanstandung müssen Sie die Auswertungen entsprechend überarbeiten oder entsprechende Versuche während der Nachholtermine nach Ablauf des Praktikums erneut Durchführen. Auch dies liegt im Ermessen der Dozenten des Praktikums.  
 
 ## Bewertung des Praktikums
 
 Wir weisen ausdrücklich darauf hin, dass das P1 und P2 **nur als bestanden gewertet** wird. Eine Bewertung darüber hinaus wird nicht erteilt. 
 
-Das die von Ihnen durchgeführten Versuche mit dem Vermerk "**0**" bewertet werden stellt die Regel dar. Es ist für das Bestehen der Kurse *irrelevant*, wie viele der von Ihnen durchgeführten Versuche mit einem "**+**" bewertet wurden. Es handelt sich dabei um ein rein internes Beurteilungssystem der P1 und P2 Praktika. 
+Das die von Ihnen durchgeführten Versuche mit dem Vermerk "**0**" bewertet werden stellt die Regel dar. Es ist für das Bestehen der Kurse *irrelevant*, wie viele der von Ihnen durchgeführten Versuche mit einem "**+**" bewertet wurden. Es handelt sich dabei um ein rein internes Beurteilungssystem der P1 und P2 Praktika und um entsprechendes positives Feedback für Sie. 
 
 Da Sie die Versuche i.a. zu zweit durchführen ist eine faire Beurteilung einzelner Personen auf Grundlage der getroffenen Vermerke im Praktikumsbuch nicht möglich. 
 
-In seltenen Fällen kommt es vor, dass Stupendiaten Beurteilungen ihre Leistungen zum Nachweis bei den entsprechenden Stiftungen benötigen. Eine entsprechende Beurteilung erfolgt dann persönlich durch einen Dozenten des Praktikums, der Sie während des Praktiumsverlaufs begleitet und/oder Sie noch einmal zu einem Gespräch einlädt. Melden Sie einen solchen Fall unbedingt **vor Beginn des Praktikums** beim entsprechenden Dozenten an. Im Nachhinein kann eine solche Beurteilung nicht mehr vorgenommen werden.    
+In seltenen Fällen kommt es vor, dass Stipendiaten Beurteilungen ihrer Leistungen zum Nachweis bei den entsprechenden Stiftungen benötigen. Eine solche Beurteilung erfolgt dann persönlich durch einen Dozenten des Praktikums, der Sie während des Praktiumsverlaufs begleitet und/oder Sie noch einmal zu einem Gespräch einlädt. Melden Sie einen solchen Fall unbedingt **vor Beginn des Praktikums** beim entsprechenden Dozenten an. Im Nachhinein kann eine solche Beurteilung nicht mehr vorgenommen werden.
 

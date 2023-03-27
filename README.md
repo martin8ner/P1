@@ -16,7 +16,7 @@ Zur **Durchführung** eines Versuchs gehört es, *zielgerichtet* zu experimentie
 
 ### Erhebung der Daten
 
-Zur **Erhebung der Daten** gehört die *systematische*, *reproduzierbare* Aufnahme von Messwerten einschließlich der Einschätzung der damit verbundenen wichtigsten Unsicherheiten. Grundsätzlich gilt in der Physik: **"Keine Messung ohne Einschätzung der damit verbundenen [wichtigsten] Unsicherheiten!"** 
+Zur **Erhebung der Daten** gehört die *systematische*, *reproduzierbare* Aufnahme von Messwerten einschließlich der Einschätzung der damit verbundenen wichtigsten Unsicherheiten. Grundsätzlich gilt in der Physik: **"Keine Messung ohne Einschätzung der damit verbundenen wichtigsten Unsicherheiten!"** 
 
 ### Protokoll und Auswertung
 
@@ -24,18 +24,18 @@ Ein zentraler Bestandteil der Datenerhebung ist das *gewissenhaft*, *vollständi
 
 Das wissenschaftlich geführte Protokoll setzt voraus, das sich der Durchführende der einzelnen Schritte des Experiments bewusst ist und diese für sich und Außenstehende klar, verständlich und reproduzierbar dokumentiert. Das Protokoll erklärt, *wie* Sie zu einem Messergebnis gekommen sind. Sollte Ihnen beim Experimentieren ein Fehler unterlaufen sein, sollte dies aus dem Protokoll nachträglich nachvollziehbar und ggf. in der Einschätzung der Ergebnisse durch Sie und Außenstehende zu berücksichtigen sein. 
 
-Die gewissenhafte Erhebung und Dokumentation Ihrer Daten begründet im wahren Leben Ihren guten Ruf als Wissenschaftler:innen. Ein Fehler in der Durchführung eines Experiments kann zur Entwertung Ihrer Ergebnisse und/oder zur Neuauflage eines –dann verbesserten– Experiments führen. Das ist Bestandteil des wissenschaftlichen Erkenntnisgewinns. Die mangelhafte *Dokumentation* und daher von außen nicht mehr nachvollziehbare Ergebnisse machen Ihr Experiment von vornherein und *unwiederbringlich* unbrauchbar. 
+Die gewissenhafte Erhebung und Dokumentation Ihrer Daten begründet Ihren guten Ruf als Wissenschaftler:innen. Ein Fehler in der Durchführung eines Experiments kann zur Entwertung Ihrer Ergebnisse und/oder zur Neuauflage eines –dann verbesserten– Experiments führen. Das ist Bestandteil des wissenschaftlichen Erkenntnisgewinns. Die mangelhafte *Dokumentation* und daher von außen nicht mehr nachvollziehbare Ergebnisse machen Ihr Experiment von vornherein und *unwiederbringlich* unbrauchbar. 
 
-Vor der Digitalisierung wurden Protokolle in Form von Laborbüchern geführt. Für die P1 und P2 Praktika wird das Laborbuch durch das **Jupyter-notebook** ersetzt, das Sie auf dem Jupyter-server der Fakultät anlegen können. Sie sollten darin zielgerichtet und für sich und Außenstehende nachvollziehbar 
+Vor der Digitalisierung wurden Protokolle in Form von Laborbüchern geführt. Für die P1 und P2 Praktika wird das Laborbuch durch das **Jupyter-notebook** ersetzt, das Sie auf dem [Jupyter-server](https://jupytermachine.etp.kit.edu/) der Fakultät anlegen können. Sie sollten darin zielgerichtet und für sich und Außenstehende nachvollziehbar 
 
 - die Ziele des Experiments; 
 - die Bedingungen der Durchführung; 
 - *alle* Messwerte, einschließlich der Einschätzung ihrer Unsicherheiten; 
 - die Weiterverarbeitung der Daten und daraus resultierende Teilergebnisse dokumentieren. 
 
-**Am Ende des Praktikumstages mündet das Protokoll in die Auswertung des Versuchs**. Eine Anleitung zu jedem Versuch als Jupyter-notebook sollte Ihnen bei der Erstellung des Protokolls als Vorlage dienen können. Praktische Hinweise zur Arbeit mit dem Jupyter-notebook finden Sie im Dokument [Praktische Hinweise zu Durchführung und Auswertung der Versuche](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/PraktischeHinweise.md). 
+**Am Ende des Praktikumstages mündet das Protokoll in die Auswertung des Versuchs**. Eine Anleitung zu jedem Versuch als Jupyter-notebook sollte Ihnen bei der Erstellung des Protokolls als Vorlage dienen können. Praktische Hinweise zur Arbeit mit dem Jupyter-notebook finden Sie im Dokument [Praktische Hinweise zur Durchführung und Auswertung der Versuche](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/PraktischeHinweise.md). 
 
-### Begriffsklärung
+### Wichtige Begriffsklärungen
 
 #### Versuchsausgang
 
@@ -43,17 +43,17 @@ Niemand erwartet von Ihnen, dass Sie die von Ihnen durchgeführten Versuche bere
 
 Wir erwarten nicht, dass ein von Ihnen durchgeführtes Experiment zu Ergebnissen mit "Veröffentlichungsreife" führt oder nach den Standards physikalischer Veröffentlichungen formatiert ist. Insbesondere erwarten wir nicht, dass Sie mit Ihrem Ergebnis einen existierenden Literaturwert so exakt wie möglich reproduzieren.  
 
-Die Aussage "Meine Messung stimmt innerhalb von 10% mit dem Literaturwert überein" ist im Allgemeinen für Ihre Messung *irrelevant*. Die Frage, die Sie mit Ihrem Versuch zu beantworten haben ist: **"Stimmt meine Messung innerhalb der von mir abgeschätzten Unsicherheiten mit meiner Erwartung überein?"**. Ihre Erwartung kann dabei von durch einen Literaturwert gespeist sein.
+Eine Aussage wie: "Meine Messung stimmt innerhalb von 10% mit dem Literaturwert überein" ist für uns im Allgemeinen *irrelevant*. Die Frage, die Sie mit Ihrem Versuch zu beantworten haben ist: **"Stimmt meine Messung innerhalb der von mir abgeschätzten Unsicherheiten mit meiner Erwartung überein?"**. Ihre Erwartung kann dabei durch einen Literaturwert gespeist sein.
 
-Dabei ist die adäquate *numerische* Einschätzung der Unsicherheiten der Messung mitunter wichtiger, als der ermittelte Zentralwert.   
+Bei der Beantwortung der obigen Frage ist die adäquate *numerische* Einschätzung der Unsicherheiten der Messung mitunter wichtiger, als der ermittelte Zentralwert.   
 
 #### Einschätzung des eigenen Experimentierens
 
 Auf dem [Jupyter-server](https://jupytermachine.etp.kit.edu/) der Fakultät stehen Ihnen alle nötigen Werkzeuge zur Anwendung von Methoden zur **statistischen Parameterschätzung**, wie sie von der Fakultät empfohlen werden, zur Verfügung. Dadurch sollte sich in vielen Fällen eine, oft nicht auf ihre Anwendbarkeit hin überprüfte "händische" Fehlerabschätzung durch Gaußsche Fehlerfortpflanzung erübrigen. 
 
-Selbst, wenn Sie sich für die Anwendung Gaußscher Fehlerfortpflanzung entscheiden sollten müssen Sie dies nicht "händisch" mit Hilfe eines Taschenrechners oder einer Excel-Tabelle tun; Sie können eine einfache Funktion in Python-Code direkt in Ihr Versuchsprotokoll in Jupyter-notebook integrieren. Falls Ihnen dabei ein Fehler unterlaufen sollte, ist dies mit der Funktion, als Bestandteil des Protokolls nachvollziehbar dokumentiert und zu jeder Zeit nachträglich korrigierbar. Der [Vorversuch Datenverarbeitung](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vorversuch) des P1 bietet Ihnen die Möglichkeit Ihr Wissen und Ihre Erfahrung auf diesem Gebiet in Vorbereitung auf das P1 aufzufrischen und/oder zu vertiefen. 
+Selbst, wenn Sie sich für die Anwendung Gaußscher Fehlerfortpflanzung entscheiden sollten müssen Sie dies nicht "händisch" mit Hilfe eines Taschenrechners oder einer Excel-Tabelle tun; Sie können eine einfache Funktion in Python-Code direkt in Ihr Versuchsprotokoll im Jupyter-notebook integrieren. Falls Ihnen dabei ein Fehler unterlaufen sollte, ist dies mit der Funktion, als Bestandteil des Protokolls nachvollziehbar dokumentiert und zu jeder Zeit nachträglich korrigierbar. Der [Vorversuch Datenverarbeitung](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vorversuch) des P1 bietet Ihnen die Möglichkeit Ihr Wissen und Ihre Erfahrung auf diesem Gebiet in Vorbereitung auf das P1 aufzufrischen und/oder zu vertiefen. 
 
-Als Physiker:innen müssen Sie in die Situation hineinwachsen, dass Sie selbstverständlich **die Unsicherheiten von Ihnen weiterverarbeiteter Daten bewusst ein- oder abschätzen**. Sie sollten *nach Möglichkeit* keinen Messwert oder Parameter ohne entsprechende *quantitative* Abschätzung seiner Unsicherheiten weiterverarbeiten. Die Einschätzung von Unsicherheiten gehört zu Ihrem Handwerk als Wissenschaftler:innen. In einer numerischen Parameterschätzung erhalten Sie *verlässliche* Konfidenzintervalle für die von Ihnen bestimmten Messgrößen aus der angewandten Anpassung (dem *fit*) ohne notwendige eigene Fehlerfortpflanzung.
+Als Physiker:innen müssen Sie in die Situation hineinwachsen, dass Sie selbstverständlich **die Unsicherheiten der von Ihnen weiterverarbeiteten Daten bewusst ein- oder abschätzen**. Sie sollten *nach Möglichkeit* keinen Messwert oder Parameter ohne entsprechende *quantitative* Abschätzung seiner Unsicherheiten weiterverarbeiten. Die Einschätzung von Unsicherheiten gehört zu Ihrem Handwerk als Wissenschaftler:innen. In einer numerischen Parameterschätzung erhalten Sie *verlässliche* Konfidenzintervalle für die von Ihnen bestimmten Messgrößen aus der angewandten Anpassung (dem *fit*) ohne notwendige eigene Fehlerfortpflanzung. Nutzen Sie die von der Fakultät angebotenen Möglichkeiten zur Parameterschätzung daher am besten wo immer möglich, um von den von Ihnen aufgenommenen primären Daten direkt zum Messergebnis zu gelangen. 
 
 ## Ein Praktikumstag im P1 oder P2
 
@@ -75,23 +75,23 @@ Diese Besprechung sollten Sie nicht als Prüfung verstehen. Natürlich wollen wi
 
 ### Versuchsdurchführung
 
-Von **14:00 – 17:30** haben Sie Zeit den aktuellen Versuch durchzuführen. Der/Die Tutor:in sollte über die gesamte Zeitspanne zur Beantwortung von Fragen zu Ihrer Verfügung stehen. Manche Versuchsaufbauten müssen aus Sicherheitsgründen vor Inbetriebnahme von dem/der Tutor:in abgenommen werden. Bemühen Sie sich den Versuch *als Team* so *selbstständig* wie möglich durchzuführen, aber stellen Sie gemeinsam mit dem/der Tutor:in sicher, dass Ihre Durchführung zielgerichtet ist und erzielte Zwischenergebnisse im Zusammenhang des gesamten Versuchs für Sie Sinn ergeben. Hierfür empfehlen wir Ihnen dringend Teilauswertungen in Jupyter-notebook durchzufüren. Sie können so nach Ihren Möglichkeiten die Qualität der aufgenommenen Daten sicherstellen. Falls Sie vor 17:30 mit der Durchführung der Versuchs fertig sein sollten, können Sie bereits mit der Auswertung beginnen. 
+Von **14:00 – 17:30** haben Sie Zeit den aktuellen Versuch durchzuführen. Der/Die Tutor:in sollte über die gesamte Zeitspanne zur Beantwortung von Fragen zu Ihrer Verfügung stehen. Manche Versuchsaufbauten müssen aus Sicherheitsgründen vor Inbetriebnahme von dem/der Tutor:in abgenommen werden. Bemühen Sie sich den Versuch *als Team* so *selbstständig* wie möglich durchzuführen, aber stellen Sie gemeinsam mit dem/der Tutor:in sicher, dass Ihre Durchführung zielgerichtet ist und erzielte Zwischenergebnisse im Zusammenhang des gesamten Versuchs für Sie Sinn ergeben. Hierfür empfehlen wir Ihnen dringend Teilauswertungen im Jupyter-notebook durchzufüren. Sie können so nach Ihren Möglichkeiten die Qualität der aufgenommenen Daten sicherstellen. Falls Sie vor 17:30 mit der Durchführung der Versuchs fertig sein sollten, können Sie bereits mit der Auswertung beginnen und die Auswertung ggf. auch am Tag der Versuchsdurchführung fertigstellen. 
 
 ### Einführung in den nächsten Versuch durch Kommiliton:innen
 
-Von **17:30 – 18:00** nutzen Sie die Zeit sich mit dem nächsten Versuch persönlich vertraut zu machen: Teilen Sie sich hierzu in zwei Gruppen A und B auf. Gruppe A verbleibt zunächst beim aktuellen Versuch. Gruppe B sucht den Raum des nächsten Versuchs auf und lässt sich von Gruppe A des dortigen Versuchs 15 min lang erklären, worum es bei diesem Versuch geht und wie er ablaufen wird. Gruppe A sollte nach 3,5 Stunden des Experimentierens in der Lage sein, den Kommiliton:innen aus Gruppe B erklären zu können, was sie im aktuellen Versuch gemacht haben. Der/Die entsprechende Tutor:in unterstützt Sie dabei gegebenenfalls. Nach 15 min kehrt Gruppe B zu ihrem aktuellen Versuch zurück und die Gruppen A und B tauschen ihre Rollen. 
+Von **17:30 – 18:00** nutzen Sie die Zeit sich mit dem nächsten Versuch persönlich vertraut zu machen: Teilen Sie sich hierzu in zwei Gruppen A und B auf. Gruppe A verbleibt zunächst beim aktuellen Versuch. Gruppe B sucht den Raum des nächsten Versuchs auf und lässt sich von Gruppe A des dortigen Versuchs 15 min lang erklären, worum es bei diesem Versuch geht und wie er ablaufen wird. Gruppe A sollte nach 3,5 Stunden des Experimentierens in der Lage sein, den Kommiliton:innen aus Gruppe B erklären zu können, was sie im aktuellen Versuch gemacht haben. Der/Die entsprechende Tutor:in unterstützt Sie dabei gegebenenfalls. Nach 15 min kehrt Gruppe B zu ihrem aktuellen Versuch zurück und die Gruppen A und B tauschen die Rollen. 
 
 ### Abschluss des aktuellen Versuchs
 
 Von **18:00 – 19:00** haben Sie die Möglichkeit verbleibende Messungen des aktuellen Versuchs abzuschließen. Sie führen damit Ihr Protokoll zu einem wohldefinierten Endpunkt. Der Praktikumstag endet aus organisatorischen Gründen pünktlich um 19:00, selbst wenn Sie den Versuch noch nicht vollständig durchgeführt haben sollten. Geben Sie in einem solchen Fall in Ihrem Protokoll an, woran es lag, dass Sie nicht rechtzeitig fertig geworden sind. Sprechen Sie Ihre Messungen und Zwischenergebnisse nochmal abschließend mit dem/der Tutor:in durch, bevor Sie gehen. 
 
-Formatieren Sie ggf. Ihr Protokoll in *pdf*-Format und laden Sie Ihr Protokoll sowohl als Jupyter-notebook, als auch in *pdf*-Format auf das ILIAS-System hoch. 
+Formatieren Sie Ihr Protokoll in *pdf*-Format und laden Sie Ihr Protokoll sowohl als Jupyter-notebook, als auch in *pdf*-Format (als Version $\mathrm{v0}$) auf das ILIAS-System hoch. 
 
 ### Auswertung 
 
-Die Auswertung des Versuchs erfolgt auf Grundlage Ihres Protokolls vorzugsweise in Jupyter-notebook. Zu Ihrer Orientierung bzgl. des Umfangs gehen Sie davon aus, dass Sie **nicht mehr als 2 Stunden** für die verbleibende Auswertung des aktuellen Versuchs benötigen sollten. Beachten Sie, dass das vorrangige Ziel der Auswertung ist, Ihre Messung und die erzielten Ergebnisse mit einer sinnvollen persönlichen Einschätzung einschließlich entsprechender *quantifizierter* Unsicherheiten für Sie und Außenstehende verständlich zu dokumentieren. Ihr Protokoll und die entsprechende Auswertung sollten *übersichtlich*, *nachvollziehbar* und *vollständig* sein. Wir verlangen explizit **keine Formatierung in Latex**. 
+Die Auswertung des Versuchs erfolgt auf Grundlage Ihres Protokolls vorzugsweise im Jupyter-notebook. Zu Ihrer Orientierung bzgl. des Umfangs gehen Sie davon aus, dass Sie **nicht mehr als 2 Stunden** für die verbleibende Auswertung des aktuellen Versuchs benötigen sollten. Beachten Sie, dass es das vorrangige Ziel der Auswertung ist, Ihre Messung und die erzielten Ergebnisse mit einer sinnvollen persönlichen Einschätzung einschließlich entsprechender *quantifizierter* Unsicherheiten für Sie und Außenstehende verständlich zu dokumentieren. Ihr Protokoll und die entsprechende Auswertung sollten *übersichtlich*, *nachvollziehbar* und *vollständig* sein. Wir verlangen explizit **keine Formatierung in Latex**. 
 
-Die Abgabe erfolgt über das Hochladen, sowohl des Jupyter-notebooks als auch einer *pdf*-Version des Jupyter-notebooks ins ILIAS-System. Sobald Sie mit der Auswertung fertig sind können Sie sich mit Ihr:er Tutor:in über eine Nachbesprechung verständigen, bei der sowohl Sie, also auch Ihr:e Praktikumspartner:in persönlich anwesend sein sollten. Spätestens am nächsten Praktikumstag sollte Ihnen Ihr:e Tutor:in zur Nachbesprechung Ihrer Auswertung zur Verfügung stehen.     
+Die Abgabe erfolgt über das Hochladen, sowohl des Jupyter-notebooks als auch einer *pdf*-Version des Jupyter-notebooks (als Version $\mathrm{v1}$) ins ILIAS-System. Sobald Sie mit der Auswertung fertig sind können Sie sich mit Ihrem/Ihrer Tutor:in über eine Nachbesprechung verständigen, bei der sowohl Sie, also auch Ihr:e Praktikumspartner:in persönlich anwesend sein sollten. Spätestens am nächsten Praktikumstag sollte Ihnen Ihr:e Tutor:in zur Nachbesprechung Ihrer Auswertung zur Verfügung stehen.     
 
 ## Einordnung des Praktikums und ECTS-Regelung
 
@@ -102,10 +102,10 @@ Die Praktika der Physik bieten Ihnen die Möglichkeit zu Experimentieren, physik
 Bei der Berechnung der ECTS-Punkte für die Praktika legen wir das folgende Modell zugrunde: 
 
 - **4–6 Stunden Versuchsvorbereitung**, in denen Sie sicherstellen, dass Sie nach Ihrer eigenen Einschätzung optimal auf den kommenden Versuch vorbereitet sind.
-- **6 Stunden Versuchsdurchführung**.
+- **6 Stunden Versuchsbesprechung und -durchführung**.
 - **2–4 Stunden Versuchsnachbereitung** (inklusive potentieller Neueinreichungen nach der Nachbesprechung mit dem/der Tutor:in).      
 
 Damit ergeben sich bis zu **160 Stunden** Arbeitsaufwand im laufenden Semester. 
 
-Beachten Sie bei der Beurteilung des Arbeitsaufwands, dass die Praktika aus organisatorischen Gründen, bereits nach 10 Wochen und somit  deutlich vor dem offiziellen Ende der Vorlesungszeit des Semesters enden. Dies räumt Ihnen die Möglichkeit ein sich gegen Ende der Vorlesungszeit angemessen auf anstehende Abschlussprüfungen vorzubereiten. Der Preis hierfür ist, dass sich der Arbeitsaufwand während des laufenden Praktikums entsprechend erhöht.
+Beachten Sie bei der Beurteilung des Arbeitsaufwands, dass die Praktika aus organisatorischen Gründen, bereits nach 10 Wochen und somit deutlich vor dem offiziellen Ende der Vorlesungszeit des Semesters enden. Dies räumt Ihnen die Möglichkeit ein sich gegen Ende der Vorlesungszeit angemessen auf anstehende Abschlussprüfungen vorzubereiten. Der Preis hierfür ist, dass sich der Arbeitsaufwand während des laufenden Praktikums entsprechend erhöht.
 
