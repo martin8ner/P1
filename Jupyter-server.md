@@ -10,7 +10,7 @@ Falls der Zugang zum Server nicht für Sie freigeschaltet sein sollte, können S
 
 Nach dem Start sollten Sie ein zweigeteiltes Fenster in Ihrer Jupyter-Umgebung vorfinden, wie im folgenden Bild gezeigt: 
 
-<img src="/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/p1-for-students/figures/JupyterAccount.png" alt="figures" style="zoom:100%;" />
+<img src="./figures/JupyterAccount.png" alt="figures" style="zoom:100%;" />
 
 Auf der linken Seite befindet sich ein Navigationsfenster mit der Verzeichnisstruktur Ihrer Jupyter-Umgebung, rechts daneben befindet sich ein Fenster (der sog. *Launcher*), in dem Sie auswählen können, welche Art von Notebook Sie öffnen möchten. Sie können, wenn Sie möchten, die Option **Notebook** und **Python 3** (das erste Icon oben links im *Launcher*) anwählen. Das rechte Fenster der Jupyter-Umgebung kann mehrere Register enthalten.  
 
@@ -22,7 +22,7 @@ Die jeweils aktuelle Version aller Versuchsanleitungen und die dazugehörigen Da
 
 Das folgende Bild gibt Ihnen eine Vorstellung, wie die Webseite des gitlab-Servers des SCC in etwa aussieht. Beachten Sie, dass dieses Bild nicht den aktuellen Zustand des Servers widerspiegeln muss.  
 
-![SCC-gitlab](/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/p1-for-students/figures/scc_gitlab.png)
+![SCC-gitlab](./figures/scc_gitlab.png)
 
 Um das Repository des Versuchs, den Sie auf dem Jupyter-server bearbeiten wollen, in Ihre Jupyter-Umgebung zu laden, gehen Sie z.B. wie folgt vor: 
 

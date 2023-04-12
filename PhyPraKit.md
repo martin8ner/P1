@@ -56,7 +56,7 @@ Wenn Sie das Skript mit der Konfigurationsdatei *yaml/data.yaml* aus einer Code-
 
 Daraufhin sollten Sie das folgende Bild erhalten:     
 
-![](/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/p1-for-students/figures/xyData_and_Model.png)
+![](./figures/xyData_and_Model.png)
 
 Sie sehen, dass das Modell einer Exponentialfunktion mit den Parametern $A$ und $x_{0}$ an die Datenpunkte angepasst wurde.
 
