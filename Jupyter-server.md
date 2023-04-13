@@ -6,11 +6,11 @@ Zugang zum Jupyter-server erhalten Sie über die Webadresse: [https://jupytermac
 
 Falls der Zugang zum Server nicht für Sie freigeschaltet sein sollte, können Sie die Freischaltung [hier](https://comp.physik.kit.edu/Account/) veranlassen. Stellen Sie bitte **vor Praktikumsbeginn** sicher, dass Sie einen gültigen Account haben und sich entsprechend auf dem Jupyter-server einlogen können. 
 
-## Einrichten eines Versuchs
+## Einrichten der Versuche
 
 Nach dem Start sollten Sie ein zweigeteiltes Fenster in Ihrer Jupyter-Umgebung vorfinden, wie im folgenden Bild gezeigt: 
 
-<img src="/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/p1-for-students/figures/JupyterAccount.png" alt="figures" style="zoom:100%;" />
+<img src="./figures/JupyterAccount.png" alt="figures" style="zoom:100%;" />
 
 Auf der linken Seite befindet sich ein Navigationsfenster mit der Verzeichnisstruktur Ihrer Jupyter-Umgebung, rechts daneben befindet sich ein Fenster (der sog. *Launcher*), in dem Sie auswählen können, welche Art von Notebook Sie öffnen möchten. Sie können, wenn Sie möchten, die Option **Notebook** und **Python 3** (das erste Icon oben links im *Launcher*) anwählen. Das rechte Fenster der Jupyter-Umgebung kann mehrere Register enthalten.  
 
@@ -22,17 +22,19 @@ Die jeweils aktuelle Version aller Versuchsanleitungen und die dazugehörigen Da
 
 Das folgende Bild gibt Ihnen eine Vorstellung, wie die Webseite des gitlab-Servers des SCC in etwa aussieht. Beachten Sie, dass dieses Bild nicht den aktuellen Zustand des Servers widerspiegeln muss.  
 
-![SCC-gitlab](/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/p1-for-students/figures/scc_gitlab.png)
+![SCC-gitlab](./figures/scc_gitlab.png)
 
-Um das Repository des Versuchs, den Sie auf dem Jupyter-server bearbeiten wollen, in Ihre Jupyter-Umgebung zu laden, gehen Sie z.B. wie folgt vor: 
+Um das Repository aller Versuche (hier als Beispiel für die P1-Versuche) in Ihre Jupyter-Umgebung zu laden, gehen Sie z.B. wie folgt vor:
 
-- Gehen Sie im Menü Ihrer Jupyter-Umgebung auf das Verzeichnis **Git** und wählen Sie die Option **Clone a Repository** aus. 
-- In einem neuen Fenster werden Sie daraufhin aufgefordert die URI-Adresse für das Repository anzugeben, das Sie klonen möchten. Diese finden Sie im [SCC Gitlab Repository](https://git.scc.kit.edu/etp-lehre/p1-for-students) (hier verlinkt für das P1). Wir geben im Folgenden ein Beispiel für den [Vorversuch Datenverarbeitung](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vorversuch) des P1.
-- Öffnen Sie das SCC Gitlab Repository des [Vorversuchs Datenverarbeitung](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vorversuch) des P1 z.B. in einem neuen Reiter Ihres Browsers und klicken Sie den Knopf mit der Aufschrift **Clone** (blauer Knopf, rechts im obigen Bild). Wählen Sie aus dem sich öffnenden Untermenü die Option **Clone with HTTPS** aus. Die entsprechende Webadresse wird in die Zwischenablage Ihres Computers geladen.
+- Gehen Sie im Menü Ihrer Jupyter-Umgebung auf das Verzeichnis **Git** und wählen Sie die Option **Clone a Repository** aus.
+- In einem neuen Fenster werden Sie daraufhin aufgefordert die URI-Adresse für das Repository anzugeben, das Sie klonen möchten. Diese finden Sie im [SCC Gitlab Repository](https://git.scc.kit.edu/etp-lehre/p1-for-students) (hier verlinkt für das P1).
+- Öffnen Sie dazu das SCC Gitlab Repository der [P1 Versuche](https://git.scc.kit.edu/etp-lehre/p1-for-students) z.B. in einem neuen Reiter Ihres Browsers und klicken Sie den Knopf mit der Aufschrift **Clone** (blauer Knopf, rechts im obigen Bild). Wählen Sie aus dem sich öffnenden Untermenü die Option **Clone with HTTPS** aus. Die entsprechende Webadresse wird in die Zwischenablage Ihres Computers geladen.
 - Wechseln Sie in Ihrem Browser wieder in den Reiter mit Ihrer Jupyter-Umgebung und geben Sie die Webadresse für das zu klonende SCC-gitlab Repository an. 
 - Sie werden daraufhin nochmal gebeten sich dem SCC-gitlab Server gegenüber zu identifizieren. Verwenden Sie hierzu erneut Ihren Studierenden-Account am KIT. 
 
-Nach erfolgreicher Durchführung sollten Sie, dem obigen Beispiel des Repository für den Vorversuch Datenverarbeitung des P1 folgend, eine Verzeichnis-Struktur **p1-for-students/Vorversuch** in Ihrer Jupyter-Umgebung vorfinden. Im Verzeichnis **Vorversuch** können Sie die Durchführung und Auswertung des Versuchs beginnen. Für jeden weiteren Versuch des P1 (oder P2) wäre das Vorgehen den obigen Beschreibungen entsprechend.
+Nach erfolgreicher Durchführung sollten Sie eine Verzeichnis-Struktur **p1-for-students** in Ihrer Jupyter-Umgebung vorfinden. In diesem Verzeichnis befinden sich alle Versuche des P1 Praktikums (z.B. **Vorversuch**). Sie können in diesem Ordner die Durchführung und Auswertung des Versuchs beginnen.
+
+Vor jedem weiteren Versuch bietet es sich an, eventuelle Änderungen in den noch ausstehenden Versuchsbeschreibungen vom Haupt-Repository zu laden. Klicken sie dazu wieder auf **Git** und wählen nun **Pull from Remote** aus. Sie müssen erneut Ihren Studierenden-Account am KIT verwenden, um sich dem  SCC-gitlab Server gegenüber zu identifizieren.
 
 ## Arbeiten mit dem Jupyter-notebook
 
