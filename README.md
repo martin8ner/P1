@@ -57,11 +57,7 @@ Als Physiker:innen müssen Sie in die Situation hineinwachsen, dass Sie selbstve
 
 ## Ein Praktikumstag im P1 oder P2
 
-Ein Praktikumstag im P1 oder P2 verläuft von **13:00 – 19:00**. Wir gehen davon aus, dass Sie sich vor Versuchsantritt mit den grundlegenden Fragestellungen des aktuellen Versuchs vertraut gemacht haben, und dass Sie den Versuch der Vorwoche abgeschlossen und ausgewertet haben. Unter diesen Voraussetzung sollte Ihr Tag im P1 oder P2 wie folgt aussehen: 
-
-### Nachbesprechung des vorangegangenen Versuchs
-
-Von **13:00 – 13:30** besprechen Sie die Durchführung und Auswertung des vorangegangenen Versuchs *im Team* und *persönlich* bei dem/der entsprechenden Tutor:in. Dabei vertreten Sie vor dem/der Tutor:in Ihre Ergebnisse und klären, ob es resultierende Beanstandungen zur Auswertung gibt. Sie können diese Besprechung, je nach Absprache mit dem/der Tutor:in auch schon vorher, zu jedem Zeitpunkt nach Abschluss Ihrer Auswertung durchführen. Wir wünschen uns jedoch, dass diese Besprechung *im Team* und *persönlich* erfolgt. Eine Besprechung online oder per E-Mail sollte die Ausnahme bilden. Sie finden den/die Tutor:in in den Räumlichkeiten des vorangegangen Versuchs. Dieser Teil entfällt bei der Durchführung des ersten Versuchs im Praktikum.
+Ein Praktikumstag im P1 oder P2 verläuft von **13:30 – 19:00**. Wir gehen davon aus, dass Sie sich vor Versuchsantritt mit den grundlegenden Fragestellungen des aktuellen Versuchs vertraut gemacht haben, und dass Sie den Versuch der Vorwoche abgeschlossen und ausgewertet haben. Unter diesen Voraussetzung sollte Ihr Tag im P1 oder P2 wie folgt aussehen: 
 
 ### Vorbesprechung des aktuellen Versuchs
 
@@ -75,11 +71,15 @@ Diese Besprechung sollten Sie nicht als Prüfung verstehen. Natürlich wollen wi
 
 ### Versuchsdurchführung
 
-Von **14:00 – 17:30** haben Sie Zeit den aktuellen Versuch durchzuführen. Der/Die Tutor:in sollte über die gesamte Zeitspanne zur Beantwortung von Fragen zu Ihrer Verfügung stehen. Manche Versuchsaufbauten müssen aus Sicherheitsgründen vor Inbetriebnahme von dem/der Tutor:in abgenommen werden. Bemühen Sie sich den Versuch *als Team* so *selbstständig* wie möglich durchzuführen, aber stellen Sie gemeinsam mit dem/der Tutor:in sicher, dass Ihre Durchführung zielgerichtet ist und erzielte Zwischenergebnisse im Zusammenhang des gesamten Versuchs für Sie Sinn ergeben. Hierfür empfehlen wir Ihnen dringend Teilauswertungen im Jupyter-notebook durchzufüren. Sie können so nach Ihren Möglichkeiten die Qualität der aufgenommenen Daten sicherstellen. Falls Sie vor 17:30 mit der Durchführung der Versuchs fertig sein sollten, können Sie bereits mit der Auswertung beginnen und die Auswertung ggf. auch am Tag der Versuchsdurchführung fertigstellen. 
+Von **14:00 – 17:30** haben Sie Zeit den aktuellen Versuch durchzuführen. Der/Die Tutor:in sollte über die gesamte Zeitspanne zur Beantwortung von Fragen zu Ihrer Verfügung stehen. Manche Versuchsaufbauten müssen aus Sicherheitsgründen vor Inbetriebnahme von dem/der Tutor:in abgenommen werden. Bemühen Sie sich den Versuch *als Team* so *selbstständig* wie möglich durchzuführen, aber stellen Sie gemeinsam mit dem/der Tutor:in sicher, dass Ihre Durchführung zielgerichtet ist und erzielte Zwischenergebnisse im Zusammenhang des gesamten Versuchs für Sie Sinn ergeben. Hierfür empfehlen wir Ihnen dringend **Teilauswertungen im Jupyter-notebook** durchzufüren. Sie können so nach Ihren Möglichkeiten die Qualität der aufgenommenen Daten sicherstellen. 
+
+Nutzen Sie einen Zeitraum von üblicherweise etwa 30 min, nachdem Sie sich mit dem Versuch vertraut gemacht und sich eine entsprechende Übersicht verschafft haben, zur **Nachbesprechung des vorangegangenen Versuchs**. Besprechen Sie sowohl die Durchführung als auch die Auswertung des vorangegangenen Versuchs *im Team* und *persönlich* bei dem/der entsprechenden Tutor:in. Dabei vertreten Sie Ihre Ergebnisse und klären, ob es resultierende Beanstandungen zur Auswertung gibt. Sie finden den/die Tutor:in in den Räumlichkeiten des vorangegangen Versuchs. Dieser Teil entfällt bei der Durchführung des ersten Versuchs im Praktikum.
+
+Falls Sie vor 17:30 mit der Durchführung der Versuchs fertig sein sollten, können Sie bereits mit der Auswertung beginnen und die Auswertung ggf. auch am Tag der Versuchsdurchführung fertigstellen. 
 
 ### Einführung in den nächsten Versuch durch Kommiliton:innen
 
-Von **17:30 – 18:00** nutzen Sie die Zeit sich mit dem nächsten Versuch persönlich vertraut zu machen: Teilen Sie sich hierzu in zwei Gruppen A und B auf. Gruppe A verbleibt zunächst beim aktuellen Versuch. Gruppe B sucht den Raum des nächsten Versuchs auf und lässt sich von Gruppe A des dortigen Versuchs 15 min lang erklären, worum es bei diesem Versuch geht und wie er ablaufen wird. Gruppe A sollte nach 3,5 Stunden des Experimentierens in der Lage sein, den Kommiliton:innen aus Gruppe B erklären zu können, was sie im aktuellen Versuch gemacht haben. Der/Die entsprechende Tutor:in unterstützt Sie dabei gegebenenfalls. Nach 15 min kehrt Gruppe B zu ihrem aktuellen Versuch zurück und die Gruppen A und B tauschen die Rollen. 
+Von **17:30 – 18:00** nutzen Sie die Zeit sich mit dem nächsten Versuch persönlich vertraut zu machen: Teilen Sie sich hierzu in zwei Gruppen A und B auf. Gruppe A verbleibt zunächst beim aktuellen Versuch. Gruppe B sucht den Raum des nächsten Versuchs auf und lässt sich von Gruppe A des dortigen Versuchs etwa 15 min lang erklären, worum es bei diesem Versuch geht und wie er ablaufen wird. Gruppe A sollte nach 3,5 Stunden des Experimentierens in der Lage sein, den Kommiliton:innen aus Gruppe B erklären zu können, was sie im aktuellen Versuch gemacht haben. Der/Die entsprechende Tutor:in unterstützt Sie dabei gegebenenfalls. Nach dieser Zeit kehrt Gruppe B zu ihrem aktuellen Versuch zurück und die Gruppen A und B tauschen die Rollen. 
 
 ### Abschluss des aktuellen Versuchs
 
@@ -91,7 +91,7 @@ Formatieren Sie Ihr Protokoll in *pdf*-Format und laden Sie Ihr Protokoll sowohl
 
 Die Auswertung des Versuchs erfolgt auf Grundlage Ihres Protokolls vorzugsweise im Jupyter-notebook. Zu Ihrer Orientierung bzgl. des Umfangs gehen Sie davon aus, dass Sie **nicht mehr als 2 Stunden** für die verbleibende Auswertung des aktuellen Versuchs benötigen sollten. Beachten Sie, dass es das vorrangige Ziel der Auswertung ist, Ihre Messung und die erzielten Ergebnisse mit einer sinnvollen persönlichen Einschätzung einschließlich entsprechender *quantifizierter* Unsicherheiten für Sie und Außenstehende verständlich zu dokumentieren. Ihr Protokoll und die entsprechende Auswertung sollten *übersichtlich*, *nachvollziehbar* und *vollständig* sein. Wir verlangen explizit **keine Formatierung in Latex**. 
 
-Die Abgabe erfolgt über das Hochladen, sowohl des Jupyter-notebooks als auch einer *pdf*-Version des Jupyter-notebooks (als Version $\mathrm{v1}$) ins ILIAS-System. Sobald Sie mit der Auswertung fertig sind können Sie sich mit Ihrem/Ihrer Tutor:in über eine Nachbesprechung verständigen, bei der sowohl Sie, also auch Ihr:e Praktikumspartner:in persönlich anwesend sein sollten. Spätestens am nächsten Praktikumstag sollte Ihnen Ihr:e Tutor:in zur Nachbesprechung Ihrer Auswertung zur Verfügung stehen.     
+Die Abgabe erfolgt über das Hochladen, sowohl des Jupyter-notebooks als auch einer *pdf*-Version des Jupyter-notebooks (als Version $\mathrm{v1}$) ins ILIAS-System.
 
 ## Einordnung des Praktikums und ECTS-Regelung
 
