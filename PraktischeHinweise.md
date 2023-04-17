@@ -63,18 +63,11 @@ Wir wünschen im Protokoll jedoch ausdrücklich **keine langen Herleitungen** ph
 Wir erwarten die Rückgabe der Versuchsauswertungen durch *fristgerechten upload* auf das ILIAS-System in den folgenden Formaten:
 
 - **Jupyter-notebook exportiert nach *pdf***: in dieses Dokument kann Ihr:e Tutor:in elektronisch kommentieren.
-- Das **Jupyter-notebook** im Original können Sie zusätzlich zu *pdf*-Format hochladen. Achten Sie dabei ggf. darauf, dass Sie das vollständige Jupyter-notebook einschließlich aller eingebundenen Abbildungen hochladen.
+- Das **Jupyter-notebook** im Original können Sie zusätzlich zum *pdf*-Format hochladen. Achten Sie dabei ggf. darauf, dass Sie das vollständige Jupyter-notebook einschließlich aller eingebundenen Abbildungen (ggf. als *zip*-Datei) hochladen.
+
+Zum Export des Jupyter-notebooks nach *pdf* achten Sie auf unsere Hinweise zum [Arbeiten auf dem Jupyter-server](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Jupyter-server.md). 
 
 Ausnahmen von dieser Regel sind zulässig. Beachten Sie jedoch, dass Sie **in jedem Fall eine Version Ihres Protokolls in *pdf*-Format** auf dem ILIAS-System hinterlegen müssen, damit Ihr Versuch die Chance hat anerkannt zu werden. 
-
-Um Jupyter-notebook nach *pdf* zu formatieren empfehlen sich derzeit die folgenden Schritte: 
-
-- Versuchen die den direkten Export nach *pdf* im Jupyter-notebook. 
-- Es kann jedoch sein, dass verlinkte Bilder aus dem Jupyter-notebook nicht in dieses *pdf* eingebunden werden. In diesem Fall, exportieren Sie das Jupyter-notebook ins *html*-Format. 
-- Laden Sie sich hierzu gegebenenfalls die Bilder, die in das Jupyter-notebook eingebunden werden sollen, vom Jupyter-server auf Ihren lokalen Rechner. Die einzubindenden Bilddateien sollten sich dann im gleichen Verzeichnis, wie die exportierte *html*-Datei befinden.
-- Sie können die *html*-Datei dann von Ihrem Browser aus z.B. nach *pdf* formatieren. Wenn das *pdf*-Format die Seiten nicht einwandfrei umbricht, ist das für uns *kein Problem*.   
-
-Wir sind uns des Umstands bewusst, dass diese Art der Konvertierung nicht optimal ist. Wir hoffen jedoch, dass sich der technische Export von Jupyter-notebook nach *pdf* noch verbessern wird.  
 
 ### Bewertung
 
@@ -106,6 +99,28 @@ Für die Rückgabe der Auswertung sehen wir den folgenden zeitlichen Ablauf vor:
 Nach Ablauf des Praktikums müssen Sie **für jeden Versuch eine Auswertung** (d.h. ein Protokoll in der Version $\mathrm{v1}$) auf dem ILIAS-System hinterlegt haben. Ansonsten gilt der entsprechende Versuch als "nicht durchgeführt" und muss ggf. nochmal von Ihnen durchgeführt werden. Dies liegt im Ermessen der Dozenten des Praktikums. 
 
 Weiterhin dürfen Sie sich nach Ablauf des Praktikums **nicht mehr als zwei Auswertung mit dem Vermerk "**-**" im Praktikumsbuch** leisten. Je nach Beanstandung müssen Sie die Auswertungen entsprechend überarbeiten oder entsprechende Versuche oder Versuchsteile während der Nachholtermine, nach Ablauf des Praktikums, erneut Durchführen. Auch dies liegt im Ermessen der Dozenten des Praktikums.  
+
+### FAQ zum zeitlichen Ablauf der Versuchsauswertung und der Bewertung
+
+**Wann lade ich die "vorläufige" Version $\mathrm{v0}$ unseres Protokolls auf ILIAs hoch?** – Direkt nach beendigung des Praktikumstages. Gehen Sie es am besten vorher nochmal kurz mit Ihrem:r Tutor:in durch.
+
+**Wozu lade ich überhaupt eine Version $\mathrm{v0}$ auf ILIAS hoch?** – Sie tun dies als nachweise, dass Sie den Versuch durchgeführt haben. 
+
+**Wieviel Zeit habe ich, um die Versuchsauswertung nach dem Versuchstag als Version $\mathrm{v1}$ auf ILIAS hochzuladen?** – Sie haben bis 12:00 Uhr, am Tag vor dem nächsten Versuchstag Zeit Ihr Protokoll aufzubereiten und als Version $\mathrm{v1}$ auf ILIAS hochzuladen. Das sollten mindestens 6 reguläre Studientage. 
+
+**Was muss ich denn noch an meinem Protokoll tun, um es als Version $\mathrm{v1}$ auf ILIAS hochzuladen?** – Wir gehen davon aus, dass Sie das Protokoll, dass Sie während des Versuchs aufgenommen haben nochmal in Hinblick auf Lesbarkeit und  Vollständigkeit überarbeiten möchten. Überprüfen Sie Zwischenergebnisse und schließen Sie das Protokoll mit wohldefinierten Endergebnissen ab. Stellen Sie die aufgezeichneten Daten ggf. geeignet dar, versehen Sie alle Zwischen- und Endergebnisse mit Unsicherheiten, reflektieren und diskutieren Sie den Versuchsablauf und Ihre Ergebnisse. Dies sollte Sie nicht mehr als 4h kosten. 
+
+**Was passiert, wenn ich die Version $\mathrm{v1}$ des Protokolls zu spät auf ILIAS hochgeladen habe?** – In diesem Fall können Sie nith mehr erwarten, dass Ihr:e Tutor:in Ihr Protokoll bis zum folgenden Versuchstag gelesen haben wird. Die Besprechung kann in diesem Fall weniger zielgerichtet erfolgen. Sie sollten eine solche Situation unbedingt vermeiden.  
+
+**Wie erfahre ich von den Anmerkungen oder Beanstandungen meines:r Tutor:in?** – Ihr:e Tutorin wird **jeweils einen Tag vor dem Praktikum** das ILIAS-System überprüfen. Wenn er/sie eine entsprechende Version Ihres Protokolls  vorfindet, wird er/sie diese Version des Protokolls durchlesen und im Anschluss zeitnah wieder klar erkennbar, als kommentierte Version in *pdf*-Format, auf ILIAS hochladen. Anmerkungen erfolgen direkt im Text, Beanstandungen werden im entsprechenden Sichtfenster auf dem Deckblatt explizit vermerkt. Bei der Besprechung Ihrer Auswertung mit Ihrem:r Tutor:in können Sie die Beanstandungen gemeinsam diskutieren und ggf. weiteren Handlungsbedarf abklären. 
+
+**Der nächste Praktikumstag ist eine Feiertag – wann muss ich das Protokoll auf ILIAS hochladen?** – Ist der nächste Praktikumstag eine Feuer- oder Ferientag verschiebt sich die gesamte Abgabe und -besprechung des Protokolls bis zum entsprechend nächsten regulären Praktikumstag. Die Abgabe, als *upload* auf ILIAS muss in diesem Fall fristgerecht um 12:00 Uhr am Vortag dieses Praktikumstages erfolgen. Dies gilt sowohl für die Erstabgabe, als auch für die Bearbeitung eventueller Beanstandungen. 
+
+**Was macht mein:e Turor:in mit der Version $\mathrm{v2}$ des Protokolls und wie erfahre ich, wie das Protokoll testiert wurde?** – Ihr:e Tutorin wird **jeweils einen Tag vor dem Praktikum** das ILIAS-System überprüfen. Wenn er/sie eine entsprechende Version Ihres Protokolls  vorfindet, wird er/sie diese Version des Protokolls nur noch auf die Bearbeitung der disutierten Beanstandungen hin überprüfen und im Anschluss zeitnah wieder klar erkennbar, als kommentierte Version in *pdf*-Format, auf ILIAS hochladen. Der Kommentar beinhaltet das Testat. 
+
+**Ich habe die Version $\mathrm{v1}$ unseres Protokolls schon vor der Abgabefrist auf ILIAS hochgeladen. Kann mein:e Tutor:in das Protokoll nicht schon früher durchlesen und kommentieren?** – Das hängt von Ihrem:r tutor:in ab. Weder die Praktikumsleitung als auch Sie können verlangen, dass die Tutor:innen in ständiger Bereitschaft sind Ihre Protokolle in Empfang zu nehmen. Wir bitten dafür für Ihr Verständnis.  
+
+**Was passiert, wenn wir ein "-" für unsere Auswertung bekommen?** – Sie können sich zwei Auswertungen mit nicht aufgelösten Beanstandungen (d.h. mit dem Vermerk "-") leisten. Falls für Sie mehr als zwei Protokolle mit ausstehenden Beanstandungen vorliegen müssen Sie die entsprechenden Beanstandungen (ggf. zu einem Nachholtermin, nach Beendigung des regulären Praktikumsbetriebs) beheben. Versuche, die Sie ohne Beanstandungen absolviert haben bleiben Ihnen im System erhalten. Sie müssen Sie also nicht nochmal durchführen.  
 
 ## Bewertung des Praktikums
 

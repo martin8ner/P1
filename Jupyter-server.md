@@ -69,3 +69,13 @@ Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um **Textzell
 
   Dabei steht die Option *-s* (beachten Sie das einfache Minuszeichen) für "save", also Abspeichern und die Option *-f png* für das Datenformat *png*.   
 
+## Export von Jupyter-notebook nach *pdf*
+
+Der direkte Export eines Jupyter-notebooks nach *pdf* ist auf dem Jupyter-server derzeit nicht möglich. Daher empfehlen wir hierfür das folgende Vorgehen: 
+
+- Erzeugen Sie ein Verzeichnis mit dem Namen des Versuchs auf Ihrem lokalen Rechner.
+- Exportieren Sie das Jupyter-notebook nach *html* und laden Sie es in dieses Verzeichnis herunter. 
+- Laden Sie sich die Bilder, die im Jupyter-notebook verlinkt wurden, zusätzlich vom Jupyter-server in das gleiche Verzeichnis herunter. Die einzubindenden Bilddateien sollten sich in der gleichen Verzeichnisstruktur, wie auf dem Jupyter-server befinden. Gegebenenfalls benötigen Sie ein Unterverzeichnis *figures*.
+- Sie können die *html*-Datei dann von Ihrem Browser aus z.B. nach *pdf* formatieren. Wenn die so erzeugte *pdf*-Datei die Seiten nicht einwandfrei umbricht, ist das für uns ***kein Problem***.   
+
+Wir sind uns des Umstands bewusst, dass diese Art der Konvertierung nicht optimal ist und arbeiten daran diese Situation für Sie zu verbessern.

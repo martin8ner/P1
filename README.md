@@ -79,7 +79,7 @@ Falls Sie vor 17:30 mit der Durchführung der Versuchs fertig sein sollten, kön
 
 ### Einführung in den nächsten Versuch durch Kommiliton:innen
 
-Von **17:30 – 18:00** nutzen Sie die Zeit sich mit dem nächsten Versuch persönlich vertraut zu machen: Teilen Sie sich hierzu in zwei Gruppen A und B auf. Gruppe A verbleibt zunächst beim aktuellen Versuch. Gruppe B sucht den Raum des nächsten Versuchs auf und lässt sich von Gruppe A des dortigen Versuchs etwa 15 min lang erklären, worum es bei diesem Versuch geht und wie er ablaufen wird. Gruppe A sollte nach 3,5 Stunden des Experimentierens in der Lage sein, den Kommiliton:innen aus Gruppe B erklären zu können, was sie im aktuellen Versuch gemacht haben. Der/Die entsprechende Tutor:in unterstützt Sie dabei gegebenenfalls. Nach dieser Zeit kehrt Gruppe B zu ihrem aktuellen Versuch zurück und die Gruppen A und B tauschen die Rollen. 
+Von **17:30 – 18:00** nutzen Sie die Zeit sich mit dem nächsten Versuch persönlich vertraut zu machen: Teilen Sie sich hierzu in zwei Gruppen A und B auf. Gruppe A verbleibt zunächst beim aktuellen Versuch. Gruppe B sucht den Raum des nächsten Versuchs auf und lässt sich von Gruppe A des dortigen Versuchs etwa 10 min lang erklären, worum es bei diesem Versuch geht und wie er ablaufen wird. Gruppe A sollte nach 3,5 Stunden des Experimentierens in der Lage sein, den Kommiliton:innen aus Gruppe B erklären zu können, was sie im aktuellen Versuch gemacht haben. Der/Die entsprechende Tutor:in unterstützt Sie dabei gegebenenfalls. Nach dieser Zeit kehrt Gruppe B zu ihrem aktuellen Versuch zurück und die Gruppen A und B tauschen die Rollen. 
 
 ### Abschluss des aktuellen Versuchs
 
@@ -103,7 +103,7 @@ Bei der Berechnung der ECTS-Punkte für die Praktika legen wir das folgende Mode
 
 - **4–6 Stunden Versuchsvorbereitung**, in denen Sie sicherstellen, dass Sie nach Ihrer eigenen Einschätzung optimal auf den kommenden Versuch vorbereitet sind.
 - **6 Stunden Versuchsbesprechung und -durchführung**.
-- **2–4 Stunden Versuchsnachbereitung** (inklusive potentieller Neueinreichungen nach der Nachbesprechung mit dem/der Tutor:in).      
+- **2–4 Stunden Versuchsnachbereitung** (einschließlich potentieller Beanstandungen durch die Tutor:innen).      
 
 Damit ergeben sich bis zu **160 Stunden** Arbeitsaufwand im laufenden Semester. 
 
