@@ -9,7 +9,7 @@
 
 # Hier geben Sie den Titel des plots an, der nach der Anpassung des Modells an 
 # die Daten angezeigt werden wird.
-title: "Beispiel aus Datei 'data.yaml'"
+title: "Beispiel aus Datei 'PhyPraKit_example.yaml'"
 # Hier geben Sie den Titel auf der x-Achse an.
 x_label: 'x-Werte'
 # Hier geben Sie den titel auf der y-Achse an.
