@@ -22,7 +22,7 @@ Wir gehen davon aus, dass Sie in der Regel zu allen aufgenommenen Daten oder ang
 
 ### kafe2
 
-Wir gehen davon aus, dass Studierende im Hauptfach Physik mit dem Programmpaket [kafe2](https://etpwww.etp.kit.edu/~quast/kafe2/htmldoc/) zur Datenauswertung vertraut sind. Auf dem Jupyter-server finden Sie die aktuelle Version des Programmpakets vorinstalliert, dessen Module Sie problemlos mit dem Python-Schlüsselwort `import` in jede Code-Zelle des Jupyter-notebooks importieren können. Eine knappe Einführung finden Sie im Dokument [Verwendung des Programmpakets kafe2](to be filled). 
+Wir gehen davon aus, dass Studierende im Hauptfach Physik mit dem Programmpaket [kafe2](https://etpwww.etp.kit.edu/~quast/kafe2/htmldoc/) zur Datenauswertung vertraut sind. Auf dem Jupyter-server finden Sie die aktuelle Version des Programmpakets vorinstalliert, dessen Module Sie problemlos mit dem Python-Schlüsselwort `import` in jede Code-Zelle des Jupyter-notebooks importieren können. Eine knappe Einführung finden Sie im Dokument [Verwendung des Programmpakets kafe2](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/kafe2.md). 
 
 ### PhyPraKit
 
