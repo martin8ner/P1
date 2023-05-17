@@ -71,12 +71,22 @@ Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um **Textzell
 
 ## Export von Jupyter-notebook nach *pdf*
 
-Der direkte Export eines Jupyter-notebooks nach *pdf* ist auf dem Jupyter-server derzeit nicht möglich. Daher empfehlen wir hierfür das folgende Vorgehen: 
+Nach Bearbeitung sollten Sie Ihr Jupyter-notebook ins *pdf*-Format exportieren und auf ILIAS hochladen. Hierzu stehen Ihnen auf dem Jupyter-server zwei Möglichkeiten zur Verfügung. Wir empfehlen den direkten Export nach *pdf* auf dem Jupyter-server. Falls sich dies als problematisch erweisen sollte versuchen Sie den Export über *html*.  
+
+### Direkter Export nach *pdf*
+
+Um Ihr Jupyter-notebook ins *pdf*-Format zu exportieren gehen Sie wie folgt vor: 
+
+- Gehen Sie über den Menüpunkt *File* des Hauptmenüs des Jupyter-servers und wählen Sie den Menüpunkt *Save and Export Notebook As…* und dann den Unterpunkt *PDF* aus. Nach dem Export sollte sich eine *pdf*-Datei in Ihrem Browser öffnen, die Sie lokal abspeichern und auf ILIAS hochladen können. 
+- Beachten Sie, dass Abbildungen, die explizit über Hyperlinks in die Anleitung eingebunden wurden nicht in der erzeugten *pdf*-Datei angezeigt werden. Wir haben für diesen Fall explizite Links zusätzlich in die Anleitungen eingefügt, so dass diese ihre inhaltliche Vollständigkeit bewahren. Falls Sie im Verlauf Ihrer Durchführung Bilder direkt in das Jupyter-notebook eingebunden haben sollten werden diese zusammen mit dem Jupyter-notebook exportiert und angezeigt.
+
+### Export über *html* nach *pdf*
+
+Falls beim direkten Export Ihres Jupyter-notebooks nach *pdf* Probleme auftreten sollten, sollte es immer noch möglich sein das Jupyter-notebook über *html* und schließlich Ihren Webbrowser nach *pdf* zu exportieren. Hierfür empfehlen wir das folgende Vorgehen: 
 
 - Erzeugen Sie ein Verzeichnis mit dem Namen des Versuchs auf Ihrem lokalen Rechner.
 - Exportieren Sie das Jupyter-notebook nach *html* und laden Sie es in dieses Verzeichnis herunter. Gehen Sie hierzu über den Menüpunkt *File* des Hauptmenüs des Jupyter-servers und wählen Sie die den Menüpunkt *Save and Export Notebook As…* und dann den Unterpunkt *HTML* aus. 
-- Falls Sie im Verlauf Ihrer Durchführung Bilder direkt in das Jupyter-notebook eingebunden haben sollten werden diese zusammen mit dem Jupyter-notebook exportiert und angezeigt. Für Bilder, die in einer Markdown-Zelle im Jupyter-notebook verlinkt wurden ist dies nicht der Fall.  
-- Laden Sie sich die Bilder, die im Jupyter-notebook verlinkt wurden, zusätzlich vom Jupyter-server in das gleiche Verzeichnis herunter. Die einzubindenden Bilddateien sollten sich in der gleichen Verzeichnisstruktur, wie auf dem Jupyter-server befinden. Gegebenenfalls benötigen Sie ein Unterverzeichnis *figures*.
-- Sie können die *html*-Datei dann von Ihrem Browser aus z.B. nach *pdf* formatieren. Wenn die so erzeugte *pdf*-Datei die Seiten nicht einwandfrei umbricht, ist das für uns ***kein Problem***.   
+- Laden Sie sich die Bilder, die im Jupyter-notebook verlinkt wurden, zusätzlich vom Jupyter-server in das gleiche Verzeichnis herunter. Die einzubindenden Bilddateien sollten sich in der gleichen Verzeichnisstruktur, wie auf dem Jupyter-server befinden. Gegebenenfalls benötigen Sie ein Unterverzeichnis *figures*. Beachten Sie eventuelle Änderungen in den Dateiendungen (z.B. von *jpg* nach *jpeg*), die beim Herunterladen automatisch durch Ihren Browser vorgenommen worden sein könnten. 
+- Sie können die *html*-Datei dann lokal, in Ihrem Browser, öffnen und von dort aus nach *pdf* exportieren. Wenn die so erzeugte *pdf*-Datei die Seiten nicht einwandfrei umbricht, ist das für uns ***kein Problem***.   
 
 Wir sind uns des Umstands bewusst, dass diese Art der Konvertierung nicht optimal ist und arbeiten daran diese Situation für Sie zu verbessern.
