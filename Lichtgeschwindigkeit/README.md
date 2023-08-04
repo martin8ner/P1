@@ -1,4 +1,4 @@
-<img src="/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/p1-for-students/Lichtgeschwindigkeit/figures/Logo_KIT.svg" style="zoom:15%;float:right;" />
+<img src="./figures/Logo_KIT.svg" style="zoom:15%;float:right;" />
 
 # Fakultät für Physik
 
@@ -35,7 +35,7 @@ Der Versuch umfasst zwei unterschiedliche Aufbauten zur Messung der Lichtgeschwi
 
 ### Drehspiegelmethode
 
-<img src="/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/p1-for-students/Lichtgeschwindigkeit/figures/Drehspiegelmethode.png" style="zoom:60%;" />
+<img src="./figures/Drehspiegelmethode.png" style="zoom:60%;" />
 
 Das Licht eines Lasers wird auf einen Drehspiegel gerichtet und von dort auf ein System aus einem Umlenk- und einem Endspiegel reflektiert. Der Strahlengang verläuft vom Laser zum Endspiegel und wieder zurück. Vor dem Laser befindet sich ein um $45^{\circ}$ zur Strahlachse gedrehter, halbdurchlässiger Spiegel als Strahlteiler, der einen Teil des reflektierten Lichts auf einen Schirm mit Ableseskala und Mikroskop umlenkt. Die Skala wird mit Hilfe eines USB-Mikroskops auf einem Bildschirm angezeigt (siehe Bild unten links in der zugehörigen [Skizze](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/figures/Drehspiegelmethode.png)). Zwischen Dreh- und Umlenkspiegel befindet sich eine Linse zur Verringerung der Divergenz des Lichtstrahls der auf den Endspiegel abgebildet wird. Im Zeitfenster $\Delta t$ zwischen seinem ersten und zweiten Auftreffen auf den Drehspiegel hat ein angenommenes Lichtpaket, nach den Angaben der obigen Skizze, die Wegstrecke $2\,(a+b)$ zurückgelegt. Der Drehspiegel hat sich in dieser Zeit um den Winkel $\Delta\alpha$ weiter gedreht. Dadurch erscheint der auf den Schirm gelenkte Lichtstrahl im Vergleich zum Fall des ruhenden Drehspiegels versetzt. Der Versatz hängt von der Geschwindigkeit des Lichtpakets $c$ und der Frequenz $\nu$ ab, mit der sich der Drehspiegels dreht. Die Brennweite der Linse, sowie die festen Abstände zwischen dem Laser und den jeweiligen Spiegeln sind in der zugehörigen [Skizze](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/figures/Drehspiegelmethode.png) angegeben. 
 
@@ -46,6 +46,11 @@ Das Licht eines Lasers wird auf einen Drehspiegel gerichtet und von dort auf ein
 
 ### Phasenvergleichsmethode
 
-<img src="/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/p1-for-students/Lichtgeschwindigkeit/figures/Phasenvergleichsmethode.png" style="zoom:60%;" />
+<img src="./figures/Phasenvergleichsmethode.png" style="zoom:60%;" />
 
 Diese Methode zur Messung der Lichtgeschwindigkeit basiert auf der Messung der Phasenverschiebung $\Delta\varphi$ zwischen einem Empfänger- und einem Referenzsignal. Aus $\Delta\varphi$ lässt sich bei gegebener Kreisfrequenz $\omega$ des Referenzsignals eine Zeitdifferenz $\Delta t$ bestimmen und bei bekanntem Abstand $\ell$ zwischen Sender und Empfänger so die Lichtgeschwindigkeit berechnen. Eine monochromatische Lichtquelle (Sender) ist beweglich auf eine $\approx2\,\mathrm{m}$ lange Führungsschiene montiert. Ihr Licht wird mit Hilfe einer Sammellinse auf eine feststehende Photodiode (Empfänger) abgebildet. Ein $60\,\mathrm{MHz}$-Frequenzgenerator erzeugt ein Referenzsignal, mit dem die Intensität der Leuchtdiode des Senders moduliert wird. Die Lichtgeschwindigkeit ergibt sich aus der Phasenverschiebung $\Delta\varphi$ zwischen dem Empfänger- und Referenzsignal als Funktion des Abstandes zwischen Sender und Empfänger. 
+
+# Navigation
+
+- Wichtige Hinweise zur Vorbereitung und  Durchführung des Versuchs finden Sie in der Datei [Hinweise.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Hinweise.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Datenblatt.md).  
