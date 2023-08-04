@@ -24,3 +24,15 @@
 - Zwei Plexiglaszylinder der Länge $8$ und $30\,\mathrm{cm}$, mit polierten Stirnflächen und Ständer, für Aufgabe 3.1 (einfach vorhanden).
 - Ein Laserentfernungsmesser (Typ: [Bosch DLE40](https://www.laserentfernungsmesser-test.de/tests/bosch-dle-40-blau-laserentfernungsmesser-test/), Messgenauigkeit $\pm1,5\,\mathrm{mm}$). 
 - Verschiedene [Küvetten](https://de.wikipedia.org/wiki/K%C3%BCvette) (mit einer Grundfläche von $100\,\mathrm{mm} \times 50\,\mathrm{mm}$ befüllt mit Wasser und Silikonöl, für Aufgabe 3.2.
+
+# Literaturwerte:
+
+Die angegebenen Werte befinden sich auch in der Datei 
+
+Lichtgeschwindigkeit ([Wikipedia](https://de.wikipedia.org/wiki/Lichtgeschwindigkeit)): 
+$c=2,99792458\times10^{8}\,\mathrm{m/s}                                                                         $
+
+Bechungsindizes ([Wikipedia](https://de.wikipedia.org/wiki/Brechungsindex)):
+$n_{\mathrm{Luft}}=1,000 292$ 
+$n_{\mathrm{Wasser}}=1,3330$
+$n_{\mathrm{Silicon}}=1,4$
