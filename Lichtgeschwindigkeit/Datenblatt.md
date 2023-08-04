@@ -29,10 +29,6 @@
 
 Die angegebenen Werte befinden sich auch in der Datei 
 
-Lichtgeschwindigkeit ([Wikipedia](https://de.wikipedia.org/wiki/Lichtgeschwindigkeit)): 
-$c=2,99792458\times10^{8}\,\mathrm{m/s}                                                                         $
+Lichtgeschwindigkeit ([Wikipedia](https://de.wikipedia.org/wiki/Lichtgeschwindigkeit)):<br>$c=2,99792458\times10^{8}\,\mathrm{m/s}$
 
-Bechungsindizes ([Wikipedia](https://de.wikipedia.org/wiki/Brechungsindex)):
-$n_{\mathrm{Luft}}=1,000 292$ 
-$n_{\mathrm{Wasser}}=1,3330$
-$n_{\mathrm{Silicon}}=1,4$
+Bechungsindizes ([Wikipedia](https://de.wikipedia.org/wiki/Brechungsindex)):<br>$n_{\mathrm{Luft}}=1,000 292$<br> $n_{\mathrm{Wasser}}=1,3330$<br>$n_{\mathrm{Silicon}}=1,4$
