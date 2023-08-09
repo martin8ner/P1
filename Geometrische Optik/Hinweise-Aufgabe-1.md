@@ -40,7 +40,7 @@ Für die Bestimmung von $f$ nach dem [Bessel-Verfahren](https://de.wikipedia.org
 
 **Skizze 2** (Lage der Punkte in denen die Linse $G$ scharf abbildet)
 
-Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In einer Position von $H$ ist $B$ größer als $G$ (d.h. $\beta>1$) in der anderen kleiner. Ein scharfes reelles Bild entsteht nur dann, wenn Gleichung (1) erfüllt ist (siehe Skizze 1), was in beiden Positionen von $H$ erfüllt werden kann, wenn $x=g$, $y=b$ oder $x=b$, $y=g$. Wir drücken in Gleichung (1) $b$ und $g$ durch $x$ aus und lösen nach $x$ auf:
+Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In einer Position von $H$ ist $B$ größer als $G$ in der anderen kleiner. Ein scharfes reelles Bild entsteht nur dann, wenn Gleichung (1) erfüllt ist (siehe Skizze 1), was in beiden Positionen von $H$ erfüllt werden kann, wenn $x=g$, $y=b$ oder $x=b$, $y=g$. Wir drücken in Gleichung (1) $b$ und $g$ durch $x$ aus und lösen nach $x$ auf:
 
 ```math
 \begin{equation}
