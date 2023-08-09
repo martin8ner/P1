@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 1: Bestimmung der Brennweite einer einzelnen Linse
+## Aufgabe 1: Bestimmung der Brennweite einer einzelnen Linse (1/2)
 
 ### Grundbegriffe der paraxialen Optik
 
@@ -8,7 +8,7 @@ Die [paraxiale Optik](https://de.wikipedia.org/wiki/Paraxiale_Optik) beschäftig
 
 Eines der wichtigsten optischen Systeme ist die **dünne [Sammellinse](https://de.wikipedia.org/wiki/Sammellinse)**. Zu ihrer Beschreibung dient die [Hauptebene](https://de.wikipedia.org/wiki/Hauptebene_(Optik)) $H$. Den Schnittpunkt der Hauptebene mit der optischen Achse bezeichnet man als Hauptpunkt. Wir verwenden im Folgenden $H$ sowohl für die Hauptebene als auch für den Hauptpunkt. 
 
-Zueinander parallele und senkrecht zu $H$ einfallende Lichtstrahlen kreuzen sich im Brennpunkt der Linse (auch [Fokus](https://de.wikipedia.org/wiki/Fokus) genannt). Als [Brennweite](https://de.wikipedia.org/wiki/Brennweite) $f$ bezeichnet man den Abstand zwischen Brennpunkt und $H$. Eine Linse bildet einen Gegenstand $G$ in ein Bild $B$ ab, wie in Skizze 1 dargestellt: 
+Zueinander parallele und senkrecht zu $H$ einfallende Lichtstrahlen kreuzen sich im Brennpunkt der Linse (auch [Fokus](https://de.wikipedia.org/wiki/Fokus) genannt). Als [Brennweite](https://de.wikipedia.org/wiki/Brennweite) $f$ bezeichnet man den Abstand zwischen Brennpunkt und $H$. Eine Linse bildet einen Gegenstand $G$ in ein Bild $B$ ab, wie in **Skizze 1** dargestellt: 
 
 <img src="./figures/Linsengleichung.png" width="900" style="zoom:100%;" />
 
@@ -32,7 +32,7 @@ wird als [Abbildungsmaßstab](https://de.wikipedia.org/wiki/Abbildungsma%C3%9Fst
 \end{equation*}
 ```
 
-gegeben.  In der obigen Skizze wird der (reelle) Gegenstand $G$ in ein umgekehrtes [reelles Bild](https://de.wikipedia.org/wiki/Reelles_Bild) $B$ abgebildet. Da der Strahlengang umkehrbar ist, wird $B$ als reelles Bild wiederum in $G$ zurück abgebildet.
+gegeben.  In der **Skizze 1** wird der (reelle) Gegenstand $G$ in ein umgekehrtes [reelles Bild](https://de.wikipedia.org/wiki/Reelles_Bild) $B$ abgebildet. Da der Strahlengang umkehrbar ist, wird $B$, durch Reflexion, als reelles Bild auch in $G$ zurück abgebildet.
 
 # Navigation
 
