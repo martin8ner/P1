@@ -1,10 +1,10 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 2: Vermessung eines Zweilinsensystems
+## Aufgabe 2: Vermessung eines Zweilinsensystems (1/4)
 
 ### Strahlengang eines Zweilinsensystems
 
-Mit Hilfe des in Skizze 3 eingezeichneten Strahlengangs kann ein System aus zwei Linsen $L_{1}$ und $L_{2}$ (mit den Brennweiten $f_{1}$ und $f_{2}$) wie eine einzige dicke Linse $L$ mit den Hauptebenen $H_{1}$ und $H_{2}$ und der Brennweite $f$ behandelt werden. Alle relevanten Variablenbezeichnungen können Skizze 3 entnommen werden.
+Mit Hilfe des in **Skizze 3** eingezeichneten Strahlengangs kann ein System aus zwei Linsen $L_{1}$ und $L_{2}$ (mit den Brennweiten $f_{1}$ und $f_{2}$) wie eine einzige dicke Linse $L$ mit den Hauptebenen $H_{1}$ und $H_{2}$ und der Brennweite $f$ behandelt werden. Alle für die weitere Diskussion relevanten Variablenbezeichnungen können **Skizze 3** entnommen werden.
 
 <img src="./figures/AbbeVerfahren.png" width="900" style="zoom:100%;" />
 
@@ -24,13 +24,13 @@ wobei $d$ der Abstand zwischen $L_{1}$ und $L_{2}$ (gemessen von den jeweiligen 
 
 Die Konstruktion erfolgt dabei wie folgt: 
 
-- Strahl 1 verläuft, parallel zur optischen Achse, von $G$ bis $H_{1}$ (obere durchgezogene Linie).
+- Strahl 1 verläuft, parallel zur optischen Achse, von $G$ bis $H_{1}$ (obere durchgezogene Linie, links).
 
-- Strahl 2 verläuft von $G$, durch den linken Brennpunkt von $L$, bis $H_{1}$ (untere durchgezogene Linie). 
+- Strahl 2 verläuft von $G$, durch den linken Brennpunkt von $L$, bis $H_{1}$ (untere durchgezogene Linie, links). 
 
 - Von $H_{1}$ nach $H_{2}$ werden beide Strahlen parallel verschoben (gestrichelte Linien zwischen $H_{1}$ und $H_{2}$).
 
-- Von $H_{2}$ aus wird Strahl 1 durch den rechten Brennpunkt von $L$ und Strahl 2 parallel zur optischen Achse verlängert. Dort, wo die Strahlen 1 und 2 sich treffen entsteht $B$.  
+- Von $H_{2}$ aus wird Strahl 1 durch den rechten Brennpunkt von $L$ und Strahl 2 parallel zur optischen Achse verlängert. Dort, wo die Strahlen 1 und 2 sich kreuzen entsteht $B$.  
 
 - Für den Abbildungsmaßstab gilt die Beziehung: 
   

@@ -1,23 +1,23 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 2: Vermessung eines Zweilinsensystems
+## Aufgabe 2: Vermessung eines Zweilinsensystems (2/4)
 
 ### Bestimmung von $H_{1}$, $H_{2}$ und $f$
 
-Wir beschreiben zunächst die Bestimmung von $f$ und der Lagen von $H_{1}$ ($h_{x}$) und $H_{2}$ ($h_{x}'$). 
+Wir beschreiben zunächst die Bestimmung von $f$, sowie der Lagen von $H_{1}$ ($h_{x}$) und $H_{2}$ ($h_{x}'$). 
 
-Da die Lage von $H_{1}$ nicht als bekannt vorausgesetzt werden kann bestimmen wir den Abstand von $G$ relativ zu einem **frei gewählten Bezugspunkt** $X$ (Marker $X$ in [Skizze 3](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/figures/BesselVerfahren.png)), dessen Position auf der optischen Achse wir gleichzeitig als Nullpunkt festlegen. Für die Skizze haben wir $X$ beliebig zwischen $L_{1}$ und $L_{2}$ gewählt. Für den Versuch sollten Sie $X$ exakt zwischen $L_{1}$ und $L_{2}$, in der Mitte des Messingzylinders wählen. Die Abstände von $G$ und $B$ zu $X$ bezeichnen wir als
+Da die Lage von $H_{1}$ nicht als bekannt vorausgesetzt werden kann bestimmen wir den Abstand von $G$ relativ zu einem **frei gewählten Bezugspunkt** $X$ (Marker $X$ in [Skizze 3](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/raw/main/Geometrische%20Optik/figures/AbbeVerfahren.png)), dessen Position auf der optischen Achse wir gleichzeitig als Nullpunkt festlegen. In [Skizze 3](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/raw/main/Geometrische%20Optik/figures/AbbeVerfahren.png) haben wir $X$ beliebig zwischen $L_{1}$ und $L_{2}$ gewählt. Für den Versuch sollten Sie $X$ exakt zwischen $L_{1}$ und $L_{2}$, in der Mitte des Messingzylinders wählen. Die Abstände von $G$ und $B$ zu $X$ bezeichnen wir als
 
 ```math
 \begin{equation}
 \begin{split}
-&G:\quad x\hphantom{^{\prime}} = g+h_{x}, \\
-&B:\quad x' = b+h'_{x},
+&\overline{GX}:\quad x\hphantom{^{\prime}} = g+h_{x}, \\
+&\overline{XB}:\quad x' = b+h'_{x},
 \end{split}
 \end{equation}
 ```
 
-wobei $h_{x}$ ($h'_{x}$) den unbekannten Abstand von $X$ zu $H_{1}$ ($H_{2}$) bezeichnet (siehe [Skizze 3](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/figures/BesselVerfahren.png)). Nach der Linsengleichung besteht zwischen $g$, $b$, $f$ die Beziehung: 
+wobei $h_{x}$ und $h'_{x}$ die unbekannten Abstände von $X$ zu $H_{1}$ und $H_{2}$ bezeichnen (siehe [Skizze 3](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/raw/main/Geometrische%20Optik/figures/AbbeVerfahren.png)). Nach der Linsengleichung besteht zwischen $g$, $b$, $f$ die Beziehung: 
 
 ```math
 \begin{equation}
