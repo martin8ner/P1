@@ -12,7 +12,7 @@ Zueinander parallele und senkrecht zu $H$ einfallende Lichtstrahlen kreuzen sich
 
 <img src="./figures/Linsengleichung.png" width="900" style="zoom:100%;" />
 
-Skizze 1 (Definition von Brenn-, Bild- und Gegenstandsweite)
+**Skizze 1** (Definition von Brenn-, Bild- und Gegenstandsweite)
 
 Wir verwenden $G$ ($B$) sowohl für den Gegenstand (das Bild) selbst, als auch für dessen Größe. Der Abstand von $G$ zu $H$ heißt [Gegenstandsweite](https://de.wikipedia.org/wiki/Gegenstandsweite) $g$, der Abstand von $B$ zu $H$ [Bildweite](https://de.wikipedia.org/wiki/Bildweite) $b$. Das Verhältnis 
 
@@ -38,9 +38,9 @@ Für die Bestimmung von $f$ nach dem [Bessel-Verfahren](https://de.wikipedia.org
 
 <img src="./figures/BesselVerfahren.png" width="900" style="zoom:100%;" />
 
-Skizze 2 (Lage der Punkte in denen die Linse $G$ scharf abbildet)
+**Skizze 2** (Lage der Punkte in denen die Linse $G$ scharf abbildet)
 
-Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In einer Position von $H$ ist $B$ größer als $G$ (d.h. $\beta>1$) in der anderen kleiner. Ein scharfes reelles Bild entsteht nur dann, wenn Gleichung (1) erfüllt ist (siehe Skizze 1), was in beiden Positionen von $H$ erfüllt werden kann, wenn $x=g,\,y=b$ oder $x=b,\,y=g$. Wir drücken in Gleichung (1) $b$ und $g$ durch $x$ aus und lösen nach $x$ auf:
+Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In einer Position von $H$ ist $B$ größer als $G$ (d.h. $\beta>1$) in der anderen kleiner. Ein scharfes reelles Bild entsteht nur dann, wenn Gleichung (1) erfüllt ist (siehe Skizze 1), was in beiden Positionen von $H$ erfüllt werden kann, wenn $x=g$, $y=b$ oder $x=b$, $y=g$. Wir drücken in Gleichung (1) $b$ und $g$ durch $x$ aus und lösen nach $x$ auf:
 
 ```math
 \begin{equation}
@@ -53,7 +53,7 @@ Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In eine
 \end{equation}
 ```
 
-Wie aus Gleichung ($\ref{eq:BesselVerfahren}$) ersichtlich ergeben sich zwei scharfe Bilder nur dann, wenn die Bedingung
+Wie aus Gleichung (2) ersichtlich ergeben sich zwei scharfe Bilder nur dann, wenn die Bedingung
 
 ```math
 \begin{equation*}
@@ -61,7 +61,7 @@ a>4\,f
 \end{equation*}
 ```
 
-erfüllt ist, womit die anfängliche Aussage "hinreichen" groß für die Wahl von $a$ konkretisiert wird. Aus Skizze 1 und Gleichung ($\ref{eq:BesselVerfahren}$) wird deutlich, wie diese Bedingung zustande kommt und was eine geschickte Wahl für $a$ ist. Aus dem Abstand der beiden Punkte, in denen ein scharfes Bild auf $S$ entsteht lässt sich $f$ berechnen: 
+erfüllt ist, womit die anfängliche Aussage *hinreichen* groß für die Wahl von $a$ konkretisiert wird. Aus Skizze 1 und Gleichung (2) wird deutlich, wie diese Bedingung zustande kommt und was eine geschickte Wahl für $a$ ist. Aus dem Abstand der beiden Punkte, in denen ein scharfes Bild auf $S$ entsteht lässt sich $f$ berechnen: 
 
 ```math
 \begin{equation*}
