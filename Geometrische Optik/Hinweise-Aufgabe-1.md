@@ -17,9 +17,9 @@ Skizze 1 (Definition von Brenn-, Bild- und Gegenstandsweite)
 Wir verwenden $G$ ($B$) sowohl für den Gegenstand (das Bild) selbst, als auch für dessen Größe. Der Abstand von $G$ zu $H$ heißt [Gegenstandsweite](https://de.wikipedia.org/wiki/Gegenstandsweite) $g$, der Abstand von $B$ zu $H$ [Bildweite](https://de.wikipedia.org/wiki/Bildweite) $b$. Das Verhältnis 
 
 ```math
-\begin{equation}
+\begin{equation*}
 \beta = \frac{B}{G}
-\end{equation}
+\end{equation*}
 ```
 
 wird als [Abbildungsmaßstab](https://de.wikipedia.org/wiki/Abbildungsma%C3%9Fstab) bezeichnet. Die Beziehung zwischen $b$, $g$ und $f$ für ein scharfes Bild ist durch die [Linsengleichung](https://de.wikipedia.org/wiki/Linsengleichung) (oder Abbildungsgleichung)  
@@ -27,7 +27,6 @@ wird als [Abbildungsmaßstab](https://de.wikipedia.org/wiki/Abbildungsma%C3%9Fst
 ```math
 \begin{equation}
 \frac{1}{f} = \frac{1}{g} + \frac{1}{b}
-\label{eq:Linsengleichung}
 \end{equation}
 ```
 
@@ -41,7 +40,7 @@ Für die Bestimmung von $f$ nach dem [Bessel-Verfahren](https://de.wikipedia.org
 
 Skizze 2 (Lage der Punkte in denen die Linse $G$ scharf abbildet)
 
-Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In einer Position von $H$ ist $B$ größer als $G$ (d.h. $\beta>1$) in der anderen kleiner. Ein scharfes reelles Bild entsteht nur dann, wenn Gleichung ($\ref{eq:Linsengleichung}$) erfüllt ist (siehe Skizze 1), was in beiden Positionen von $H$ erfüllt werden kann, wenn $x=g,\,y=b$ oder $x=b,\,y=g$. Wir drücken in Gleichung ($\ref{eq:Linsengleichung}$) $b$ und $g$ durch $x$ aus und lösen nach $x$ auf:
+Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In einer Position von $H$ ist $B$ größer als $G$ (d.h. $\beta>1$) in der anderen kleiner. Ein scharfes reelles Bild entsteht nur dann, wenn Gleichung (1) erfüllt ist (siehe Skizze 1), was in beiden Positionen von $H$ erfüllt werden kann, wenn $x=g,\,y=b$ oder $x=b,\,y=g$. Wir drücken in Gleichung (1) $b$ und $g$ durch $x$ aus und lösen nach $x$ auf:
 
 ```math
 \begin{equation}
@@ -51,7 +50,6 @@ Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In eine
 &\frac{a\,x-x^{2}}{a} = f; \qquad x^{2} - a\,x + a\,f = 0; \\
 &x_{1/2} = \frac{a}{2}\pm\frac{\sqrt{a^{2}-4\,a\,f}}{2}
 \end{split}
-\label{eq:BesselVerfahren}
 \end{equation}
 ```
 
