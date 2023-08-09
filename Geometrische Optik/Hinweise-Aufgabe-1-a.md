@@ -10,6 +10,8 @@ Für die Bestimmung von $f$ nach dem [Bessel-Verfahren](https://de.wikipedia.org
 
 **Skizze 2** (Lage der Punkte in denen die Linse $G$ scharf abbildet)
 
+---
+
 Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In einer Position von $H$ ist $B$ größer als $G$ in der anderen kleiner. Ein scharfes reelles Bild entsteht nur dann, wenn Gleichung (1) erfüllt ist (siehe Skizze 1), was in beiden Positionen von $H$ erfüllt werden kann, wenn $x=g$, $y=b$ oder $x=b$, $y=g$. Wir drücken in Gleichung (1) $b$ und $g$ durch $x$ aus und lösen nach $x$ auf:
 
 ```math
@@ -23,7 +25,7 @@ Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In eine
 \end{equation}
 ```
 
-Wie aus Gleichung (2) ersichtlich ergeben sich zwei scharfe Bilder nur dann, wenn die Bedingung
+Wie aus Gleichung (1) ersichtlich ergeben sich zwei scharfe Bilder nur dann, wenn die Bedingung
 
 ```math
 \begin{equation*}
@@ -47,11 +49,11 @@ erfüllt ist, womit die anfängliche Aussage *hinreichen* groß für die Wahl vo
 ### Hinweise zur Durchführung
 
 - Führen Sie jede Bestimmung von $f$ mindestens 5 mal durch und bestimmen Sie das [Stichprobenmittel](https://de.wikipedia.org/wiki/Stichprobenmittel) und die Standardabweichung aus der Wurzel der (korrigierten) [Stichprobenvarianz](https://de.wikipedia.org/wiki/Stichprobenvarianz_(Sch%C3%A4tzfunktion)) der ermittelten Werte. Diskutieren Sie die Unsicherheiten der Messung und mögliche Fehlerquellen und vergleichen Sie Ihre Ergebnisse aus den einzelnen Aufgabenteilen.
-- Leuchten Sie für Aufgabe 1.2 mit der Lichtquelle eines der zur Verfügung stehenden Diapositive, als $G$, aus. Montieren Sie $S$, woauf $B$ dargestellt werden soll in einem geeigneten Abstand $(a>4\,f)$ zu $G$. Bewegen Sie für Ihre Messungen die Linse zwischen $G$ und $S$. Betrachten Sie $B$ zur Beurteilung der Schärfe des Bildes ggf. mit einer Lupe. 
+- Leuchten Sie für Aufgabe 1.2 mit der Lichtquelle eines der zur Verfügung stehenden Diapositive, als $G$, aus. Montieren Sie $S$, woauf $B$ dargestellt werden soll in einem geeigneten Abstand $(a > 4 \, f)$ zu $G$. Bewegen Sie für Ihre Messungen die Linse zwischen $G$ und $S$. Betrachten Sie $B$ zur Beurteilung der Schärfe des Bildes ggf. mit einer Lupe. 
 - Bestimmen Sie die **[chromatische Abberation](https://de.wikipedia.org/wiki/Chromatische_Aberration)** mit einem vor die Lichtquelle geschalteten Rot- und Blaufilter. Verwenden Sie hierzu die vor die Linse aufgesteckte Lochblende, um den Effekt der sphärischen Abberation zu minimieren. Mit welcher Signifikanz können Sie den Effekt nachweisen?
 - Bestimmen Sie die **[sphärische Abberation](https://de.wikipedia.org/wiki/Abbildungsfehler#Sph%C3%A4rische_Aberration)** mit der vor die Linse aufgesteckten Scheiben- und Lochblende. Wählen Sie entweder den Rot- oder den Blaufilter, um den Effekt der chromatischen Abberation auszuschalten. Mit welcher Signifikanz können Sie den Effekt nachweisen?
 
 # Navigation
 
-Zurück | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische%20Optik)
+[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/Hinweise-Aufgabe-1.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische%20Optik)
 

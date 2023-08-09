@@ -14,6 +14,8 @@ Zueinander parallele und senkrecht zu $H$ einfallende Lichtstrahlen kreuzen sich
 
 **Skizze 1** (Definition von Brenn-, Bild- und Gegenstandsweite)
 
+---
+
 Wir verwenden $G$ ($B$) sowohl für den Gegenstand (das Bild) selbst, als auch für dessen Größe. Der Abstand von $G$ zu $H$ heißt [Gegenstandsweite](https://de.wikipedia.org/wiki/Gegenstandsweite) $g$, der Abstand von $B$ zu $H$ [Bildweite](https://de.wikipedia.org/wiki/Bildweite) $b$. Das Verhältnis 
 
 ```math
@@ -25,13 +27,13 @@ Wir verwenden $G$ ($B$) sowohl für den Gegenstand (das Bild) selbst, als auch f
 wird als [Abbildungsmaßstab](https://de.wikipedia.org/wiki/Abbildungsma%C3%9Fstab) bezeichnet. Die Beziehung zwischen $b$, $g$ und $f$ für ein scharfes Bild ist durch die [Linsengleichung](https://de.wikipedia.org/wiki/Linsengleichung) (oder Abbildungsgleichung)  
 
 ```math
-\begin{equation}
+\begin{equation*}
 \frac{1}{f} = \frac{1}{g} + \frac{1}{b}
-\end{equation}
+\end{equation*}
 ```
 
 gegeben.  In der obigen Skizze wird der (reelle) Gegenstand $G$ in ein umgekehrtes [reelles Bild](https://de.wikipedia.org/wiki/Reelles_Bild) $B$ abgebildet. Da der Strahlengang umkehrbar ist, wird $B$ als reelles Bild wiederum in $G$ zurück abgebildet.
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische%20Optik) | Weiter
+[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische%20Optik) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/Hinweise-Aufgabe-1-a.md)
