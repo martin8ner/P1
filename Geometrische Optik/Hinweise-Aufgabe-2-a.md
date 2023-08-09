@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 2: Vermessung eines Zweilinsensystems (2/4)
+## Aufgabe 2: Vermessung eines Zweilinsensystems (2/5)
 
 ### Bestimmung von $H_{1}$, $H_{2}$ und $f$
 

@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 2: Vermessung eines Zweilinsensystems (1/4)
+## Aufgabe 2: Vermessung eines Zweilinsensystems (1/5)
 
 ### Strahlengang eines Zweilinsensystems
 
