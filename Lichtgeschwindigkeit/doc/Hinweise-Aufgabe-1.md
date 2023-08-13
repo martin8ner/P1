@@ -76,3 +76,6 @@ Mit den vorgegebenen Werten von $a$, $b$, $f$ und der Position des Drehspiegels 
 - Überlegen Sie welche äußeren Parameter Sie für die Bestimmung von $c$ noch kontrollieren müssen und wie gut dies der Fall ist.
 - Geben Sie Ihr Ergebnis aus der Anpassung mit statistischen und systematischen Unsicherheiten an. 
 
+# Navigation
+
+[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Lichtgeschwindigkeit)

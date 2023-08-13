@@ -12,8 +12,6 @@ Versuch P1-43, 44, 45 (Stand: November 2022)
 
 # Lichtgeschwindigkeit
 
-
-
 ## Motivation
 
 Die erste Person, die auf die Endlichkeit der Lichtgeschwindigkeit $c$ hinwies, war der dänische Astronom [Ole Rømer](https://de.wikipedia.org/wiki/Ole_R%C3%B8mer), der 1676 die Umlaufzeit des Jupytermondes [Io](https://de.wikipedia.org/wiki/Liste_der_Jupitermonde) vermaß. Abhängig von der Jahreszeit, in der er seine Beobachtungen machte stellte Rømer systematische Unterschiede in der Periode von Io fest, was er damit erklärte, dass die Ausbreitung des Lichtes nicht augenblicklich erfolgen kann. Rømers Messung der Lichtgeschwindigkeit wurde erst akzeptiert, als sie 1729 von [James Bradley](https://de.wikipedia.org/wiki/James_Bradley) bestätigt wurde. Im 19. Jahrhundert, führten Albert Michelson und Edward Morley das berühmte [Michelson-Morley-Experiment](https://de.wikipedia.org/wiki/Michelson-Morley-Experiment) durch. Ziel dieses Versuchs war der Nachweis der Existenz des [Äthers](https://de.wikipedia.org/wiki/Äther_(Physik)), eines postulierten Mediums in dem sich Lichtwellen ausbreiten, und dass den gesamten Raum gleichmäßig ausfüllt. **Dieser Versuch schlug fehl!** Stattdessen führte er zum Schluss, dass die Geschwindigkeit mit der sich das Licht im Vakuum ausbreitet fest und unveränderlich sein muss. 
@@ -24,16 +22,16 @@ Heute sind wir in der Lage die astronomischen Laborsysteme der Vergangenheit in 
 
 Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem Versuch **Lichtgeschwindigkeit** vermitteln möchten: 
 
-- Sie lernen zwei raffinierte, experimentelle Techniken zur Bestimmung einer schwierig zu messenden Größe kennen. 
+- Sie lernen zwei interessante, experimentelle Techniken zur Bestimmung einer schwierig zu messenden Größe kennen. 
 - Um sich auf die Versuche vorzubereiten leiten Sie alle nötigen Zusammenhänge her und vergegenwärtigen sich die Größenordnung der zu messenden Effekte.
 - Sie lernen feste Phasenbeziehungen aus der Wellenmechanik als wichtiges Werkzeug zur Messung kurzer Zeitdifferenzen kennen und wenden es in einem leicht abgewandelten Zusammenhang zur Messung des Brechungsindex optisch dichter Medien an. 
 - Sie wenden das Erlernte an, um den Brechungsindex optische dichter Medien mit handelsüblichen Gebrauchsgegenständen zu bestimmen.  
 
 ## Versuchsaufbau
 
-Der Versuch umfasst zwei unterschiedliche Aufbauten zur Messung der Lichtgeschwindigkeit. Im Folgenden sind die wichtigsten Informationen der verwendeten Aufbauten kurz zusammengefasst. Für ihre Auswertung wichtige technische Details finden Sie in der Datei Datenblatt.md. Die angegebenen Größen sind zudem in [*python*](https://www.python.org/)-Modulen im Verzeichnis [*params*](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Lichtgeschwindigkeit/params) auf dem SCC Gitlab Server hinterlegt. 
+Der Versuch umfasst zwei unterschiedliche Aufbauten zur Messung der Lichtgeschwindigkeit. Im Folgenden sind die wichtigsten Informationen der verwendeten Aufbauten zusammengefasst. Für ihre Auswertung wichtige technische Details finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Datenblatt.md). Die angegebenen Größen sind zudem in [*python*](https://www.python.org/)-Modulen im Verzeichnis [*params*](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Lichtgeschwindigkeit/params) auf dem SCC Gitlab Server hinterlegt. 
 
-### Drehspiegelmethode
+### Messung von $c$ (in Luft) mit Hilfe der Drehspiegelmethode
 
 <img src="./figures/Drehspiegelmethode.png" width="900" style="zoom:100%;" />
 
@@ -44,7 +42,7 @@ Das Licht eines Lasers wird auf einen Drehspiegel gerichtet und von dort auf ein
 - Die Strahlung des verwendeten Lasers der [Klasse 2](https://de.wikipedia.org/wiki/Laser#Laserklassen) ist **gefährlich für Ihre Augen!** Sie sind daher angehalten während des Versuchs eine der ausgelegten Laserschutzbrillen tragen. Beachten Sie unsere [Hinweise zum sicheren Umgang mit Lasern](https://labs.physik.kit.edu/163.php?tab=%5B313%5D#tabpanel-313).
 - Diese Messung führen Sie, als **Demonstrationsversuch**, mit Ihren Kommiliton:innen und Ihrem:r Tutor:in gemeinsam durch. 
 
-### Phasenvergleichsmethode
+### Messung von $c$ (in Luft) mit Hilfe einer Phasenvergleichsmethode
 
 <img src="./figures/Phasenvergleichsmethode.png" width="900" style="zoom:100%;" />
 
@@ -52,7 +50,7 @@ Diese Methode zur Messung der Lichtgeschwindigkeit basiert auf der Messung der P
 
 # Navigation
 
-- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Hinweise-Aufgabe-1.md).
-- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Hinweise-Aufgabe-2.md).
-- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Hinweise-Aufgabe-3.md).
-- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Datenblatt.md).  
+- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/doc/Hinweise-Aufgabe-1.md).
+- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/doc/Hinweise-Aufgabe-2.md).
+- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/doc/Hinweise-Aufgabe-3.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Datenblatt.md). 

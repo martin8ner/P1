@@ -59,3 +59,7 @@ wobei $\ell$ die unverfälschte Anzeige ohne und $\ell'$ die verfälschte Anzeig
   ```
 
   wenn $N$ die Länge Ihrer Stichprobe ist.
+
+# Navigation
+
+[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Lichtgeschwindigkeit)
