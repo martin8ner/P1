@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 3: Aufbau einfacher optischer Geräte (2/5)
+## Aufgabe 3: Aufbau einfacher optischer Geräte (2/3)
 
 ### Strahlengang eines Mikroskops
 
@@ -18,13 +18,13 @@ $$
 \beta=\frac{B}{f_{2}}
 \end{equation*}
 $$
-  Der Winkel $\alpha$ berechnet sich aus dem Quotienten aus $G$ und der Bezugssehweite
+Der Winkel $\alpha$ berechnet sich aus dem Quotienten aus $G$ und der Bezugssehweite
 $$
 \begin{equation*}
 \alpha=\frac{G}{s}.
 \end{equation*}
 $$
- Um die einzige Unbekannte $G$ aus dem Verhältnis aus $\beta$ und $\alpha$ zu eliminieren verwenden wir die Linsengleichung
+Um die einzige Unbekannte $G$ aus dem Verhältnis aus $\beta$ und $\alpha$ zu eliminieren verwenden wir die Linsengleichung
 $$
 \begin{equation*}
 \begin{split}
@@ -40,6 +40,10 @@ $$
 Der Abstand der Brennpunkte der beiden Linsen $d-f_{1}-f_{2}$ wird als *optische Tubuslänge* bezeichnet. 
 
 Es erscheint vorteilhaft $f_{1}$ oder $f_{2}$ möglichst klein zu wählen. Dies trifft zu solange die gewählten Brennweiten groß gegen die Wellenlänge des verwendeten Lichts sind, da sonst Beugungseffekte zu berücksichtigen sind.
+
+### Hinweise zur Durchführung
+
+# Navigation
 
  [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische%20Optik) | [Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/Hinweise-Aufgabe-3-a.md) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/Hinweise-Aufgabe-3-c.md)
 

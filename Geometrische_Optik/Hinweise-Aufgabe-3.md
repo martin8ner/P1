@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 3: Aufbau einfacher optischer Geräte (1/5)
+## Aufgabe 3: Aufbau einfacher optischer Geräte (1/3)
 
 ### Grundbegriffe zum Umgang mit optischen Geräten
 
@@ -36,7 +36,7 @@ $$
 \beta=\frac{B}{f_{2}}
 \end{equation*}
 $$
-  ab. Der Abstand beider Linsen beträgt
+ab. Der Abstand beider Linsen beträgt
 $$
 \begin{equation*}
 d=f_{1}+f_{2}.
@@ -56,7 +56,11 @@ $$
 d = f_{1} - f_{2},
 \end{equation*}
 $$
-  das Gallilei-Fernrohr ist also etwas kompakter in der Bauweise und das Bild im Auge erscheint nicht auf dem Kopf stehend. 
+das Gallilei-Fernrohr ist also etwas kompakter in der Bauweise und das Bild im Auge erscheint nicht auf dem Kopf stehend. 
+
+### Hinweise zur Durchführung
+
+# Navigation
 
  [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische%20Optik) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/Hinweise-Aufgabe-3-a.md)
 
