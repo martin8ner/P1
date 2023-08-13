@@ -10,7 +10,7 @@ Eines der wichtigsten optischen Systeme ist die **dünne [Sammellinse](https://d
 
 Zueinander parallele und senkrecht zu $H$ einfallende Lichtstrahlen kreuzen sich im Brennpunkt der Linse (auch [Fokus](https://de.wikipedia.org/wiki/Fokus) genannt). Die Ebene senkrecht zur optischen Achse im Brennpunkt heißt Bennebene. Als [Brennweite](https://de.wikipedia.org/wiki/Brennweite) $f$ bezeichnet man den Abstand zwischen Brennpunkt und $H$. Eine Linse bildet einen Gegenstand $G$ (in der Gegenstandsebene) in ein Bild $B$ (in der Bildebene) ab, wie in **Skizze 1** dargestellt: 
 
-<img src="./figures/Linsengleichung.png" width="900" style="zoom:100%;" />
+<img src="../figures/Linsengleichung.png" width="900" style="zoom:100%;" />
 
 **Skizze 1** (Definition von ($f$) Brenn-, ($b$) Bild- und ($g$) Gegenstandsweite)
 
@@ -36,4 +36,4 @@ gegeben.  In der **Skizze 1** wird der (reelle) Gegenstand $G$ in ein umgekehrte
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische%20Optik) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/Hinweise-Aufgabe-1-a.md)
+[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische%20Optik) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-1-a.md)
