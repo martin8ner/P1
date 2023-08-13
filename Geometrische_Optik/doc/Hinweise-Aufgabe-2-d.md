@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 2: Vermessung eines Zweilinsensystems (5/5)
+## Aufgabe 2: Vermessung eines Zweilinsensystems $L$ (5/5)
 
 ### Hinweise zur Durchführung
 
@@ -19,8 +19,8 @@
 
 - Geben Sie die Korrelationskoeffizienten zwischen $f$, $h_{x}$ und $h_{x}'$ als Ergebnisse der Anpassung mit an. Tun Sie dies auch, wenn Sie das Modell zur Bestimmung von $f$, $f_{1}$ und $f_{2}$ verwenden.  
 
-- Zur Bestimmung von $f$ aus (Gleichung (1) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/Hinweise-Aufgabe-2.md)) setzen Sie $f$, $f_{1}$ und $f_{2}$ aus der vorherigen Anpassung als Startwerte. Gegebenenfalls können $f$ außerdem auf den zuvor ermittelten Wert fixieren. Die Variation von $f$ sollten Sie in diesem Fall, ebenso wie die Variation von $d$, innerhalb der zuvor bestimmten Grenzen, als systematische Variation quantifizieren. 
+- Zur Bestimmung von $f$ aus (Gleichung (1) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2.md)) setzen Sie $f$, $f_{1}$ und $f_{2}$ aus der vorherigen Anpassung als Startwerte. Gegebenenfalls können $f$ außerdem auf den zuvor ermittelten Wert fixieren. Die Variation von $f$ sollten Sie in diesem Fall, ebenso wie die Variation von $d$, innerhalb der zuvor bestimmten Grenzen, als systematische Variation quantifizieren. 
 
 # Navigation
 
-[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/Hinweise-Aufgabe-2-c.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische%20Optik) 
+[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-c.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische_Optik) 

@@ -27,9 +27,9 @@ Wir verwenden $G$ ($B$) sowohl für den Gegenstand (das Bild) selbst, als auch f
 wird als [Abbildungsmaßstab](https://de.wikipedia.org/wiki/Abbildungsma%C3%9Fstab) bezeichnet. Die Beziehung zwischen $b$, $g$ und $f$ für ein scharfes Bild ist durch die [Linsengleichung](https://de.wikipedia.org/wiki/Linsengleichung) (oder Abbildungsgleichung)  
 
 ```math
-\begin{equation*}
+\begin{equation}
 \frac{1}{f} = \frac{1}{g} + \frac{1}{b}
-\end{equation*}
+\end{equation}
 ```
 
 gegeben.  In der **Skizze 1** wird der (reelle) Gegenstand $G$ in ein umgekehrtes [reelles Bild](https://de.wikipedia.org/wiki/Reelles_Bild) $B$ abgebildet. Da der Strahlengang umkehrbar ist, wird $B$, durch Reflexion, als reelles Bild auch in $G$ zurück abgebildet.

@@ -1,14 +1,14 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 2: Vermessung eines Zweilinsensystems (1/5)
+## Aufgabe 2: Vermessung eines Zweilinsensystems $L$ (1/5)
 
 ### Strahlengang eines Zweilinsensystems
 
 Mit Hilfe des in **Skizze 3** eingezeichneten Strahlengangs kann ein System aus zwei Linsen $L_{1}$ und $L_{2}$ (mit den Brennweiten $f_{1}$ und $f_{2}$) wie eine einzige dicke Linse $L$ mit den Hauptebenen $H_{1}$ und $H_{2}$ und der Brennweite $f$ behandelt werden. Alle für die weitere Diskussion relevanten Variablenbezeichnungen können **Skizze 3** entnommen werden.
 
-<img src="./figures/AbbeVerfahren.png" width="900" style="zoom:100%;" />
+<img src="../figures/AbbeVerfahren.png" width="900" style="zoom:100%;" />
 
-**Skizze 3** (Strahlengang eines Zweilinsensystems)
+**Skizze 3** (Strahlengang eines Zweilinsensystems $L$)
 
 ---
 
@@ -22,7 +22,7 @@ Für $f$ gilt die Formel von [Allvar Gullstrand](https://de.wikipedia.org/wiki/A
 
 wobei $d$ der Abstand zwischen $L_{1}$ und $L_{2}$ (gemessen von den jeweiligen Scheiteln von $L_{1}$ und $L_{2}$) ist. 
 
-Die Konstruktion erfolgt dabei wie folgt: 
+Die Konstruktion erfolgt dabei wie folgt (Angaben in **Skizze 3**): 
 
 - Strahl 1 verläuft, parallel zur optischen Achse, von $G$ bis $H_{1}$ (obere durchgezogene Linie, links).
 
@@ -56,5 +56,5 @@ Für diesen Versuch sind $f_{1}$ und $f_{2}$ und damit auch die Lagen von $H_{1}
 
 # Navigation
 
- [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische%20Optik) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische%20Optik/Hinweise-Aufgabe-2-a.md)
+ [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische_Optik) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-2-a.md)
 
