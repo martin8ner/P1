@@ -33,13 +33,13 @@ Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem
 
 Der Versuch umfasst zwei optische Bänke und eine Reihe optischer Bauelemente. Im Folgenden sind die verwendeten Aufbauten kurz beschrieben. Eine Auflistung der für ihre Auswertung wichtigen Bauelemente und deren Eigenschaften finden Sie in der Datei Datenblatt.md.
 
-### Bestimmung der Brennweite einer einzelnen Linse
+### Bestimmung der Brennweite $f$ einer einzelnen Linse
 
 <img src="./figures/OptischeBank.png" width="900" style="zoom:100%;" />
 
 Auf der großen Führungsschiene (von etwa $2\,\mathrm{m}$ Länge) lassen sich zwischen einer Lichtquelle und einem Schirm $S$ optische Bauelemente in verschiedenen Abständen montieren. Für das Bessel-Verfahren bewegen Sie, zur Bestimmung der Brennweite $f$ einer zu untersuchenden Linse, die Linse zwischen einem ausgeleuchteten Diapositiv (als Gegenstand $G$) und $S$ auf der Schiene hin und her, bis in zwei ausgezeichneten Positionen auf $S$ ein scharfes Bild $B$ entsteht. Aus dem Abstand $e$ dieser beiden Punkte und dem Abstand zwischen $G$ und $B$ lässt sich $f$ bestimmen. 
 
-### Vermessung eines Zweilinsensystems
+### Vermessung eines Zweilinsensystems $L$
 
 <img src="./figures/AbbeAufbau.png" width="900" style="zoom:100%;" />
 
@@ -47,7 +47,7 @@ In diesem Versuchsteil vermessen Sie ein in ein Messingrohr integriertes Zweilin
 
 Mit Hilfe des Abbe-Verfahrens sollen Sie die Lagen von $H_{1}$ und $H_{2}$ relativ zu einem Bezugspunkt $X$ auf dem Messingrohr, $f$ und die Brennweiten $f_{1}$ und $f_{2}$ der im Messingrohr verbauten Linsen bestimmen. Dazu montieren Sie ein Diapositiv ($G$), $L$ und $S$ (mit Milimeterpapier) auf der großen Führungsschiene, verändern schrittweise den Abstand von $G$ zu $X$, justieren $S$ jeweils nach, so dass ein scharfes Bild $B$ entsteht und bestimmen den Abbildungsmaßstab $\beta$. Durch einen geschickten Messvorgang lässt sich $L$ auf diese Weise vollständig vermessen.  
 
-### Aufbau einfacher optischer Geräte
+### Aufbau optischer Instrumente
 
 <img src="./figures/IMG_7184.jpg" width="900" style="zoom:100%;" />
 
@@ -60,7 +60,7 @@ Für diesen Versuchsteil können Sie auf einer kleinen optischen Bank ein [Mikro
 
 # Navigation
 
-- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Hinweise-Aufgabe-1.md).
-- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Hinweise-Aufgabe-2.md).
-- Wichtige Hinweise zur Vorbereitung und  Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Hinweise-Aufgabe-3.md).
-- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/Datenblatt.md).  
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-1.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc//Hinweise-Aufgabe-2.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-3.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/Datenblatt.md).  
