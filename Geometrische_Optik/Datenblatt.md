@@ -19,7 +19,7 @@ Für den Versuch stehen Ihnen die folgenden optischen Gerätschaften zur Verfüg
 
 # Literaturwerte:
 
-Die angegebenen Werte befinden sich auch in der Datei [parameters_Literatur.py](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Lichtgeschwindigkeit/params/parameters_Literatur.py)
+Die angegebenen Werte befinden sich auch in der Datei [parameters_Literatur.py](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/params/parameters_Literatur.py)
 
 Für das Zweilinsensystem betragen die Brennweiten der einzelnen Linsen:<br>$f_{1}=10\,\mathrm{cm}$ <br>$f_{2}=20\,\mathrm{cm}$ 
 
