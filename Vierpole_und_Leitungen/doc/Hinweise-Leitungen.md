@@ -91,9 +91,55 @@ $$
 &\\
 &\frac{\partial I}{\partial z}(z) = -G'\,U(z) - C'\frac{\partial U}{\partial t}(z)
 \end{split}
+\label{eq:Leitungsgleichungen}
 \end{equation}
 $$
 Es handelt sich dabei um zwei gekoppelte partielle Differentialgleichungen erster Ordnung. Gekoppelt, weil in der Differentialgleichung zur Bestimmung der Spannung $U$ die Stromstärke $I$ vorkommt und umgekehrt.  
+
+### Harmonischer Zeitverlauf
+
+Wir lösen die Gleichungen ($\ref{eq:Leitungsgleichungen}$) für einen harmonischen Zeitverlauf, wir machen also z.B. den folgenden Ansatz für $U(z)$:
+$$
+\begin{equation*}
+U(z, t) = U(z)\,e^{-i\,\omega\,t}
+\end{equation*}
+$$
+Daraus ergibt sich: 
+$$
+\begin{equation}
+\begin{split}
+&\frac{\mathrm{d} U}{\mathrm{d} z}(z) = -\left(R' + i\,\omega\,L'\right)\,I(z) \\
+&\\
+&\frac{\mathrm{d} I}{\mathrm{d} z}(z) = -\left(G' + i\,\omega\,C'\right)\,U(z).
+\end{split}
+\label{eq:Leitungsgleichungen_harm}
+\end{equation}
+$$
+Durch Differentiation der oberen Gleichung aus den Gleichungen ($\ref{eq:Leitungsgleichungen_harm}$) und einsetzen der unteren Gleichung lässt sich das Gleichungssystem entkoppeln und man erhält eine harmonische Schwingungsgleichung der Form: 
+$$
+\begin{equation*}
+\begin{split}
+&\frac{\mathrm{d}^{2}U}{\mathrm{d}z^{2}} = -\left(R' + i\,\omega\,L'\right)\,\frac{\mathrm{d}I}{\mathrm{d}z} \\
+&\hphantom{\frac{\mathrm{d}^{2}U}{\mathrm{d}z^{2}}} = \hphantom{-}\underbrace{\left(R' + i\,\omega\,L'\right)\,\left(G' + i\,\omega\,C'\right)}\,U(z). \\
+&\hspace{4.5cm}\equiv\rho \\
+\end{split}
+\end{equation*}
+$$
+Die für die Ausbreitung einer harmonischen Signals in einer Leitung relevanten Größen
+$$
+\begin{equation}
+\begin{split}
+&\rho = \alpha + i\beta = \left(R' + i\,\omega\,L'\right)\,\left(G' + i\,\omega\,C'\right)\\
+&\\
+&\rho\quad:\text{ Ausbreitungskonstante}\\
+&\alpha\quad:\text{ D\"ampfungskonstante}\\
+&\beta\quad:\text{ Phasenkonstante}\\
+\end{split}
+\end{equation}
+$$
+werden als **sekundäre Leitungsparameter** bezeichnet. Die Dämpfungskonstante beschreibt die Dämpfung des Signals in Ausbreitungsrichtung; die Phasenkonstante die Phasenverschiebung des Signals in Ausbreitungsrichtung. 
+
+
 
 # Navigation
 
