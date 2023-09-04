@@ -98,7 +98,7 @@ Es handelt sich dabei um zwei gekoppelte partielle Differentialgleichungen erste
 
 ### Harmonischer Zeitverlauf
 
-Wir lösen die Gleichungen ($\ref{eq:Leitungsgleichungen}$) für einen harmonischen Zeitverlauf, wir machen also z.B. den folgenden Ansatz für $U(z)$:
+Wir lösen die Gleichungen (**1**) für einen harmonischen Zeitverlauf, wir machen also z.B. den folgenden Ansatz für $U(z)$:
 $$
 \begin{equation*}
 U(z, t) = U(z)\,e^{-i\,\omega\,t}
@@ -115,15 +115,15 @@ $$
 \label{eq:Leitungsgleichungen_harm}
 \end{equation}
 $$
-Durch Differentiation der oberen Gleichung aus den Gleichungen ($\ref{eq:Leitungsgleichungen_harm}$) und einsetzen der unteren Gleichung lässt sich das Gleichungssystem entkoppeln und man erhält eine harmonische Schwingungsgleichung der Form: 
+Durch Differentiation der oberen Gleichung aus den Gleichungen (**2**) und einsetzen der unteren Gleichung lässt sich das Gleichungssystem entkoppeln und man erhält eine harmonische Schwingungsgleichung der Form: 
 $$
-\begin{equation*}
+\begin{equation}
 \begin{split}
 &\frac{\mathrm{d}^{2}U}{\mathrm{d}z^{2}} = -\left(R' + i\,\omega\,L'\right)\,\frac{\mathrm{d}I}{\mathrm{d}z} \\
 &\hphantom{\frac{\mathrm{d}^{2}U}{\mathrm{d}z^{2}}} = \hphantom{-}\underbrace{\left(R' + i\,\omega\,L'\right)\,\left(G' + i\,\omega\,C'\right)}\,U(z). \\
-&\hspace{4.5cm}\equiv\rho \\
+&\hphantom{\frac{\mathrm{d}^{2}U}{\mathrm{d}z^{2}} = -\left(R' + i\,\omega\,\right)}\equiv\rho \\
 \end{split}
-\end{equation*}
+\end{equation}
 $$
 Die für die Ausbreitung einer harmonischen Signals in einer Leitung relevanten Größen
 $$
@@ -139,7 +139,16 @@ $$
 $$
 werden als **sekundäre Leitungsparameter** bezeichnet. Die Dämpfungskonstante beschreibt die Dämpfung des Signals in Ausbreitungsrichtung; die Phasenkonstante die Phasenverschiebung des Signals in Ausbreitungsrichtung. 
 
-
+Die allgemeine Lösung von Gleichung (**3**) lautet: 
+$$
+\begin{equation*}
+\begin{split}
+&U(z) = \underbrace{U_{1}\,e^{-\gamma\,z}} + \underbrace{U_{1}\,e^{-\gamma\,z}}.\\
+&\hphantom{U(z) = U}\equiv U_{\mathrm{H}} \hphantom{+ U}\equiv U_{\mathrm{R}}\\
+\end{split}
+\end{equation*}
+$$
+Dabei identifizieren wir $U_{\mathrm{H}}$ mit einer Spannungswelle vom Sender zum Empfänger und $U_{\mathrm{R}}$ mit einer Spannungswelle vom Empfänger zurück zum Sender. 
 
 # Navigation
 
