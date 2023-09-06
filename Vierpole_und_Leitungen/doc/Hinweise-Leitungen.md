@@ -157,13 +157,13 @@ $$
 $$
 in die obere Gleichung des Gleichungssystems (**2**):
 $$
-\begin{equation*}
+\begin{equation}
 \begin{split}
 &I(z) = \sqrt{\frac{G'+i\,\omega\,C'}{R'+i\,\omega\,L'}}\,\left(U_{1}\,e^{-\gamma\,z}-U_{2}\,e^{\gamma\,z}\right)\equiv\frac{U_{1}\,e^{-\gamma\,z}-U_{2}\,e^{\gamma\,z}}{Z_{0}}\\
 &\\
 &Z_{0} \equiv \sqrt{\frac{R'+i\,\omega\,L'}{G'+i\,\omega\,C'}} \qquad(\text{Leitungswellenwiderstand}),
 \end{split}
-\end{equation*}
+\end{equation}
 $$
 wobei $Z_{0}$ (in der Einheit $\Omega$) den **[Leitungswellenwiderstand](https://de.wikipedia.org/wiki/Wellenwiderstand#Strom-_und_Spannungswellen_auf_Leitungen)** bezeichnet. Dieser hängt nicht von der Länge der Leitung, im allgemeinen aber von der Frequenz $\omega$ des übertragenen Signals ab. In der Messtechnik beträgt $Z_{0}$ bei den Frequenzen des verwendeten Trägersignals $50\,\Omega$, in der Fernsehtechnik $75\,\Omega$. Für den Spezialfall der verlustlosen Leitung ist 
 $$
@@ -171,9 +171,9 @@ $$
 Z_{0} = \sqrt{\frac{L'}{C'}}
 \end{equation*}
 $$
-reellwertig und frequenzunabhängig.
+reellwertig und zunächst frequenzunabhängig. Es besteht jedoch im Allgemeinen eine weitere Frquenzabhängigkeit durch die Lösung der Zeitabhängigkeit (als erzwungene Schwingung). 
 
-Die Ausbreitungskonstante und den Leitungswellenwiderstand werden auch als **sekundäre Leitungsparameter** bezeichnet.
+Die Ausbreitungskonstante und der Leitungswellenwiderstand werden auch als **sekundäre Leitungsparameter** bezeichnet.
 
 # Navigation
 
