@@ -1,18 +1,18 @@
 # Hinweise für den Versuch Vierpole und Leitungen
 
-## Einordnung und Leitungsgleichungen
+## Aufgabe 3: Drosselkette
 
 ### Das $\pi$-Glied
 
-Im folgenden betrachten wir einen idealen Vierpol, ohne ohmsche Widerstände, für den wir die Leitungskapazität ($C$) symmetrsich rechts und links von der Leitungsimpedanz ($L$), wie in **Skizze 4** dargestellt, aufteilen: 
+Zur Diskussion der idealen Drosselkette betrachten wir einen idealen Vierpol (ohne ohmsche Widerstände) für den die Leitungskapazität ($C$) symmetrsich rechts und links von der Leitungsimpedanz ($L$) aufgeteilt vorliegt, wie in **Skizze 4** dargestellt: 
 
 <img src="../figures/PiGlied.png" width="900" style="zoom:100%;" />
 
-**Skizze 4** (Schaltbild eines idealen Vierpols mit symmetrisch aufgeteilter Kapazität ($C$) rechts und links der Lastimpedanz ($L$) ($\pi$-Glied))
+**Skizze 4** (Schaltbild eines idealen Vierpols mit symmetrisch aufgeteilter Kapazität ($C$) rechts und links der Leitungsimpedanz ($L$) ($\pi$-Glied))
 
 ---
 
-Das rechte Ende der Leitung wird mit einer Lastimpedanz $Z_{\mathrm{A}}=U_{1}/I_{1}$ kurzgeschlossen. Für die Impedanzen der Leitung gilt in diesem Fall: 
+Das rechte Ende der Leitung wird bei der Versuchsdurchführung mit der Lastimpedanz $Z_{\mathrm{A}}=U_{1}/I_{1}$ kurzgeschlossen. Für die Impedanzen der Leitung gilt in diesem Fall: 
 $$
 \begin{equation}
 \begin{split}
@@ -39,7 +39,7 @@ $$
 U_{0} = Z_{\mathrm{L}}\,I_{\mathrm{L}}+U_{1} 
 \end{equation*}
 $$
-(aus der Schleife um $Z_{\mathrm{A}}$). Durch Einsetzen lässt sich damit der Zusammenhang zwischen dem Eingangssignal ($U_{0}$ und $I_{0}$) und dem Ausgangsignal ($U_{1}$ und $I_{1}$) herstellen: 
+(aus der Schleife um $Z_{\mathrm{A}}$). Durch Einsetzen lässt sich hieraus der Zusammenhang zwischen dem Eingangssignal ($U_{0}$, $I_{0}$) und dem Ausgangsignal ($U_{1}$, $I_{1}$) herstellen: 
 $$
 \begin{equation}
 \begin{split}
@@ -53,13 +53,21 @@ I_{0} &= \left(\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}+1\right)I_{\mathrm{L}} + \f
 \end{split}
 \end{equation}
 $$
-Die Impedanz $Z_{\mathrm{E}}$ am Signaleingang hängt also von der Lastimpedanz $Z_{\mathrm{A}}$ am Signalausgang ab. Greift man das Ausgangssignal mit einer **charakteristischen Impedanz**
+Die Impedanz $Z_{\mathrm{E}}$ am Signaleingang hängt von der Lastimpedanz $Z_{\mathrm{A}}$ am Signalausgang ab. Greift man das Ausgangssignal mit der für den in **Skizze 4** dargestellten Vierpol **charakteristischen Impedanz**
 $$
 \begin{equation}
 Z_{0}=\frac{\sqrt{\frac{L}{C}}}{\sqrt{1-\left(\frac{\omega}{\omega_{0}}\right)^{2}}} \qquad \text{mit:}\quad\omega_{0}=\frac{2}{\sqrt{L\,C}}
 \end{equation}
 $$
-ab, die dem **Wellenwiderstand** der Vierpolschaltung entspricht gilt $Z_{\mathrm{E}}=Z_{\mathrm{A}}=Z_{0}$, d.h. Eingangs- und Ausgangsimpedanz nehmen den gleichen Wert, nämlich den des Wellenwiderstands an. 
+ab, gilt $Z_{\mathrm{E}}=Z_{\mathrm{A}}=Z_{0}$, d.h. die Eingangs- und Ausgangsimpedanzen nehmen den gleichen Wert $Z_{0}$ an. Bei $Z_{0}$ handelt es sich um den **Wellenwiderstand** der Vierpolschaltung.
+
+Der Zähler in der Gleichung für $Z_{0}$ leitet sich, für den Spezialfall $R=G=0$, aus Gleichung (**4**) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md) ab. Der Nenner ergibt sich aus der Zeitabhängigkeit eines harmonischen Eingangssignals. Die in **Skizze 4** dargestellte Schaltung zeigt ein $LC$-Glied mit der Induktivität $L$ und zwei in Reihe geschalteten Kapazitäten $C/2$. Für die in Reihe geschalteten Kondensatoren ergibt sich die Gesamtkapazität $C_{\mathrm{}ges}=C/4$, woraus sich der Faktor $2$ in der Definition von $\omega_{0}$ erklärt. Bei $\omega_{0}$ handelt es sich um die Resonanzfrequenz des $LC$-Schwingkreises. Der Faktor 
+$$
+\begin{equation*}
+\frac{1}{\sqrt{1-\left(\frac{\omega}{\omega_{0}}\right)^{2}}}
+\end{equation*}
+$$
+ergibt sich aus der Lösung des Randwertproblems einer erzwungen Schwingung mit der Frequenz $\omega$ nach der Einschwingphase.  
 
 Unter Verwendung von $Z_{0}$ lassen sich die Gleichungen (**2**) wie folgt umformen: 
 $$
@@ -73,7 +81,7 @@ I_{0} &=\frac{Z_{\mathrm{L}}}{Z_{0}^{2}}\,U_{1} + \left(\frac{Z_{\mathrm{L}}}{Z_
 \end{split}
 \end{equation}
 $$
-Hierzu bietet es sich an $Z_{0}$ zunächst, unter Verwendung der Gleichungen (**1**), nach $Z_{\mathrm{L}}$ und $Z_{\mathrm{C}}$ auszudrücken:
+Um diesen Schritt nachzuvollziehen bietet es sich an $Z_{0}$ zunächst, unter Verwendung der Gleichungen (**1**), nach $Z_{\mathrm{L}}$ und $Z_{\mathrm{C}}$ auszudrücken:
 $$
 \begin{equation*}
 \begin{split}
@@ -81,7 +89,7 @@ $$
 \end{split}
 \end{equation*}
 $$
-In Matrixschreibweise gehen die Gleichungen (**5**) in die folgende Form 
+In Matrixschreibweise gehen die Gleichungen (**4**) in die folgende Form 
 $$
 \begin{equation}
 \begin{split}
@@ -126,11 +134,11 @@ $$
 \left(\begin{array}{cc}\vphantom{\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}-1 & \hphantom{-}0 \\ \hphantom{-}0 & -1\end{array}\right),
 \end{equation*}
 $$
-an, die Ausgangsgrößen weisen gegenüber den Eingangsgrößen also eine Phasenverschiebung um $\pi$ auf, welshalb die hier betrachtete Schaltung auch als $\pi$-Glied bezeichnet wird.  
+an, das Ausgangssignal weist gegenüber dem Eingangssignal also eine Phasenverschiebung um $\pi$ auf, welshalb die hier betrachtete Schaltung auch als $\pi$-Glied bezeichnet wird.  
 
 ### Ideale Drosselkette
 
-Der Übergang vom Vierpol zur (idealen) Drosselkette erfolgt durch $n$-facher Hintereinanderschaltung von $\pi$-Gliedern, wie in **Skizze 5** dargestellt: 
+Der Übergang vom Vierpol zur (idealen) Drosselkette erfolgt durch $n$-fache Hintereinanderschaltung von $\pi$-Gliedern, wie in **Skizze 5** dargestellt: 
 
 <img src="../figures/Drosselkette.png" width="900" style="zoom:100%;" />
 
@@ -176,12 +184,63 @@ $$
 \begin{split}
 &U_{0}(t) = \hat{U}_{0}e^{i\,\omega t};\\
 &\\
-&U_{n}(t) = \hat{U}_{0}e^{-n\alpha}e^{i\,\left(\omega t-n\beta\right)}\\
+&U_{n}(t) = \hat{U}_{0}e^{-n\alpha}e^{i\,\left(\omega t-n\beta\right)},\\
 \end{split}
 \end{equation*}
 $$
-$n\alpha$ ist also als **Dämpfungskonstante** und $n\beta$ als **Phasenkonstante** der Drosselkette aus $n$ $\pi$-Giedern zu erkennen. 
+$n\alpha$ kann also als **Dämpfungs-** und $n\beta$ als **Phasenkonstante** der Drosselkette aus $n$ $\pi$-Giedern abgelesen werden. 
+
+### Leitungseigenschaften der idealen Drosselkette
+
+Aus der Substitution
+$$
+\begin{equation*}
+\cosh\gamma = \frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}+1
+\end{equation*}
+$$
+ folgt
+$$
+\begin{equation*}
+\sinh\frac{\gamma}{2} = \sqrt{\frac{Z_{\mathrm{L}}}{2\,Z_{\mathrm{C}}}} = \sqrt{-\left(\frac{\omega}{\omega_{0}}\right)^{2}} = i\frac{\omega}{\omega_{0}}
+\end{equation*}
+$$
+Andererseits gilt:
+$$
+\begin{equation*}
+\sinh\frac{\gamma}{2} = \sinh\left(\frac{\alpha+i\beta}{2}\right) = \sinh\frac{\alpha}{2}\,\cos\frac{\beta}{2} + i\,\cosh\frac{\alpha}{2}\,\sin\frac{\beta}{2}
+\end{equation*}
+$$
+Die folgenden Gleichungen müssen also gleichzeitig erfüllt sein: 
+$$
+\begin{equation*}
+\begin{split}
+&\sinh\frac{\alpha}{2}\,\cos\frac{\beta}{2} = 0; \\
+&\\
+&\cosh\frac{\alpha}{2}\,\sin\frac{\beta}{2} = \frac{\omega}{\omega_{0}},
+\end{split}
+\end{equation*}
+$$
+woaus man die folgenden Lösungen erhält: 
+$$
+\begin{equation*}
+\begin{array}{ccl}
+\alpha & \beta & \\
+0 &2\,\arcsin\left(\frac{\omega}{\omega_{0}}\right) & \text{f\"ur }\omega<\omega_{0}\\
+2\,\arccos\left(\frac{\omega}{\omega_{0}}\right) & \pi & \text{f\"ur }\omega>\omega_{0},\\
+\end{array}
+\end{equation*}
+$$
+d.h. die (ideale) Drosselkette hat die **Eigenschaft eines Tiefpasses**: 
+
+- Für $\omega<\omega_{0}$ weist sie keine Dämpfung auf, d.h. sie ist als Leitung verlustfrei.
+- Für $\omega>\omega_{0}$ steigt die Dämpfung mit $\omega$ steil an. Die Phase des Ausgangssignals ist um $\pi$ zum Eingangssignal verschoben. 
+
+### Hinweise zur Durchführung
+
+#### Aufgabe 3.1
+
+Bestimmen Sie $Z_{0}$ der sechsgliedrigen Drosselkette wie folgt: 
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen-a.md)
+[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-3.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen-a.md)
