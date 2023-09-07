@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Vierpole und Leitungen
 
-## Aufgabe 3: Drosselkette
+## Aufgabe 2: Drosselkette [3/3]
 
 ### Hinweise zur Durchführung
 
@@ -44,7 +44,7 @@ Für diese Aufgabe betreiben Sie das Oszilloskop im Zweikanalmodus.
 - Überzeugen Sie sich von den folgenden Eigenschaften:
   - Für $\omega=\omega_{0}$ ist $\Delta\varphi$ zwischen Ein- und Ausgangssignal für ein einzelnes $\pi$-Gliedes $\pi$. 
   - Für eine $n$-gliedrige Drosselkette ist $\Delta\varphi$ zwischen Ein- und Ausgangssignal (für kleine Werte von $\Delta\varphi$) gegenüber dem einzelnen $\pi$-Glied $n$ mal größer.
-- Bestimmen Sie $\omega$ für $\Delta\varphi=\pi,\,2\pi,\,3\pi,\,4\pi,\,5\pi$ und daraus erneut $\omega_{0}$ (Gleichung (**1**)). Vergleichen den so ermittelten Wert und dessen Unsicherheit mit Ihrem Ergebnis aus Aufgabe 3.2.  
+- Bestimmen Sie $\omega$ für $\Delta\varphi=\pi,2\pi,3\pi,4\pi,5\pi$ und daraus erneut $\omega_{0}$ (Gleichung (**1**)). Vergleichen den so ermittelten Wert und dessen Unsicherheit mit Ihrem Ergebnis aus Aufgabe 3.2.  
 
 #### Aufgabe 2.5: Reflexion
 
@@ -54,4 +54,4 @@ Für diese Aufgabe betreiben Sie das Oszilloskop im Zweikanalmodus.
 
 # Navigation
 
-[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2-a.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-3.md)
+[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2-a.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen)
