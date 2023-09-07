@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Vierpole und Leitungen
 
-## Aufgabe 1 & 2: Einfache Vierpole
+## Aufgabe 1: Einfache Vierpole
 
 ### Hochpass
 
@@ -114,6 +114,44 @@ U_{1}(t)=\frac{1}{C\,R}\,\int U_{0}(t)\,\mathrm{d}t\propto\int U_{0}(t)\,\mathrm
 $$
 Man bezeichnet den Tiefpass in diesem Zusammenhang als **Integrierglied**.
 
+### Hinweise zur Durchführung
+
+#### Aufgabe 1.1: Hochpass
+
+Gehen Sie bei der Untersuchung der Eigenschaften der Hochpassschaltung wie folgt vor:
+
+- Verwenden Sie das Oszilloskop im Zweikanalbetrieb, so dass Sie $U_{0}$ und $U_{1}$ gleichzeitig betrachten können. Verwenden Sie für $U_{1}$ den Tastkopf des Oszilloskops.
+
+- Legen Sie eine feste harmonische Wechselspannung mit $\nu=1,7\,\mathrm{kHz},\,U_{0}\approx 8\,\mathrm{V_{SS}}$ an die Schaltung an. Mit $\mathrm{V_{SS}}$ meinen wir die Spannungsdifferenz von negativer zu positiver Signalspitze auf dem Oszilloskop. Die Effektivspannung $\overline{U}$ erhalten Sie daraus durch die Umrechnung
+  $$
+  \begin{equation*}
+  \overline{U}\, [\mathrm{V}] = \frac{1}{2\sqrt{2}}\mathrm{V_{\mathrm{SS}}}.
+  \end{equation*}
+  $$
+
+- Der Kondensator der Schaltung hat eine feste Kapazität von $C=1\,\mathrm{nF}$. Für Ihre Untersuchungen stehen Ihnen vier Widerstände mit $R=1,\,10,\,100,\,1000\,\mathrm{k\Omega}$ zur Verfügung, so dass Sie vier Messpunkte aufnehmen können. 
+
+- Tragen Sie $U_{1}/U_{0}$ und $\Delta\varphi$ jeweils als Funktion von $\log(\nu/\nu_{0})$ dar, wobei 
+  $$
+  \begin{equation*}
+  \nu_{0}=\frac{\omega_{0}}{2\pi} = \frac{1}{2\pi\,C\,R}.
+  \end{equation*}
+  $$
+  Tragen Sie in die gleiche Figur jeweils den erwarteten Verlauf ein.
+
+#### Aufgabe 1.2: Tiefpass
+
+Gehen Sie analog zu Aufgabe 1.2 vor. 
+
+#### Aufgabe 1.3: Differenzierglied
+
+Achten Sie für Ihre Untersuchungen darauf, dass die Bedingungen für das Differenzierglied erfüllt sind.  
+
+#### Aufgabe 1.4: Integrierglied
+
+Achten Sie für Ihre Untersuchungen darauf, dass die Bedingungen für das Integrierglied erfüllt sind.  
+
 # Navigation
 
-[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-3.md)
+[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md)
+
