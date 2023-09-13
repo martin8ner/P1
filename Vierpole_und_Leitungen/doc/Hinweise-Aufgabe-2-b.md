@@ -4,52 +4,62 @@
 
 ### Hinweise zur Durchführung
 
-#### Aufgabe 3.1: Bestimmung von $Z_{0}$
+#### Aufgabe 2.1: Bestimmung der charakteristischen Impedanz $Z_{0}$
 
-Bestimmen Sie $Z_{0}$ der Drosselkette wie folgt: 
+Bei dieser Messung nutzen Sie den Umstand, dass das Eingangssignal für $Z_{\mathrm{A}}=Z_{0}$ am Ende der Leitung **nicht** reflektiert wird. 
 
-- Legen Sie eine **rechteckförmige** Wechselspannung niedriger Frequenz an. Wir schlagen $\nu\approx 20\,\mathrm{kHz},\,U_{0}\approx 6\,\mathrm{V_{SS}}$ vor. Mit $\mathrm{V_{SS}}$ ist die Spannungsdifferenz von Signalsitze zu Signalspitze gemeint.
+Für den Fall $Z_{\mathrm{A}}\neq Z_{0}$ treten Reflexionen am Leitungsende auf , so dass das beobachtete Signal am Leitungsanfang eine Überlagerung aus dem ursprünglichen Signal und ggf. sogar mehrerer Reflexionen an den Leitungsenden ist.  Wählen Sie für die Messung ein Signal, mit dem Sie Überlagerungen möglichst einfach erkennen können. Sobald Sie die charakteristische Impedanz $Z_{\mathrm{A}}=Z_{0}$ erreichen sollten Sie das Eingangssignal unverfälscht beobachten können. Durch die Wahl einer niedrigen Frequenz $\omega\ll\omega_{0}$ bestimmen Sie 
+$$
+\begin{equation*}
+Z_{\mathrm{A}}=Z_{0}\approx\sqrt{\frac{L}{C}}.
+\end{equation*}
+$$
+
+
+Gehen Sie für die Messung also wie folgt vor: 
+
+- Legen Sie eine **rechteckförmige** Wechselspannung niedriger Frequenz an. Wir schlagen $\nu\approx 20\,\mathrm{kHz},\,U_{0}\approx 6\,\mathrm{V_{SS}}$ vor.
 
 - Schließen Sie die Drosselkette mit der regelbaren Lastimpedanz $Z_{\mathrm{A}}$, als Abschlusswiderstand kurz. 
 
-- Beobachten Sie das Eingangssignal am Oszilloskop. Sie nutzen für diese Messung den Umstand aus, dass das Eingangssignal für $Z_{\mathrm{A}}=Z_{0}$ am Ende der Leitung **nicht** reflektiert wird. Treten Reflexionen am Ende der Leitung auf, ist das beobachtete Signal eine Superposition aus dem ursprünglichen Signal und ggf. mehrerer Reflexionen in der Leitung. Das Signal kann also nicht unverfälscht beobachtet werden. 
+- Beobachten Sie das Eingangssignal am Oszilloskop. 
 
-- Regeln Sie $Z_{\mathrm{A}}$ solange, bis Sie das Eingangssignal unverfälscht beobachten können und bestimmen Sie den Wert von $Z_{\mathrm{A}}$. Durch die Wahl einer niedrigen Frequenz bestimmen Sie 
-  $$
-  \begin{equation*}
-  Z_{\mathrm{A}}=Z_{0}\approx\sqrt{\frac{L}{C}}
-  \end{equation*}
-  $$
-   unter der Annahme $\omega\ll\omega_{0}$.
+- Regeln Sie $Z_{\mathrm{A}}$ solange, bis Sie das Eingangssignal unverfälscht beobachten können und bestimmen Sie den so erhaltenen Wert von $Z_{\mathrm{A}}$. 
 
-#### Aufgabe 3.2: Bestimmung von $\omega_{0}$
+#### Aufgabe 2.2: Bestimmung der Grenzfrequenz $\omega_{0}$
 
-Bestimmen Sie die $\omega_{0}$ der Drosselkette wie folgt:
+Bestimmen Sie $\omega_{0}$ der Drosselkette wie folgt:
 
 - Legen Sie eine **harmonische** Wechselspannung an. Wir schlagen $\nu\lesssim 1\,\mathrm{MHz},\,U_{0}\approx 6\,\mathrm{V_{SS}}$ vor. Belassen Sie $Z_{\mathrm{A}}$ auf dem zuvor bestimmten Wert für $\omega\ll\omega_{0}$.
 - Beobachten Sie das Eingangssignal und überzeugen Sie sich von der Frequenzunabhängigkeit der Eingangsspannung.
-- Beobachten Sie das Ausgangssignal und erhöhen Sie $\nu$ schrittweise. Regeln Sie $Z_{\mathrm{A}}$ bei steigenden Werten von $\nu$ entsprechend Ihrer Erwartung für die Frequenzabhängigkeit von $Z_{0}$ (Gleichung (**3**) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-3.md)) nach, um Reflexionen in der Leitung zu vermeiden. 
-- Suchen Sie die Schwelle in $\omega$ auf, ab der die Drosselkette Signale mit $\omega>\omega_{0}$ als Tiefpass unterdrückt. Bestimmen Sie $\omega_{0}$ aus der Position für $U_{0}/U_{n}=1/10$. 
+- Beobachten Sie das Ausgangssignal und erhöhen Sie $\omega$ schrittweise. Regeln Sie $Z_{\mathrm{A}}$ bei steigenden Werten von $\omega$ entsprechend Ihrer Erwartung für die Frequenzabhängigkeit von $Z_{0}$ (Gleichung (**3**) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-3.md)) nach, um Reflexionen in der Leitung zu vermeiden. 
+- Suchen Sie die Schwelle in $\omega$ auf, ab der die Drosselkette Signale mit $\omega>\omega_{0}$ als Tiefpass unterdrückt. Bestimmen Sie $\omega_{0}$ aus der Position für $\left|U_{n}\right|/\left|U_{0}\right|=1/10$. 
 
-#### Aufgabe 3.3: Bestimmung von $C$ und $L$
+#### Aufgabe 2.3: Bestimmung von $C$ und $L$ der in der Drosselkette verbauten Elemente
 
 Bestimmen Sie $C$ und $L$ aus den zuvor bestimmten Werten für $Z_{0}$ (für $\omega<\omega_{0}$) und $\omega_{0}$. Pflanzen Sie die Unsicherheiten Ihrer Messungen von $Z_{0}$ und $\omega_{0}$ entsprechend fort und vergleichen Sie mit den technischen Angaben zu diesem Versuchsteil.  
 
-#### Aufgabe 2.4: Phasendifferenz zwischen Ein- und Ausgangssignal
+#### Aufgabe 2.4: Bestimmung der Phasendifferenz $\Delta\varphi$
 
-Für diese Aufgabe betreiben Sie das Oszilloskop im Zweikanalmodus. 
+Betreiben Sie für diese Aufgabe das Oszilloskop im Zweikanalmodus. 
 
-- Bestimmen Sie, für 6–8 Werte von $\nu$ zwischen $10$–$650\,\mathrm{kHz}$, die Phasendifferenz $\Delta\varphi$ zwischen Eingangs- und Ausgangssignal für eine harmonische Wechselspannung als Funktion von $\omega$. Sorgen Sie für einen reflexionsfreien Abschluss der Messanordnung.
-- Führen Sie sowohl für die **Drosselkette**, als auch für ein **einzelnes $\pi$-Glied** eine solche Messreihe durch. 
-- Überzeugen Sie sich von den folgenden Eigenschaften:
-  - Für $\omega=\omega_{0}$ ist $\Delta\varphi$ zwischen Ein- und Ausgangssignal für ein einzelnes $\pi$-Gliedes $\pi$. 
-  - Für eine $n$-gliedrige Drosselkette ist $\Delta\varphi$ zwischen Ein- und Ausgangssignal (für kleine Werte von $\Delta\varphi$) gegenüber dem einzelnen $\pi$-Glied $n$ mal größer.
-- Bestimmen Sie $\omega$ für $\Delta\varphi=\pi,2\pi,3\pi,4\pi,5\pi$ und daraus erneut $\omega_{0}$ (Gleichung (**1**)). Vergleichen den so ermittelten Wert und dessen Unsicherheit mit Ihrem Ergebnis aus Aufgabe 3.2.  
+- Legen Sie eine harmonische Wechselspannung als Eingangssignal an die Drosselkette.
+- Bestimmen Sie für 6–8 verschiedene Frequenzen zwischen $10$–$650\,\mathrm{kHz}$, $\Delta\varphi$ als Funktion von $\omega$. Sorgen Sie dabei für einen reflexionsfreien Abschluss der Messanordnung, wie für Aufgabe 2.2. Für die Einstellungen am Frequenzgenerator bieten sich z.B. die folgenden Werte an: $\nu=10,100,300,500,600,650,690\,\mathrm{kHz}$ an. 
+- Die vorliegende Schaltung erlaubt es Ihnen auch ein Signal nach Durchlaufen nur eines einzelnen $\pi$-Glieds auszulesen. Führen Sie die gleiche Messreihe sowohl für die gesamte **Drosselkette**, als auch für ein **einzelnes $\pi$-Glied** durch. 
 
-#### Aufgabe 2.5: Reflexion
+Bestimmen Sie abschließend nochmals $\omega_{0}$, diesmal aber aus $\Delta\varphi$. Gehen Sie dabei wie folgt vor:
 
-- Schließen Sie für diesen Versuchsteil das Ende der Drosselkette kurz ($Z_{0}=0\,\Omega$). Dadurch wird das Signal am Kettenende reflektiert. 
-- Vermeiden Sie Reflexionen am Leitungsanfang, indem Sie einen Steckwiderstand $Z_{\mathrm{E}}\approx Z_{0}$ zwischen Signalgenerator und Kettenanfang schalten. 
+- Betreiben Sie das Oszilloskop im Zweikanalmodus. Legen Sie dabei $U_{0}$ auf einen und $U_{1}$ auf den anderen Eingang. So können Sie den Verlauf beider Signale als [Lissajous-Figur](https://de.wikipedia.org/wiki/Lissajous-Figur) darstellen und Vielfache von $\Delta\varphi=n\,\pi,\,n\in\mathbb{N}$ leicht aus den sich einstellenden Diagonalen ablesen.
+
+- Für das $\pi$-Glied gilt $\Delta\varphi=\pi$ für $\omega=\omega_{0}$. Für die sechsgliedrige Drosselkette ist $\Delta\varphi$ um den Faktor $n=6$ relativ zum $\pi$-Glied verstärkt. Bestimmen Sie $\omega$ für die am Oszilloskop bestimmten Werte von $\Delta\varphi=1\pi,2\pi,3\pi,4\pi,5\pi$. 
+- Tragen Sie die ermittelten Werte für $\omega$ gegen $n\cdot\pi/6, \,n=1\ldots5$ auf und passen Sie eine Gerade an den Verlauf der Messwerte an. Aus der Steigung der Geraden erhalten Sie eine Messung für $\omega_{0}$. 
+
+Vergleichen den so ermittelten Wert und dessen Unsicherheit mit Ihrem Ergebnis aus Aufgabe 2.2.  
+
+#### Aufgabe 2.5: Reflexionen
+
+- Schließen Sie für diesen Versuchsteil das Ende der Drosselkette kurz ($Z_{0}=0\,\Omega$). Dadurch wird das Signal am Kettenende mit einem Phasensprung von $\pi$ reflektiert (siehe Diskussion [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md)). 
+- Vermeiden Sie Reflexionen am Leitungsanfang, indem Sie einen Steckwiderstand $Z_{\mathrm{E}}\approx Z_{0}$ zwischen Signalgenerator und Kettenanfang schalten. Ersetzen Sie hierzu den Kurzschlussstecker zwischen Generator und Kettenanfang durch den zur Verfügung stehenden $200\,\Omega$-Steckwiderstand.  
 - Schließen Sie eine rechteckförmige Wechselspannung ($\nu\approx20\,\mathrm{kHz}$) an. welche Signalform beobachten Sie am Kettenanfang? Entspricht dies Ihrer Erwartung?   
 
 # Navigation

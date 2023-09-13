@@ -23,21 +23,21 @@ Er sollte im Frequenzbereich von einigen $\mathrm{kHz}$ bis zu einigen $\mathrm{
 
 ### Hinweise zur Durchführung
 
-#### Aufgabe 4.1: Bestimmung von $Z_{0}$
+#### Aufgabe 3.1: Bestimmung von $Z_{0}$
 
 Bestimmen Sie $Z_{0}$ analog zu Aufgabe 3.1. Verwenden Sie z.B. eine rechteckförmige Wechselspannung mit $\nu\approx 1,1\,\mathrm{MHz}$. 
 
-#### Aufgabe 4.2: Bestimmung von $\tau'$
+#### Aufgabe 3.2: Bestimmung von $\tau'$
 
 Bestimmen Sie die Verzögerungszeit pro Länge $\tau'$ des Kabels auf zwei Arten:
 
-- Indem Sie das Signal mit dem Oszilloskop im Zweikanalmodus gleichzeitig am Anfang und Ende des Kabels  betrachten. Wählen Sie eine rechteckförmige Wechselspannung und wählen Sie die Zeitachsendehnung am Oszilloskop maximal. Sie müssen dabei nicht auf Reflexionsfreiheit achten, warum?  
-- Indem Sie das Kabelende kurzschließen ($Z_{\mathrm{A}}=0\,\Omega$) und am Kabelanfang das am Kabelende reflektierte Signal mit dem Referenzsignal des Spannungsgenerators vergleichen. Wählen Sie auch hier eine rechteckige Wechselspannung.
+- Indem Sie das Signal mit dem Oszilloskop im Zweikanalmodus gleichzeitig am Anfang und Ende des Kabels betrachten. Wählen Sie eine rechteckförmige Wechselspannung und wählen Sie die Zeitachsendehnung am Oszilloskop maximal. Sie müssen dabei nicht auf Reflexionsfreiheit achten, warum?  
+- Indem Sie das Kabelende mit $Z_{\mathrm{A}}=0\,\Omega$ kurzschließen und am Kabelanfang das am Kabelende reflektierte Signal mit dem Referenzsignal des Frequenzgenerators vergleichen. Wählen Sie auch hier eine rechteckige Wechselspannung.
 - Vergleichen Sie beide Ergebnisse im Rahmen der bestimmten Unsicherheiten. 
 
 Bei $\tau'$ handelt es sich um den Kehrwert der Gruppengeschwindigkeit $v$ im Kabel.
 
-#### Aufgabe 4.3: Bestimmung von $\epsilon$
+#### Aufgabe 3.3: Bestimmung von $\epsilon$
 
 Bestimmen Sie $\epsilon$ aus den Werten, die Sie in den Aufgaben 4.1 und 4.2 bestimmt haben:
 

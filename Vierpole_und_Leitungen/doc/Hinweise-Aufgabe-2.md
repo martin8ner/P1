@@ -59,7 +59,7 @@ $$
 Z_{0}=\frac{\sqrt{\frac{L}{C}}}{\sqrt{1-\left(\frac{\omega}{\omega_{0}}\right)^{2}}} \qquad \text{mit:}\quad\omega_{0}=\frac{2}{\sqrt{L\,C}}
 \end{equation}
 $$
-ab, gilt $Z_{\mathrm{E}}=Z_{\mathrm{A}}=Z_{0}$, d.h. die Eingangs- und Ausgangsimpedanzen nehmen den gleichen Wert $Z_{0}$ an. Bei $Z_{0}$ handelt es sich um den **Wellenwiderstand** der Vierpolschaltung.
+ab, gilt $Z_{\mathrm{E}}=Z_{\mathrm{A}}=Z_{0}$, d.h. die Eingangs- und Ausgangsimpedanzen nehmen den gleichen Wert $Z_{0}$ an. Bei $Z_{0}$ handelt es sich um den **Wellenwiderstand** der Vierpolschaltung. Die Frequenz $\omega_{0}$ wird auch als **Grenzfrequenz** bezeichnet.
 
 Der Zähler in der Gleichung für $Z_{0}$ leitet sich, für den Spezialfall $R=G=0$, aus Gleichung (**4**) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md) ab. Der Nenner ergibt sich aus der Zeitabhängigkeit eines harmonischen Eingangssignals. Die in **Skizze 4** dargestellte Schaltung zeigt ein $LC$-Glied mit der Induktivität $L$ und zwei in Reihe geschalteten Kapazitäten mit  Gesamtkapazität $C_{\mathrm{}ges}=C/4$, woraus sich der Faktor $2$ in der Definition von $\omega_{0}$ erklärt. Bei $\omega_{0}$ handelt es sich um die Resonanzfrequenz des $LC$-Schwingkreises. Der Faktor 
 $$
@@ -105,7 +105,7 @@ $$
 $$
 über, in der die Matrix 
 $$
-\begin{equation*}
+\begin{equation}
 \begin{split}
 &\mathcal{T} = \left(\begin{array}{cc}\vphantom{\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}\hphantom{-}\cosh\gamma & \vphantom{\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}-\sinh\gamma\\ -\sinh\gamma & \hphantom{-}\cosh\gamma\end{array}\right)\\
 &\\
@@ -114,7 +114,7 @@ $$
 &\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}+1\equiv\cosh\gamma;\qquad
 \frac{Z_{\mathrm{L}}}{Z_{0}}\equiv\sinh\gamma\\
 \end{split}
-\end{equation*}
+\end{equation}
 $$
 den Übergang
 $$
