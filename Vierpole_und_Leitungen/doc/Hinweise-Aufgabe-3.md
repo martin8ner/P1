@@ -25,14 +25,14 @@ Er sollte im Frequenzbereich von einigen $\mathrm{kHz}$ bis zu einigen $\mathrm{
 
 #### Aufgabe 3.1: Bestimmung von $Z_{0}$
 
-Bestimmen Sie $Z_{0}$ analog zu Aufgabe 3.1. Verwenden Sie z.B. eine rechteckförmige Wechselspannung mit $\nu\approx 1,1\,\mathrm{MHz}$. 
+Bestimmen Sie $Z_{0}$ analog zu Aufgabe 3.1. Verwenden Sie hierzu eine rechteckförmige Wechselspannung mit $\nu\approx 1,1\hspace{0.05cm}\mathrm{MHz}$. 
 
-#### Aufgabe 3.2: Bestimmung von $\tau'$
+#### Aufgabe 3.2: Bestimmung der Verzögerungszeit pro Länge $\tau'$
 
-Bestimmen Sie die Verzögerungszeit pro Länge $\tau'$ des Kabels auf zwei Arten:
+Bestimmen Sie die Verzögerungszeit pro Länge $\tau'$ des Kabels auf **zwei Arten**:
 
-- Indem Sie das Signal mit dem Oszilloskop im Zweikanalmodus gleichzeitig am Anfang und Ende des Kabels betrachten. Wählen Sie eine rechteckförmige Wechselspannung und wählen Sie die Zeitachsendehnung am Oszilloskop maximal. Sie müssen dabei nicht auf Reflexionsfreiheit achten, warum?  
-- Indem Sie das Kabelende mit $Z_{\mathrm{A}}=0\,\Omega$ kurzschließen und am Kabelanfang das am Kabelende reflektierte Signal mit dem Referenzsignal des Frequenzgenerators vergleichen. Wählen Sie auch hier eine rechteckige Wechselspannung.
+- Indem Sie das Signal, mit dem Oszilloskop im Zweikanalmodus, gleichzeitig am Anfang und Ende des Kabels betrachten. Wählen Sie eine rechteckförmige Wechselspannung und die Zeitachsendehnung am Oszilloskop maximal. Sie müssen dabei nicht auf Reflexionsfreiheit achten, warum?  
+- Indem Sie das Kabelende mit $Z_{\mathrm{A}}=0\hspace{0.05cm}\Omega$ kurzschließen und am Kabelanfang das am Kabelende reflektierte Signal mit dem Referenzsignal des Frequenzgenerators vergleichen. Wählen Sie auch hier eine rechteckige Wechselspannung.
 - Vergleichen Sie beide Ergebnisse im Rahmen der bestimmten Unsicherheiten. 
 
 Bei $\tau'$ handelt es sich um den Kehrwert der Gruppengeschwindigkeit $v$ im Kabel.
@@ -41,24 +41,21 @@ Bei $\tau'$ handelt es sich um den Kehrwert der Gruppengeschwindigkeit $v$ im Ka
 
 Bestimmen Sie $\epsilon$ aus den Werten, die Sie in den Aufgaben 4.1 und 4.2 bestimmt haben:
 
-- Die Bestimmung aus dem gemessenen Wert von $Z_{0}$ erfolgt über Gleichung (**2**), unter Verwendung der Parameter $d_{a}$ und $d_{i}$.
-
-- Die Bestimmung aus $\tau'$ erfolgt aus der Gruppengeschwindigkeit des Signals im Kabel:
-  $$
-  \begin{equation*}
-  \begin{split}
-  &v = \frac{c}{\sqrt{\epsilon\,\mu}}; \\
-  &\\
-  &\epsilon = \frac{c^{2}}{v^{2}\,\mu} = \frac{c^{2}\tau^{\prime 2}}{\mu}
-  \end{split}
-  \end{equation*}
-  $$
-
-- wobei $c$ der Lichtgeschwindigkeit (im Vakuum) entspricht. Berechnen Sie $\epsilon$ aus beiden Messungen aus Aufgabe 4.2. 
-
+- Die Bestimmung aus dem gemessenen Wert von $Z_{0}$ erfolgt über Gleichung **(2)**, unter Verwendung der Parameter $d_{a}$ und $d_{i}$.
 - Bestimmen Sie für jeden Wert von $\epsilon$ auch die entsprechende Unsicherheit durch Fehlerfortpflanzung. 
+- Vergleichen Sie die von Ihnen bestimmten Werte untereinander und vergleichen Sie sie mit der Erwartung aus den Angaben zu diesem Versuch (siehe [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/Datenblatt.md)). 
 
-- Vergleichen Sie die von Ihnen bestimmten Werte untereinander und vergleichen Sie sie mit der Erwartung aus den Angaben zu diesem Versuch (siehe Datenblatt). 
+Die Bestimmung aus $\tau'$ erfolgt aus der Gruppengeschwindigkeit des Signals im Kabel:
+$$
+\begin{equation*}
+\begin{split}
+&v = \frac{c}{\sqrt{\epsilon\,\mu}}; \\
+&\\
+&\epsilon = \frac{c^{2}}{v^{2}\,\mu} = \frac{c^{2}\tau^{\prime 2}}{\mu}
+\end{split}
+\end{equation*}
+$$
+wobei $c$ der Lichtgeschwindigkeit (im Vakuum) entspricht. Berechnen Sie $\epsilon$ **aus beiden Messungen aus Aufgabe 3.2**. 
 
 # Navigation
 
