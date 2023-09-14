@@ -1,6 +1,6 @@
 # Technische Daten und Inventar für den Versuch Vierpole und Leitungen:
 
-Für den Versuch stehen Ihnen die folgenden Gerätschaften zur Verfügung:
+Für den Versuch stehen Ihnen die folgenden Geräte und Materialien zur Verfügung:
 
 - Ein Frequenzgenerator: GW-Instek SFG-2104, für Sinus-, Rechteck-und Dreieckspannungen (von $0,1\hspace{0.05cm}\mathrm{Hz}$ bis $4\hspace{0.05cm}\mathrm{MHz}$).
 - Ein Oszilloskop vom Typ Tektronix TDS2002B (mit $R=1\hspace{0.05cm}\mathrm{M\Omega}$; $C=20\hspace{0.05cm}\mathrm{pF}$ am Eingang) oder Hameg 205-2 (mit $R=1\hspace{0.05cm}\mathrm{M\Omega}$; $C=47\hspace{0.05cm}\mathrm{pF}$ am Eingang). Beide Oszilloskop-Typen verfügen über einen Tastkopf von jeweils $R=10\hspace{0.05cm}\mathrm{M\Omega}$.
