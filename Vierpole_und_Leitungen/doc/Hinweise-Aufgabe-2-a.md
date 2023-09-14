@@ -48,7 +48,7 @@ $$
 \end{array}
 \end{equation*}
 $$
-d.h. die (ideale) Drosselkette hat die **Eigenschaft eines Tiefpasses**: Für $\omega<\omega_{0}$ weist sie keine Dämpfung auf, d.h. sie ist als Leitung **verlustfrei**. Für $\omega>\omega_{0}$ steigt die Dämpfung mit $\omega$ steil an. Die Phase des Ausgangssignals ist um $\pi$ zum Eingangssignal verschoben. 
+d.h. die (ideale) Drosselkette hat die **Eigenschaft eines Tiefpasses**: Unterhalb der Grenzfrequenz weist sie keine Dämpfung auf, d.h. sie ist als Leitung **verlustfrei**. Oberhalb der Grenzfrequenz steigt die Dämpfung mit $\omega$ steil an. Die Phase des Ausgangssignals ist um $\pi$ zum Eingangssignal verschoben. 
 
 # Navigation
 
