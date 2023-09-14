@@ -26,7 +26,7 @@ $$
 \frac{U_{1}}{U_{0}} = \frac{R}{R+\frac{1}{i\omega\,C}}= \frac{1}{1+\frac{1}{i\omega\,C\,R}}.
 \end{equation*}
 $$
-Für die Messung von Relevanz ist das Verhältnis der Beträge (Spannungsübertrag genannt) und die Phasendifferenz zwischen Ein- und Ausgangssignal:
+Für die Messung von Relevanz ist das Verhältnis der Beträge (im folgenden Spannungsübertrag genannt) und die Phasendifferenz zwischen Ein- und Ausgangssignal:
 $$
 \begin{equation}
 \begin{split}
@@ -39,7 +39,7 @@ $$
 $$
 Zur Bestimmung von $\Delta\varphi$ ist es intuitiv sich die Winkel von $U_{1}$ und $U_{0}$ im komplexen Phasendiagramm zu vergegenwärtigen. 
 
-Für hohe Frequenzen gilt $\mu\to 1$; bei der Frequenz
+Für hohe Frequenzen gilt $\mu\to 1$; bei der sog. [Grenzfrequenz](https://de.wikipedia.org/wiki/Grenzfrequenz)
 $$
 \begin{equation*}
 \omega_{0}=\frac{1}{C\,R}
@@ -47,15 +47,15 @@ $$
 $$
 gilt $\mu=1/\sqrt{2}$ und $\Delta\varphi=\pi/4$; für $\omega\to0$ gilt $\mu\to 0$ und $\Delta\varphi\to\pi/2$. 
 
-### Fall nicht-harmonischer Wechselspannung
+### Der Fall nicht-harmonischer Wechselspannung
 
-Wählt man für eine nicht-harmonische Wechselspannung $R$ und $\omega\ll\omega_{0}$ klein, lassen sich die Gleichungen (**1**) wie folgt annähern
+Wählt man für eine nicht-harmonische Wechselspannung $R$ und $\omega(\ll\omega_{0})$ klein, lassen sich die Gleichungen **(1)** wie folgt annähern
 $$
 \begin{equation}
 \frac{\mathrm{d}U_{0}}{\mathrm{d}t} \approx \frac{I_{0}}{C};\qquad U_{1} = I_{1}\,R;\qquad I_{0}=I_{1}=\frac{\mathrm{d}Q_{\mathrm{C}}}{\mathrm{d}t}.
 \end{equation}
 $$
-Dabei entspricht $\mathrm{d}Q_{\mathrm{C}}$ der zeitlich veränderlichen Ladung am Kondensator. Der Faktor $1/(i\omega)$ in den Gleichungen (**1**) folgte ursprünglich aus der Zeitableitung der harmonischen Wechselspannung. Da die zeitliche Ableitung hier explizit ausgeschrieben wurde taucht dieser Faktor in den Gleichungen (**3**) nicht mehr auf. Diese Näherung entspricht dem Lade- und Entladevorgang bei Gleichstrom. In diesem Fall ist
+Dabei entspricht $\mathrm{d}Q_{\mathrm{C}}$ der zeitlich veränderlichen Ladung am Kondensator. Der Faktor $1/(i\omega)$ in den Gleichungen **(1)** folgte ursprünglich aus der Zeitableitung der harmonischen Wechselspannung. Da die zeitliche Ableitung hier explizit ausgeschrieben wurde taucht dieser Faktor in den Gleichungen **(3)** nicht mehr auf. Diese Näherung entspricht dem Lade- und Entladevorgang bei Gleichstrom. In diesem Fall ist
 $$
 \begin{equation*}
 U_{1}(t)=C\,R\,\frac{\mathrm{d}U_{0}}{\mathrm{d}t}(t)\propto\frac{\mathrm{d}U_{0}}{\mathrm{d}t}(t).
@@ -96,57 +96,26 @@ $$
 \end{split}
 \end{equation}
 $$
-Beachten Sie, dass durch die Drehung um $\pi/2$ im Phasendiagramm Imaginär- und Realteil im Vergleich zum Hochpass-Filter ihre Positionen getauscht haben. 
+Beachten Sie, dass durch die Drehung um $\pi/2$ im Phasendiagramm Imaginär- und Realteil für die Bestimmung von $\Delta\varphi$ im Vergleich zum Hochpass-Filter ihre Positionen getauscht haben. 
 
 In diesem Fall kehren sich die Verhältnisse relativ zum Hochpass-Filter um: Für $\omega\to0$ gilt $\mu\to1$, für hohe Frequenzen gilt $\mu\to0$ und $\Delta\varphi\to\pi/2$. Bei der Frequenz $\omega_{0}$ nehmen $\mu$ und $\Delta\varphi$ die gleichen Werte, wie im Fall des Hochpass-Filters, an. 
 
-### Fall nicht-harmonischer Wechselspannung
+### Der Fall nicht-harmonischer Wechselspannung
 
-Wählt man für eine nicht-harmonische Wechselspannung $\omega\gg\omega_{0}$, lassen sich die Gleichungen (**1**) wie folgt annähern
+Wählt man für eine nicht-harmonische Wechselspannung $\omega\gg\omega_{0}$, lassen sich die Gleichungen **(1)** wie folgt annähern
 $$
 \begin{equation}
 U_{0}\approx I_{0}\,R ;\qquad U_{1} = \frac{1}{C}\int I_{1}\,\mathrm{d}t;\qquad I_{0}=I_{1}.
 \end{equation}
 $$
-Die Spannung $U_{1}$ ergibt sich aus der Ladungsänderung $I_{1}\,\mathrm{d}t$ am Kondensator. Der Faktor $1/(i\omega)$ wurde, mit dem gleichen Argument, wie oben in die Integration absorbiert. Aufgrund der hohen Frequenz $\omega$ ist der zweite Term für die Bestimmung von $U_{0}$ vernachlässigbar. In diesem Fall ist
+Die Spannung $U_{1}$ ergibt sich aus der Ladungsänderung $I_{1}\hspace{0.05cm}\mathrm{d}t$ am Kondensator. Der Faktor $1/(i\omega)$ wurde, mit dem gleichen Argument wie oben, in die Integration absorbiert. Aufgrund der hohen Frequenz $\omega$ ist der zweite Term für die Bestimmung von $U_{0}$ in den Gleichungen **(1)** vernachlässigbar. In diesem Fall ist
 $$
 \begin{equation*}
 U_{1}(t)=\frac{1}{C\,R}\,\int U_{0}(t)\,\mathrm{d}t\propto\int U_{0}(t)\,\mathrm{d}t.
 \end{equation*}
 $$
-Man bezeichnet den Tiefpass-Filter in diesem Fall als **Integrierglied**.
-
-### Hinweise zur Durchführung
-
-#### Aufgabe 1.1: Hochpass-Filter
-
-Gehen Sie bei der Untersuchung der Eigenschaften des Hochpass-Filters wie folgt vor:
-
-- Verwenden Sie das Oszilloskop im Zweikanalbetrieb, so dass Sie $U_{0}$ und $U_{1}$ gleichzeitig betrachten können. Verwenden Sie für $U_{1}$ den Tastkopf des Oszilloskops.
-
-- Legen Sie eine feste harmonische Wechselspannung mit $\nu=1,7\,\mathrm{kHz},\,U_{0}\approx 8\,\mathrm{V_{SS}}$ an die Schaltung an. Mit $\mathrm{V_{SS}}$ meinen wir die Spannungsdifferenz von negativer zu positiver Signalspitze auf dem Oszilloskop. Die Effektivspannung $\overline{U}$ erhalten Sie daraus durch die Umrechnung
-  $$
-  \begin{equation*}
-  \overline{U}\, [\mathrm{V}] = \frac{1}{2\sqrt{2}}[\mathrm{V_{\mathrm{SS}}]}.
-  \end{equation*}
-  $$
-
-- Verwenden Sie für den Kondensator der Schaltung eine feste Kapazität von $C=1\,\mathrm{nF}$. Für Ihre Untersuchungen stehen Ihnen mindestens vier Widerstände mit $R=1,\,10,\,100,\,1000\,\mathrm{k\Omega}$ zur Verfügung, so dass Sie mindestens vier Messpunkte aufnehmen können. 
-
-- Stellen Sie $\mu$ und $\Delta\varphi$ jeweils als Funktion von $\log(\omega/\omega_{0})$ dar. Tragen Sie in die gleiche Figur jeweils den erwarteten Verlauf ein.
-
-#### Aufgabe 1.2: Differenzierglied
-
-Achten Sie für Ihre Untersuchungen darauf, dass die Bedingungen für das Differenzierglied erfüllt sind.  
-
-#### Aufgabe 1.3: Tiefpass-Filter
-
-Gehen Sie analog zu Aufgabe 1.2 vor. 
-
-#### Aufgabe 1.4: Integrierglied
-
-Achten Sie für Ihre Untersuchungen darauf, dass die Bedingungen für das Integrierglied erfüllt sind.  
+Man bezeichnet den Tiefpass-Filter in diesem Fall als **Integrierglied**. 
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen)
+[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen) | Weiter
