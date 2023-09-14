@@ -37,7 +37,7 @@ Bestimmen Sie $\omega_{0}$ der Drosselkette wie folgt:
 
 #### Aufgabe 2.3: Bestimmung von $C$ und $L$ der in der Drosselkette verbauten Elemente
 
-Bestimmen Sie $C$ und $L$ aus den zuvor bestimmten Werten für $Z_{0}$ (für $\omega<\omega_{0}$) und $\omega_{0}$. Pflanzen Sie die Unsicherheiten Ihrer Messungen von $Z_{0}$ und $\omega_{0}$ entsprechend fort und vergleichen Sie mit den technischen Angaben zu diesem Versuchsteil.  
+Bestimmen Sie $C$ und $L$ aus den zuvor bestimmten Werten für $Z_{0}$ (für $\omega < \omega_{0}$) und $\omega_{0}$. Pflanzen Sie die Unsicherheiten Ihrer Messungen von $Z_{0}$ und $\omega_{0}$ entsprechend fort und vergleichen Sie mit den technischen Angaben zu diesem Versuchsteil.  
 
 #### Aufgabe 2.4: Bestimmung der Phasendifferenz $\Delta\varphi$
 
