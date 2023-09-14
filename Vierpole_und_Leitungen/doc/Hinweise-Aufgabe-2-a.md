@@ -4,7 +4,7 @@
 
 ### Leitungseigenschaften
 
-Aus der Substitution (Gleichung (**6**) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md))
+Aus der Substitution (Gleichung **(6)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md))
 $$
 \begin{equation*}
 \cosh\gamma\equiv\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}+1;\qquad \sinh\gamma\equiv\frac{Z_{\mathrm{L}}}{Z_{0}}= \sqrt{\frac{2\,Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}
@@ -25,7 +25,7 @@ $$
 Andererseits gilt (aus den [Additionstheoremen](https://de.wikipedia.org/wiki/Sinus_hyperbolicus_und_Kosinus_hyperbolicus) des $\sinh(\hspace{0.1cm}\cdot\hspace{0.1cm})$):
 $$
 \begin{equation*}
-\sinh\frac{\gamma}{2} = \sinh\left(\frac{\alpha+i\beta}{2}\right) = \sinh\frac{\alpha}{2}\,\cos\frac{\beta}{2} + i\,\cosh\frac{\alpha}{2}\,\sin\frac{\beta}{2},
+\sinh\frac{\gamma}{2} = \sinh\left(\frac{\alpha+i\beta}{2}\right) = \sinh\frac{\alpha}{2}\,\cos\frac{\beta}{2} + i\cosh\frac{\alpha}{2}\,\sin\frac{\beta}{2},
 \end{equation*}
 $$
 die folgenden Gleichungen müssen also gleichzeitig erfüllt sein: 
@@ -48,10 +48,7 @@ $$
 \end{array}
 \end{equation*}
 $$
-d.h. die (ideale) Drosselkette hat die **Eigenschaft eines Tiefpasses**: 
-
-- Für $\omega<\omega_{0}$ weist sie keine Dämpfung auf, d.h. sie ist als Leitung **verlustfrei**.
-- Für $\omega>\omega_{0}$ steigt die Dämpfung mit $\omega$ steil an. Die Phase des Ausgangssignals ist um $\pi$ zum Eingangssignal verschoben. 
+d.h. die (ideale) Drosselkette hat die **Eigenschaft eines Tiefpasses**: Für $\omega<\omega_{0}$ weist sie keine Dämpfung auf, d.h. sie ist als Leitung **verlustfrei**. Für $\omega>\omega_{0}$ steigt die Dämpfung mit $\omega$ steil an. Die Phase des Ausgangssignals ist um $\pi$ zum Eingangssignal verschoben. 
 
 # Navigation
 

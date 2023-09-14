@@ -4,7 +4,7 @@
 
 ### Das $\pi$-Glied
 
-Zur Diskussion der idealen Drosselkette betrachten wir einen idealen Vierpol, wie in **Skizze 4** dargestellt: 
+Zur Diskussion der idealen Drosselkette betrachten wir einen idealen **Vierpol**, wie in **Skizze 4** dargestellt: 
 
 <img src="../figures/PiGlied.png" width="900" style="zoom:100%;" />
 
@@ -17,29 +17,29 @@ $$
 \begin{equation}
 \begin{split}
 &Z_{\mathrm{L}} = i\,\omega\,L; \\
-&Z_{\mathrm{C}} = \frac{2}{i\,\omega\,C}; \\
+&Z_{\mathrm{C}} = \frac{2}{i\,\omega\,C}. \\
 \end{split}
 \end{equation}
 $$
-Aus den [Kirchhoffschen Regeln](https://de.wikipedia.org/wiki/Kirchhoffsche_Regeln) ergibt sich für diese Schaltung:
+Beachten Sie den außergewöhnlichen Faktor 2 in der Definition von $Z_{\mathrm{C}}$, der der speziellen Schaltung aus **Skizze 1** geschuldet ist. Aus den [Kirchhoffschen Regeln](https://de.wikipedia.org/wiki/Kirchhoffsche_Regeln) ergibt sich für diese Schaltung:
 $$
 \begin{equation*}
 I_{0} = \frac{U_{0}}{Z_{\mathrm{C}}}+I_{\mathrm{L}}
 \end{equation*}
 $$
-(Knoten links der Induktivität), 
+(aus dem Knoten links der Induktivität), 
 $$
 \begin{equation*}
 I_{\mathrm{L}} = \frac{U_{1}}{Z_{\mathrm{C}}}+I_{1}
 \end{equation*}
 $$
-(Knoten rechts der Induktivität) und
+(aus dem Knoten rechts der Induktivität) und
 $$
 \begin{equation*}
 U_{0} = Z_{\mathrm{L}}\,I_{\mathrm{L}}+U_{1} 
 \end{equation*}
 $$
-(Schleife um $Z_{\mathrm{A}}$). Durch Einsetzen lässt sich hieraus der Zusammenhang zwischen Ein- ($U_{0}$, $I_{0}$) und Ausgangssignal ($U_{1}$, $I_{1}$) herstellen: 
+(aus der Schleife um $Z_{\mathrm{A}}$). Durch Einsetzen lässt sich hieraus der Zusammenhang zwischen Ein- ($U_{0}$, $I_{0}$) und Ausgangssignal ($U_{1}$, $I_{1}$) herstellen: 
 $$
 \begin{equation}
 \begin{split}
@@ -59,9 +59,9 @@ $$
 Z_{0}=\frac{\sqrt{\frac{L}{C}}}{\sqrt{1-\left(\frac{\omega}{\omega_{0}}\right)^{2}}} \qquad \text{mit:}\quad\omega_{0}=\frac{2}{\sqrt{L\,C}}
 \end{equation}
 $$
-ab, gilt $Z_{\mathrm{E}}=Z_{\mathrm{A}}=Z_{0}$, d.h. die Eingangs- und Ausgangsimpedanzen nehmen den gleichen Wert $Z_{0}$ an. Bei $Z_{0}$ handelt es sich um den **Wellenwiderstand** der Vierpolschaltung. Die Frequenz $\omega_{0}$ wird auch als **Grenzfrequenz** bezeichnet.
+ab, gilt $Z_{\mathrm{E}}=Z_{\mathrm{A}}=Z_{0}$, d.h. die Ein- und Ausgangsimpedanzen nehmen den gleichen Wert $Z_{0}$ an. Bei $Z_{0}$ handelt es sich um den **Wellenwiderstand** der Vierpolschaltung (siehe Diskussion [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md)). Die Frequenz $\omega_{0}$ wird auch als **Grenzfrequenz** bezeichnet.
 
-Der Zähler in der Gleichung für $Z_{0}$ leitet sich, für den Spezialfall $R=G=0$, aus Gleichung (**4**) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md) ab. Der Nenner ergibt sich aus der Zeitabhängigkeit eines harmonischen Eingangssignals. Die in **Skizze 4** dargestellte Schaltung zeigt ein $LC$-Glied mit der Induktivität $L$ und zwei in Reihe geschalteten Kapazitäten mit  Gesamtkapazität $C_{\mathrm{}ges}=C/4$, woraus sich der Faktor $2$ in der Definition von $\omega_{0}$ erklärt. Bei $\omega_{0}$ handelt es sich um die Resonanzfrequenz des $LC$-Schwingkreises. Der Faktor 
+Der Zähler in der Gleichung für $Z_{0}$ leitet sich, für den Spezialfall $R=G=0$, aus Gleichung **(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md) ab. Der Nenner ergibt sich aus der Zeitabhängigkeit eines harmonischen Eingangssignals. Die in **Skizze 4** dargestellte Schaltung zeigt ein $LC$-Glied mit der Induktivität $L$ und zwei in Reihe geschalteten Kapazitäten mit  Gesamtkapazität $C_{\mathrm{}ges}=C/4$, woraus sich der Faktor $2$ in der Definition von $\omega_{0}$ erklärt. Bei $\omega_{0}$ handelt es sich um die imaginären Quasi-Resonanzfrequenz des $LC$-Schwingkreises. Der Faktor 
 $$
 \begin{equation*}
 \frac{1}{\sqrt{1-\left(\frac{\omega}{\omega_{0}}\right)^{2}}}
@@ -69,7 +69,7 @@ $$
 $$
 ergibt sich aus der Lösung des Randwertproblems einer erzwungen Schwingung mit der Frequenz $\omega$ nach der Einschwingphase.  
 
-Unter Verwendung von $Z_{0}$ lassen sich die Gleichungen (**2**) wie folgt umformen: 
+Unter Verwendung von $Z_{0}$ lassen sich die Gleichungen **(2)** wie folgt umformen: 
 $$
 \begin{equation}
 \begin{split}
@@ -81,7 +81,7 @@ I_{0} &=\frac{Z_{\mathrm{L}}}{Z_{0}^{2}}\,U_{1} + \left(\frac{Z_{\mathrm{L}}}{Z_
 \end{split}
 \end{equation}
 $$
-Um diesen Schritt nachzuvollziehen bietet es sich an $Z_{0}$ zunächst, unter Verwendung der Gleichungen (**1**), nach $Z_{\mathrm{L}}$ und $Z_{\mathrm{C}}$ auszudrücken:
+Um diesen Schritt nachzuvollziehen bietet es sich an $Z_{0}$ zunächst, unter Verwendung der Gleichungen **(1)**, nach $Z_{\mathrm{L}}$ und $Z_{\mathrm{C}}$ auszudrücken:
 $$
 \begin{equation*}
 \begin{split}
@@ -89,7 +89,7 @@ $$
 \end{split}
 \end{equation*}
 $$
-In Matrixschreibweise gehen die Gleichungen (**4**) in die folgende Form 
+In Matrixschreibweise gehen die Gleichungen **(4)** in die folgende Form 
 $$
 \begin{equation}
 \begin{split}
@@ -123,7 +123,7 @@ $$
 \left(\begin{array}{c}\vphantom{\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}U_{1}\\\vphantom{\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}Z_{0}\,I_{1}\end{array}\right).
 \end{equation*}
 $$
-beschreibt. Die komplexwertige Größe $\gamma=\alpha+i\,\beta$ kann mit der **Ausbreitungskonstanten** identifiziert werden.
+beschreibt. Die komplexwertige Größe $\gamma=\alpha+i\beta$ kann mit der **Ausbreitungskonstanten** identifiziert werden.
 
 Für $\omega\to\omega_{0}$ nimmt $\mathcal{T}$ die Form
 $$
@@ -131,10 +131,10 @@ $$
 \left(\begin{array}{cc}\vphantom{\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}\hphantom{-}\cosh\gamma & \vphantom{\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}-\sinh\gamma\\ -\sinh\gamma & \hphantom{-}\cosh\gamma\end{array}\right)
 %\longrightarrow 
 \xrightarrow{\omega\to\omega_{0}}
-\left(\begin{array}{cc}\vphantom{\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}-1 & \hphantom{-}0 \\ \hphantom{-}0 & -1\end{array}\right),
+\left(\begin{array}{cc}\vphantom{\frac{Z_{\mathrm{L}}}{Z_{\mathrm{C}}}}-1 & \hphantom{-}0 \\ \hphantom{-}0 & -1\end{array}\right)
 \end{equation*}
 $$
-an, das Ausgangssignal weist gegenüber dem Eingangssignal also eine Phasenverschiebung um $\pi$ auf, weshalb die betrachtete Schaltung auch als $\pi$-Glied bezeichnet wird.  
+an, das Ausgangssignal weist gegenüber dem Eingangssignal also eine Phasenverschiebung um $\pi$ auf, weshalb die betrachtete Schaltung auch als **$\pi$-Glied** bezeichnet wird.  
 
 ### Ideale Drosselkette
 
