@@ -8,10 +8,10 @@ Gehen Sie bei der Untersuchung der Eigenschaften des Hochpass-Filters wie folgt 
 
 - Verwenden Sie das Oszilloskop im Zweikanalbetrieb, so dass Sie $U_{0}$ und $U_{1}$ gleichzeitig betrachten können. Verwenden Sie für $U_{1}$ den Tastkopf des Oszilloskops.
 
-- Legen Sie eine harmonische Wechselspannung mit $\nu=1,7\,\mathrm{kHz},\,U_{0}\approx 8\,\mathrm{V_{SS}}$ an die Schaltung an. Mit $\mathrm{V_{SS}}$ meinen wir die Spannungsdifferenz von negativer zu positiver Signalspitze auf dem Oszilloskop. Die Effektivspannung $\overline{U}$ erhalten Sie daraus durch die Umrechnung
+- Legen Sie eine harmonische Wechselspannung mit $\nu=1,7\hspace{0.05cm}\mathrm{kHz}$, $U_{0}\approx 8\hspace{0.05cm}\mathrm{V_{SS}}$ an die Schaltung an. Mit $\mathrm{V_{SS}}$ meinen wir die Spannungsdifferenz von negativer zu positiver Signalspitze auf dem Oszilloskop. Die Effektivspannung $\overline{U}$ erhalten Sie daraus durch die Umrechnung
   $$
   \begin{equation*}
-  \overline{U}\, [\mathrm{V}] = \frac{1}{2\sqrt{2}}[\mathrm{V_{\mathrm{SS}}]}.
+  \overline{U}\hspace{0.05cm}\left[\mathrm{V}\right] = \frac{1}{2\sqrt{2}}\left[\mathrm{V_{\mathrm{SS}}}\right].
   \end{equation*}
   $$
 
@@ -33,4 +33,4 @@ Gehen Sie analog zu Aufgabe 1.2 vor. Achten Sie für Ihre Untersuchungen darauf,
 
 # Navigation
 
-Zurück | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen)
+[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-1.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Vierpole_und_Leitungen)
