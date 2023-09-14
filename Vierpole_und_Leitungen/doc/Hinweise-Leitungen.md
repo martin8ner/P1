@@ -4,9 +4,9 @@
 
 ### Signalübertragung in Leitungen
 
-Signale können über leitungsgebundene oder drahtlose Medien übertragen werden. Bei den leitungsgebundenen Medien unterscheidet man zwischen Wellen- und Stromleitern. Wellenleiter basieren auf einem (wie beim [Hohlleiter](https://de.wikipedia.org/wiki/Hohlleiter)) oder gar keinem Leiter (wie beim [Lichtwellenleiter](https://de.wikipedia.org/wiki/Lichtwellenleiter)). Die Signalübertragung erfolgt über die Leitung elektromagnetischer Wellen, Messgrößen sind die elektrische und die magnetische Feldstärke; die Beschreibung erfolgt mit Hilfe der [Maxwell-Gleichungen](https://de.wikipedia.org/wiki/Maxwell-Gleichungen). 
+Signale können über Leitungen oder drahtlose Medien übertragen werden. Bei den Leitungen unterscheidet man zwischen Wellen- und Stromleitern. Wellenleiter basieren auf *einem* (wie beim [Hohlleiter](https://de.wikipedia.org/wiki/Hohlleiter)) oder *gar keinem* Leiter (wie beim [Lichtwellenleiter](https://de.wikipedia.org/wiki/Lichtwellenleiter)). Die Signalübertragung erfolgt über die Leitung elektromagnetischer Wellen, Messgrößen sind die elektrische und die magnetische Feldstärke; die Beschreibung erfolgt mit Hilfe der [Maxwell-Gleichungen](https://de.wikipedia.org/wiki/Maxwell-Gleichungen). 
 
-In diesem Versuch beschäftigen wir uns mit der stromleitungsgebundenen Signalübertragung. Stromleiter basieren auf mindestens zwei getrennten Leitern, einem Hin- und einem Rückleiter, wie in **Skizze 1** dargestellt: 
+In diesem Versuch beschäftigen wir uns mit der stromleitungsgebundenen Signalübertragung. Stromleiter basieren auf mindestens *zwei* getrennten Leitern, einem Hin- und einem Rückleiter, wie in **Skizze 1** dargestellt: 
 
 <img src="../figures/Leitungen.png" width="900" style="zoom:100%;" />
 
@@ -14,7 +14,7 @@ In diesem Versuch beschäftigen wir uns mit der stromleitungsgebundenen Signalü
 
 ---
 
-Die Signalübertragung erfolgt in Form von Strömen und Spannungen. Die Leitung besteht aus einem gut leitenden Material, wie Kupfer oder Aluminium. Idealerweise fällt über die Leitung *keine* Spannung ab. In der Realität besitzen aber sowohl Hin-, als auch Rückleiter einem Widerstand. Zudem kann Spannung über die endliche Isolation zwischen den Leitern abfallen. Beispiele für die stromleitungsgebundene Signalüberstragung sind:
+Die Signalübertragung erfolgt in Form von Strömen und Spannungen. Die Leitung besteht aus einem gut leitenden Material, wie Kupfer oder Aluminium. Idealerweise fällt über die Leitung *keine* Spannung ab. In der Realität besitzen aber sowohl Hin-, als auch Rückleiter einem Widerstand. Zudem kann Spannung über die endliche Isolation zwischen den Leitern abfallen. Beispiele für die stromleitungsgebundene Signalübertragung sind:
 
 - Die Leitungen, mit denen Sie die Schaltungen im Praktikum stecken.
 - Das Koaxialkabel, dessen Eigenschaften Sie in diesem Versuch u.a. untersuchen werden. 
@@ -25,13 +25,13 @@ Die Signalübertragung erfolgt in Form von Strömen und Spannungen. Die Leitung 
 Je nach Länge der Leitung und Periode oder Frequenz der übertragenen Signale unterscheidet man zwei Regime zur Beschreibung des Signalübertragungsprozesses:
 
 - Im Fall von Gleichstrom genügt die Beschreibung mit Hilfe des [spezifischen Widerstands](https://de.wikipedia.org/wiki/Spezifischer_Widerstand), Querschnitts und der Länge, als primäre Eigenschaften der Leitung. 
-- Im Fall von Wechselspannung, oder bei der Übertragung getakteter Signale erweist es sich als notwendig, [Kapazitäten](https://de.wikipedia.org/wiki/Elektrische_Kapazit%C3%A4t) und [Induktivitäten](https://de.wikipedia.org/wiki/Induktivit%C3%A4t) der Leitung zusätzlich zu berücksichtigen. In diesem Fall erfolgt die Beschreibung der Signalübertragung durch die **Leitungsgleichungen**. Dies ist der Fall bei harmonischen Signalen deren Wellenlänge ($\lambda$) wesentlich kleiner als die Länge der Leitung ($\ell$) ist, und bei getakteten Signalen, deren Pulsdauer wesentlich kleiner, als die Signallaufzeit ist.  
+- Im Fall von Wechselspannung, oder bei der Übertragung getakteter Signale erweist es sich als notwendig, die [Kapazität](https://de.wikipedia.org/wiki/Elektrische_Kapazit%C3%A4t) und [Induktivität](https://de.wikipedia.org/wiki/Induktivit%C3%A4t) der Leitung zusätzlich zu berücksichtigen. In diesem Fall erfolgt die Beschreibung der Signalübertragung durch die **Leitungsgleichungen**. Dies ist der Fall bei harmonischen Signalen deren Wellenlänge wesentlich kleiner als die Länge der Leitung ($\ell$) ist, und bei getakteten Signalen, deren Pulsdauer wesentlich kleiner, als die Signallaufzeit ist.  
 
-In einem modernen Computer erfolgt die Signalübertragung mit einer Taktzahl im Bereich von $3\,\mathrm{GHz}$. Auf einer Kupferleitung breitet sich das elektrische Signal mit einer Geschwindigkeit von $0,7-0,9\,c$ aus. Auf Längenskalen einer Platine ($\mathcal{O}(10\,\mathrm{cm})$) ist die Anwendung der Leitungsgleichungen zur adäquaten Beschreibung  der Signalübertragung daher bereits notwendig.   
+In einem modernen Computer erfolgt die Signalübertragung mit einer Taktzahl im Bereich von $3\,\mathrm{GHz}$. Auf einer Kupferleitung breitet sich das elektrische Signal mit einer Geschwindigkeit von $0,7-0,9\hspace{0.05cm}c$ aus. Auf Längenskalen einer Platine ($\mathcal{O}(10\hspace{0.05cm}\mathrm{cm})$) ist die Anwendung der Leitungsgleichungen zur adäquaten Beschreibung der Signalübertragung daher bereits notwendig.   
 
 ### Ersatzschaltbild der Leitung
 
-Die Beschreibung einer homogenen Leitung erfolgt über ein infinitesimal kleines Leitungsstück dessen Eigenschaften in ein Ersatzschaltbild, wie in **Skizze 2** gezeigt übertragen werden können: 
+Die Beschreibung einer **homogenen Leitung** erfolgt über ein infinitesimal kleines Leitungsstück dessen Eigenschaften in ein Ersatzschaltbild, wie in **Skizze 2** gezeigt übertragen werden können: 
 
 <img src="../figures/Leitungsschaltbild.png" width="900" style="zoom:100%;" />
 
@@ -39,14 +39,14 @@ Die Beschreibung einer homogenen Leitung erfolgt über ein infinitesimal kleines
 
 ---
 
-Eine reale Leitung besitzt einen endlichen Widerstand proportional zur Länge der Leitung, der daher zweckmäßigerweise differenziell als $\mathrm{d}R=R'\,\mathrm{d}z$ ausgedrückt wird. Durch den Stromfluss tritt zwischen Hin- und Rückleiter ein magnetischer Fluss $\mathrm{d}\phi$ auf, die Leitung besitzt also auch eine (Längs-)Induktivität $\mathrm{d}L=L'\,\mathrm{d}z$, die ebenfalls proportional zur Länge der Leitung ist. Ähnliches gilt für die (Quer-)Kapazität $\mathrm{d}C=C'\,\mathrm{d}z$ aufgrund der getrennten Ladungen in Hin- und Rückleiter. Schließlich ist die Isolation zwischen Hin- und Rückleiter nur endlich groß, was durch den (Isolations- oder Quer-)[Leitwert](https://de.wikipedia.org/wiki/Elektrischer_Leitwert) $\mathrm{d}G=G'\,\mathrm{d}z$ ausgedrückt wird. Die gestrichenen Größen
+Eine reale Leitung besitzt einen endlichen Widerstand proportional zur Länge der Leitung, der daher zweckmäßigerweise differenziell als $\mathrm{d}R=R'\hspace{0.05cm}\mathrm{d}z$ ausgedrückt wird. Durch den Stromfluss tritt zwischen Hin- und Rückleiter ein magnetischer Fluss $\mathrm{d}\phi$ auf, die Leitung besitzt also auch eine (Längs-)Induktivität $\mathrm{d}L=L'\hspace{0.05cm}\mathrm{d}z$, die ebenfalls proportional zur Länge der Leitung ist. Ähnliches gilt für die (Quer-)Kapazität $\mathrm{d}C=C'\hspace{0.05cm}\mathrm{d}z$ aufgrund der getrennten Ladungen in Hin- und Rückleiter. Schließlich ist die Isolation zwischen Hin- und Rückleiter nur endlich groß, was durch den (Isolations- oder Quer-)[Leitwert](https://de.wikipedia.org/wiki/Elektrischer_Leitwert) $\mathrm{d}G=G'\hspace{0.05cm}\mathrm{d}z$ ausgedrückt wird. Die gestrichenen Größen
 $$
 \begin{equation*}
 \begin{split}
 R' = \frac{\mathrm{d}R}{\mathrm{d}z}\qquad&:\text{ Widerstandsbelag;}\\
 L' = \frac{\mathrm{d}L}{\mathrm{d}z}\qquad&:\text{ Induktivitätsbelag;}\\
 C' = \frac{\mathrm{d}C}{\mathrm{d}z}\qquad&:\text{ Kapazitätsbelag;}\\
-G' = \frac{\mathrm{d}G}{\mathrm{d}z}\qquad&:\text{ Leitwertsbelag.}\\\end{split}
+G' = \frac{\mathrm{d}G}{\mathrm{d}z}\qquad&:\text{ Leitwertsbelag;}\\\end{split}
 \end{equation*}
 $$
 [Widerstands-](https://de.wikipedia.org/wiki/Leitungsbel%C3%A4ge#Widerstandsbelag_R'), [Induktivitäts-](https://de.wikipedia.org/wiki/Induktivit%C3%A4tsbelag), [Kapazitäts-](https://de.wikipedia.org/wiki/Kapazit%C3%A4tsbelag) und Leitwerts- oder [Ableitungsbelag](https://de.wikipedia.org/wiki/Leitungsbel%C3%A4ge#Ableitungsbelag_G') fasst man als [Leitungsbeläge](https://de.wikipedia.org/wiki/Leitungsbel%C3%A4ge) zusammen und bezeichnet sie als **primäre Leitungsparameter**. Sind diese für eine endliche Leitung bekannt, kann das Verhalten eines über die Leitung übertragenen Signals bei allen Frequenzen exakt beschrieben werden. 
@@ -93,11 +93,11 @@ $$
 \end{split}
 \end{equation}
 $$
-Es handelt sich dabei um zwei gekoppelte partielle Differentialgleichungen erster Ordnung. Partiell wegen der Abhängigkeit in $z$ und $t$; gekoppelt, weil in der Differentialgleichung zur Bestimmung der Spannung $U$ die Stromstärke $I$ auftaucht und umgekehrt.  
+Es handelt sich dabei um zwei gekoppelte partielle Differentialgleichungen erster Ordnung. Partiell wegen der Abhängigkeit von $z$ und $t$; gekoppelt, weil in der Differentialgleichung zur Bestimmung der Spannung $U$ die Stromstärke $I$ auftaucht und umgekehrt.  
 
 ### Harmonischer Zeitverlauf
 
-Wir lösen das Gleichungssystem (**1**) für einen harmonischen Zeitverlauf, wir machen also den folgenden Ansatz für $U(z, t)$ und $I(z, t)$:
+Wir lösen das Gleichungssystem **(1)** für einen harmonischen Zeitverlauf, wir machen also den folgenden Ansatz für $U(z, t)$ und $I(z, t)$:
 $$
 \begin{equation*}
 U(z, t) = U(z)\,e^{-i\,\omega\,t}, \quad 
@@ -136,9 +136,9 @@ $$
 \end{split}
 \end{equation*}
 $$
-(jeweils in der Einheit $\mathrm{m}^{-1}$) von Relevanz. Die **Dämpfungskonstante** ($\alpha$) beschreibt die Dämpfung des Signals in Ausbreitungsrichtung; die **Phasenkonstante** ($\beta$) die Phasenverschiebung des Signals in Ausbreitungsrichtung. Beide werden in der komplexwertigen **[Ausbreitungskonstanten](https://de.wikipedia.org/wiki/Fortpflanzungskonstante)** ($\gamma$) zusammengefasst.
+(jeweils in der Einheit $\mathrm{m}^{-1}$) von Relevanz. Die **Dämpfungskonstante** ($\alpha$) beschreibt die Dämpfung, die **Phasenkonstante** ($\beta$) die Phasenverschiebung des Signals in Ausbreitungsrichtung. Beide werden in der komplexwertigen **[Ausbreitungskonstanten](https://de.wikipedia.org/wiki/Fortpflanzungskonstante)** ($\gamma$) zusammengefasst.
 
-Die allgemeine Lösung von Gleichung (**3**) lautet: 
+Die allgemeine Lösung von Gleichung **(3)** lautet: 
 $$
 \begin{equation*}
 \begin{split}
@@ -155,7 +155,7 @@ $$
 \frac{\mathrm{d}U(z)}{\mathrm{d}z}
 \end{equation*}
 $$
-in die obere Gleichung des Gleichungssystems (**2**):
+in die obere Gleichung des Gleichungssystems **(2)**:
 $$
 \begin{equation}
 \begin{split}
@@ -165,13 +165,13 @@ $$
 \end{split}
 \end{equation}
 $$
-wobei $Z_{0}$ (in der Einheit $\Omega$) den **[Leitungswellenwiderstand](https://de.wikipedia.org/wiki/Wellenwiderstand#Strom-_und_Spannungswellen_auf_Leitungen)** bezeichnet. Dieser hängt nicht von der Länge der Leitung, im allgemeinen aber von der Frequenz $\omega$ des übertragenen Signals ab. Bei den Frequenzen des verwendeten Trägersignals beträgt $Z_{0}$ in der Messtechnik $50\,\Omega$ und in der Fernsehtechnik $75\,\Omega$. Für den Spezialfall der verlustfreien Leitung ist 
+wobei $Z_{0}$ (in der Einheit $\Omega$) den **[Leitungswellenwiderstand](https://de.wikipedia.org/wiki/Wellenwiderstand#Strom-_und_Spannungswellen_auf_Leitungen)** bezeichnet, der auch als charakteristische Impedanz der Leitung bezeichnet wird. Dieser hängt nicht von der Länge der Leitung, im allgemeinen aber von der Frequenz $\omega$ des übertragenen Signals ab. Bei den Frequenzen des verwendeten Trägersignals beträgt $Z_{0}$ in der Messtechnik $50\hspace{0.05cm}\Omega$ und in der Fernsehtechnik $75\hspace{0.05cm}\Omega$. Für den Spezialfall der verlustfreien Leitung ist 
 $$
 \begin{equation*}
 Z_{0} = \sqrt{\frac{L'}{C'}}
 \end{equation*}
 $$
-reellwertig und zunächst frequenzunabhängig. Es besteht jedoch im Allgemeinen eine weitere Frequenzabhängigkeit durch die Lösung der Zeitabhängigkeit (als erzwungene Schwingung, [Hinweis zu Aufgabe 3](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-3.md)). 
+reellwertig und zunächst frequenzunabhängig. Es besteht jedoch im Allgemeinen eine weitere Frequenzabhängigkeit durch die Lösung der Zeitabhängigkeit (siehe [Hinweise zu Aufgabe 2](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md)). 
 
 Die Ausbreitungskonstante und der Leitungswellenwiderstand werden auch als **sekundäre Leitungsparameter** bezeichnet.
 
@@ -183,7 +183,9 @@ $$
 \rho=\frac{Z_{\mathrm{A}}-Z_{0}}{Z_{\mathrm{A}}+Z_{0}}
 \end{equation*}
 $$
-gegeben. Dabei bezeichnet $Z_{\mathrm{A}}$ die Impedanz des Abschlusswiderstands am Leitungsende. Für die offene Leitung ($Z_{\mathrm{A}}\to\infty$ ) ist $\rho=1$, das Signal wird also unverändert reflektiert. Für die kurzgeschlossene Leitung ($Z_{\mathrm{A}}=0\,\Omega$ ) ist $\rho=-1$, es erfolgt also ein Phasensprung des Signals um $\pi$ am Leitungsende. Je nach Dämpfungskonstante der Leitung kann es zu mehrfachen Reflexionen sowohl am Ende, als auch am Anfang der Leitung kommen, die das Signal negativ beeinflussen. 
+gegeben. Dabei bezeichnet $Z_{\mathrm{A}}$ die Impedanz des Abschlusswiderstands am Leitungsende. 
+
+Für die offene Leitung ($Z_{\mathrm{A}}\to\infty$ ) gilt $\rho=1$, das Signal wird also unverändert reflektiert. Für die kurzgeschlossene Leitung ($Z_{\mathrm{A}}=0\hspace{0.05cm}\Omega$ ) gilt $\rho=-1$, es erfolgt also ein Phasensprung des Signals um $\pi$ am Leitungsende. Je nach Dämpfungskonstante der Leitung kann es zu mehrfachen Reflexionen sowohl am Ende, als auch am Anfang der Leitung kommen, die das Signal negativ beeinflussen. 
 
 # Navigation
 
