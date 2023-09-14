@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Vierpole und Leitungen
 
-## Aufgabe 2: Drosselkette [3/3]
+## Aufgabe 2: Drosselkette [3/4]
 
 ### Hinweise zur Durchführung
 

@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Vierpole und Leitungen
 
-## Aufgabe 2: Drosselkette [1/3]
+## Aufgabe 2: Drosselkette [1/4]
 
 ### Das $\pi$-Glied
 

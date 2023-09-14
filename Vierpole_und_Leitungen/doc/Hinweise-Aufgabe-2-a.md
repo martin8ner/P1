@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Vierpole und Leitungen
 
-## Aufgabe 2: Drosselkette [2/3]
+## Aufgabe 2: Drosselkette [2/4]
 
 ### Leitungseigenschaften
 
