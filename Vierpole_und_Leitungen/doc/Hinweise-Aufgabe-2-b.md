@@ -6,9 +6,9 @@
 
 #### Aufgabe 2.1: Bestimmung der charakteristischen Impedanz $Z_{0}$
 
-Bei dieser Messung nutzen Sie den Umstand, dass das Eingangssignal für $Z_{\mathrm{A}}=Z_{0}$ am Ende der Leitung **nicht** reflektiert wird. 
+Bei dieser Messung nutzen wir den Umstand, dass das Eingangssignal für $Z_{\mathrm{A}}=Z_{0}$ am Ende der Leitung **nicht** reflektiert wird (siehe Diskussion [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md)). 
 
-Für den Fall $Z_{\mathrm{A}}\neq Z_{0}$ treten Reflexionen am Leitungsende auf , so dass das beobachtete Signal am Leitungsanfang eine Überlagerung aus dem ursprünglichen Signal und ggf. sogar mehrerer Reflexionen an den Leitungsenden ist.  Wählen Sie für die Messung ein Signal, mit dem Sie Überlagerungen möglichst einfach erkennen können. Sobald Sie die charakteristische Impedanz $Z_{\mathrm{A}}=Z_{0}$ erreichen sollten Sie das Eingangssignal unverfälscht beobachten können. Durch die Wahl einer niedrigen Frequenz $\omega\ll\omega_{0}$ bestimmen Sie 
+Für den Fall $Z_{\mathrm{A}}\neq Z_{0}$ treten Reflexionen am Leitungsende auf, so dass das beobachtete Signal am Leitungsanfang eine Überlagerung aus dem ursprünglichen Signal und ggf. sogar mehrerer Reflexionen an den Leitungsenden ist.  Wie wählen für die Messung daher eine Signalform aus, mit der wir Überlagerungen möglichst einfach erkennen können. Sobald Sie Sie bei der Reglung von $Z_{\mathrm{A}}$ die charakteristische Impedanz $Z_{\mathrm{A}}=Z_{0}$ erreichen sollten Sie das Eingangssignal unverfälscht beobachten können. Durch die Wahl einer niedrigen Frequenz $\omega\ll\omega_{0}$ bestimmen Sie auf diese Weise in guter Näherung
 $$
 \begin{equation*}
 Z_{\mathrm{A}}=Z_{0}\approx\sqrt{\frac{L}{C}}.
@@ -16,7 +16,7 @@ Z_{\mathrm{A}}=Z_{0}\approx\sqrt{\frac{L}{C}}.
 $$
 
 
-Gehen Sie für die Messung also wie folgt vor: 
+Gehen Sie für die Messung wie folgt vor: 
 
 - Legen Sie eine **rechteckförmige** Wechselspannung niedriger Frequenz an. Wir schlagen $\nu\approx 20\,\mathrm{kHz},\,U_{0}\approx 6\,\mathrm{V_{SS}}$ vor.
 
