@@ -18,21 +18,21 @@ $$
 
 Gehen Sie für die Messung wie folgt vor: 
 
-- Legen Sie eine **rechteckförmige** Wechselspannung niedriger Frequenz an. Wir schlagen $\nu\approx 20\,\mathrm{kHz},\,U_{0}\approx 6\,\mathrm{V_{SS}}$ vor.
+- Legen Sie eine **rechteckförmige** Wechselspannung niedriger Frequenz an. Wir schlagen $\nu\approx 20\hspace{0.05cm}\mathrm{kHz}$, $U_{0}\approx 6\hspace{0.05cm}\mathrm{V_{SS}}$ vor.
 
 - Schließen Sie die Drosselkette mit der regelbaren Lastimpedanz $Z_{\mathrm{A}}$, als Abschlusswiderstand kurz. 
 
 - Beobachten Sie das Eingangssignal am Oszilloskop. 
 
-- Regeln Sie $Z_{\mathrm{A}}$ solange, bis Sie das Eingangssignal unverfälscht beobachten können und bestimmen Sie den so erhaltenen Wert von $Z_{\mathrm{A}}$. 
+- Regeln Sie $Z_{\mathrm{A}}$ solange, bis Sie das Eingangssignal unverfälscht beobachten können und lesen Sie den so erhaltenen Wert von $Z_{\mathrm{A}}$ ab. 
 
 #### Aufgabe 2.2: Bestimmung der Grenzfrequenz $\omega_{0}$
 
 Bestimmen Sie $\omega_{0}$ der Drosselkette wie folgt:
 
-- Legen Sie eine **harmonische** Wechselspannung an. Wir schlagen $\nu\lesssim 1\,\mathrm{MHz},\,U_{0}\approx 6\,\mathrm{V_{SS}}$ vor. Belassen Sie $Z_{\mathrm{A}}$ auf dem zuvor bestimmten Wert für $\omega\ll\omega_{0}$.
+- Legen Sie eine **harmonische** Wechselspannung an. Wir schlagen $\nu\lesssim 1\hspace{0.05cm}\mathrm{MHz}$, $U_{0}\approx 6\hspace{0.05cm}\mathrm{V_{SS}}$ vor. Belassen Sie $Z_{\mathrm{A}}$ auf dem zuvor bestimmten Wert für $\omega\ll\omega_{0}$.
 - Beobachten Sie das Eingangssignal und überzeugen Sie sich von der Frequenzunabhängigkeit der Eingangsspannung.
-- Beobachten Sie das Ausgangssignal und erhöhen Sie $\omega$ schrittweise. Regeln Sie $Z_{\mathrm{A}}$ bei steigenden Werten von $\omega$ entsprechend Ihrer Erwartung für die Frequenzabhängigkeit von $Z_{0}$ (Gleichung (**3**) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-3.md)) nach, um Reflexionen in der Leitung zu vermeiden. 
+- Beobachten Sie das Ausgangssignal und erhöhen Sie $\omega$ schrittweise. Regeln Sie $Z_{\mathrm{A}}$ bei steigenden Werten von $\omega$ entsprechend Ihrer Erwartung für die Frequenzabhängigkeit von $Z_{0}$ (Gleichung **(3)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-2.md)) nach, um Reflexionen in der Leitung zu vermeiden. 
 - Suchen Sie die Schwelle in $\omega$ auf, ab der die Drosselkette Signale mit $\omega>\omega_{0}$ als Tiefpass unterdrückt. Bestimmen Sie $\omega_{0}$ aus der Position für $\left|U_{n}\right|/\left|U_{0}\right|=1/10$. 
 
 #### Aufgabe 2.3: Bestimmung von $C$ und $L$ der in der Drosselkette verbauten Elemente
