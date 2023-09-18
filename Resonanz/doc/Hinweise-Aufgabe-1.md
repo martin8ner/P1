@@ -76,7 +76,7 @@ k_{\pm} &= \frac{-\delta\pm\sqrt{\delta^{2}-4\,\Theta\,D}}{2\,\Theta} = -\underb
 $$
 Man unterscheidet drei Fälle: 
 
-$\boldsymbol{\lambda<\omega_{0}}$: In diesem Fall ist der Wurzelterm in Gleichung **(5)** imaginär, das System wird durch eine Schwingung mit der Frequenz $\omega=\sqrt{\omega_{0}^{2}-\lambda^{2}}$ mit einer exponentiellen Einhüllenden für die Amplitude beschrieben (schwache Dämpfung, **Schwingfall**):
+$\boldsymbol{\lambda\lt\omega_{0}}$: In diesem Fall ist der Wurzelterm in Gleichung **(5)** imaginär, das System wird durch eine Schwingung mit der Frequenz $\omega=\sqrt{\omega_{0}^{2}-\lambda^{2}}$ mit einer exponentiellen Einhüllenden für die Amplitude beschrieben (schwache Dämpfung, **Schwingfall**):
 $$
 \begin{equation}
 \begin{split}
@@ -86,7 +86,7 @@ $$
 $$
 Beachten Sie, dass das System in diesem Fall nicht mehr mit der Eigenfrequenz $\omega_{0}$ sondern mit der reduzierten Eigenfrequenz $\omega$ schwingt. 
 
-$\boldsymbol{\lambda>\omega_{0}}$: In diesem Fall ist der Wurzelterm in Gleichung **(5)** reell, das System ist stark gedämpft. Es kehrt mit einem exponentiellen Verlauf in seine Ruhelage zurück und schwingt nicht. Das System erreicht seine Ruhelage erst bei $t\to\infty$ (aperiodischer Fall, **Kriechfall**). 
+$\boldsymbol{\lambda\gt\omega_{0}}$: In diesem Fall ist der Wurzelterm in Gleichung **(5)** reell, das System ist stark gedämpft. Es kehrt mit einem exponentiellen Verlauf in seine Ruhelage zurück und schwingt nicht. Das System erreicht seine Ruhelage erst bei $t\to\infty$ (aperiodischer Fall, **Kriechfall**). 
 
 $\boldsymbol{\lambda=\omega_{0}}$: In diesem Fall ist der Wurzelterm gleich 0. Das System verhält sich, wie im aperiodischen Fall, aber mit minimaler Dämpfung. Diesen Fall bezeichnet man als **aperiodischen Grenzfall**.  
 
