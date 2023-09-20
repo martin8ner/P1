@@ -46,7 +46,7 @@ $$
 
 ### Linear gedämpfte Schwingung
 
-Ist im Fall einer gedämpften Schwingung, der Dämpfungsterm $\propto\dot{\varphi}$ (auch Stokes'sche Reibung genannt), dann nimmt Gleichung **(2)** die folgende Form an: 
+Ist im Fall einer gedämpften Schwingung, der Dämpfungsterm $\propto\dot{\varphi}$ (auch [Stokes'sche Reibung](https://de.wikipedia.org/wiki/Gesetz_von_Stokes) genannt), dann nimmt Gleichung **(2)** die folgende Form an: 
 $$
 \begin{equation}
 \Theta\,\ddot{\varphi} + \delta\,\dot{\varphi} + D\,\varphi = 0.
@@ -120,7 +120,7 @@ $$
 
 ### Gütefaktor
 
-Für den [Gütefaktor](https://de.wikipedia.org/wiki/G%C3%BCtefaktor) $Q$ sind zwei unterschiedliche Definition gebräuchlich, die für hinreichend große Werte von $Q$ näherungsweise äquivalent sind (siehe Hinweise zu Aufgabe 2). Wir verwenden hier die Definition
+Für den [Gütefaktor](https://de.wikipedia.org/wiki/G%C3%BCtefaktor) $Q$ sind zwei unterschiedliche Definition gebräuchlich, die für hinreichend große Werte von $Q$ näherungsweise äquivalent sind (siehe [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-2.md)). Wir verwenden hier die Definition
 $$
 \begin{equation}
 \begin{split}
@@ -141,7 +141,7 @@ $$
 
 ### Wirbelstrombremse
 
-Für den vorliegenden Versuch wird das Pohlsche Rad durch eine [Wirbelstrombremse](https://de.wikipedia.org/wiki/Wirbelstrombremse) zusätzlich gedämpft. Dadurch kann die Dämpfung des Rades ohne direkten Kontakt, genau kontrolliert werden. 
+Für den vorliegenden Versuch wird das [Pohlsche Rad](https://de.wikipedia.org/wiki/Pohlsches_Rad) durch eine [Wirbelstrombremse](https://de.wikipedia.org/wiki/Wirbelstrombremse) zusätzlich gedämpft. Dadurch kann die Dämpfung des Rades ohne direkten Kontakt, genau kontrolliert werden. 
 
 Wird eine mit der Winkelgeschwindigkeit $\vec{\omega}$ rotierende Leiterscheibe, wie in **Skizze 1** dargestellt, von einem Magnetfeld $\vec{B}$ durchsetzt, erfahren die quasi-freien Elektronen des Leiters, als bewegte Ladungen mit der Geschwindigkeit $\vec{v}_{e}=\vec{r}_{e}\times\vec{\omega}$, eine Lorentz-Kraft $\vec{F}_{\mathrm{L}}$ senkrecht zu  $\vec{v}_{e}$ und $\vec{\omega}$.  
 
@@ -157,7 +157,7 @@ $$
 |\vec{B}| \propto I_{\mathrm{B}}
 \end{equation*}
 $$
-variabel mit Hilfe einer von einem Strom $I_{\mathrm{B}}$ durchflossenen Spule erzeugt. Da $\vec{F}_{\mathrm{L}}$ immer senkrecht zu $\vec{v}_{e}$ wirkt werden die Elektronen auf eine Kreisbahn innerhalb der Leiterscheibe gelenkt (der die Bewegung der Elektronen mit der rotierenden Leiterscheibe zusätzlich zuzurechnen ist) und es kommt zu einem Kreisstrom ([Wirbelstrom](https://de.wikipedia.org/wiki/Wirbelstrom)) $I$. Die genaue Berechnung dieses Wirbelstroms erfordert die Lösung der [Maxwell-Geilchungen](https://de.wikipedia.org/wiki/Maxwell-Gleichungen). Über die [Lenzsche Regel](https://de.wikipedia.org/wiki/Lenzsche_Regel) lässt sich jedoch argumentieren, dass   
+variabel mit Hilfe einer von einem Strom $I_{\mathrm{B}}$ durchflossenen Spule erzeugt. Da $\vec{F}_{\mathrm{L}}$ immer senkrecht zu $\vec{v}_{e}$ wirkt werden die Elektronen auf eine Kreisbahn innerhalb der Leiterscheibe gelenkt (der die Bewegung der Elektronen mit der rotierenden Leiterscheibe zusätzlich zuzurechnen ist) und es kommt zu einem Kreisstrom ([Wirbelstrom](https://de.wikipedia.org/wiki/Wirbelstrom)) $I$. Die genaue Berechnung von $I$ erfordert die Lösung der [Maxwell-Geilchungen](https://de.wikipedia.org/wiki/Maxwell-Gleichungen). Über die [Lenzsche Regel](https://de.wikipedia.org/wiki/Lenzsche_Regel) lässt sich jedoch argumentieren, dass   
 $$
 \begin{equation*}
 I\propto I_{\mathrm{B}}.
