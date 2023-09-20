@@ -16,7 +16,7 @@ $$
 \left|\vec{M}_{j}\right|=\left|\vec{r}_{a}\times\vec{F}_{j}\right| = r_{a}\,F_{j}; \qquad \vec{r}_{a}\perp\vec{F}_{j}
 \end{equation*}
 $$
-Aus der Momentenfreiheit im statischen Fall ergibt sich $D\hspace{0.05cm}\varphi_{j}=r_{a}\hspace{0.05cm}F_{j}=r_{a}\hspace{0.05cm}g\hspace{0.05cm}m_{j}$.  Mit Hilfe der Messungen von $D$ und $\omega_{0}$ können Sie $\Theta$ aus Gleichung (**(3)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-1.md)) bestimmen.
+Aus der Momentenfreiheit im statischen Fall ergibt sich $D\hspace{0.05cm}\varphi_{j}=r_{a}\hspace{0.05cm}F_{j}=r_{a}\hspace{0.05cm}g\hspace{0.05cm}m_{j}$.  Mit Hilfe der Messungen von $D$ und $\omega_{0}$ können Sie $\Theta$ aus Gleichung (**(3)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-1.md)) bestimmen. **Wir schlagen zur Messung die Massen $m_{j}=5,10,20\hspace{0.05cm}\mathrm{g}$ vor.** Messen Sie die Auslenkung in beiden Drehrichtungen.
 
 Zum Vergleich können Sie $\Theta$ aus der Geometrie des Pohlschen Rads wie folgt abschätzen:
 $$
@@ -28,7 +28,7 @@ In diesem Fall berücksichtigen Sie lediglich den Ring des Schwungrads und nehme
 
 #### Aufgabe 1.3: Schwingung mit äußerer Dämpfung
 
-Sie können den Strom $I_{\mathrm{B}}$ zur Erzeugung des Magnetfelds aus dem CASSY System steuern. Führen Sie die folgenden Aufgabenteile für mindestens vier verschiedene Werte von $I_{\mathrm{B}}$ durch. Wir schlagen $I_{\mathrm{B}}=100,200,400,700\hspace{0.05cm}\mathrm{mA}$ vor. 
+Sie können den Strom $I_{\mathrm{B}}$ zur Erzeugung des Magnetfelds aus dem CASSY System steuern. Führen Sie die folgenden Aufgabenteile für mindestens vier verschiedene Werte von $I_{\mathrm{B}}$ durch. **Wir schlagen $I_{\mathrm{B}}=100,200,400,700\hspace{0.05cm}\mathrm{mA}$ vor. **
 
 Bestimmen Sie $\lambda$ auf zwei Arten: 
 
