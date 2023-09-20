@@ -20,16 +20,16 @@ Der Begriff Resonanz leitet sich vom lateinischen Wort *resonare* widerhallen ab
 
 Mit diesem Versuch haben Sie die Möglichkeit Schwingungsphänomene aus der Mechanik starrer Körper und aus der Elektrodynamik experimentell zu untersuchen und sich intuitiv damit vertraut zu machen. 
 
-## Lernziele
+## Lehrziele
 
 Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem Versuch **Resonanz** vermitteln möchten: 
 
 - Sie können verschiedene Eigenschaften schwingender Systeme, deren physikalisches Verhalten Sie bisher nur abstrakt aus der Vorlesung kennen, experimentell untersuchen.
-- Sie können die aus der Vorlesung abgeleiteten abstrakten Differentialgleichungen und deren Lösungen mit konkreten Messungen und Beobachtungen verbinden.
-- Sie lernen den Begriff Gütefaktor kennen und bekommen ein Gefühl dafür, was der Gütefaktor eines schwingenden Systems bedeutet.  
-- Sie untersuchen Schwingungen am Beispiel mechanischer Drehschwingungen und können so Erfahrungen mit den Bewegungen starrer Körper machen.
-- Sie untersuchen nicht nur mechanische sondern auch elektrische Schwingungen und erleben so Schwingungsphänomene in zwei ganz unterschiedlichen physikalischen Zusammenhängen. 
-- Die Daten werden mit einem computergestützten Datenefassungs-System (CASSY) aufgenomen. Dies gibt ihnen die Möglichkeit sich in der elektronischen Weiterverarbeitung der Daten in einem Standardformat (wie z.B. *xml*) zu üben. 
+- Sie können die aus der Vorlesung abgeleiteten abstrakten Differentialgleichungen und deren Lösungen mit konkreten Messungen und Beobachtungen in der Realität verbinden.
+- Sie lernen den Begriff [Gütefaktor](https://de.wikipedia.org/wiki/G%C3%BCtefaktor) kennen und bekommen ein Gefühl dafür, was er für ein schwingendes System bedeutet.  
+- Sie untersuchen Schwingungsphänomene am Beispiel mechanischer Drehschwingungen und können so Erfahrungen mit der Dynamik starrer Körper machen.
+- Sie untersuchen nicht nur mechanische sondern auch elektrische Schwingungen und erleben so Schwingungsphänomene in zwei ganz unterschiedlichen physikalischen Zusammenhängen. Beachten Sie, dass die Differenzialgleichungen auch aus unterschiedlichen physikalischen Prinzipien abgeleitet werden.
+- Die Daten werden mit einem computergestützten Datenerfassungs-System (CASSY) aufgezeichnet. Dies gibt ihnen die Möglichkeit sich in der elektronischen Weiterverarbeitung der Daten in einem Standardformat (wie z.B. *xml*) zu üben. 
 
 ## Versuchsaufbau
 
@@ -38,6 +38,10 @@ Dieser Versuch ist zweigeteilt. Den ersten Teil bestreiten Sie mit dem [Pohlsche
 <img src="./figures/ResonanzAufbau.png" width="900" style="zoom:100%;" />
 
 In einem zweiten Teil bauen Sie einen einfachen elektrischen Serienschwingkreis auf und führen daran Resonanzuntersuchungen durch. Die meisten Elemente, die Sie für beide Versuchsteile benötigen sind Bestandteile des CASSY-Systems. Eine Auflistung der für ihre Auswertung wichtigen Bauelemente und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/resonanz/Datenblatt.md).
+
+## Wichtige Hinweise zum Versuch
+
+Sie benötigen einen **USB-Stick oder sonstigen Datenträger** zur Übermittlung der aufgezeichneten Daten.
 
 # Navigation
 
