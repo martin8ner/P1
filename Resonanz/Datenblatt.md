@@ -1,11 +1,18 @@
-# Technische Daten und Inventar für den Versuch Vierpole und Leitungen:
+# Technische Daten und Inventar für den Versuch Resonanz:
 
 Für den Versuch stehen Ihnen die folgenden Geräte und Materialien zur Verfügung:
 
-- Ein Frequenzgenerator: GW-Instek SFG-2104, für Sinus-, Rechteck-und Dreieckspannungen (von $0,1\hspace{0.05cm}\mathrm{Hz}$ bis $4\hspace{0.05cm}\mathrm{MHz}$).
-- Ein Oszilloskop vom Typ Tektronix TDS2002B (mit $R=1\hspace{0.05cm}\mathrm{M\Omega}$; $C=20\hspace{0.05cm}\mathrm{pF}$ am Eingang) oder Hameg 205-2 (mit $R=1\hspace{0.05cm}\mathrm{M\Omega}$; $C=47\hspace{0.05cm}\mathrm{pF}$ am Eingang). Beide Oszilloskop-Typen verfügen über einen Tastkopf von jeweils $R=10\hspace{0.05cm}\mathrm{M\Omega}$.
-- Ein Steckkasten mit Bananenbuchsen zum Aufbau der $RC$-Glieder. Hierzu gehören die folgenden Steckelemente zur Variation des $RC$-Glieds: Widerstände mit 220 $\Omega$ sowie 1; 10; 100; 1000 $\mathrm{k\Omega}$, jeweils mit einer Unsicherheit von $\pm2\%$ und Kondensatoren mit 1; 10; 100; 1000 $\mathrm{nF}$, jeweils mit einer Unsicherheit von $\pm 2\%$. 
-- Ein Steckkasten mit einer aufgebauten Drosselkette aus (1+5) $\pi$-Gliedern. Die einzelnen $\pi$-Glieder haben die Konfiguration $C/2=1\hspace{0.05cm}\mathrm{nF}$; $L=96\hspace{0.05cm}\mathrm{\mu H}$; $C/2=1\hspace{0.05cm}\mathrm{nF}$. Der Schaltung kann ein Widerstand von $200\hspace{0.05cm}\Omega$ vorgeschaltet werden. Ein bis zu $500\hspace{0.05cm}\Omega$ regelbarer Lastwiderstand $Z_{\mathrm{A}}$ kann am Ende der Kette zugeschaltet werden. Die (5+1)-Anordnung erlaubt es Messungen an der gesamten Kette, oder an einem einzelnen $\pi$-Glied aus der Kette vorzunehmen.
-- Ein Steckkasten mit einem Koaxialkabel (vom Typ RG174/U). Die Länge des Kabels beträgt $\ell=10,0\hspace{0.05cm}\mathrm{m}$; die Kapazität $C=925\hspace{0.05cm}\mathrm{pF}$; der Durchmesser des inneren Leiters $d_{i}=0,5\hspace{0.05cm}\mathrm{mm}$; und der innere Durchmesser des äußeren Leiters $d_{a}=1,75\hspace{0.05cm}\mathrm{mm}$. Am Ende des Kabels kann ein bis zu $100\hspace{0.05cm}\Omega$ regelbarer Lastwiderstand zugeschaltet werden.
-- Verschiedene Verbindungskabel (Koaxialkabel mit BNC-Steckern und Laborleitungen mit Bananensteckern).
-- Verschiedene Übergangsstücke ("Koaxialkabel auf Banane", Banane auf Koaxialkabel).
+- Ein Drehpendel ([Pohlsches Rad](https://de.wikipedia.org/wiki/Pohlsches_Rad)). Der kreisringförmigr Drehkörper (Innenradius $r_{i}=74,7\hspace{0.05cm}\mathrm{mm}$, Außenradius $r_a=94,7\hspace{0.05cm}\mathrm{mm}$, Dicke $d=2\hspace{0.05cm}\mathrm{mm}$) aus Kupfer ($\rho=8,96\hspace{0.05cm}\mathrm{g/cm^3}$) ist mit einem Lochkranz für Lichtschrankenmessungen (165 Löcher, mit Durchmesser $\varnothing = 1,5\hspace{0.05cm}\mathrm{mm}$ in einem Radius von $r_{\mathrm{Loch}} = 91,9\hspace{0.05cm}\mathrm{mm}$) und 5 Speichen versehen. Der Drehkörper besitzt: 
+  - einen Motor mit regelbarer Stromversorgung zur Justierung der Motordrehzahl, Getriebe und Exzenter zur Anregung; 
+  - eine Wirbelstrombremse zur äußeren Dämpfung (max. zulässiger Strom: langzeitig $1\hspace{0.05cm}\mathrm{A}$/kurzzeitig $1,6\hspace{0.05cm}\mathrm{A}$); 
+  - einen Winkelgeber zur Erfassung der Motorbewegung; 
+  - eine Lichtschranke zur Erfassung der Pendel-Drehbewegung.
+- Ein Netzgerät zum Betrieb der Wirbelstrombremse. 
+- Drei Messinggewichte (mit $m_{i}=5, 10, 20\hspace{0.05cm}\mathrm{g}$) mit Faden für die Bestimmung von $D$.
+- CASSY-SENSOR Messinterface.
+
+- POWER-CASSY, als Spannungsquelle zur Bereitstellung der äußeren Erregerspannung für den elektrischen Schwingkreis.
+
+- Ein PC zur Erfassung der Daten.
+
+- Eine Spule ($L = (35 \pm 1)\hspace{0.05cm}\mathrm{mH}$), ein Kondensator ($C = (320 \pm 20)\hspace{0.05cm}\mathrm{nF}$) und drei Widerstände ($R=8,2\hspace{0.05cm}\Omega,47\hspace{0.05cm}\Omega,100\hspace{0.05cm}\Omega$) zur Schaltung eines elektrischen Serienschwingkreises.

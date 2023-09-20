@@ -4,44 +4,44 @@
 
 ## Physikalisches Praktikum P1 für Studierende der Physik
 
-Versuch P1-53, 54, 55 (Stand: September 2023)
+Versuch P1-12, 22 (Stand: September 2023)
 
 [Raum F1-17](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/layoutobjekte/Lageplan_P1.png)
 
 
 
-# Vierpole und Leitungen
+# Resonanz
 
 ## Motivation
 
-In der stromleitungsgebundenen Signalübertragung werden elektrische Signale i.d.R. durch mindestens zwei getrennte Leiter —einen Hin- und Rückleiter— übertragen. Für [Gleichstrom](https://de.wikipedia.org/wiki/Gleichstrom) oder [Wechselstrom](https://de.wikipedia.org/wiki/Wechselstrom) niedriger Frequenz lässt sich eine solche Leitung in guter Näherung mit Hilfe des [ohmschen Widerstands](https://de.wikipedia.org/wiki/Elektrischer_Widerstand#Ohmscher_Widerstand), bestimmt aus der Querschnittsfläche, [Leitfähigkeit](https://de.wikipedia.org/wiki/Leitf%C3%A4higkeit) und Länge der Leitung, beschreiben. Ist die [Wellenlänge](https://de.wikipedia.org/wiki/Wellenlänge) der übertragenen Signale jedoch so klein, oder die räumliche Ausdehnung eines Leitungssystems so groß, dass die Laufzeit der übertragenen Signale nicht mehr vernachlässigt werden kann, treten Wellenphänomene auf, die die Signalübertragung beeinflussen. Die Beschreibung dieser Phänomene erfordert mathematische Modelle, die den Ort des Signals mit einschließen.
+Überall, wo der Auslenkung eines (trägen) Objekts aus seiner Ruhelage ein "zurücktreibendes Moment" entgegenwirkt, kommt es zu [Schwingungen](https://de.wikipedia.org/wiki/Schwingung). In der uns umgebenden Natur sind Schwingungen allgegenwärtig. Sie treten als universelles Phänomen auf, dessen mathematische Beschreibung, egal ob in der Mechanik, Elektrodynamik, Thermodynamik, Biologie oder Regeltechnik, immer den gleichen Gesetzen folgt. Ist das "zurücktreibende Moment" linear proportional zur Auslenkung, dann ist die resultierende [Schwingungsgleichung](https://de.wikipedia.org/wiki/Harmonischer_Oszillator) geschlossen-analytisch lösbar. Aus der Vorlesung kennen Sie die kanonischen Fälle der linear gedämpften und ungedämpften harmonischen Schwingungen, sowie der äußerlich angeregten (linear gedämpften) Schwingung. Jedes schwingende System schwingt mit seiner Eigenfrequenz $\omega_{0}$ (Eigenschwingung), die durch die Größen von Trägheit und "zurücktreibendem Moment" vorgegeben ist. Bei äußerlich angeregten Schwingungen kommt es zum Phänomen der [Resonanz](https://de.wikipedia.org/wiki/Resonanz), falls die anregende Frequenz $\Omega$ mit $\omega_{0}$ zusammenfällt. 
 
-Als erster beschäftigte sich 1855 [William Thomson](https://de.wikipedia.org/wiki/William_Thomson,_1._Baron_Kelvin) mit der Beschreibung der Vorgänge auf Leitungen. Die Notwendigkeit hierzu ergab sich aus der Verlegung transatlantischer [Seekabel](https://de.wikipedia.org/wiki/Seekabel), ab 1850, und die dabei auftretenden starken [Verzerrungen](https://de.wikipedia.org/wiki/Verzerrung_(Elektrotechnik)) der übertragenen Signale, die ein tieferes Verständnis erforderten. Im Jahr 1886 formulierte [Oliver Heaviside](https://de.wikipedia.org/wiki/Oliver_Heaviside) die bis dato gewonnenen Erkenntnisse in ihrer heutigen Form als [Leitungsgleichungen](https://de.wikipedia.org/wiki/Leitungsgleichung) und begründete damit die allgemeine [Leitungstheorie](https://de.wikipedia.org/wiki/Leitungstheorie). [Rudolf Franke](https://de.wikipedia.org/wiki/Rudolf_Franke_(Ingenieur,_1870)) betrachtete die Leitung 1891 erstmals mit den Mitteln der [Vierpoltheorie](https://de.wikipedia.org/wiki/Zweitor). 
+Der Begriff Resonanz leitet sich vom lateinischen Wort *resonare* widerhallen ab. Er stammt aus der [Akustik](https://de.wikipedia.org/wiki/Akustik), wo er das merkliche Mitschwingen von Saiten bei Tönen geeigneter Tonhöhe bezeichnet. Erstmals wurden Resonanzphänomene durch [Galileio Galilei](https://de.wikipedia.org/wiki/Galileo_Galilei) in seinen Untersuchungen zu Pendeln (1602) und Saiten (1638) beschrieben. Die erste mathematische Formulierung der Wellengleichung (ohne Dämpfung) ist 1739 durch [Leonhard Euler](https://de.wikipedia.org/wiki/Leonhard_Euler) dokumentiert. Eulers Lösungen, sowohl der homogenen, als auch der inhomogenen Schwingungsgleichung enthielten bereits die Überlagerung der anregenden Schwingung (mit $\Omega$) mit der Eigenschwingung (mit $\omega_{0}$) und das Phänomen der unendlich anwachsenden Amplitude im Fall der Resonanz ([Resonanzkatastrophe](https://de.wikipedia.org/wiki/Resonanzkatastrophe)). Euler selbst betrachtete dieses Ergebnis in einem Brief an [Johann Bernoulli](https://de.wikipedia.org/wiki/Johann_II_Bernoulli), als „wunderliche“ theoretische Voraussage seiner Rechnung. Diese Anekdote demonstriert die große Vorhersagekraft mathematischer Modelle, die oft über die Vorstellungskraft der Protagonisten ihrer Zeit hinausgeht.  
 
-Mit diesem Versuch werden Sie die Eigenschaften von Vielpolen und Leitungen im Versuch kennenlernen. In der Vorbereitung auf den Versuch machen wir Sie mit den Grundlagen der stromleitungsgebundenen Signalübertragung vertraut. Diese spielt sowohl bei der Übertragung von Signalen über große Strecken, als auch bei sehr schnell getakteten Signalen (z.B. im $\mathrm{GHz}$-Bereich, wie bei modernen Rechnern üblich) eine wichtige Rolle. Auch bei der Planung nahezu aller Versuche im Praktikum sollten Sie sich über die Eigenschaften der Signalübertragung in Kabeln im Klaren sein. 
+Mit diesem Versuch haben Sie die Möglichkeit Schwingungsphänomene aus der Mechanik starrer Körper und aus der Elektrodynamik experimentell zu untersuchen und sich intuitiv damit vertraut zu machen. 
 
 ## Lernziele
 
-Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem Versuch **Vierpole und Leitungen** vermitteln möchten: 
+Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem Versuch **Resonanz** vermitteln möchten: 
 
-- Sie üben sich im theoretischen und praktischen Umgang mit Wechselstromkreisen. Sie werden dabei mehreren Anwendungen der [Kirchhoffschen Regeln](https://de.wikipedia.org/wiki/Kirchhoffsche_Regeln) begegnen, die bei der Berechnungen von Schaltkreisen von fundamentaler Bedeutung ist.
-- Die Übertragung von Signalen durch Stromleitungen beschreibt man durch [Vierpol](https://de.wikipedia.org/wiki/Zweitor)-Schaltungen. Mit diesem Versuch erhalten Sie ein grundlegendes Verständnis für solche Schaltungen. 
-- Sie entwickeln Ihr Verständnis ausgehend vom $RC$-Glied, das Sie als Hochpass, Tiefpass oder Phasenschieber untersuchen, über das $\pi$-Glied, als Bestandteil der (idealen) Drosselkette, eine aus sechs $\pi$-Gliedern zusammengesetzte Drosselkette, bis hin zum Koaxialkabel.
-- Für Ihre Versuche nutzen Sie ein Oszilloskop in verschiedenen üblichen Betriebsmodi und lernen dieses für einen Physiker essentielle Gerät weiter kennen.
-- Schließlich bestimmen Sie mit der [Dielektrizitätskonstanten](https://de.wikipedia.org/wiki/Permittivit%C3%A4t) $\epsilon$ eine wichtig Materialeigenschaft eines Standard-Koaxialkabels.    
+- Sie können verschiedene Eigenschaften schwingender Systeme, deren physikalisches Verhalten Sie bisher nur abstrakt aus der Vorlesung kennen, experimentell untersuchen.
+- Sie können die aus der Vorlesung abgeleiteten abstrakten Differentialgleichungen und deren Lösungen mit konkreten Messungen und Beobachtungen verbinden.
+- Sie lernen den Begriff Gütefaktor kennen und bekommen ein Gefühl dafür, was der Gütefaktor eines schwingenden Systems bedeutet.  
+- Sie untersuchen Schwingungen am Beispiel mechanischer Drehschwingungen und können so Erfahrungen mit den Bewegungen starrer Körper machen.
+- Sie untersuchen nicht nur mechanische sondern auch elektrische Schwingungen und erleben so Schwingungsphänomene in zwei ganz unterschiedlichen physikalischen Zusammenhängen. 
+- Die Daten werden mit einem computergestützten Datenefassungs-System (CASSY) aufgenomen. Dies gibt ihnen die Möglichkeit sich in der elektronischen Weiterverarbeitung der Daten in einem Standardformat (wie z.B. *xml*) zu üben. 
 
 ## Versuchsaufbau
 
-Der Versuch umfasst einen Frequenzgenerator, ein Oszilloskop zur Untersuchung der erzeugten Signale an verschiedenen Stellen des zu untersuchenden Vierpols und eine Anzahl von Steckbrettern, an denen die zu untersuchenden Schaltungen entsprechen aufgebaut oder vervollständigt werden können. Eine Auflistung der für ihre Auswertung wichtigen Bauelemente und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/Datenblatt.md?ref_type=heads).
+Dieser Versuch ist zweigeteilt. Den ersten Teil bestreiten Sie mit dem [Pohlschen Rad](https://de.wikipedia.org/wiki/Pohlsches_Rad), das Sie in freie (bzw. schwach gedämpfte) und angeregte Schwingung versetzen und ggf. mit Hilfe einer Wirbelstrombremse zusätzlich von außen dämpfen.
 
-<img src="./figures/VierpoleAufbau.png" width="900" style="zoom:100%;" />
+<img src="./figures/ResonanzAufbau.png" width="900" style="zoom:100%;" />
 
-Zur Schaltung einfacher Vierpole stehen Ihnen verschiedene ohmsche Widerstände, Kondensatoren verschiedener Kapazität und eine Reihe von Koaxialkabeln, Brücken und Verbindungssteckern zur Verfügung.
+In einem zweiten Teil bauen Sie einen einfachen elektrischen Serienschwingkreis auf und führen daran Resonanzuntersuchungen durch. Die meisten Elemente, die Sie für beide Versuchsteile benötigen sind Bestandteile des CASSY-Systems. Eine Auflistung der für ihre Auswertung wichtigen Bauelemente und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/resonanz/Datenblatt.md).
 
 # Navigation
 
-- Eine kurze Einführung in die stromleitungsgebundene Signalübertragung finden Sie in der Datei [Hinweise-Leitungen.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Leitungen.md?ref_type=heads).
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-1.md).
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc//Hinweise-Aufgabe-2.md).
-- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/doc/Hinweise-Aufgabe-3.md).
-- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vierpole_und_Leitungen/Datenblatt.md).  
+- Eine kurze Einführung ins CASSY-Messsystem finden Sie in der Datei [Hinweise-CASSY.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-CASSY.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-1.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc//Hinweise-Aufgabe-2.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/Datenblatt.md).  
