@@ -20,9 +20,9 @@ Als erster beschäftigte sich 1855 [William Thomson](https://de.wikipedia.org/wi
 
 Mit diesem Versuch werden Sie die Eigenschaften von Vielpolen und Leitungen im Versuch kennenlernen. In der Vorbereitung auf den Versuch machen wir Sie mit den Grundlagen der stromleitungsgebundenen Signalübertragung vertraut. Diese spielt sowohl bei der Übertragung von Signalen über große Strecken, als auch bei sehr schnell getakteten Signalen (z.B. im $\mathrm{GHz}$-Bereich, wie bei modernen Rechnern üblich) eine wichtige Rolle. Auch bei der Planung nahezu aller Versuche im Praktikum sollten Sie sich über die Eigenschaften der Signalübertragung in Kabeln im Klaren sein. 
 
-## Lernziele
+## Lehrziele
 
-Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem Versuch **Vierpole und Leitungen** vermitteln möchten: 
+Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem Versuch **Vierpole und Leitungen** vermitteln möchten: 
 
 - Sie üben sich im theoretischen und praktischen Umgang mit Wechselstromkreisen. Sie werden dabei mehreren Anwendungen der [Kirchhoffschen Regeln](https://de.wikipedia.org/wiki/Kirchhoffsche_Regeln) begegnen, die bei der Berechnungen von Schaltkreisen von fundamentaler Bedeutung ist.
 - Die Übertragung von Signalen durch Stromleitungen beschreibt man durch [Vierpol](https://de.wikipedia.org/wiki/Zweitor)-Schaltungen. Mit diesem Versuch erhalten Sie ein grundlegendes Verständnis für solche Schaltungen. 
