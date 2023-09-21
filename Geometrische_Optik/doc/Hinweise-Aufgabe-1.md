@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 1: Bestimmung der Brennweite $f$ einer einzelnen Linse (1/2)
+## Aufgabe 1: Bestimmung der Brennweite $f$ einer einzelnen Linse [1/2]
 
 ### Grundbegriffe der paraxialen Optik
 
@@ -18,20 +18,18 @@ Zueinander parallele und senkrecht zu $H$ einfallende Lichtstrahlen kreuzen sich
 
 Wir verwenden $G$ ($B$) sowohl für den Gegenstand (das Bild) selbst, als auch für dessen Größe. Der Abstand von $G$ zu $H$ heißt [Gegenstandsweite](https://de.wikipedia.org/wiki/Gegenstandsweite) $g$, der Abstand von $B$ zu $H$ [Bildweite](https://de.wikipedia.org/wiki/Bildweite) $b$. Das Verhältnis 
 
-```math
+$$
 \begin{equation*}
 \beta = \frac{B}{G}
 \end{equation*}
-```
-
+$$
 wird als [Abbildungsmaßstab](https://de.wikipedia.org/wiki/Abbildungsma%C3%9Fstab) bezeichnet. Die Beziehung zwischen $b$, $g$ und $f$ für ein scharfes Bild ist durch die [Linsengleichung](https://de.wikipedia.org/wiki/Linsengleichung) (oder Abbildungsgleichung)  
 
-```math
+$$
 \begin{equation}
 \frac{1}{f} = \frac{1}{g} + \frac{1}{b}
 \end{equation}
-```
-
+$$
 gegeben.  In der **Skizze 1** wird der (reelle) Gegenstand $G$ in ein umgekehrtes [reelles Bild](https://de.wikipedia.org/wiki/Reelles_Bild) $B$ abgebildet. Da der Strahlengang umkehrbar ist, wird $B$, durch Reflexion, als reelles Bild auch in $G$ zurück abgebildet.
 
 # Navigation

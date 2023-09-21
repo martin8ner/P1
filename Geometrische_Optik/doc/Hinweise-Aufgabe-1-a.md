@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 1: Bestimmung der Brennweite $f$ einer einzelnen Linse (2/2)
+## Aufgabe 1: Bestimmung der Brennweite $f$ einer einzelnen Linse [2/2]
 
 ### Bessel-Verfahren
 
@@ -14,7 +14,7 @@ Für die Bestimmung von $f$ nach dem [Bessel-Verfahren](https://de.wikipedia.org
 
 Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In einer Position von $H$ ist $B$ größer als $G$ in der anderen kleiner. Ein scharfes reelles Bild entsteht nur dann, wenn (Gleichung (1) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-1.md)) erfüllt ist (siehe [Skizze 1](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/raw/main/Geometrische_Optik/figures/Linsengleichung.png)), was in beiden Positionen von $H$ erfüllt werden kann, wenn $x=g$, $y=b$ oder $x=b$, $y=g$. Wir drücken in (Gleichung (1) [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/doc/Hinweise-Aufgabe-1.md)) $b$ und $g$ durch $x$ aus und lösen nach $x$ auf:
 
-```math
+$$
 \begin{equation}
 \begin{split}
 &\frac{1}{f} = \frac{1}{x} + \frac{1}{a-x}; \qquad \frac{1}{f} = \frac{a}{x(a-x)}; \\
@@ -23,19 +23,17 @@ Dabei ist aufgrund der Umkehrbarkeit des Lichtstrahls $x'=y$ und $y'=x$. In eine
 &x_{1/2} = \frac{a}{2}\pm\frac{\sqrt{a^{2}-4\,a\,f}}{2}
 \end{split}
 \end{equation}
-```
-
+$$
 Wie aus Gleichung (1) ersichtlich können sich zwei scharfe Bilder nur dann ergeben, wenn die Bedingung
 
-```math
+$$
 \begin{equation*}
 a>4\,f
 \end{equation*}
-```
-
+$$
 erfüllt ist, womit die anfängliche Aussage *hinreichen* groß für die Wahl von $a$ konkretisiert wird. Aus [Skizze 1](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/raw/main/Geometrische_Optik/figures/Linsengleichung.png) und Gleichung (1) wird deutlich, wie diese Bedingung zustande kommt und was eine geschickte Wahl für $a$ ist. Aus dem Abstand der beiden Punkte, in denen ein scharfes Bild auf $S$ entsteht lässt sich $f$ berechnen: 
 
-```math
+$$
 \begin{equation*}
 \begin{split}
 &e= \left|g - b\right| \\
@@ -44,7 +42,7 @@ erfüllt ist, womit die anfängliche Aussage *hinreichen* groß für die Wahl vo
 &f = \frac{a^{2}-e^{2}}{4\,a}
 \end{split}
 \end{equation*}
-```
+$$
 
 ### Hinweise zur Durchführung
 

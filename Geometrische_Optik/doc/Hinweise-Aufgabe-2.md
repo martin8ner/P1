@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 2: Vermessung eines Zweilinsensystems $L$ (1/5)
+## Aufgabe 2: Vermessung eines Zweilinsensystems $L$ [1/5]
 
 ### Strahlengang eines Zweilinsensystems
 
@@ -14,12 +14,11 @@ Mit Hilfe des in **Skizze 3** eingezeichneten Strahlengangs kann ein System aus 
 
 Für $f$ gilt die Formel von [Allvar Gullstrand](https://de.wikipedia.org/wiki/Allvar_Gullstrand) (auch als Gullstrand-Formel bezeichnet): 
 
-```math
+$$
 \begin{equation}
 \frac{1}{f} = \frac{1}{f_{1}} + \frac{1}{f_{2}} - \frac{d}{f_{1}f_{2}},
 \end{equation}
-```
-
+$$
 wobei $d$ der Abstand zwischen $L_{1}$ und $L_{2}$ (gemessen von den jeweiligen Scheiteln von $L_{1}$ und $L_{2}$) ist. 
 
 Die Konstruktion erfolgt dabei wie folgt (Angaben in **Skizze 3**): 
@@ -44,12 +43,11 @@ Dies entspricht der Konstruktion eines Bildes $B$ für eine einzelne, dicke Lins
 
 Sind $f_{1}$ und $f_{2}$ bekannt lassen sich die Lagen von $H_{1}$ und $H_{2}$ aus 
 
-```math
+$$
 \begin{equation}
 h_{1} = -\frac{f\,d}{f_{1}}; \quad h_{2}=\frac{f\,d}{f_{2}}
 \end{equation}
-```
-
+$$
 berechnen, wobei $h_{1}$ und $h_{2}$ von den Scheiteln der Linsen aus zu messen sind. 
 
 Für diesen Versuch sind $f_{1}$ und $f_{2}$ und damit auch die Lagen von $H_{1}$ und $H_{2}$ zunächst unbekannt. Die Größen $f$, $f_{1}$, $f_{2}$, sowie die Lagen von $H_{1}$ und $H_{2}$ lassen sich jedoch mit Hilfe des [Abbe-Verfahrens](https://de.wikipedia.org/wiki/Abbe-Verfahren) ermitteln.
