@@ -6,7 +6,7 @@ Für den Versuch stehen Ihnen die folgenden optischen Gerätschaften zur Verfüg
 - Eine Glühlampe ($6\,\mathrm{V}$; $5\,\mathrm{A}$) mit Gehäuse und Netzgerät.
 - Ein [Kondensor](https://de.wikipedia.org/wiki/Kondensor).
 - Mehrere Sammellinsen mit verschiedenen Brennweiten $f$ (4, 5, 7, 9, 10, 15, 20, 30, 50, 100 $\mathrm{cm}$, evtl. weicht die Zusammenstellung der Linsen von diesen Angaben leicht ab).
-- Mehrere Streulinsen mit verschiedenen Brennweiten ($f=-5,\,-10\,\mathrm{cm}$).
+- Mehrere Streulinsen mit verschiedenen Brennweiten ($f=-5,\hspace{0.05cm}-10\hspace{0.05cm}\mathrm{cm}$).
 - Ein verstellbarer Spalt.
 - Eine Irisblende.
 - Eine Loch- und Scheibenblende (jeweils auf die oben genannten Linsen aufsteckbar). 
