@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Vierpole und Leitungen
 
-## Aufgabe 1: Einfache Vierpole
+## Aufgabe 1: Einfache Vierpole [1/2]
 
 Bei dieser Aufgabe werden **$RC$-Spannungsteiler**, als einfache, passive, lineare Vierpole, bezüglich des **Spannungsübertrags** (Hoch-/Tiefpass) und der **Phasenverschiebung** (Phasenschieber) zwischen Ein- und Ausgangssignal untersucht.
 
