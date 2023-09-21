@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Resonanz
 
-## Aufgabe 1: Freie Schwingung
+## Aufgabe 1: Freie Schwingung [1/2]
 
 ### Mechanische Schwingung ohne äußere Dämpfung
 

@@ -1,5 +1,7 @@
 # Hinweise für den Versuch Resonanz
 
+## Aufgabe 2: Erzwungene Schwingung [2/2]
+
 ###  Hinweise zur Durchführung
 
 #### Aufgabe 2.1: Mechanische Schwingungen
