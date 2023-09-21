@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 3: Aufbau optischer Instrumente (1/3)
+## Aufgabe 3: Aufbau optischer Instrumente [1/3]
 
 ### Grundbegriffe zum Umgang mit optischen Geräten
 
@@ -8,12 +8,11 @@ Die Linse des menschlichen Auges bildet, in entspanntem Zustand, Gegenstände $G
 
 Die Vergrößerungseigenschaft $V$ eines optischen Geräts wird durch den Quotienten der Winkel quantifiziert, unter denen $G$ betrachtet wird: 
 
-```math
+$$
 \begin{equation*}
 V = \frac{\alpha}{\beta},
 \end{equation*}
-```
-
+$$
 wobei $\alpha$ ($\beta$) dem Betrachtungswinkel ohne (mit) dem optischen Gerät entspricht.  
 
 ### Strahlengang eines Teleskops
@@ -28,48 +27,43 @@ Ein Teleskop bildet Gegenstände $G$, die sich in großer Entfernung befinden ve
 
 Ein Bündel paralleler Strahlen fällt unter dem Winkel $\alpha$ auf die linke Linse und wird in der rechtsseitigen Brennebene im Abstand $f_{1}$ auf das (reelle) Bild $B$ abgebildet, wobei $f_{1}$ der Brennweite der Linse entspricht. Der Winkel $\alpha$ kann aus dem Verhältnis
 
-```math
+$$
 \begin{equation*}
 \alpha=\frac{B}{f_{1}}
 \end{equation*}
-```
-
+$$
 abgeschätzt werden. Der *linksseitige* Brennpunkt der rechten Linse (im Abstand der Brennweite $f_{2}$) fällt mit dem rechtsseitigen Brennpunkt der linken Linse zusammen. Die rechte Linse bildet daher $B$ in ein (virtuelles) Bild paralleler Strahlen, unter dem Winkel 
 
-```math
+$$
 \begin{equation*}
 \beta=\frac{B}{f_{2}}
 \end{equation*}
-```
-
+$$
 ab. Der Abstand beider Linsen beträgt
 
-```math
+$$
 \begin{equation*}
 d=f_{1}+f_{2}.
 \end{equation*}
-```
-
+$$
 Die Vergrößerung lässt sich aus dem Verhältnis
 
-```math
+$$
 \begin{equation*}
 V = \frac{\beta}{\alpha} = \frac{f_{1}}{f_{2}}
 \end{equation*}
-```
-
+$$
 ableiten. Das Bild erscheint auf dem Kopf stehend. (Beachten Sie, dass sich die Strahlen in $B$ gekreuzt haben.) 
 
 Eine Variation des Kepler-Fernrohrs ist das [Gallilei-Fernrohr](https://de.wikipedia.org/wiki/Fernrohr#Galilei-Fernrohr), für das die rechte Sammellinse durch eine Streulinse, für **Skizze 4** —bis auf das Vorzeichen— der gleichen Brennweite $f_{2}$, ersetzt. Ein entsprechender Strahlengang in in **Skizze 4** (unten) gezeigt. In diesem Fall fällt der rechtsseitige Brennpunkt der linken Linse mit dem *rechtsseitigen* Brennpunkt der rechten Linse zusammen. Die Vergrößerung $V$ der Fernrohrs ergibt sich aus der gleichen Abschätzung, wie für Gleichung (1) mit zwei Besonderheiten: 
 
 Der Abstand der Linsen beträgt 
 
-```math
+$$
 \begin{equation*}
 d = f_{1} - f_{2},
 \end{equation*}
-```
-
+$$
 das Gallilei-Fernrohr ist also etwas kompakter in der Bauweise und das Bild im Auge erscheint nicht auf dem Kopf stehend. 
 
 # Navigation

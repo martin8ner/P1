@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Geometrische Optik
 
-## Aufgabe 2: Vermessung eines Zweilinsensystems $L$ (5/5)
+## Aufgabe 2: Vermessung eines Zweilinsensystems $L$ [5/5]
 
 ### Hinweise zur Durchführung
 
