@@ -4,7 +4,7 @@
 
 ## Physikalisches Praktikum P1 für Studierende der Physik
 
-Versuch P1-43, 44, 45 (Stand: November 2022)
+Versuch P1-43, 44, 45 (Stand: Oktober 2023)
 
 [Raum F1-13](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/layoutobjekte/Lageplan_P1.png)
 
@@ -18,20 +18,20 @@ Mit diesem Versuch machen Sie sich mit den Grundlagen der [geometrischen Optik](
 
 Seit Jahrhunderten wenden Menschen die Gesetze der paraxialen Optik zum Bau technischer Hilfsmittel und Geräte, wie Brillen, Teleskope und Mikroskope an. Bis in die heutige Zeit spielen Linsen, Blenden, Spiegel und Filter, eine zentrale Rolle an vielen Stellen in Wissenschaft und Technik. Offensichtlich ist dies z.B. in der Laserphysik, Quantenoptik, oder Astronomie. Analoge Gesetzmäßigkeiten kommen aber auch bei der Untersuchung von Graviatationswellen oder in der Beschleunigerphysik zur Anwendung. Auch im [P1](https://labs.physik.kit.edu/64.php) werden Sie die [Linsengleichung](https://de.wikipedia.org/wiki/Linsengleichung), als zentrales Element zur Messung der Lichtgeschwindigkeit nach der Drehspiegelmethode, beim Versuch "[Lichtgeschwindigkeit](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Lichtgeschwindigkeit)" wiederfinden. 
 
-## Lernziele
+## Lehrziele
 
-Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem Versuch **Geometrische Optik** vermitteln möchten: 
+Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem Versuch **Geometrische Optik** vermitteln möchten: 
 
 - Sie lernen Begriffe, wie optische Achse, [Bild-](https://de.wikipedia.org/wiki/Bildweite), [Gegenstands-](https://de.wikipedia.org/wiki/Bildweite) und [Brennweite](https://de.wikipedia.org/wiki/Brennweite) und das Konzept der [Hauptebene](https://de.wikipedia.org/wiki/Hauptebene_(Optik)) im Experiment kennen. 
 - Sie machen sich mit wichtigen Gesetzen der paraxialen Optik, wie der [Linsengleichung](https://de.wikipedia.org/wiki/Linsengleichung) oder der Gullstrand-Formel vertraut. 
-- Sie üben sich, vom [Bessel-](https://de.wikipedia.org/wiki/Bessel-Verfahren) oder [Abbe-Verfahren](https://de.wikipedia.org/wiki/Abbe-Verfahren), zur geschickten Vermessung optischer Systeme, bis zum grundsätzlichen Aufbau eines Mikroskops, Projektors oder verschiedener Teleskope, im Aufbau optischer Systeme und Strahlengänge. Dabei arbeiten Sie sich schrittweise von einfachen zu komplexen Systemen vor.
+- Sie üben sich, vom [Bessel-](https://de.wikipedia.org/wiki/Bessel-Verfahren) oder [Abbe-Verfahren](https://de.wikipedia.org/wiki/Abbe-Verfahren), über die geschickten Vermessung optischer Systeme, bis hin zum grundsätzlichen Aufbau eines Mikroskops, Projektors oder verschiedener Teleskope, im Aufbau optischer Systeme und Strahlengänge. Dabei arbeiten Sie sich schrittweise von einfachen zu komplexen Systemen vor.
 - Beim Bessel- und Abbe-Verfahren übersetzen Sie mathematische Modelle in Messvorschriften, aus denen Sie durch Messung wiederum Modellparameter bestimmen.
 - Sie untersuchen mit Hilfe des Bessel-Verfahrens [Abbildungsfehler](https://de.wikipedia.org/wiki/Abbildungsfehler), wie die sphärische und chromatische Abberation.
 - Für die Datenanalyse bietet dieser Versuch eine gute Möglichkeit die erlernten Methoden zur Parameterschätzung und Fehlerabschätzung weiter einzuüben.  
 
 ## Versuchsaufbau
 
-Der Versuch umfasst zwei optische Bänke und eine Reihe optischer Bauelemente. Im Folgenden sind die verwendeten Aufbauten kurz beschrieben. Eine Auflistung der für ihre Auswertung wichtigen Bauelemente und deren Eigenschaften finden Sie in der Datei Datenblatt.md.
+Der Versuch umfasst zwei optische Bänke und eine Reihe optischer Bauelemente. Im Folgenden sind die verwendeten Aufbauten kurz beschrieben. Eine Auflistung der für ihre Auswertung wichtigen Bauelemente und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Geometrische_Optik/Datenblatt.md).
 
 ### Bestimmung der Brennweite $f$ einer einzelnen Linse
 
