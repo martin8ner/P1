@@ -69,6 +69,8 @@ Sie können die Oszillographenröhre im Plexiglaszylinders über das zugehörige
 - Steigern Sie dann langsam den Magnetspulenstrom und beobachten Sie die resultierende Veränderung des Bildes. Beschreiben und diskutieren Sie deren Zustandekommen in eigenen Worten. 
 - Stellen Sie schließlich den Spulenstrom so ein, dass alle Elektronen den Schirm wieder in einem Punkt treffen. Versuchen Sie auch einen höheren Spulenstrom einzustellen, bei dem sich der auf dem Schirm beobachtete Strich erneut zu einem Punkt zusammenzieht.
 
+Achten Sie bei Ihren Messungen darauf, dass die Spule bis zum Anschlag an die Plexiglaskonstruktion geschoben ist. 
+
 ### Aufgabe 2.2: Bestimmung von $e/m_{\mathrm{e}}$ 
 
 Messen Sie für Beschleunigungsspannungen von $U = 200\,\ldots 700\,\mathrm{V}$ (in Schritten von $50\,\mathrm{V}$) den nötigen Spulenstrom $I$, um auf dem Schirm einen Signalpunkt zu erzeugen. Gehen Sie dabei, für jeden Messpunkt, wie in Aufgabe 2.1 beschrieben vor. Tragen Sie analog zu Aufgabe 1 $U$ **geeignet** über $I^{2}$ auf und ermitteln Sie $e/m_{\mathrm{e}}$ aus der Geradensteigung. 
