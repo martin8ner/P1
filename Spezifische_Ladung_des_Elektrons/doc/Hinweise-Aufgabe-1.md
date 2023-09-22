@@ -73,7 +73,8 @@ Wird ein stromdurchflossenes ausgedehntes Leiterstück senkrecht zur Stromdichte
 ---
 
 Durch die getrennten Ladungen baut sich eine Spannung $U_{\mathrm{H}}$ (Hall-Spannung) senkrecht zu $\vec{j}$ auf für die im Gleichgewichtszustand gilt: 
-$$
+
+```math
 \begin{equation*}
 \begin{split}
 &e\,v_{e}\,B = e\,E_{\mathrm{H}};\vphantom{\frac{I\,B}{b\,n_{e}}}
@@ -83,7 +84,10 @@ $$
 &U_{H} = \frac{I\,B}{b\,n_{e}}\\
 \end{split}
 \end{equation*}
-$$
+```
+
+
+
  wobei $n_{e}$ der Ladungsträgerdichte im Leiter und $b$ der Breite des Leiterstücks entsprechen, es gilt also $U_{\mathrm{H}}\propto B$. 
 
 
