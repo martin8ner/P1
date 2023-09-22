@@ -6,7 +6,6 @@ Für die Versuche mit dem Fadenstrahlrohr stehen Ihnen die folgenden Geräte und
 - Ein Helmholtz-Spulenpaar (Betrieb mit max. $2\,\mathrm{A}$); Windungszahl je Spule $N=130$; Radius $R=0.15\,\mathrm{m}$. Der Abstand der Spulen $H_{1}$ und $H_{2}$ entspricht ebenfalls $R$; 
 - Ein Betriebsgerät für das Fadenstrahlrohr. Anodenspannung: $0-300\,\mathrm{V}$; Wehneltspannung: $-20-0\,\mathrm{V}$ (dabei muss der Frontplattenschalter nach oben zeigen); Heizspannung: $6,3\,\mathrm{V}$; 
 - Ein Gleichstromnetzgerät zur Erzeugung der Magnetfelder, für den Betrieb der Helmholtz-Spulen und der Zylinderspule zur Eichung der Hall-Sonde.
-
 - Eine zusätzliche, einzelne zu $H_{1}$ und $H_{2}$ baugleiche Helmholtz-Spule $H_{3}$. Diese ist fest mit einer Bodenplatte mit aufrecht montiertem Messbrett verschraubt. Die Bodenplatte lässt sich in eine Aluminiumhalterung am Plexiglaskasten schieben, so dass der Abstand zwischen $H_{3}$ und $H_{2}$ genau dem Abstand zwischen $H_{1}$ und $H_{2}$ entspricht. Die Bohrungen im Messbrett dienen als Halterungen für die Hall-Sonde. Sie haben jeweils einen Abstand von $3\,\mathrm{cm}$ zueinander; Das Messbrett ist mit einem $\mathrm{mm}$-Maßstab versehen.
 - Taschenlampen;
 - Eine Hall-Sonde mit Betriebsgerät und darin integriertem Millivoltmeter zur Anzeige der Hall-Spannung $U_{\mathrm{H}}$ (Genauigkeit $\pm$1%, Achtung das Gerät ist temperatursensitiv);
