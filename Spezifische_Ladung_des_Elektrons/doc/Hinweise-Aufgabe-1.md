@@ -15,15 +15,21 @@ In einem homogenen Magnetfeld der Stärke $\vec{B}$ wird der Elektronenstrahl se
 
 Für den Fall  $\vec{v}_{e}\perp\vec{B}$ gilt: 
 $$
+\begin{equation}
 e\,B\,v = m_{\mathrm{e}}\,\frac{v_{\mathrm{e}}^{2}}{r}, \qquad \frac{e}{m_{\mathrm{e}}}= \frac{v_{\mathrm{e}}}{B\,r},
+\end{equation}
 $$
 wobei $v_{\mathrm{e}}$ der Geschwindigkeit der Elektronen und $r$ dem Radius des Strahls entsprechen. Aus der am Fadenstrahlrohr anliegenden Beschleunigungsspannung $U$ lässt sich $v_{\mathrm{e}}$ wie folgt bestimmen:
 $$
+\begin{equation}
 e\,U = \frac{m\,v_{\mathrm{e}}^{2}}{2}, \qquad v_{\mathrm{e}} = \sqrt{2\,U\,\frac{e}{m_{\mathrm{e}}}}.
+\end{equation}
 $$
 Aus den Gleichungen **(1)** und **(2)** ergibt sich daraus der Zusammenhang
 $$
+\begin{equation}
 \frac{8\,U}{B^{2}} = \frac{e}{m_{\mathrm{e}}}\,\frac{1}{d^{2}},
+\end{equation}
 $$
 aus dem sich $e/m_{\mathrm{e}}$ als Steigung einer Ursprungsgeraden bestimmen lässt, wenn man auf der $x$-Achse $1/d^{2}$ und auf der $y$-Achse $8\hspace{0.05cm}U/B^{2}$ aufträgt. Dabei bezeichnet $d$ den Durchmesser der Kreisbahn.
 
