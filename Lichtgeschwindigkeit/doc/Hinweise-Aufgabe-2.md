@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Lichtgeschwindigkeit
 
-## Aufgabe 2: Messung von $c$ (in Luft) mit Hilfe einer Phasenvergleichmethode
+## Aufgabe 2: Phasenvergleichmethode
 
 ### Prinzip der Messung
 
@@ -12,35 +12,32 @@ Bei der Bestimmung von $c$ mit Hilfe einer [Lissajous](https://de.wikipedia.org/
 
 Mit der Zeitauflösung eines einfachen Oszilloskops ist die beabsichtigte Messung mit dem vorliegenden Aufbau nicht ohne weiteres möglich. Sie können die Messung trotzdem mit den im Praktikum zur Verfügung stehenden Mitteln durchführen. Hierzu nutzen wir eines der [Additionstheoreme](https://de.wikipedia.org/wiki/Formelsammlung_Trigonometrie#Produkte_der_Winkelfunktionen) der Kosinus-Funktion: 
 
-```math
+$$
 \begin{equation}
 \cos(\alpha+\beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta,
 \end{equation}
-```
-
+$$
 woraus sich der folgende Zusammenhang leicht ableiten lässt: 
 
-```math
+$$
 \begin{equation}
 \cos\alpha\cos\beta = \frac{1}{2}\Bigl(\cos(\alpha+\beta)+\cos(\alpha-\beta)\Bigr).
 \end{equation}
-```
-
+$$
 Wir wählen zur Beschreibung des funktionalen Zusammenhangs des (ursprünglichen) Referenzsignals eine Kosinus-Funktion $\cos(\omega\,t+\varphi)$, wobei $\omega$ der Kreisfrequenz und $\varphi$ einer freien Phase entsprechen. Wir modulieren (mit Hilfe der in das Hauptnetzgerät eingebauten Mischstufen) die Amplitude des Referenzsignals multiplikativ mit einem gleichen Signal mit geringfügig niedrigerer Frequenz $\omega'\lesssim\omega$. Für das so veränderte (endgültige) Referenzsignal ergibt sich dadurch der folgende funktionale Zusammenhang zur Beschreibung seiner Amplitude: 
 
-```math
+$$
 \begin{equation}
 \cos(\omega\,t+\varphi)\cos(\omega'\,t) = \frac{1}{2}\Bigl(\cos((\omega+\omega')\,t+\varphi) + \cos((\omega-\omega')\,t+\varphi)\Bigr).
 \end{equation}
-```
-
-Wir interessieren uns für den zweiten Term in der Klammer auf der rechten Seite der Gleichung, der den Verlauf $\cos((\omega-\omega')\,t+\varphi)$ aufweist. Der hochfrequente Term $\cos((\omega+\omega')\,t+\varphi)$ kann durch einen Tiefpassfilter unterdrückt werden. 
+$$
+Wir interessieren uns für den zweiten Term in der Klammer auf der rechten Seite der Gleichung, der den Verlauf $\cos((\omega-\omega')\,t+\varphi)$ aufweist. Der hochfrequente Term $\cos((\omega+\omega')\,t+\varphi)$ kann durch einen [Tiefpassfilter](https://de.wikipedia.org/wiki/Tiefpass) unterdrückt werden. 
 
 Sie können feststellen, dass die Phase $\varphi$ unverändert vom ursprünglichen Referenzsignal (der Form $\cos(\omega\,t+\varphi)$) auf den Term $\cos((\omega-\omega')\,t+\varphi)$ übertragen wird, so dass auch die später zu messende Phasendifferenz $\Delta\phi$ zwischen Empfänger- und Referenzsignal erhalten bleibt, d.h. eine Phasendifferenz $\Delta\varphi$ im nicht modulierten Eingangssignal entspricht der gleichen Phasendifferenz $\Delta\overline{\varphi}$ in der späteren Darstellung auf dem Oszilloskop. Zur Unterscheidung stellen wir die auf dem Oszilloskop dargestellten Größen überstrichen dar. 
 
-Wie diskutiert gilt $\Delta\varphi=\Delta\overline{\varphi}$, die Frequenzen $\omega$ und $\overline{\omega}\equiv\omega-\omega^{\prime}$ unterscheiden sich jedoch. Der Verlauf auf der Zeitachse des Oszilloskops erscheint daher um den Faktor $\omega/\overline{\omega}$  gedehnt:
+Es gilt zwar $\Delta\varphi=\Delta\overline{\varphi}$, die Frequenzen $\omega$ und $\overline{\omega}\equiv\omega-\omega^{\prime}$ unterscheiden sich jedoch. Der Verlauf auf der Zeitachse des Oszilloskops erscheint daher um den Faktor $\omega/\overline{\omega}$  gedehnt:
 
-```math
+$$
 \begin{equation}
 \begin{split}
 \Delta \overline{\varphi} &= \Delta \varphi;\qquad
@@ -48,11 +45,10 @@ Wie diskutiert gilt $\Delta\varphi=\Delta\overline{\varphi}$, die Frequenzen $\o
 \Delta \overline{t} &= \omega/\overline{\omega}\,\Delta t,
 \end{split}
 \end{equation}
-```
+$$
+wobei $\Delta \overline{t}$ einem auf dem Oszilloskop dargestellten Zeitfenster (mit dem Verlauf $\cos((\overline{\omega})\,t+\varphi)$) und $\Delta t$ einem Zeitfenster des ursprünglichen Signals (mit dem Verlauf $\cos(\omega\,t+\varphi)$) entsprechen. Durch den gedehnten Maßstab können auch sehr kurze Zeitdifferenzen im Eingangssignal aufgelöst werden. Es handelt sich also effektiv um eine **"Messbereichserweiterung" des Oszilloskops hin zu kürzeren Zeitabständen**.
 
-wobei $\Delta \overline{t}$ einem auf dem Oszilloskop dargestellten Zeitfenster (mit dem Verlauf $\cos((\overline{\omega})\,t+\varphi)$) und $\Delta t$ einem Zeitfenster des ursprünglichen Signals (mit dem Verlauf $\cos(\omega\,t+\varphi)$) entsprechen. Durch den gedehnten Maßstab können auch sehr kurze Zeitdifferenzen im Eingangssignal aufgelöst werden. Es handelt sich also effektiv um eine **"Messbereichserweiterung" des Oszilloskops zu kürzeren Zeitabständen**.
-
-Um $\Delta\varphi$ deutlich sichtbar zu machen wird das Referenzsignal mit einem Störsignal der Frequenz $59,9\,\mathrm{MHz}$ multiplikativ gemischt. Mittels eines Tiefpassfilters werden die hochfrequenten Anteile des gemischten Signals unterdrückt und die niederfrequenten Anteile auf einem einfachen computergestützten Oszilloskop, als Funktion der Zeit dargestellt.
+Um $\Delta\varphi$ deutlich sichtbar zu machen wird das Referenzsignal mit einem Störsignal der Frequenz $59,9\,\mathrm{MHz}$ multiplikativ gemischt. Mittels eines [Tiefpassfilters](https://de.wikipedia.org/wiki/Tiefpass) werden die hochfrequenten Anteile des gemischten Signals unterdrückt und die niederfrequenten Anteile auf einem einfachen computergestützten Oszilloskop, als Funktion der Zeit dargestellt.
 
 ### Hinweise zur Durchführung
 
