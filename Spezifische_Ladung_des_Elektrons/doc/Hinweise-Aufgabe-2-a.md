@@ -61,18 +61,18 @@ Bei $K$ handelt es sich also um einen Geometriefaktor, der **vom gewählten Defl
 
 #### Aufgabe 2.1: Vorbereitung der Messung
 
-Versorgen Sie die Oszillographenröhre innerhalb des Plexiglaszylinders über das in der obigen Abbildung gezeigte, zugehörige Steuerpult mit allen notwendigen Spannungen. Die Deflektorspannung kann wahlweise mit einem der beiden Paare von Deflektorplatten verbunden werden wobei beide Platten des ungenutzten Paares mit den Kurzschlussbrücken auf Masse gelegt werden müssen. Zur Vorbereitung der Messung gehen Sie wie folgt vor:
+Sie können die Oszillographenröhre im Plexiglaszylinders über das zugehörige Steuerpult mit allen notwendigen Spannungen versorgen. Die Deflektorspannung kann wahlweise mit einem der beiden Paare von Deflektorplatten verbunden werden wobei Sie dann die Platten des ungenutzten Paares mit den Kurzschlussbrücken auf Masse legen sollten. Zur Vorbereitung der Messung gehen Sie wie folgt vor:
 
 - Stellen Sie eine niedrige Beschleunigungsspannung (von z.B. $\approx 300\,\mathrm{V}$) ein. 
 - Wählen Sie bei $B=0$ die Deflektorspannung so, dass ein maximal langer Strich auf dem Schirm erscheint. 
 - Stellen Sie die Intensität und den Fokus des beobachteten Signals sinnvoll ein. 
-- Steigern Sie dann langsam den Magnetspulenstrom und beobachten Sie die resultierende Bildveränderung. Diskutieren Sie deren Zustandekommen in eigenen Worten. 
+- Steigern Sie dann langsam den Magnetspulenstrom und beobachten Sie die resultierende Veränderung des Bildes. Beschreiben und diskutieren Sie deren Zustandekommen in eigenen Worten. 
 - Stellen Sie schließlich den Spulenstrom so ein, dass alle Elektronen den Schirm wieder in einem Punkt treffen. Versuchen Sie auch einen höheren Spulenstrom einzustellen, bei dem sich der auf dem Schirm beobachtete Strich erneut zu einem Punkt zusammenzieht.
 
 ### Aufgabe 2.2: Bestimmung von $e/m_{\mathrm{e}}$ 
 
-Messen Sie für Beschleunigungsspannungen von $U = 200\,\ldots 700\,\mathrm{V}$ (in Schritten von $50\,\mathrm{V}$) den nötigen Spulenstrom $I$, um auf dem Schirm einen Signalpunkt zu erzeugen. Gehen Sie dabei, für jeden Messpunkt, wie in Aufgabe 2.1 beschrieben vor. Tragen Sie $U$ über $I^{2}$ auf und ermitteln Sie $e/m_{\mathrm{e}}$ aus der Geradensteigung. 
+Messen Sie für Beschleunigungsspannungen von $U = 200\,\ldots 700\,\mathrm{V}$ (in Schritten von $50\,\mathrm{V}$) den nötigen Spulenstrom $I$, um auf dem Schirm einen Signalpunkt zu erzeugen. Gehen Sie dabei, für jeden Messpunkt, wie in Aufgabe 2.1 beschrieben vor. Tragen Sie analog zu Aufgabe 1 $U$ **geeignet** über $I^{2}$ auf und ermitteln Sie $e/m_{\mathrm{e}}$ aus der Geradensteigung. 
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Spezifische_Ladung_des_Elektrons) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-2-a.md)
+[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-2.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Spezifische_Ladung_des_Elektrons)
