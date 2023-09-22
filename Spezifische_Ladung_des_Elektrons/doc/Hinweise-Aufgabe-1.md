@@ -76,13 +76,11 @@ Durch die getrennten Ladungen baut sich eine Spannung $U_{\mathrm{H}}$ (Hall-Spa
 $$
 \begin{equation*}
 \begin{split}
-&e\,v_{e}\,B = e\,E_{\mathrm{H}};
-&\\
+&e\,v_{e}\,B = e\,E_{\mathrm{H}};\vphantom{\frac{I\,B}{b\,n_{e}}}
 &\\
 &E_{\mathrm{H}}=\frac{U_{\mathrm{H}}}{d}; \qquad v_{e}=\frac{I}{A\,n_{e}};\qquad A=d\,b \\
 &\\
-&\\
-&U_{H} = \frac{I\,B}{b\,n_{e}}
+&U_{H} = \frac{I\,B}{b\,n_{e}}\\
 \end{split}
 \end{equation*}
 $$
