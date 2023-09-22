@@ -49,7 +49,7 @@ $$
 $$
 entspricht. Der Integrationsweg für die Deflektorplatten in Position $d_{2}$ ist durch die schraffierte Fläche in **Abb. 2** dargestellt: 
 
-<img src="../figures/BuschMagnetfeld.png" width="750" style="zoom:100%;" />
+<img src="../figures/BuschMagnetfeld.png" width="1000" style="zoom:100%;" />
 
 **Abb 2** (Bestimmung von $\langle B\rangle$ für die Deflektorplatten in Position $d_{2}$)
 
