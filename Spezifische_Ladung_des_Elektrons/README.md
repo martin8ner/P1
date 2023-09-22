@@ -4,7 +4,7 @@
 
 ## Physikalisches Praktikum P1 für Studierende der Physik
 
-Versuch P1-71, 72, 73 (Stand: Dezember 2022)
+Versuch P1-71, 72, 73 (Stand: Oktober 2023)
 
 [Raum F1-14](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/layoutobjekte/Lageplan_P1.png)
 
@@ -14,13 +14,13 @@ Versuch P1-71, 72, 73 (Stand: Dezember 2022)
 
 Das [Elektron](https://de.wikipedia.org/wiki/Elektron) wurde 1897 von [Joseph John Thomson](https://de.wikipedia.org/wiki/Joseph_John_Thomson) bei der systematischen Untersuchung der damals sogenannten [Kathodenstrahlen](https://de.wikipedia.org/wiki/Elektronenstrahl) entdeckt. Solche Untersuchungen wurden mit Apparaturen wie dem in diesem Versuch vorgestellten [Fadenstrahlrohr](https://de.wikipedia.org/wiki/Fadenstrahlrohr) durchgeführt. Damals wusste man nichts über die Existenz des Elektrons und hatte so gut wie keine Vorstellung über den elementaren Aufbau der Materie. Die Erkenntnis, dass es sich bei den Kathodenstrahlen um Teilchenstrahlen handelt und die Eigenschaften dieser Teilchen wurden der Natur in diesen Jahren Schritt für Schritt abgerungen. 
 
-Heute kennen wir die Eigenschaften des Elektrons sehr genau. Wir wissen, dass die [Elementarladung](https://de.wikipedia.org/wiki/Elementarladung) $e=1,6\times10^{-19}\,\mathrm{C}$ in der Natur quantisiert auftritt. Die Masse des Elektrons von etwa $m_{\mathrm{e}}=511\,\mathrm{keV/c^{2}}$ ist uns bis auf die 11. Nachkommastelle bekannt. Eine kleinste Einheit der Masse wurTeilchenstrahlende bisher noch nicht beobachtet. Wir nehmen an, dass das Elektron ein punktförmiges Teilchen ohne weitere Struktur ist. Diese Annahme haben wir bisher bis auf Längenskalen von $10^{-19}\,\mathrm{m}$ getestet und bestätigt gefunden. 
+Heute kennen wir die Eigenschaften des Elektrons sehr genau. Wir wissen, dass die [Elementarladung](https://de.wikipedia.org/wiki/Elementarladung) $e=1,6\times10^{-19}\,\mathrm{C}$ in der Natur quantisiert auftritt. Die Masse des Elektrons von etwa $m_{\mathrm{e}}=511\,\mathrm{keV/c^{2}}$ ist uns bis auf die 11. Nachkommastelle bekannt. Eine kleinste Einheit der Masse, wie im Fall der Ladung, wurde bisher noch nicht beobachtet. Wir nehmen an, dass das Elektron ein punktförmiges Teilchen ohne weitere Struktur ist. Diese Annahme haben wir bisher bis auf Längenskalen von $10^{-19}\,\mathrm{m}$ getestet und bestätigt gefunden. 
 
-Mit diesem Versuch lernen Sie die Methoden kennen, mit denen man vor über 100 Jahren das Tor in die faszinierende Welt der kleinsten bekannten Bausteine der Materie aufgetan hat. Gleichzeitig bieten Ihnen die sichtbar gemachten Bahnen der Elektronenstrahlen die Möglichkeit die Bewegungen von Ladungen in elektrischen und magnetischen Feldern im Experiment zu beobachten. Das Prinzip die Spuren geladener Teilchen für unsere Augen sichtbar zu machen liegt allen Experimenten der modernen Elementarteilchenphysik bis zum heutigen Tage zugrunde. Das gleiche gilt für das, was wir über die Bewegung geladener Spuren in Magnetfeldern wissen. 
+Mit diesem Versuch lernen Sie die Methoden kennen, mit denen man vor über 100 Jahren das Tor in die Welt der kleinsten bekannten Bausteine der Materie aufgetan hat. Gleichzeitig bieten Ihnen die sichtbar gemachten Bahnen der Elektronenstrahlen die Möglichkeit die Bewegungen von Ladungen in elektrischen und magnetischen Feldern im Experiment zu beobachten. Das Prinzip die Spuren geladener Teilchen (für unsere Augen) sichtbar zu machen liegt allen Experimenten der modernen Elementarteilchenphysik bis zum heutigen Tag zugrunde. Das gleiche gilt für das, was wir über die Bewegung geladener Spuren in Magnetfeldern wissen. 
 
-## Anmerkungen zum Versuch Spezifische Ladung des Elektrons
+## Lehrziele
 
-Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem Versuch **Spezifische Ladung des Elektrons** vermitteln möchten: 
+Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem Versuch **Spezifische Ladung des Elektrons** vermitteln möchten: 
 
 - Sie üben sich im sicheren Umgang mit hohen Spannungen und Strömen. 
 - Sie beobachten die sichtbaren Bahnen von Elektronenstrahlen in elektrischen und magnetischen Feldern und überprüfen einfache Gesetzmäßigkeiten der Elektrostatik.
@@ -32,70 +32,39 @@ Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem
 
 ## Versuchsaufbau
 
-Der Versuchsaufbau besteht aus zwei Teilen: Dem Aufbau zum Betrieb des Fadenstrahlrohrs und dem Aufbau zur Bestimmung von $e/m_{\mathrm{e}}$ nach [Hans Busch](https://de.wikipedia.org/wiki/Hans_Busch_(Physiker)). Den Messungen mit dem Fadenstrahlrohr geht die Vermessung des Magnetfelds im Inneren eines Helmholtz-Spulenpaars voran. Der Gesamtaufbau ist im folgenden Bild gezeigt: 
-
-<img src="./figures/image1.jpg" style="zoom:60%;" />
-
-Im Folgenden sind die wichtigsten Informationen der verwendeten Aufbauten für die einzelnen Versuchsteile näher beschrieben:
+Der Versuchsaufbau besteht aus zwei Teilen: Dem Aufbau zum Betrieb des Fadenstrahlrohrs und dem Aufbau zur Bestimmung von $e/m_{\mathrm{e}}$ nach [Hans Busch](https://de.wikipedia.org/wiki/Hans_Busch_(Physiker)). Den Messungen mit dem Fadenstrahlrohr geht die Vermessung des Magnetfelds im Inneren eines Helmholtz-Spulenpaars voran. Eine Auflistung der einzelnen technischen Geräte zum Betrieb der jeweiligen Versuchsteile und deren Eigenschaften finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/Datenblatt.md). 
 
 ### Fadenstrahlrohr
 
-<img src="./figures/Fadenstrahlrohr.png" style="zoom:60%;" />
+<img src="./figures/Fadenstrahlrohr.png" style="zoom:100%;" />
 
-In einem Plexiglaskasten befindet sich ein Fadenstrahlrohr. Dabei handelt es sich um einen teil-evakuierten, mit Wasserstoff gefüllten Glaskolben (mit einem Innendruck von $\approx 0,013\,\mathrm{mbar}$) mit einer geeigneten Vorrichtung zur Gewinnung und Beschleunigung von Elektronen zur Erzeugung eines kontinuierlichen Elektronenstrahls. Die Elektronen werden aus einer Glühkathode mit indirekter Heizung abgedampft und durch eine Ringanode unter hoher Spannung beschleunigt. Ein [Wehneltzylinder](https://de.wikipedia.org/wiki/Wehneltzylinder) dient zur Fokussierung des resultierenden Elektronenstrahls. Ein Schaltplan zur Versorgung der Apparatur mit den nötigen Spannungen ist in der obigen Skizze angegeben. Sie benötigen nur die grau markierten Spannungsanschlüsse. Einen ähnlichen Schaltplan finden Sie aTeilchenstrahlenuch an der Seite der Apparatur (siehe Bild oben in der Mitten der obigen Abbildung). 
+In einem Plexiglaskasten befindet sich ein Fadenstrahlrohr. Dabei handelt es sich um einen teil-evakuierten, mit Wasserstoff gefüllten Glaskolben (mit einem Innendruck von $\approx 0,013\hspace{0.05cm}\mathrm{mbar}$) mit einer geeigneten Vorrichtung zur Erzeugung eines kontinuierlichen Elektronenstrahls. Die Elektronen werden aus einer Glühkathode mit indirekter Heizung abgedampft und durch eine Ringanode unter hoher Spannung beschleunigt. Ein [Wehneltzylinder](https://de.wikipedia.org/wiki/Wehneltzylinder) dient zur Fokussierung des resultierenden Elektronenstrahls. 
 
-Die Elektronen des Strahls stoßen auf ihrer Bahn durch den Kolben zufällig mit den Molekülen des Wasserstoffs, die so zu sichtbarem Leuchten angeregt werden. Auf diese Weise kann die Bahn des Elektronenstrahls sichtbar gemacht werden. Der Kolben befindet sich zentral zwischen zwei Helmholtz-Spulen, die im Folgenden auch mit $H_{1}$ (hintere Spule in Blickrichtung) und $H_{2}$ (vordere Spule in Blickrichtung) bezeichnet werden. Der Plexiglaskasten dient zu Ihrem Schutz für den unwahrscheinlichen Fall, dass der Glaskolben implodierten sollte. 
+Die Elektronen des Strahls stoßen auf ihrer Bahn durch den Kolben zufällig mit Molekülen des Wasserstoffs, die so zu sichtbarem Leuchten angeregt werden. Auf diese Weise kann die Bahn des Elektronenstrahls sichtbar gemacht werden. Der Kolben befindet sich zentral zwischen zwei Helmholtz-Spulen, die im Folgenden auch mit $H_{1}$ (hintere Spule in Blickrichtung in der oberen Abbildung) und $H_{2}$ (vordere Spule in Blickrichtung in der oberen Abbildung) bezeichnet werden. 
 
-Alle Bauteile und Instrumente dieses Versuchsteils, die von Relevanz für Sie sein können, sind im Folgenden aufgelistet. 
-
-- Fadenstrahlrohr versehen mit einem Spiegel und Schiebemarken für die Vermessung des Durchmessers $d$ der Bahn des Elektronenstrahls;  
-- Helmholtz-Spulenpaar (Betrieb mit max. $2\,\mathrm{A}$); Windungszahl je Spule $N=130$; Radius $R=0.15\,\mathrm{m}$. Der Abstand der Spulen entspricht ebenfalls $R$; 
-- Betriebsgerät für das Fadenstrahlrohr. Anodenspannung: $0-300\,\mathrm{V}$; Wehneltspannung: $-20-0\,\mathrm{V}$ (dabei muss der Frontplattenschalter nach oben zeigen); Heizspannung: $6,3\,\mathrm{V}$; 
-- Gleichstromnetzgerät zur Erzeugung der Magnetfelder, für den Betrieb der Helmholtz-Spulen und der Zylinderspule zur die Eichung der Hall-Sonde.
-
-### Vermessung des Magnetfelds im Inneren eines Helmholtz-Spulenpaars 
+### Magnetfeld im Inneren des Fadenstrahlrohrs
 
 <img src="./figures/Kalibration.png" style="zoom:60%;" />
 
-Zur Vorbereitung der Messungen mit dem Fadenstrahlrohr steht Ihnen zudem das folgende Zubehör zur Verfügung:
-
-- Eine zusätzliche, einzelne Helmholtz-Spule in zu $H_{1}$ und $H_{2}$ baugleicher Art, im Folgenden auch mit $H_{3}$ bezeichnet. Diese ist fest auf eine Bodenplatte mit aufrecht montiertem Messbrett aufgeschraubt. Die Bodenplatte lässt sich in eine Aluminiumhalterung am Plexiglaskasten schieben, so dass der Abstand zwischen $H_{3}$ und $H_{2}$ genau dem Abstand zwischen $H_{1}$ und $H_{2}$ entspricht. Die Bohrungen im Messbrett dienen als Halterungen für die Hall-Sonde. Sie haben jeweils einen Abstand von $3\,\mathrm{cm}$ zueinander; Das Messbrett ist mit einem $\mathrm{mm}$-Maßstab versehen.
-- Taschenlampen;
-- Hall-Sonde mit Betriebsgerät und darin integriertem TeilchenstrahlenMillivoltmeter zur Anzeige der Hall-Spannung $U_{\mathrm{H}}$ (Genauigkeit $\pm$1%);
-- Multimeter zur Strom- und Spannungsmessung;
-- Eine lange Zylinderspule zur Eichung der Hall-Sonde. Betriebsstrom maximal $0,8\,\mathrm{A}$; $L = 300\,\mathrm{mm}$; Durchmesser $\varnothing= 20\,\mathrm{mm}$; Anzahl der Windungen $N = 750\pm 1\%$.
+Zur Vermessung des Magnetfelds im Inneren des Helmholtz-Spulenpaars dient Ihnen eine dritte Helmholtz-Spule $H_{3}$, die Sie symmetrisch zum im Fadenstrahlrohr verbauten Spulenpaar positionieren können. Mit Hilfe eines Holzbretts $M$ mit Milimeter-Skala und einer [Hall-Sonde](https://de.wikipedia.org/wiki/Hall-Effekt) können Sie das Magnetfeld innerhalb des Spulenpaars ausmessen. Zur Kalibration der Hall-Sonde dient das bekannte Mangetfeld einer langen Zylinderspule.  
 
 ### Oszillographenröhre für das Verfahren von Busch 
 
 <img src="./figures/BuschVerfahren.png" style="zoom:100%;" />
 
-In einem Plexiglaszylinder befindet sich eine Oszillographenröhre (vom Typ [DG7-32](http://www.r-type.org/exhib/aar0022.htm)). Diese besitzt zwei Paare von Kondensator-(Deflektor-)platten zur Ablenkung des Elektronenstrahls in (Position $d_{1}$) $x$- und (PositiTeilchenstrahlenon $d_{2}$) $y$-Richtung.  Der Plexiglaszylinder befindet sich im Magnetfeld $\vec{B}$ einer Spule. Zu Anschauungszwecken lässt sich diese Spule zurück schieben, so dass Sie die darin befindliche Oszillographenröhre sehen können. Die Anordnung wird so betrieben, dass $\vec{B}$ parallel zum elektrischen Feld $\vec{E}$ der Beschleunigungsspannung $U$ für die Elektronen in der Röhre ausgerichtet ist. Für alle weiteren Betrachtungen legen wir diese Richtung als $z$-Richtung fest. Ohne zusätzliche Beschleunigung senkrecht zu $\hat{z}$ erfahren die Elektronen durch $\vec{B}$ keine Ablenkung und der Elektronenstrahl erscheint in einem Punkt auf dem Schirm $S$. 
+In einem Plexiglaszylinder befindet sich eine Oszillographenröhre, die zwei Paare von Kondensator-(Deflektor-)platten zur Ablenkung des Elektronenstrahls in $x$- und $y$-Richtung besitzt. Der Plexiglaszylinder befindet sich im Magnetfeld $\vec{B}$ einer Spule. Zu Anschauungszwecken lässt sich diese Spule zurück schieben, so dass die darin befindliche Oszillographenröhre sichtbar wird. Die Anordnung wird so betrieben, dass $\vec{B}$ **parallel** zum elektrischen Feld $\vec{E}_{z}$ der Beschleunigungsspannung $U_{z}$ für die Elektronen in der Röhre ausgerichtet ist. Ohne zusätzliche Beschleunigung senkrecht zu $\vec{z}$ erfahren die Elektronen durch $\vec{B}$ keine Ablenkung und der Elektronenstrahl erscheint als Signal in einem Punkt auf dem Schirm $S$. Liegt an den Deflektorplatten eine Spannung $U_{x}$ oder $U_{y}$ zur Ablenkung des Elektronenstahls senkrecht zur $z$-Achse an, bilden die Elektronen spiralförmige Trajektorien aus, die bei festen Werten von $U_{z}$ und $B=|\vec{B}|$ abhängig von der Position des Schirms entweder wieder als Punkt, oder als Strich auf dem Schirm abgebildet werden. 
 
-Wir stellen uns zunächst vor, dass eine zeitlich veränderliche, positive Spannung $U_{y}(t),$ mit Werten in $[0;U_{0}]$, z.B. an die Deflektorplatten für die Ablenkung des Elektronenstrahls in $y$-Richtung angelegt ist. Diese Spannung führt zu einer Kreisbahn der Elektronen in der $xy$-Ebene. Im Raum bilden die Trajektorien der Elektronen eine Schar von Spiralbahnen oberhalb der $z$-Achse aus. Nachdem die Elektronen die Kreisbahnen in der $xy$-Ebene vollständig durchlaufen haben, treffen diese Trajektorien unabhängig von $U_{y}$ im Punkt $z_{0}$ wieder mit der $z$-Achse zusammen. Der genaue Wert von $z_{0}$ hängt dabei von $U$ und $B=|\vec{B}|$ ab. Fällt $z_{0}$ mit der Position von $S$ entlang der $z$-Achse zusammen erscheint der Elektronenstrahl, unabhängig von $U_{y}$, darauf ebenfalls als Punkt. Für jede andere Positionen in $z\neq n\,z_{0},\,n\in\mathbb{N}$ verlaufen die Trajektorien oberhalb der $z$-Achse. Sie nehmen dabei in einem Punkt $z_{\mathrm{max}}$ auch ihren maximalen Abstand $a_{\mathrm{max}}$ von der $z$-Achse an. Der Betrag von $a_{\mathrm{max}}$ hängt von $U_{y}(t)$ ab, das selbst (als zeitlich veränderliche Spannung) wiederum jeden Wert zwischen 0 und $U_{0}$ annehmen kann. Daher wird, wenn die Position von $S$ entlang der $z$-Achse nicht mit $z_{0}$ zusammenfällt, der Elektronenstrahl dort als Strich sichtbar. Erweitern wir den Wertebereich von $U_{y}$ auf $[-U_{0};U_{0}]$ erhalten wir eine analoge Schar von Spiralbahnen unterhalb der $z$-Achse, die die $z$-Achse ebenfalls, unabhängig von $U_{y}$, in $z_{0}$ wieder berühren. Der Strich, wenn die Position von $S$ entlang der $z$-Achse nicht mit $z_{0}$ zusammenfällt, erweitert sich entsprechend in die negative $y$-Richtung.
+## Anmerkungen zum Versuch
 
-Für feste Werte von $U$ lässt sich $B$ so justieren, dass der Elektronenstrahl auf dem Weg vom entsprechenden Deflektorzentrum $d_{i}$ zu $S$ in der $xy$-Ebene genau einen Vollkreis durchläuft und die feste Position von $S$ entlang der $z$-Achse mit $z_{0}$ zusammenfällt.  
+- **Für diese Versuche werden gefährliche elektrische Spannungen verwendet!** Während des Aufbaus und während aller Veränderungen an den Schaltungen dürfen daher *keine* Geräte eingeschaltet sein. Bei jeder neuen Schaltung ist das erste Einschalten **nur nach Kontrolle durch den Betreuer** erlaubt. 
 
-Für die Messung von $e/m_{\mathrm{e}}$ nach Busch steht Ihnen das folgende weitere Zubehör zur Verfügung:
+- **Sie haben nicht nur mit hohen elektrischen Spannungen sondern auch mit u.U. hohen magnetischen Feldern zu tun.** Stromdurchflossene Leiter haben induktive Impedanzen. Schalten Sie die Stromversorgung der Magnetspulen nicht plötzlich aus, sondern regeln Sie diese bei den Ein- ober Ausschaltvorgängen nach oben oder unten bevor Sie die Netzgeräte ein- oder ausschalten.  
 
-- TeilchenstrahlenOszillographenröhre (Typ DG7-32); Abstände der beiden Deflektorzentren $d_{1}$ und $d_{2}$ von $S$: $d_{S}-d_{1}=(88\pm 1)\,\mathrm{mm}$, $d_{S}-d_{2} =(70\pm 1)\,\mathrm{mm}$); $S$ befindet sich im Abstand $d_{S}=150\,\mathrm{mm}$ vom Eintrittspunkt $E$ des Elektronenstrahls in die Spule aus Sicht der Glühkathode (siehe obige Abbildung). 
-
-- Betriebsgerät für die Oszillographenröhre. Beschleunigungsspannung: $0-700\,\mathrm{V}$ (Intensität und Fokus sind ebenfalls justierbar);  
-
-- Netzgerät zur Erzeugung der Spannungen für die Deflektorplatten (zur Einspeisung ins Betriebsgerät); 
-
-- Zylinderspule (Betrieb mit max. $2\,\mathrm{A}$) mit den folgenden Spezifikationen:  $L=(200\pm 0,5)\,\mathrm{mm}$; $R =(45\pm 0,5)\,\mathrm{mm}$; $N = 3000$ Windungen; 
-
-- Wir legen den Nullpunkt auf der $z$-Achse mit dem Eintritt $E$ der Elektronen in die Spule aus Richtung der Glühkathode fest (siehe obige Abbildung). Der Schirm $S$ befindet sich dann bei $d_{z}=150\,\mathrm{mm}$. Beachten Sie, dass die Spule hierzu bis zum Anschlag an die Plexiglaskonstruktion geschoben sein muss. 
-
-## Anmerkungen zu den Versuchen
-
-- **Achtung: Für diese Versuche werden gefährliche elektrische Spannungen verwendet!** Während des Aufbaus und während aller Veränderungen an den Schaltungen dürfen daher *keine* Geräte eingeschaltet sein. Bei jeder neuen Schaltung ist das erste Einschalten nur nach Kontrolle durch den Betreuer erlaubt. 
-
-- **Achtung: Sie haben nicht nur mit hohen elektrischen Spannungen sondern auch mit magnetischen Feldern zu tun.** Stromdurchflossene Leiter haben induktive Impedanzen. Schalten Sie die Stromversorgung der Magnetspulen nicht plötzlich aus, sondern regeln Sie sie bei den Ein-/Ausschaltvorgängen nach oben/unten bevor Sie die Netzgeräte ein-/ausschalten.  
-
-- Vermeiden Sie hohe Leuchtdichten an der Oszillographenröhre bei der Bestimmung von $e/m_{\mathrm{e}}$ nach dem Verfahren von Busch, damit der Schirm nicht einbrennt. Der mechanische Aufbau im Innern einer Oszillographenröhre ist nicht so perfekt, dass der Strahl die Schirmmitte treffen muss. Es handelt sich dabei nicht um einen Fehler am Gerät.
+- Vermeiden Sie, bei der Bestimmung von $e/m_{\mathrm{e}}$ nach dem Verfahren von Busch, hohe Leuchtdichten an der Oszillographenröhre, damit der Schirm nicht einbrennt. Der mechanische Aufbau im Innern einer Oszillographenröhre ist nicht so perfekt, dass der Strahl die Schirmmitte treffen muss. Es handelt sich dabei nicht um einen Fehler am Gerät.
 
 - Sie können wahlweise das erste Paar von Deflektorplatten der Oszillographenröhre (im Abstand $d_1$ zu $S$) oder das zweite Paar (im Abstand $d_2$ zu $S$) für Ihre Messung verwenden.
+
+- Einen gelungen *virtuellen* Aufbau zur Bestimmung der spezifischen Ladung des Elektrons mit Hilfe des Fadenstrahlrohrs können Sie unter der Webseite [virtuelle-experimente.de](https://virtuelle-experimente.de/b-feld/e-m-bestimmung/edurchm.php) im Internet finden.  
 
 
 ## Aufgabe 1: Bestimmung der spezifischen Ladung des Elektrons mit dem Fadenstrahlrohr
@@ -114,7 +83,7 @@ wobei $\mu_{0}$ der [magnetischen Feldkonstanten](https://de.wikipedia.org/wiki/
 
 Kalibrieren Sie die Hall-Sonde mit Hilfe von Gleichung (1). Messen Sie hierzu etwa 10 Wertepaare aus $U_{\mathrm{H}}$ und $I$ und bestimmen Sie daraus eine Eichgerade $B(U_{\mathrm{H}})$. Mit Hilfe dieser Eichgeraden können Sie die in Aufgabe 1.1 bestimmten Werte von $U_{\mathrm{H}}$ in magnetische Feldstärken $B(U_{\mathrm{H}})$ übersetzen. Die Kalibration erfolgt nach der eigentlichen Ausmessung des Magnetfeldes mit der Hall-Sonde, damit Sie wissen, welcher Wertebereich von $U_{\mathrm{H}}$ für die Kalibration von Relevanz ist.  
 
-### TeilchenstrahlenAufgabe 1.3: Vergleich der gemessenen Werte mit der Erwartung 
+### Aufgabe 1.3: Vergleich der gemessenen Werte mit der Erwartung 
 
 Unter der Bedingung, das der Abstand zwischen $H_{2}$ und $H_{3}$ dem Radius $R$ der Spulen entspricht ist davon auszugehen, dass die [Stärke des Magnetfelds $B(r)$ auf der radialen Symmetrieachse des Spulenpaares](https://de.wikipedia.org/wiki/Helmholtz-Spule#Berechnung_der_magnetischen_Flussdichte) besonders homogen ist. Dabei bezeichnet $r$ den radialen Abstand von der Symmetrieachse. In diesem Fall erwartet man nach dem Gesetz von Biot-Savart die Feldstärke
 
@@ -123,7 +92,7 @@ B(r=0) = \frac{8}{\sqrt{125}}\,\frac{\mu_{0}\,N\,I}{R},
 $$
 wobei $I$ dem Strom durch das Spulenpaar, $N$ der Anzahl der Windungen pro Spule und $R$ dem Radius der Spulen entsprechen. Dieser Formel liegt die Annahme zugrunde, dass beide Spulen in allen in Gleichung (2) auftauchenden Parametern baugleich sind. Vergleichen Sie Ihren gemessenen Wert des Feldes für $r=0$ zwischen $H_{2}$ und $H_{3}$ mit dem nach Gleichung (2) erwarteten Wert. Diskutieren Sie die Homogenität von $B(r)$ für die vorliegende Spulenanordnung. 
 
-### Aufgabe 1.4: Durchmesser der ElektronenkreTeilchenstrahlenisbahnen im Fadenstrahlrohr
+### Aufgabe 1.4: Durchmesser der Elektronenkreisbahnen im Fadenstrahlrohr
 
 In einem homogenen Magnetfeld der Stärke $\vec{B}$ wird der Elektronenstrahl senkrecht zu seiner Bewegungsrichtung durch die Lorentz-Kraft abgelenkt. Tritt der Strahl senkrecht zu $\vec{B}$ in das Feld gilt: 
 $$
