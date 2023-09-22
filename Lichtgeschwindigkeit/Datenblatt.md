@@ -4,7 +4,7 @@ Für die Messung von $c$ nach der Drehspiegelmethode stehen Ihnen die folgenden 
 
 - Als Lichtquelle dient ein [Klasse 2](https://de.wikipedia.org/wiki/Laser#Laserklassen) He-Ne-Laser mit einer Strahlleistung etwa $1\,\mathrm{mW}$. Der Strahldurchmesser beträgt $\approx0,8\,\mathrm{mm}$, die Strahldivergenz beträgt $1\,\mathrm{mrad}$.
 - Der Drehspiegel ist $1\,\mathrm{cm}$ breit, $2\,\mathrm{cm}$ hoch und zweiseitig spiegelnd beschichtet. Er wird mit einem Regeltransformator betrieben, der eine maximale Frequenz von  $\approx450\,\mathrm{Hz}$ erlaubt. Ein Frequenzzähler erlaubt die Bestimmung der eingestellten Frequenz. Zur unabhängigen Kalibration des Frequenzzählers (in einem Messpunkt) steht eine Stimmgabel für den Kammerton A  ($440\,\mathrm{Hz}$) mit Resonanzkasten und Anschlaghammer zur Verfügung.
-- Bei den Umlenk- und Endspiegeln handelt es sich jeweils um einen [Planspiegel](https://de.wikipedia.org/wiki/Planspiegel) mit Krümmungsradius $r>100\,\mathrm{m}$ und einem Durchmesser $d=11,5\,\mathrm{cm}$. 
+- Bei den Umlenk- und Endspiegeln handelt es sich jeweils um einen [Planspiegel](https://de.wikipedia.org/wiki/Planspiegel) mit Krümmungsradius $r\gt100\,\mathrm{m}$ und einem Durchmesser $d=11,5\,\mathrm{cm}$. 
 - Die Sammellinse im Strahlengang hat eine Brennweite von $f=5\,\mathrm{m}$ und einen Durchmesser von $d=11,5\,\mathrm{cm}$.  
 - Die Aufbauten um Schirm und USB-Mikroskop bestehen aus 
   - einem halbdurchlässigen Spiegel, 
