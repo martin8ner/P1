@@ -1,7 +1,7 @@
 # Hinweise für den Versuch Spezifische Ladung des Elektrons
 
 
-## Aufgabe 1: Fadenstrahlrohr
+## Aufgabe 1: Fadenstrahlrohr [1/2]
 
 ### Elektronenstrahl im homogenen Magnetfeld
 
