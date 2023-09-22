@@ -1,39 +1,29 @@
 # Hinweise für den Versuch Spezifische Ladung des Elektrons
 
 
-## Aufgabe 2: Methode von Busch
+## Aufgabe 2: Methode von Busch [2/2]
 
 ### Berechnung von $e/m_{e}$
 
-Beim hier verwendeten Aufbau müssen Sie den einfachen Zusammenhang für eine als *lang* angenommene Spule aus Gleichung (**(4)** hier), der folgenden empirischen Formel
+Beim hier verwendeten Aufbau sind die Voraussetzungen für eine als *lang* angenommene Spule aus Gleichung (**(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) nicht mehr erfüllt. Gleichung (**(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) muss daher auf folgende Weise modifiziert werden:
 $$
 \begin{equation}
-\begin{split}
-B(a, I, \ell)&=B_{0}
+B(a, I, \ell)=B_{0}
 \left(0,567\left(
 \frac{a}{\sqrt{R^{2}+a^{2}}}+
 \frac{\ell-a}{\sqrt{R^{2}+(\ell-a)^{2}}}
-\right)\right) \\ 
-&
-\vphantom{
-\left(0,567\left(
-\frac{a}{\sqrt{R^{2}+a^{2}}}+
-\frac{\ell-a}{\sqrt{R^{2}+(\ell-a)^{2}}}
-\right)\right)
-}
-=\kappa\,I \\
-\end{split}
+\right)\right). 
 \end{equation}
 $$
-gemäß modifizieren. Dabei ist $a$ der Abstand von $B$ vom Spulenanfang im Eintrittspunkt $E$ auf der $z$-Achse (siehe Abbildung zum Verfahren von Busch hier), $\ell$ die Länge und $R$ der mittlere Radius der Spule; $B_{0}$ ist aus Gleichung (**(4)** hier) zu entnehmen. Einen Vergleich der mit Hilfe von Gleichung **(1)** bestimmten, erwarteten Werte von $B$ mit einer Kalibrationsmessung, für fünf verschiedene Magnetspulenströme $I$ ist in **Abb. 1** gezeigt: 
+Dabei ist $a$ der Abstand von $B$ vom Spulenanfang im Eintrittspunkt $E$ auf der $z$-Achse, $\ell$ die Länge und $R$ der mittlere Radius der Spule; $B_{0}$ ist aus Gleichung (**(4)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)) zu entnehmen. Einen Vergleich der mit Hilfe von Gleichung **(1)** bestimmten, erwarteten Werte von $B$ mit einer Kalibrationsmessung, für fünf verschiedene Magnetspulenströme $I$ ist in **Abb. 1** gezeigt: 
 
-<img src="../figures/Busch-Magnetfeld.png" width="750" style="zoom:80%;" />
+<img src="../figures/Busch-Magnetfeld.png" width="500" style="zoom:80%;" />
 
-**Abb 1** (Vergleich von $B(a,\hspace{0.05cm}I,\hspace{0.05cm}\ell)$ aus Gleichung **(1)** mit entsprechenden Messwerten bei fünf verschiedenen Spulenströme)
+**Abb 1** (Vergleich von $B(a,\hspace{0.05cm}I,\hspace{0.05cm}\ell)$ aus Gleichung **(1)** mit entsprechenden Messwerten für fünf verschiedene Spulenströme)
 
 ---
 
-Dabei entspricht der $0$-Punkt auf der $x$-Achse der Abbildung dem Punkt $E$; $a$ ist in $\mathrm{mm}$ und $B$ in $\mathrm{mT}$ angegeben. Die Markierungen entsprechen den Messpunkten und die gestrichelten Linien der entsprechenden Erwartung nach Gleichung **(1)**. 
+Dabei entspricht der $0$-Punkt auf der $x$-Achse der Abbildung dem Punkt $E$; $a$ ist in $\mathrm{mm}$ und $B$ in $\mathrm{mT}$ angegeben. Die Marker entsprechen den Messpunkten und die gestrichelten Linien der entsprechenden Erwartung nach Gleichung **(1)**. 
 
 Der Zusammenhang zwischen der Geschwindigkeit der Elektronen in $z$-Richtung und $U_{z}$ an der Oszillographenröhre 
 $$
@@ -41,7 +31,7 @@ $$
 v_{z} = \sqrt{2\,U\,e/m_{\mathrm{e}}}
 \end{equation*}
 $$
-ergibt sich aus Gleichung (**(2)** hier). Für die Kreisbahn der Elektronen in der $xy$-Ebene ergibt sich: 
+ergibt sich aus Gleichung (**(2)** [hier](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/doc/Hinweise-Aufgabe-1.md)). Für die Kreisbahn der Elektronen in der $xy$-Ebene ergibt sich: 
 $$
 \begin{equation}
 \begin{split}
@@ -51,13 +41,13 @@ $$
 \end{split}
 \end{equation}
 $$
-wobei $\omega$ der Kreisfrequenz der Bewegung, $d_{S}$ dem Abstand von $S$ und $d_{i}$ dem Abstand des Zentrums des gewählten Deflektorplattenpaars von $E$ entsprechen (siehe obige Abbildung zum Verfahren von Busch hier). Beachten Sie, das $\langle B\rangle$ in Gleichung **(2)** dem gemittelten Magnetfeld 
+wobei $\omega$ der Kreisfrequenz der Bewegung in der $xy$-Ebene, $d_{S}$ dem Abstand von $S$ und $d_{i}$ dem Abstand des Zentrums des gewählten Deflektorplattenpaars von $E$ entsprechen (siehe **Abb. 2**). Beachten Sie, das $\langle B\rangle$ in Gleichung **(2)** dem gemittelten Magnetfeld 
 $$
 \begin{equation*}
 \langle B\rangle = \frac{1}{d_{S}-d_{i}} \int\limits_{d_{i}}^{d_{S}}B(a, I, N, \ell)\,\mathrm{d}a = K \,I
 \end{equation*}
 $$
-entspricht. Der Integrationsweg ist in **Abb. 2** gezeigt: 
+entspricht. Der Integrationsweg für die Deflektorplatten in Position $d_{2}$ ist durch die schraffierte Fläche in **Abb. 2** dargestellt: 
 
 <img src="../figures/BuschMagnetfeld.png" width="750" style="zoom:100%;" />
 
@@ -65,7 +55,7 @@ entspricht. Der Integrationsweg ist in **Abb. 2** gezeigt:
 
 ---
 
-Bei $K$ handelt es sich um einen Geometriefaktor, der vom gewählten Deflektorplattenpaar in $d_{1}$ oder $d_{2}$ abhängt. 
+Bei $K$ handelt es sich also um einen Geometriefaktor, der **vom gewählten Deflektorplattenpaar in $d_{1}$ oder $d_{2}$ abhängt**. 
 
 ### Hinweise zur Durchführung
 
