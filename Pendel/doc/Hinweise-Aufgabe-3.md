@@ -9,7 +9,7 @@ Für diesen Versuch verwenden Sie zwei Pendel $P_{1}$ und $P_{2}$, die durch ein
 
 <img src="../figures/GekoppeltePendelSkizze.png" width="500" style="zoom:100%;" />
 
-**Skizze 1** (Schematische Skizze zweier gekoppelter Pendel $P_{1}$ und $P_{2}$)
+**Skizze 2** (Schematische Skizze zweier gekoppelter Pendel $P_{1}$ und $P_{2}$)
 
 ---
 
@@ -108,8 +108,8 @@ $$
 
 Die physikalische Interpretation der Lösung von Gleichung **(2)** ist intuitiv: 
 
-- Im Fall der **Fundamentalschwingung mit $\boldsymbol{\omega_{1}}$** schwingen beide Pendel in Phase, die koppelnde Schraubenfeder bleibt entspannt und das Direktionsmoment für beide Pendel enspricht effektiv $D_{\omega_{1}}=mgs$, so als wären $P_{1}$ und $P_{2}$ nicht gekoppelt. 
-- Im Fall der **Fundamentalschwingung mit $\boldsymbol{\omega_{2}}$** schwingen beide Pendel gegenphasig, die koppelnde Feder bewirkt zusätzlich zum Schwerefeld $g$ ein maximales Hook'sches Direktionsmoment, das nach dem dritten Newtonschen Axiom ("actio gleich reactio") die Form $D_{\omega_{2}}=2\,k\,\ell^{2}$ hat.
+- Im Fall der **Fundamentalschwingung mit $\boldsymbol{\omega_{1}}$** schwingen beide Pendel "in Phase", die koppelnde Schraubenfeder bleibt entspannt und das Direktionsmoment für beide Pendel enspricht effektiv $D_{\omega_{1}}=mgs$, so als wären $P_{1}$ und $P_{2}$ nicht gekoppelt. 
+- Im Fall der **Fundamentalschwingung mit $\boldsymbol{\omega_{2}}$** schwingen beide Pendel "gegenphasig", die koppelnde Feder bewirkt zusätzlich zum Schwerefeld $g$ ein maximales Hook'sches Direktionsmoment, das nach dem dritten Newtonschen Axiom ("actio gleich reactio") die Form $D_{\omega_{2}}=2\,k\,\ell^{2}$ hat.
 
 Die allgemeine Lösung ist eine Superposition aus beiden [Eigenmoden](https://de.wikipedia.org/wiki/Eigenmode):
 $$
@@ -140,7 +140,7 @@ $$
 \widetilde{\omega} = \frac{1}{2}(\omega_{2}-\omega_{1}).
 \end{equation}
 $$
-Dieser Verlauf ergibt sich aus einer geeigneten Anwendung der [trigonometrischen Additionstheoreme](https://de.wikipedia.org/wiki/Formelsammlung_Trigonometrie#Summen_zweier_trigonometrischer_Funktionen_(Identit%C3%A4ten)) auf Gleichung **(3)**. $A_{1/2}$ und $\phi_{1/2}$ werden durch die Randwerte des Problems bestimmt. Wenn Sie z.B. zum Zeitpunkt $t=0$ $P_{1}$ in seiner Ruhelage festhalten und $P_{2}$ auslenken, wird die Schwingung mit der Zeit von $P_{2}$ nach $P_{1}$ übergehen, bis $P_{2}$ zum Stillstand kommt! Daraufhin wird die Schwingung mit $\overline{\omega}$ periodisch mit der Frequenz $\widetilde{\omega}$ zwischen $P_{1}$ und $P_{2}$ hin und her wandern.   
+Dieser Verlauf ergibt sich aus einer geeigneten Anwendung der [trigonometrischen Additionstheoreme](https://de.wikipedia.org/wiki/Formelsammlung_Trigonometrie#Summen_zweier_trigonometrischer_Funktionen_(Identit%C3%A4ten)) auf Gleichung **(3)**. $A_{1/2}$ und $\phi_{1/2}$ sind durch die Randwerte des Problems festgelegt. Wenn Sie z.B. zum Zeitpunkt $t=0$ $P_{1}$ in seiner Ruhelage festhalten und $P_{2}$ auslenken, wird die Schwingung mit der Zeit von $P_{2}$ nach $P_{1}$ übergehen, bis $P_{2}$ zum Stillstand kommt! Daraufhin wird die Schwingung mit $\overline{\omega}$ periodisch mit der Frequenz $\widetilde{\omega}$ zwischen $P_{1}$ und $P_{2}$ hin und her wandern.   
 
 ### Trägheitsmoment eines einzelnen Pendels
 
@@ -157,48 +157,6 @@ $$
 $$
 wobei $m_{S}$ der Masse der Scheibe, $L$ dem Abstand zwischen Aufhängung und dem Schwerpunkt der Scheibe, $r$ dem Radius der Scheide, $m_{\mathrm{Stab}}$ und $L_{\mathrm{Stab}}$ der Masse und der Länge des Pendelstabs, $m_{\kappa}$ der Masse der Kopplung zur Befestigung der koppelnden Feder und $\ell$ dem Abstand zwischen Kopplung und Aufhängung entsprechen. Bei einer solchen Abschätzung vernachlässigen Sie die Ausdehnung der Kopplung. 
 
-
-### Hinweise zur Durchführung
-
-#### Aufgabe 3.2: Gekoppelte Pendel
-
-Bauen Sie die koppelnde Feder aus dem gekoppelten Pendel aus, hängen Sie sie senkrecht auf und gehen Sie bei der alternativen Bestimmung von $D$ wie im Folgenden beschrieben vor. Vergleichen die all von Ihnen bestimmten Werte für $D$ innerhalb Ihrer Unsicherheiten. Beurteilen und begründen, welches die genaueste Methode zur Bestimmung von $D$ ist. 
-
-##### Bestimmung von $k$ nach Hook
-
-- Das Hook'sche Gesetz lautet: 
-
-  ```math
-  \begin{equation}
-  \mathrm{d}F = k\,\mathrm{d}z.
-  \end{equation}
-  ```
-
-- Versehen Sie das untere Ende der Feder mit verschiedenen bekannten Gewichten $m_{i}$ und stellen Sie die Auslenkung $\mathrm{d}z_{i}$ der Feder als Funktion von $m_{i}$ dar. 
-
-- Innerhalb der [Elastizitätsgrenze](https://de.wikipedia.org/wiki/Elastizit%C3%A4tsgrenze) der Feder sollte sich ein linearer Zusammenhang mit der Steigung $k$ einstellen. $D$ berechnet sich aus dem Produkt mit $\ell^{2}$.   
-
-##### Bestimmung von $k$ aus der Periode des Federpendels
-
-- Hängen Sie ein Gewicht $m_{i}$ an die Feder an, lenken Sie die Feder aus der sich einstellenden Ruhelage aus und bestimmen Sie $T_{0}(m_{i})$, woraus sich $k$ nach der Gleichung
-
-  ```math
-  \begin{equation}
-  T_{0}^{2}(m_{i}) = \frac{4\pi^{2}\,m_{i}}{k}
-  \end{equation}
-  ```
-
-  ableiten lässt. 
-
-- Wenn Sie $T_{0}^{2}$ als Funktion von $m_{i}$ für verschiedene Massen bestimmen, können Sie $k$ aus einer Anpassung von Gleichung **(6)** an Ihre Messwerte bestimmen.
-
-- Den zusätzlichen Effekt von $g$ brauchen Sie nicht zu berücksichtigen, weil dieser in der neuen Ruhelage der Feder durch die Federkraft ausgeglichen wird. 
-
-#### Aufgabe 3.3: Schwebung
-
-- Bestimmen Sie $\widetilde{\omega}$ am besten indem Sie $P_{1}$ (mit kleinem Winkel $\varphi$) auslenken und $P_{2}$ ruhig halten. Sie können dann $\widetilde{T}$ bestimmen, wenn $P_{2}$ wieder zur Ruhe kommt. 
-- Aus der Bestimmung von $\overline{\omega}$ und $\widetilde{\omega}$ und den zuvor bestimmten Werten $\omega_{1}$ und $\omega_{2}$ sollten Sie die Gleichungen **(4)** und **(5)** innerhalb der von Ihnen abgeschätzten Unsicherheiten bestätigen können. Achten Sie daher bei der Bestimmung von $\overline{T}$ und $\widetilde{T}$ darauf, dass Sie einen der Abstände für $\ell$ wie in Aufgabe 3.2 wählen.  
-
 #  Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel)
+[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel/doc/Hinweise-Aufgabe-3-a.md)
