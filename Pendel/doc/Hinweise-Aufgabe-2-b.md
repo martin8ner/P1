@@ -40,5 +40,5 @@ Gehen Sie für die Bestimmung von $\ell_{r}$ wie folgt vor:
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel)
+[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel/doc/Hinweise-Aufgabe-2-a.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel)
 
