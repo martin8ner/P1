@@ -13,7 +13,7 @@ Dabei entspricht $s$ dem Abstand zwischen der Aufhängung $A$ und dem Schwerpunk
 
 Das Reversionspendel ist eine einfache Konstruktion, um diese Schwierigkeit experimentell zu umgehen. Es besteht aus einem Pendelstab $P$, einem ($K$) festen und einem ($K'$) verschiebbaren Auflagekeil, wie in **Skizze 1** dargestellt:
 
-<img src="../figures/ReversionspendelSkizze.png" width="1000" style="zoom:100%;" />
+<img src="../figures/ReversionspendelSkizze.png" width="750" style="zoom:100%;" />
 
 **Skizze 1** (Schematischer Aufbau eines Reversionspendels)
 
