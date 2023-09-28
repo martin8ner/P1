@@ -5,15 +5,15 @@
 
 ### Bewegungsgleichungen gekoppelter Pendel
 
-Für diesen Versuch verwenden Sie zwei Pendel $P_{1}$ und $P_{2}$, die durch eine [Schraubenfeder](https://de.wikipedia.org/wiki/Feder_(Technik)) mit dem Direktionsmoment $D$ auf Höhe $\ell$ miteinander gekoppelt sind, wie in **Skizze 2** dargestellt 
+Für diesen Versuch verwenden Sie zwei Pendel $P_{1}$ und $P_{2}$, die durch eine [Schraubenfeder](https://de.wikipedia.org/wiki/Feder_(Technik)) mit dem Direktionsmoment $D$ auf Höhe $\ell$ miteinander gekoppelt sind, wie in **Skizze 2** dargestellt: 
 
 <img src="../figures/GekoppeltePendelSkizze.png" width="500" style="zoom:100%;" />
 
-**Skizze 1** (Gekoppelte Pendel)
+**Skizze 1** (Schematische Skizze zweier gekoppelter Pendel $P_{1}$ und $P_{2}$)
 
 ---
 
-Zur Vereinfachung der Diskussion gehen wir davon aus, dass beide Pendel das gleiche Trägheitsmoment $\Theta$ besitzen. Die Auslenkung jedes einzelnen Pendels sei $\varphi_{1/2}$. Für die Bewegung jeweils eines der Pendel gilt die Bewegungsgleichung: 
+Zur Vereinfachung der Diskussion gehen wir davon aus, dass beide Pendel das gleiche Trägheitsmoment $\Theta$ besitzen und vernachlässigen Dämpfungseffekte. Die Auslenkung jedes einzelnen Pendels sei $\varphi_{1/2}$. Für die Bewegung jeweils eines der Pendel gilt die Bewegungsgleichung: 
 
 $$
 \begin{equation*}
@@ -21,17 +21,17 @@ $$
 \end{equation*}
 $$
 
-Hinzu kommt eine rückstellendes Drehmoment $M_{1/2}$ aufgrund der Kopplung durch die Feder, für das in der Kleinwinkelnäherung der folgende Zusammenhang gilt:
+Hinzu kommt ein Drehmoment $M_{1/2}$ aufgrund der Kopplung durch die Feder, für das in der Kleinwinkelnäherung der folgende Zusammenhang gilt:
 $$
 \begin{equation*}
 \begin{split}
 &M_{1} = -k\ell^{2}\left(\varphi_{1}-\varphi_{2}\right);\\
 &\\
-&M_{2} = -k\ell^{2}\left(\varphi_{2}-\varphi_{1}\right),\\
+&M_{2} = -k\ell^{2}\left(\varphi_{2}-\varphi_{1}\right).\\
 \end{split}
 \end{equation*}
 $$
-woraus die Bewegungsgleichungen der beiden [gekoppelten Pendel](https://de.wikipedia.org/wiki/Gekoppelte_Pendel) folgt: 
+Hieraus folgen die Bewegungsgleichungen der beiden [gekoppelten Pendel](https://de.wikipedia.org/wiki/Gekoppelte_Pendel): 
 $$
 \begin{equation}
 \begin{split}
@@ -41,7 +41,7 @@ $$
 \end{split}
 \end{equation}
 $$
-Mit dem Lösungsansatz harmonischer Schwingungen:
+Das Gleichungssystem **(1)** ist gekoppelt, weil $\varphi_{1}$ in der Bewegungsgleichung zu $\varphi_{2}$ vorkommt und umgekehrt. Mit dem Lösungsansatz harmonischer Schwingungen:
 $$
 \begin{equation*}
 \varphi_{i} = \Phi_{i}\sin(\omega t+\phi)\qquad i=1,2
@@ -72,15 +72,15 @@ $$
 \end{split}
 \end{equation}
 $$
-Gleichung **(2)** entspricht einem Eigenwertproblem, dessen Lösung sich auf die Lösung des [charakteristischen Polynoms](https://de.wikipedia.org/wiki/Charakteristisches_Polynom) zurückführen lässt, dass Sie aus der linearen Algebra kennen. Die Lösungen des charakteristischen Polynoms entsprechen den Eigenmoden der Anordnung die in diesem Fall auch als **Fundamentalschwingungen** bezeichnet werden. 
+Gleichung **(2)** entspricht einem Eigenwertproblem, dessen Lösung sich auf die Lösung des [charakteristischen Polynoms](https://de.wikipedia.org/wiki/Charakteristisches_Polynom) zurückführen lässt, dass Sie aus der linearen Algebra kennen. Die Lösungen des charakteristischen Polynoms entsprechen den [Eigenmoden](https://de.wikipedia.org/wiki/Eigenmode) der Anordnung, die in diesem Fall auch als **Fundamentalschwingungen** bezeichnet werden. 
 
-Das charakteristische Polynom erhält man aus 
+Man erhält das charakteristische Polynom aus 
 $$
 \begin{equation*}
 \det\left(B\right)=0,
 \end{equation*}
 $$
-Mit den Lösungen:
+mit den Lösungen
 $$
 \begin{equation*}
 \omega_{1}^{2} = \frac{mgs}{\Theta},\qquad
@@ -106,14 +106,14 @@ $$
 $$
 ### Lösungen der Bewegungsgleichungen
 
-Die Lösung von Gleichung **(2)** lässt sich intuitiv physikalisch interpretieren: 
+Die physikalische Interpretation der Lösung von Gleichung **(2)** ist intuitiv: 
 
-- Im Fall der **Fundamentalschwingung mit $\boldsymbol{\omega_{1}}$** schwingen beide Pendel in Phase, die koppelnde Schraubenfeder bleibt entspannt und das Direktionsmoment für beide Pendel ist effektiv $D_{\mathrm{eff}}=mgs$, so als wären $P_{1}$ und $P_{2}$ nicht gekoppelt. 
-- Im Fall der **Fundamentalschwingung mit $\boldsymbol{\omega_{2}}$** schwingen beide Pendel gegenphasig, die koppelnde Feder bewirkt zusätzlich zum Schwerefeld $g$ ein maximales Hook'sches Direktionsmoment, das nach dem dritten Newtonschen Axiom ("actio gleich reactio") die Form $|D_{K}|=2\,k\,\ell^{2}$ hat.
+- Im Fall der **Fundamentalschwingung mit $\boldsymbol{\omega_{1}}$** schwingen beide Pendel in Phase, die koppelnde Schraubenfeder bleibt entspannt und das Direktionsmoment für beide Pendel enspricht effektiv $D_{\omega_{1}}=mgs$, so als wären $P_{1}$ und $P_{2}$ nicht gekoppelt. 
+- Im Fall der **Fundamentalschwingung mit $\boldsymbol{\omega_{2}}$** schwingen beide Pendel gegenphasig, die koppelnde Feder bewirkt zusätzlich zum Schwerefeld $g$ ein maximales Hook'sches Direktionsmoment, das nach dem dritten Newtonschen Axiom ("actio gleich reactio") die Form $D_{\omega_{2}}=2\,k\,\ell^{2}$ hat.
 
 Die allgemeine Lösung ist eine Superposition aus beiden [Eigenmoden](https://de.wikipedia.org/wiki/Eigenmode):
 $$
-\begin{equation*}
+\begin{equation}
 \vec{\varphi}(t) = A_{1} \left(\begin{array}{c}
 \hphantom{-}1\hphantom{-} \\ 
 \hphantom{-}1\hphantom{-} \\
@@ -126,7 +126,7 @@ A_{2} \left(\begin{array}{c}
 \end{array}
 \right)
 \sin(\omega_{2}t+\phi_{2}).
-\end{equation*}
+\end{equation}
 $$
 Anschaulich beschreibt diese allgemeine Lösung eine [Schwebung](https://de.wikipedia.org/wiki/Schwebung) mit der Frequenz 
 $$
@@ -140,7 +140,7 @@ $$
 \widetilde{\omega} = \frac{1}{2}(\omega_{2}-\omega_{1}).
 \end{equation}
 $$
-Dieser Verlauf ergibt sich allgemein aus der Anwendung der [trigonometrischen Additionstheoreme](https://de.wikipedia.org/wiki/Formelsammlung_Trigonometrie#Summen_zweier_trigonometrischer_Funktionen_(Identit%C3%A4ten)). $A_{1/2}$ und $\phi_{1/2}$ werden durch die Randwerte des Problems bestimmt. Wenn Sie z.B. zum Zeitpunkt $t=0$ $P_{1}$ in seiner Ruhelage festhalten und $P_{2}$ auslenken, wird die Schwingung mit der Zeit von $P_{2}$ nach $P_{1}$ übergehen, bis $P_{2}$ zum Stillstand kommt(!), und daraufhin periodisch mit der Frequenz $\widetilde{\omega}$ zwischen $P_{1}$ und $P_{2}$ hin und her wandern.   
+Dieser Verlauf ergibt sich aus einer geeigneten Anwendung der [trigonometrischen Additionstheoreme](https://de.wikipedia.org/wiki/Formelsammlung_Trigonometrie#Summen_zweier_trigonometrischer_Funktionen_(Identit%C3%A4ten)) auf Gleichung **(3)**. $A_{1/2}$ und $\phi_{1/2}$ werden durch die Randwerte des Problems bestimmt. Wenn Sie z.B. zum Zeitpunkt $t=0$ $P_{1}$ in seiner Ruhelage festhalten und $P_{2}$ auslenken, wird die Schwingung mit der Zeit von $P_{2}$ nach $P_{1}$ übergehen, bis $P_{2}$ zum Stillstand kommt! Daraufhin wird die Schwingung mit $\overline{\omega}$ periodisch mit der Frequenz $\widetilde{\omega}$ zwischen $P_{1}$ und $P_{2}$ hin und her wandern.   
 
 ### Trägheitsmoment eines einzelnen Pendels
 
@@ -162,7 +162,7 @@ wobei $m_{S}$ der Masse der Scheibe, $L$ dem Abstand zwischen Aufhängung und de
 
 #### Aufgabe 3.2: Gekoppelte Pendel
 
-Gehen Sie bei der alternativen Bestimmung von $D$ wie folgt vor: 
+Bauen Sie die koppelnde Feder aus dem gekoppelten Pendel aus, hängen Sie sie senkrecht auf und gehen Sie bei der alternativen Bestimmung von $D$ wie im Folgenden beschrieben vor. Vergleichen die all von Ihnen bestimmten Werte für $D$ innerhalb Ihrer Unsicherheiten. Beurteilen und begründen, welches die genaueste Methode zur Bestimmung von $D$ ist. 
 
 ##### Bestimmung von $k$ nach Hook
 
@@ -174,17 +174,13 @@ Gehen Sie bei der alternativen Bestimmung von $D$ wie folgt vor:
   \end{equation}
   ```
 
-- Bauen Sie die koppelnde Feder aus dem gekoppelten Pendel aus und hängen Sie sie senkrecht auf. 
-
 - Versehen Sie das untere Ende der Feder mit verschiedenen bekannten Gewichten $m_{i}$ und stellen Sie die Auslenkung $\mathrm{d}z_{i}$ der Feder als Funktion von $m_{i}$ dar. 
 
 - Innerhalb der [Elastizitätsgrenze](https://de.wikipedia.org/wiki/Elastizit%C3%A4tsgrenze) der Feder sollte sich ein linearer Zusammenhang mit der Steigung $k$ einstellen. $D$ berechnet sich aus dem Produkt mit $\ell^{2}$.   
 
 ##### Bestimmung von $k$ aus der Periode des Federpendels
 
-- Bauen Sie die koppelnde Feder aus dem gekoppelten Pendel aus und hängen Sie sie senkrecht auf. 
-
-- Hängen Sie ein Gewicht $m_{i}$ an, lenken Sie die Feder aus der sich einstellenden Ruhelage aus und bestimmen Sie die Periode $T_{0}(m_{i})$ der Schwingung, woraus sich $k$ nach der Gleichung
+- Hängen Sie ein Gewicht $m_{i}$ an die Feder an, lenken Sie die Feder aus der sich einstellenden Ruhelage aus und bestimmen Sie $T_{0}(m_{i})$, woraus sich $k$ nach der Gleichung
 
   ```math
   \begin{equation}
@@ -194,14 +190,14 @@ Gehen Sie bei der alternativen Bestimmung von $D$ wie folgt vor:
 
   ableiten lässt. 
 
-- Wenn Sie $T_{0}^{2}$ als Funktion von $m_{i}$ für verschiedene Massen bestimmen, können Sie $k$ aus einer Anpassung von Gleichung **(4)** an Ihre Messwerte bestimmen.
+- Wenn Sie $T_{0}^{2}$ als Funktion von $m_{i}$ für verschiedene Massen bestimmen, können Sie $k$ aus einer Anpassung von Gleichung **(6)** an Ihre Messwerte bestimmen.
 
-- Den zusätzlichen Effekt von $g$ brauchen Sie nicht zu berücksichtigen, weil dieser in der neuen Ruhelage der Feder durch die rückstellende Federkraft ausgeglichen wird. 
+- Den zusätzlichen Effekt von $g$ brauchen Sie nicht zu berücksichtigen, weil dieser in der neuen Ruhelage der Feder durch die Federkraft ausgeglichen wird. 
 
 #### Aufgabe 3.3: Schwebung
 
 - Bestimmen Sie $\widetilde{\omega}$ am besten indem Sie $P_{1}$ (mit kleinem Winkel $\varphi$) auslenken und $P_{2}$ ruhig halten. Sie können dann $\widetilde{T}$ bestimmen, wenn $P_{2}$ wieder zur Ruhe kommt. 
-- Aus der Bestimmung von $\overline{\omega}$ und $\widetilde{\omega}$ sollten Sie die Gleichungen **(3)** und **(4)** innerhalb der von Ihnen abgeschätzten Unsicherheiten bestätigen können. Achten Sie daher bei der Bestimmung von $\overline{T}$ und $\widetilde{T}$ darauf, dass die einen der Abstände für $\ell$ wie in Aufgabe 3.2 wählen.  
+- Aus der Bestimmung von $\overline{\omega}$ und $\widetilde{\omega}$ und den zuvor bestimmten Werten $\omega_{1}$ und $\omega_{2}$ sollten Sie die Gleichungen **(4)** und **(5)** innerhalb der von Ihnen abgeschätzten Unsicherheiten bestätigen können. Achten Sie daher bei der Bestimmung von $\overline{T}$ und $\widetilde{T}$ darauf, dass Sie einen der Abstände für $\ell$ wie in Aufgabe 3.2 wählen.  
 
 #  Navigation
 

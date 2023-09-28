@@ -18,125 +18,50 @@ Versuch P1-20, 21, 22 (Stand: Oktober 2023)
 
 ## Motivation
 
-Der Pendelversuch zählt zu den Blaupausen zur Durchführung einer physikalischen Messung. Gleichzeitig sind Schwingungen überall in der Natur auftretende Bewegungsformen und deshalb in der Physik sehr wichtig. Bei diesem Versuch geht es um mechanische Schwingungen. Er bietet die Gelegenheit, sich mit einigen Schwingungsaspekten sowie einigen Problemen der Bewegung starrer Körper vertraut zu machen. 
+Die [Schwingung](https://de.wikipedia.org/wiki/Schwingung) ist eine überall in der Natur auftretende Bewegungsform und deshalb in der Physik von besonderer Bedeutung. Mit diesem Versuch untersuchen Sie Schwingungen in ihrer einfachsten Form, als mechanische Schwingungen von [Pendeln](https://de.wikipedia.org/wiki/Pendel). Der erste neuzeitliche Forscher, dessen Beschäftigung mit Pendeln dokumentiert ist ist [Galileio Galilei](https://de.wikipedia.org/wiki/Galileo_Galilei) mit einer Schrift zur Untersuchung von Pendeln (1602). Er soll durch die gleichmäßigen Schwingungen eines Leuchter im [Dom zu Pisa](https://de.wikipedia.org/wiki/Dom_zu_Pisa) zu diesen Untersuchungen angeregt worden sein. Damals waren Pendelbewegungen nicht zu erklären, die kanonische Beschreibung der Natur basierte auf den Werken des [Aristoteles](https://de.wikipedia.org/wiki/Aristoteles), der natürliche von erzwungenen Bewegungen unterschied. Als natürliche Bewegung galt z.B. der Fall eines Steins zur Erde. Warf man einen Stein nach oben, galt dies als erzwungene Bewegung, die nach und nach wieder in die natürliche Bewegung nach unten (zur Erde) überging. Beim Pendel war ein solcher Übergang von einer erzwungenen in eine natürliche Bewegung nicht zu beobachten. Galilei beobachtete und dokumentierte als erster, dass die Periode $T_{0}$ eines schwingenden Pendels nicht von der schwingenden Masse sondern allein von der Länge des Pendels abhängt. Er behauptete allerdings auch, dass die Periode nicht von der Auslenkung der Pendels anhänge, ein Punkt in dem Sie ihn widerlegen werden. 
 
-Oft werden beim Experimentieren die Versuchsbedingungen so eingerichtet, dass die mathematischen Lösungen der beobachteten Prozesse harmonische Schwingungen sind. Dies ist in der Natur im allgemeinen nicht der Fall. Dass es sich dabei um ein Verhalten unter besonderen Laborbedingungen handelt, von dem schnell erhebliche Abweichungen auftreten können, soll aus diesem Versuchen ebenfalls hervorgehen.
+Auf Seiten der Erfassung und Verarbeitung von Daten zählen Untersuchungen an Pendeln zu den Blaupausen moderner, physikalischer Messungen. Selbst wenn Sie es so bisher nicht gesehen haben mögen, liegt jeder physikalischen Messung ein (physikalisches) Modell zugrunde. Mit der Messung von $T_{0}$ führen Sie stichprobenartig [Zusallsexperimente](https://de.wikipedia.org/wiki/Zufallsexperiment) durch,  deren zufallsbedingte Unsicherheiten ([Varianz](https://de.wikipedia.org/wiki/Varianz)) Sie mit Methoden der Statistik abschätzen können. Aus der [Sichprobe](https://de.wikipedia.org/wiki/Stichprobe) ermitteln Sie einen [Erwartungswert](https://de.wikipedia.org/wiki/Erwartungswert) mit entsprechenden Unsicherheiten (die Sie wiederum aus der [Stichprobenvarianz](https://de.wikipedia.org/wiki/Stichprobenvarianz_(Sch%C3%A4tzfunktion)) abschätzen können), oder Sie [schätzen](https://de.wikipedia.org/wiki/Sch%C3%A4tzfunktion) Parameter, wie die Erbeschleunigung im Schwerefeld der Erde $g$, innerhalb des zugrunde gelegten Modells mit entsprechenden Unsicherheiten. Irgendwo auf dem Weg zwischen einer noch unsicheren Entdeckung bis zu einer unumstößlichen Gewissheit manifestiert sich die physikalisch reproduzierbare Beobachtung, die wir als unumstößliche Tatsache empfinden. Aus dieser Umschreibung können Sie erkennen wie eng unser heutiges Verständnis physikalischer Messungen mit den Methoden der Statistik verbunden ist.    
 
 ## Lehrziele
 
 Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem Versuch **Pendel** vermitteln möchten: 
 
-- Sie lernen den Umgang mit einigen der wichtigsten mechanischen Systeme kennen, mit deren Hilfe man Schwingungsphänomene experimentell studieren kann. 
-- Sie lernen den nicht immer intuitiven Einfluss der endlichen Ausdehnung physikalischer Körper auf die Bewegung der untersuchten Pendel kennen.
-- Sie üben sich anhand der einfachen Aufbauten im sorgfältigen Experimentieren und Messen unter Laborbedingungen.
-- Sie lernen den Nutzen redundanter und alternativer Messmethoden kennen und lernen die Vor- und Nachteile einzelner Bestimmungen der verschiedenen physikalischen Größen im Laufe des Versuchs einzuschätzen. 
-- Dieser Versuch eignet sich, aufgrund der einfachen zugrunde liegenden Modelle, zudem sehr gut für eine Auswertung mit Hilfe numerischer Anpassungen und zur sorgfältigen Abschätzung statistischer und systematischer Unsicherheiten.
+- Sie lernen den Umgang mit einigen der wichtigsten mechanischen Systeme kennen, mit deren Hilfe man Schwingungsphänomene experimentell studieren kann. Einige der Phänomene, die Sie beobachten werden, wie z.B. bei der [Schwebung](https://de.wikipedia.org/wiki/Schwebung), aber auch bei der Diskussion des [Reversionspendels](https://de.wikipedia.org/wiki/Reversionspendel) sind überraschend und nicht-trivial.  
+- Sie schätzen den nicht immer intuitiven Einfluss der endlichen Ausdehnung physikalischer Körper auf die Bewegung der untersuchten Pendel ab und vergleichen Ihre Abschätzungen mit der Beobachtung.
+- Sie üben sich anhand der einfachen Aufbauten im sorgfältigen Experimentieren und Messen, unter Laborbedingungen.
+- Sie lernen den Nutzen redundanter und alternativer Messmethoden kennen und lernen die Vor- und Nachteile einzelner Bestimmungen einer physikalischen Größen, wie $g$ einzuschätzen. 
+- Dieser Versuch eignet sich, aufgrund der einfach zu verstehenden zugrunde liegenden physikalischen Modelle, sehr gut dazu sich eingehender mit experimentellen Aspekten numerischer Anpassungen und der sorgfältigen Abschätzung statistischer und systematischer Unsicherheiten zu beschäftigen.
 
 ## Versuchsaufbau
 
-Der Versuch stellt Ihnen mehrere Pendel zur Verfügung deren Schwingungsverhalten Sie untersuchen sollen. Im Folgenden sind die wichtigsten Informationen der verwendeten Aufbauten kurz zusammengefasst. Die angegebenen Größen finden Sie zudem in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/Datenblatt.md) und in python-Modulen im *params*-Verzeichnis, auf dem SCC Gitlab server. 
+mit dem Versuch stehen Ihnen mehrere Pendel zur Verfügung, um deren Schwingungsverhalten zu untersuchen. Im Folgenden sind die wichtigsten Informationen der verwendeten Aufbauten kurz zusammengefasst. Die angegebenen Größen finden Sie zudem in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Spezifische_Ladung_des_Elektrons/Datenblatt.md) und in python-Modulen im *params*-Verzeichnis, auf dem SCC Gitlab server. 
+
+### [Fadenpendel](https://de.wikipedia.org/wiki/Mathematisches_Pendel)
+
+<img src="./figures/Fadenpendel.png" style="zoom:60%;" />
+
+Eine Kugel hängt an einem dünnen Stahldraht der Länge $L=(2,355\pm0.003)\,\mathrm{m},$ gemessen von der Aufhängung des Drahtes bis zum Mittelpunkt der Kugel. Die aktuelle Länge und entsprechende Unsicherheit entnehmen Sie bitte dem Aushang im Praktikumsraum. Die Kugel hat eine Masse von $m=(860\pm0,5)\,\mathrm{g}$). Die Messung von $T_{0}$ erfolgt über eine Lichtschranke und zugehörige Messautomatik. Hinter dem Pendel befindet sich eine Winkelskala. 
 
 ### [Reversionspendel](https://de.wikipedia.org/wiki/Reversionspendel)
 
 <img src="./figures/Reversionspendel.png" style="zoom:60%;" />
 
-An einem Stativ hängt ein [physikalisches Pendel](https://de.wikipedia.org/wiki/Physikalisches_Pendel), bestehend aus einem dünnen zylindrischen Stab (mit Abmessungen, wie in der Skizze angegeben). Der obere Auflagekeil ist fest montiert, der untere lässt sich justieren. Im Praktikumsraum befinden sich zwei Reversionspendel ($\mathrm{P1}$ und $\mathrm{P2}$ genannt) für die sich die Massen der Montagespangen der Auflagekeile (wie in der Skizze angegeben) unterscheiden. Der Auflagepunkt des oberen Auflagekeils befindet sich $\Delta=1,0\,\mathrm{cm}$ vom oberen Endes des Stabs entfernt. Dreht man das Pendel befindet sich ein um 90° gedrehter Auflagekeil $\Delta=1,0\,\mathrm{cm}$ vom dann oberen Rand der Montagespange entfernt.
+An einem Stativ hängt ein [physikalisches Pendel](https://de.wikipedia.org/wiki/Physikalisches_Pendel), bestehend aus einem dünnen zylindrischen Stab (mit Abmessungen, wie in der Skizze angegeben). Der obere Auflagekeil $K$ ist fest montiert, der untere Auflagekeil $K'$ ist um 90° gedreht und lässt sich entlang des Stabs verschieben. Im Praktikumsraum befinden sich zwei Reversionspendel ($\mathrm{P1}$ und $\mathrm{P2}$) für die sich die Massen der Montagespangen für $K$ und $K'$ (wie in der Skizze angegeben) leicht unterscheiden. Die Auflagepunkte von $K$ und $K'$ befinden sich jeweils im Abstand $\Delta=1,0\,\mathrm{cm}$ vom jeweiligen Ende des Stabs. Die Messung von $T_{0}$ erfolgt über eine Lichtschranke und zugehörige Messautomatik.
 
-### Fadenpendel
-
-<img src="./figures/Fadenpendel.png" style="zoom:60%;" />
-
-Eine Kugel hängt an einem dünnen Stahldraht der Länge $L=(2,355\pm0.003)\,\mathrm{m},$ gemessen von der Aufhängung des Drahtes bis zum Mittelpunkt der Kugel. Die aktuelle Länge und entsprechende Unsicherheit entnehmen Sie bitte dem Aushang im Praktikumsraum. Die Kugel hat eine Masse von $m=(860\pm0,5)\,\mathrm{g}$).
-
-### Gekoppelte Pendel
+### [Gekoppelte Pendel](https://de.wikipedia.org/wiki/Gekoppelte_Pendel)
 
 <img src="./figures/GekoppeltePendel.png" style="zoom:60%;" />
 
-Zwei baugleiche physikalische Pendel bestehen aus einem langen, dünnen, rechteckigen Schaft und jeweils einer montierbaren, flach-zylinderförmigen Pendelscheibe mit Massen, wie in der Skizze angegeben. Wenn der Schaft mit der jeweiligen Pendelscheibe bündig abschließt beträgt der Abstand zwischen dem Drehpunkt jedes einzelnen Pendels und dem Schwerpunkt jeder entsprechenden Pendelscheibe $1020\,\mathrm{mm}$. Der Durchmesser jeder Pendelscheibe beträgt $100\,\mathrm{mm}$.  Die Federkopplungen können entlang des jeweiligen Schafts justiert werden. Zur Kopplung, wie in der Abbildung gezeigt, stehen verschiedene [Schraubenfedern](https://de.wikipedia.org/wiki/Feder_(Technik)) zur Verfügung.
+Zwei baugleiche physikalische Pendel bestehen aus einem langen, dünnen, rechteckigen Schaft und jeweils einer montierbaren, flach-zylinderförmigen Pendelscheibe mit Massen, wie in der Skizze angegeben. Wenn der Schaft mit der jeweiligen Pendelscheibe bündig abschließt beträgt der Abstand zwischen der Aufhängung des jeweiligen Pendels und dem Schwerpunkt der entsprechenden Pendelscheibe $L=1020\,\mathrm{mm}$. Der Radius jeder Pendelscheibe beträgt $r=50\,\mathrm{mm}$.  Die Federkopplungen können entlang des jeweiligen Schafts verschoben werden. Zur Kopplung, wie in der Abbildung gezeigt, stehen verschiedene [Schraubenfedern](https://de.wikipedia.org/wiki/Feder_(Technik)) zur Verfügung.
 
-## Anmerkungen zum Versuch
+## Wichtige Hinweise zum Versuch
 
-- Bei diesem Versuch sind die Apparaturen zu den einzelnen Versuchsteilen nur ein- oder zweifach vorhanden. Wenn drei Gruppen die Aufgaben gleichzeitig erarbeiten müssen, bietet es sich an mit unterschiedlichen Versuchsteilen zu beginnen. Die drei Versuchsteile sind unabhängig voneinander durchführbar. 
+- Die einzelnen Aufgabenteile zu diesem Versuch lassen sich unabhängig voneinander durchführen. Es ist dabei irrelevant mit welchem Versuchsteil Sie beginnen. 
+- **Die Kugel des Fadenpendels kann Verletzungen verursachen!** Halten Sie daher Abstand, solange die Kugel weit ausschwingt. Wenn Sie die Kugel in den Draht der Aufhängung "hineinfallen" lassen, gehen Sie das Risiko ein den Draht zu zerstören.
 
-## Aufgabe 1: Reversionspendel
+# Navigation
 
-### Aufgabe 1.1: Berechnung der [reduzierten Pendellänge](https://de.wikipedia.org/wiki/Physikalisches_Pendel) 
-
-Berechnen Sie vorbereitend auf den Versuch die [reduzierte Pendellänge](https://de.wikipedia.org/wiki/Physikalisches_Pendel) $l_{\mathrm{r}}$ eines physikalischen Pendels, das aus einem zylindrischen, an einem Ende drehbar aufgehängten Stab der Länge $l$ besteht. Überzeugen Sie sich rechnerisch davon, dass Massenänderungen im Abstand $l_{\mathrm{r}}$ vom Drehpunkt die Periode $T$ der Schwingung nicht ändern. Die Spangen, mit denen die Auflagekeile des Pendels am Stab befestigt sind, sollten also nur zu geringfügigen Abweichungen des berechneten vom gemessenen Wert für $T$ führen.
-
-### Aufgabe 1.2: Bestimmung der Fallbeschleunigung
-
-Suchen Sie experimentell den Abstand $d$ der beiden Auflagekeile zueinander auf, der der reduzierten Pendellänge $l_{\mathrm{r}}$ entspricht, bei dem also die Schwingungsdauern gleich sind, egal ob das Pendel um den einen oder den anderen Auflagekeil schwingt. Messen Sie dabei ein geeignetes kleines Intervall um den zuvor errechneten Wert von $l_{\mathrm{r}}$ sorgfältig aus. Beschränken Sie sich auf kleine Auslenkungen des Pendels. Tragen Sie nach jeder Messung die beiden Schwingungsdauern als Funktion von $d$ in ein Diagramm ein. Sie sollten bald die nähere Umgebung von $l_{\mathrm{r}}$ erkennen können und können die weiteren Messpunkte entsprechend wählen. Entnehmen Sie dem Diagramm den so bestimmten Wert von $l_{\mathrm{r}}$ und die Periode $T(l_{\mathrm{r}})$ und berechnen Sie daraus $g$.
-
-## Anmerkungen zu Aufgabe 1
-
-### Anmerkung 1.1
-
-Zur Messung wird eine Lichtschranke mit Zeiterfassungsgerät benutzt. Eine Messung kann nur bei offener Schranke, d.h. wenn die Leuchtdiode an der Schranke rot leuchtet, gestartet werden.
-
-### Anmerkung 1.2 
-
-Zur Bestimmung der Unsicherheiten sollten Sie eine Ausgleichsrechnung, oder eine entsprechende numerische Anpassung an die Daten durchführen. Wählen Sie als relative Unsicherheit der Zeitmessung $\Delta t/t\pm 0,2\%$. Hinzu zu rechnen ist noch eine weitere von der Messzeit unabhängige Unsicherheit aus der Digitalisierung, die Sie aus einer Messreihe bestimmen können, bei der nur die einstellbare Anzahl der Schwingungen für die Zeitmessung an der Messautomatik verändert wird. Die Lichtschranke muss hierzu sorgfältig justiert werden, so dass das Schalten sehr nahe beim Nulldurchgang erfolgt. (Warum?)
-
-## Lösung:
-
-*Sie können Ihre Lösung/Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
-
-## Aufgabe 2: Fadenpendel
-
-### Aufgabe 2.1: Abhängigkeit der Periode $T$ von der Auslenkung der Kugel 
-
-Untersuchen Sie die Abhängigkeit der Periode $T$ des Fadenpendels von der Auslenkung der Kugel. Messen Sie hierzu am besten fortlaufend, beginnend bei großer Auslenkung (z.B. beginnend bei 30–40°). Vergleichen Sie die Abhängigkeit mit der Erwartung für eine harmonische Schwingung. Stellen Sie die Ergebnisse in geeigneter Weise graphisch dar.
-
-### Aufgabe 2.2: Bestimmung der Fallbeschleunigung $g$
-
-Bestimmen Sie die Fallbeschleunigung $g$ mit Hilfe des Fadenpendels. Achten Sie bei diesem Aufgabenteil darauf, dass Sie die Kugel nicht zu weit auslenken. 
-
-## Anmerkungen zu Aufgabe 2
-
-### Anmerkung 2.1 – **Achtung** 
-
-Die Kugel des Fadenpendels kann Verletzungen verursachen! Halten Sie daher Abstand. Lassen Sie die Kugel des Fadenpendels niemals in den Draht der Aufhängung "hineinfallen", da der Draht sonst reißt.
-
-### Anmerkung 2.2 
-
-Wie für Aufgabe 1 wird auch hier eine fest montierte Lichtschranke zur Erfassung von $T$ benutzt. 
-
-## Lösung:
-
-*Sie können Ihre Lösung/Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
-
-## Aufgabe 3: Gekoppelte Pendel
-
-### Aufgabe 3.1: Justierung der einzelnen Pendel 
-
-Stellen Sie bei den zwei baugleichen Pendeln durch Verschieben einer der Pendelscheiben gleiche Schwingungsdauern $T_{0}$ ein. 
-
-### Aufgabe 3.2: Gekoppelte Pendel 
-
-Koppeln Sie die Pendel mittels einer Schraubenfeder (mit der Federkonstanten $D$) in jeweils gleichem Abstand $l$ von den Drehpunkten der jeweiligen Pendel. Hierbei, wie im Folgenden, sollte die montierte Schraubenfeder keine sehr starke Kopplung zwischen den einzelnen Pendeln bewirken. Messen Sie daraufhin die Schwingungsdauern $T_{1}$ und $T_{2}$ der beiden [Funda­men­talschwin­gungen](https://de.wikipedia.org/wiki/Gekoppelte_Pendel) aus.  Es handelt sich dabei um die beiden Schwingungsformen, bei denen keine Schwebung auftritt. Wiederholen Sie die Messungen bei verändertem Abstand $l'$. Diskutieren Sie Ihre Ergebnisse für $T_{0},$ $T_{1}(l)$, $T_{2}(l)$, $T_{1}(l')$ und $T_{2}(l')$. Berechnen Sie daraus mit Hilfe des Modells eines [physikalischen Pendels](https://de.wikipedia.org/wiki/Physikalisches_Pendel) die Werte von 
-$$
-\omega_{1}^{2} = \frac{m\,g\,L}{I}
-$$
-wobei $m$ der Masse, $I$ dem Trägheitsmoment und $L$ dem Abstand des Schwerpunkts jeweils eines einzelnen Pendels zum entsprechenden Drehpunkt entspricht und 
-
-$$
-\omega_{2}^{2}= \frac{D\,l^{2}}{I}
-$$
-wobei $l$ dem oben eingeführten Abstand der Federkopplung von den entsprechenden Drehpunkten der Pendel entspricht. 
-
-Vergleichen Sie das resultierende Trägheitsmoment $I$ mit dem aus den oben  gegebenen Daten berechneten Wert, und berechnen Sie aus den Gleichungen (1) und (2) und den von Ihnen ermittelten Werten von $\omega_{1}$ und $\omega_{2}$ die Federkonstante $D$. Führen Sie zwei alternative Bestimmung von $D$ für die gleiche Schraubenfeder durch: 
-
-- Nach dem Hook'schen Gesetz, 
-- Unter Verwendung der Feder als [Federpendel](https://de.wikipedia.org/wiki/Federpendel).
-
-Verwenden Sie in beiden Fällen unterschiedliche Massen und überprüfen Sie auch den erwarteten funktionalen Zusammenhang. 
-
-### Aufgabe 3.3: [Schwebung](https://de.wikipedia.org/wiki/Schwebung)
-
-Messen Sie die Schwingungsperiode $\overline{T}$ zur Kreisfrequenz $\overline{\omega}=\frac{1}{2}(\omega_{1}+\omega_{2})$ und die Schwebungsperiode $\tilde{T}$ zur Kreisfrequenz $\tilde{\omega}=\frac{1}{2}\left|\omega_{1}-\omega_{2}\right|$, bei Anregung der gekop­pel­ten Pendel zu Schwebungen. Nutzen Sie dazu einen der Abstände $l$, die Sie auch in Aufgabe 3.2 benutzt haben. Prüfen Sie den theoretischen Zusammenhang zwischen $\overline{T}$ und $\tilde{T}$ mit $T_{1}$ und $T_{2}$.
-
-#### Lösung:
-
-*Sie können Ihre Lösung/Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
-
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Pendel/doc/Hinweise-Aufgabe-1.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Pendel/doc//Hinweise-Aufgabe-2.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Pendel/doc//Hinweise-Aufgabe-3.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Pendel/Datenblatt.md).  
