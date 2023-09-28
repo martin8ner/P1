@@ -39,7 +39,7 @@ Positioniert man $K'$ im Abstand $d=\ell_{r}$ zu $A$ besitzt das Reversionspende
   \end{equation*}
   ```
 
-  Der Vergleich mit Gleichung **(2)** zeigt, dass $T_{0}$ tatsächlich unverändert bleibt. 
+  Der Vergleich mit Gleichung **(1)** zeigt, dass $T_{0}$ tatsächlich unverändert bleibt. 
 
 - **Dreht man das Pendel um $\boldsymbol{180^{\circ}}$ um, schwingt es mit der gleichen Periode $\boldsymbol{T_{0}}$**. Beachten Sie hierzu **Skizze 1**, rechts. In gedrehtem Zustand befindet sich 1/3 des Stabs oberhalb der Aufhängung. Für das Direktionsmoment gilt daher:
 
@@ -65,7 +65,7 @@ Positioniert man $K'$ im Abstand $d=\ell_{r}$ zu $A$ besitzt das Reversionspende
   \end{equation*}
   ```
 
-  Der Vergleich mit Gleichung **(2)** zeigt, dass $T_{0}$ unverändert bleibt. 
+  Der Vergleich mit Gleichung **(1)** zeigt, dass $T_{0}$ unverändert bleibt. 
 
 Beide Eigenschaften sind hier für einen Spezielfall gezeigt, der auf den Versuch anwendbar ist. Sie gelten (ohne Beweis) jedoch für das Reversionspendel allgemein. Ausführliche Betrachtungen zum Reversionspendel gehen auf [Friedrich Wilhelm Bessel](https://de.wikipedia.org/wiki/Friedrich_Wilhelm_Bessel) zurück. Unabhängig von der exakten Form des Pendels, lässt sich die Position $d=\ell_{r}$ zwischen $K$ und $K'$ also z.B. dadurch auffinden, dass $T_{0}$ in der Aufhängung in den Punkten $A$ und $A'$ den gleichen Betrag hat. Hat man $d=\ell_{r}$ sicher aufgefunden lässt sich $g$, ohne Kenntnis von $\Theta$ oder $s$,  aus der Gleichung
 $$
