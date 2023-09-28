@@ -23,7 +23,7 @@ Das Reversionspendel ist eine einfache Konstruktion, um diese Schwierigkeit expe
 
 Für die weitere Diskussion gehen wir von der folgenden vereinfachten Konstruktion aus: 
 
-- Das Pendel liegt grundsätzlich mit $K$ im Punkt $A$ auf (**Skizze 1**, links). Für die weitere Diskussion gehen wir davon aus, dass dies der Fall ist.
+- Das Pendel liegt grundsätzlich mit $K$ im Punkt $A$ auf (**Skizze 1**, links).
 - $K'$ kann entlang von $P$ verschoben werden. Beachten Sie, dass sich dabei sowohl $\Theta$, als auch $d$ ändert; 
 - Die Abmessungen von $K$ und $K'$ sind der Art, dass ihre jeweiligen Schwerpunkte in den Auflagepunkten angenommen und die Trägheitsmomente aufgrund ihrer endlichen Ausdehnung vernachlässigt werden können. 
 - Dreht man das Pendel um $180^{\circ}$ liegt es mit $K'$ im Punkt $A'$ auf (**Skizze 1**, rechts).   

@@ -22,7 +22,7 @@ $$
 \omega_{0} = \sqrt{\frac{D}{\Theta}}=\sqrt{\frac{m\,\ell\,g}{\Theta}};\qquad T_{0}=2\pi\sqrt{\frac{\Theta}{D}}=2\pi\sqrt{\frac{\Theta}{m\,\ell\,g}}.
 \end{equation}
 $$
-Mit Hilfe des [Satzes von Steiner](https://de.wikipedia.org/wiki/Steinerscher_Satz) lässt sich $\Theta$ aus dem Trägheitsmoment einer homogenen Kugel  berechnen: 
+Mit Hilfe des [Satzes von Steiner](https://de.wikipedia.org/wiki/Steinerscher_Satz) lässt sich $\Theta$ aus dem Trägheitsmoment einer homogenen Kugel  abschätzen: 
 $$
 \begin{equation}
 \Theta = m\,s^{2} + \frac{2}{5}\,m\,r^{2},
@@ -61,7 +61,7 @@ $$
 - Bestimmen Sie $T_{0}$ über eine geeignete Anzahl an Perioden. Geben Sie entsprechende Unsicherheiten an.
 - Messen Sie zur Überprüfung des funktionalen Zusammenhangs von $T_{0}(\varphi_{0})$, bei großen Winkelauslenkungen am besten fortlaufend, beginnend bei $\varphi_{0}\gtrsim60^{\circ}$. Aufgrund der Dämpfung des Pendels verringert sich $\varphi_{0}$ mit der Zeit von selbst. Gehen Sie dabei wie folgt vor:
   - Bestimmen Sie $T_{0}(\varphi_{0})$ aus einer geeigneten Anzahl an fortlaufenden Perioden. 
-  - Warten Sie dann bis $\varphi_{0}$ um etwa $5^{\circ}$ abgenommen hat und bestimmen Sie einen neuen Wert von $T_{0}(\varphi_{0})$. 
+  - Warten Sie dann bis $\varphi_{0}$ um etwa $5^{\circ}$ abgenommen hat und bestimmen Sie einen neuen Wert von $T_{0}(\varphi_{0})$. Geben Sie eine geeignete Unsicherheit für Ihre Abschätzung von $\varphi_{0}$ an. 
   - So erhalten Sie eine Messreihe von mindestens 6 Punkten. Stellen Sie die Messreihe in geeigneter Weise graphisch dar und vergleichen Sie die Abhängigkeit mit der Erwartung aus Gleichung **(4)**.
 
 # Navigation

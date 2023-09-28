@@ -7,10 +7,10 @@
 
 #### Aufgabe 1.1: Funktionsweise
 
-Beachten Sie zur Lösung dieser Aufgabe die folgenden Punkte und beantworten Sie die entsprechenden Fragen: 
+Beachten Sie zur Bearbeitung dieser Aufgabe die folgenden Punkte und beantworten Sie die entsprechenden Fragen: 
 
-- Berechnen Sie aus dem einfachen Modell eines dünnen Stabs mit den Abmessungen für das Pendel im Praktikum die konkreten Werte für $\Theta$, $s$ und $\ell_{r}$. 
-- Das Pendel im Praktikum besteht nicht nur aus einem dünnen Stab. Es besitzt Halterungen, um $K$ und $K'$ zu fixieren. Wie groß sind für die berechneten Werte, Ihrer Erwartung nach, die Abweichungen dieses reellen Pendels von der oben gemachten, vereinfachenden Annahme eines dünnen Stabs? 
+- Berechnen Sie aus dem einfachen Modell eines dünnen Stabs mit den Abmessungen des im Praktikum verwendeten Pendels die konkreten Werte für $\Theta$, $s$ und $\ell_{r}$. 
+- Das Pendel im Praktikum besteht nicht nur aus einem dünnen Stab. Es besitzt Halterungen, um $K$ und $K'$ zu fixieren. Wie groß sind, Ihrer Erwartung nach, die Abweichungen dieses reellen Pendels von der oben gemachten, vereinfachenden Annahme eines dünnen Stabs,für die berechneten Werte? 
 
 #### Aufgabe 1.2: Bestimmung von $g$
 
@@ -24,11 +24,11 @@ Gehen Sie für die Bestimmung von $\ell_{r}$ wie folgt vor:
 
 - Führen Sie auf diese Weise eine Messreihe für etwa 10 verschiedene Werte von $d$ durch. 
 
-- Tragen Sie, zur Illustration die Werte von $T_{0}(d)$ und $T_{0}'(d)$ als Funktion von $d$ in das gleiche Diagramm ein. Die kurven sollten einen Schnittpunkt aufweisen. Geben Sie Unsicherheiten sowohl in $d$ als auch in $T_{0}^{(\prime)}$ an. 
+- Tragen Sie, zur Illustration die Werte von $T_{0}(d)$ und $T_{0}'(d)$ als Funktion von $d$ in das gleiche Diagramm ein. Die Kurven sollten einen Schnittpunkt aufweisen. Zeichnen Sie Unsicherheiten sowohl in $d$ als auch in $T_{0}^{(\prime)}$ in das Diagramm mit ein. 
 
 - Zur Bestimmung von $\ell_{r}$ aus einer Anpassung an die Daten, tragen Sie die Differenz $\Delta T_{0} = T_{0}-T_{0}'$ als Funktion von $d$ in ein weiteres Diagramm ein und bestimmen Sie den Schnittpunkt mit der $x$-Achse ($\Delta T_{0}(d)=0$) aus einer Anpassung an die Daten. Bestimmen Sie auf diese Weise $\ell_{r}$ und $T_{0}(\ell_{r})$ und berechnen Sie daraus $g$. Geben Sie für die Anpassung Unsicherheiten sowohl in $d$ als auch in $\Delta T^{(\prime)}$ an.
 
-- Wählen Sie ein einfaches Modell, aus dem Sie $\Delta T_{0}(d)=0$ leicht aus der Anpassung bestimmen können. Für eine lineare Anpassung ($\Delta T_{0}\propto d$) ist das Vorgehen klar. Für eine quadratische Anpassung ($\Delta T_{0}\propto d^{2}$) empfiehlt sich die Parametrisierung
+- Hinweis: Wählen Sie ein einfaches Modell, aus dem Sie $\Delta T_{0}(d)=0$ leicht aus der Anpassung bestimmen können. Für eine lineare Anpassung ($\Delta T_{0}\propto d$) ist das Vorgehen klar. Für eine quadratische Anpassung ($\Delta T_{0}\propto d^{2}$) empfiehlt sich die Parametrisierung
 
   ```math
   \begin{equation*}

@@ -11,7 +11,7 @@ $$
 \Theta = \frac{1}{3}m\,\ell^{2}; \qquad s = \frac{1}{2}\ell.
 \end{equation*}
 $$
- Daraus ergeben sich für $\ell_{r}$ und $T_{0}$ zu 
+ Daraus ergeben sich $\ell_{r}$ und $T_{0}$ zu 
 $$
 \begin{equation}
 \begin{split}
@@ -21,7 +21,7 @@ $$
 \end{split}
 \end{equation}
 $$
-Positioniert man $K'$ im Abstand $d=\ell_{r}$ zu $A$ besitzt das Reversionspendel zwei bemerkenswerte Eigenschaften: 
+Positioniert man $K'$ im Abstand $d=\ell_{r}$ zu $A$ besitzt das Reversionspendel zwei bemerkenswerte, nicht-triviale Eigenschaften: 
 
 - **Eine zusätzliche Masse $\boldsymbol{m'}$ in der Position $\boldsymbol{d=\ell_{r}}$ ändert $\boldsymbol{T_{0}}$ nicht**. In diesem Fall ändern sich $\Theta$ und $s$ wie folgt:
 
@@ -65,9 +65,9 @@ Positioniert man $K'$ im Abstand $d=\ell_{r}$ zu $A$ besitzt das Reversionspende
   \end{equation*}
   ```
 
-  Der Vergleich mit Gleichung **(1)** zeigt, dass $T_{0}$ unverändert bleibt. 
+  Der Vergleich mit Gleichung **(1)** zeigt, dass $T_{0}$ tatsächlich unverändert bleibt. 
 
-Beide Eigenschaften sind hier für einen Spezielfall gezeigt, der auf den Versuch anwendbar ist. Sie gelten (ohne Beweis) jedoch für das Reversionspendel allgemein. Ausführliche Betrachtungen zum Reversionspendel gehen auf [Friedrich Wilhelm Bessel](https://de.wikipedia.org/wiki/Friedrich_Wilhelm_Bessel) zurück. Unabhängig von der exakten Form des Pendels, lässt sich die Position $d=\ell_{r}$ zwischen $K$ und $K'$ also z.B. dadurch auffinden, dass $T_{0}$ in der Aufhängung in den Punkten $A$ und $A'$ den gleichen Betrag hat. Hat man $d=\ell_{r}$ sicher aufgefunden lässt sich $g$, ohne Kenntnis von $\Theta$ oder $s$,  aus der Gleichung
+Beide Eigenschaften sind hier für einen Spezielfall gezeigt, der auf den Versuch anwendbar ist. Sie gelten aber (ohne Beweis) allgemein! Ausführliche Betrachtungen zum Reversionspendel gehen auf [Friedrich Wilhelm Bessel](https://de.wikipedia.org/wiki/Friedrich_Wilhelm_Bessel) zurück. Unabhängig von der exakten Form des Pendels, lässt sich die Position $d=\ell_{r}$ zwischen $K$ und $K'$ also z.B. dadurch auffinden, dass $T_{0}$ in der Aufhängung in den Punkten $A$ und $A'$ den gleichen Betrag hat. Hat man $d=\ell_{r}$ sicher aufgefunden lässt sich $g$, ohne Kenntnis von $\Theta$ oder $s$,  aus der Gleichung
 $$
 \begin{equation*}
 g = \frac{4\pi^{2}}{T_{0}^{2}}\ell_{r} = \frac{4\pi^{2}}{T_{0}^{2}}d
