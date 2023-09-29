@@ -1,49 +1,55 @@
-# Vorversuch 
+<img src="./figures/Logo_KIT.svg"  width=200px style="float:right;" />
 
-In diesem Verzeichnis finden Sie die Anleitung des P1-Vorversuchs **"Datenverarbeitung am Beispiel des Pendels"**. Wir stellen Ihnen diese Anleitung in drei inhaltsgleichen Formaten zur Verfügung: 
+# Fakultät für Physik 
 
-- Markdown (*Vorversuch.md*);
-- PDF (*Vorversuch.pdf*), dabei handelt es sich um einen *pdf*-Export der Markdown-Datei;
-- Jupyter-notebook (*Vorversuch.ipynb*), dabei handelt es sich um eine Übersetzung der Markdown-Datei.
+## Physikalisches Praktikum P1 für Studierende der Physik
 
-Ebenfalls finden Sie in diesem Verzeichnis die Daten, die Sie für die Durchführung des Vorversuchs benötigen. Es handelt sich um die folgenden Dateien:  
 
-- *RawData.csv*: Die Originaldatei der aufgezeichneten Daten (Achtung die Dateigröße beträgt 2.4 MB);
-- *RawData_down_sampled_500_2200_10_csv*: Die vor-prozessierten Daten, die Sie für die Durchführung des Vorversuchs benötigen; 
 
-Sie können die *ipynb*-Version der Anleitung als Ausgangspunkt für Ihre Auswertung verwenden. Die einfachste Art dies zu tun ist die Bearbeitung auf dem [Jupyter-server](https://jupytermachine.etp.kit.edu/hub/spawn) des ETP, auf dem Sie alle notwendigen Software Pakete bereits vorinstallierten vorfinden. Zugang zum Jupyter-server können Sie über [diesen Link](https://comp.physik.kit.edu/Account/) erhalten. 
+Praktikumsvorversuch (Stand: Oktober 2023)
 
-Beachten Sie, dass die Bilder in den Anleitungen im *md*- und *ipynb*-Format nicht in die Dokumente integriert sondern verlinkt sind. Sie finden die verlinkten Bilder im **Verzeichnis *figures***.   
 
-# Die Verzeichnisstruktur
 
-Dieses Verzeichnis besitzt vier Unterverzeichnisse: 
 
-Im **Verzeichnis *figures*** finden Sie die Bilder, die wir für die Anleitung und für dieses Dokument verwendet haben. 
 
-Im **Verzeichnis *params*** finden Sie einige Meta-Informationen, die Sie bei der Bearbeitung des Versuchs benötigen werden. Es handelt sich um die folgenden Dateien:  
+# Datenverarbeitung am Beispiel des Pendels
 
-- *uncertainties_data.py*: Die Unsicherheiten auf die Datenpunkte, die wir für Sie bestimmt haben;
-- *parameters_task_3.py*: Die zusätzlichen Parameter, die Sie für die Bearbeitung von Aufgabe 3 benötigen; 
-- *parameters_task_4.py*: Die zusätzlichen Parameter, die Sie für die Bearbeitung von Aufgabe 4 benötigen. 
 
-Diese Dateien haben wir in Form einer *zip*-Datei auch auf der Webseite des P1 für Sie verlinkt. 
 
-Im **Verzeichnis *tools*** finden Sie die [PhyPraKit/tools](https://git.scc.kit.edu/yh5078/PhyPraKit/-/tree/master/tools), die für diesen Vorversuch von  Relevanz sein werden. Wir haben Ihnen diese tools aus dem [PhyPraKit](https://git.scc.kit.edu/yh5078/PhyPraKit) Repository direkt dorthin kopiert, damit Sie sie während des Versuchs leichter finden und ausführen können. Es handelt sich um die Skripte: 
+## Motivation
 
-- [*csv2yml.py*](https://git.scc.kit.edu/yh5078/PhyPraKit/-/blob/master/tools/csv2yml.py): Dieses Skript können Sie verwenden, um Daten vom *csv*- ins *yaml*-Format zu konvertieren. 
-- [*plotCSV.py*](https://git.scc.kit.edu/yh5078/PhyPraKit/-/blob/master/tools/plotData.py): Dieses Skript können Sie verwenden, um sich die rohen Daten, wie sie im *csv*-Format vom Smartphone übertragen wurden direkt bildlich darzustellen. 
-- [*plotData.py*](https://git.scc.kit.edu/yh5078/PhyPraKit/-/blob/master/tools/plotData.py): Dieses Skript können Sie verwenden, um sich die Daten nach der Konversion in *yaml*-Format anzuschauen. Beachten Sie, dass dieses Skript die Daten in einem speziellen *yaml*-Format erwartet. Eine Beispieldatei, mit der Sie das Skript ausführen können finden Sie im **Verzeichnis *yaml***. Dieses Skript werden Sie vermutlich nicht oft in Verwendung haben.
-- [*run_phyFit.py*](https://git.scc.kit.edu/yh5078/PhyPraKit/-/blob/master/tools/run_phyFit.py): Hierbei handelt es sich um jenes Skript, welches Sie in erster Linie zur Anpassung physikalischer Modelle an die Daten verwenden können. Beachten Sie, dass dieses Skript die Daten in einem speziellen *yaml*-Format erwartet. Eine Beispieldatei, mit der Sie das Skript ausführen können finden Sie im **Verzeichnis *yaml***.
+Im Mittelpunkt jedes physikalischen Experiments steht die **[Messung](https://de.wikipedia.org/wiki/Messung), d.h. die nachvollziehbare Erfassung und Weiterverarbeitung primärer [Daten](https://de.wikipedia.org/wiki/Daten), unter Laborbedingungen**. 
 
-Im **Verzeichnis *yaml*** können Sie ihre selbst-erzeugten *yaml*-Dateien ablegen. Sie finden dort auch eine Beispieldatei für die Verwendung mit den Skripten *plotData.py* und *run_phyFit.py*. 
+Mit diesem Praktikumsvorversuch, den alle Praktikumsteilnehmer:innen, am ersten Tag des P1, gemeinsam mit Ihren Tutor:innen durchführen, werden wir Sie anhand eines einfachen physikalischen Vorgangs mit den wichtigsten Methoden der computergestützten Datenverarbeitung in der modernen Physik vertraut machen. Im Laufe des P1 werden Sie erfahren, dass geschicktes Messen, mit Hilfe einer intelligenten Anordnung zur Erfassung und Weiterverarbeitung der Daten, schnell zur Messkunst avancieren kann, und dass die physikalische Messung untrennbar mit den Methoden der [Parameterschätzung in der Statistik](https://de.wikipedia.org/wiki/Sch%C3%A4tzfunktion) verbunden ist. Wir gehen davon aus, dass diejenigen unter Ihnen, die Physik als Hauptfach studieren den einführenden Kurs *Computergestützte Datenauswertung* (GgDa) am KIT besucht haben. Das P1, sowie im folgenden Semester des P2, bietet Ihnen eine Plattform, die Methoden, die Sie dort kennengelernt haben für reelle, physikalische Messungen einzusetzen. Weiterführende Kurse, um die Methoden der Datenanalyse, wie Sie sie in der Physik benötigen, von Grund auf zu erlernen, werden im weiteren Verlauf des Physikstudiums angeboten. Diejenigen unter Ihnen, die Physik als Nebenfach studieren erhalten gesonderte Unterstützung  durch unsere Tutor:innen und die Dozenten.
 
-# Wichtige Hinweise zu Protokoll und Auswertung
+Als Aufgabe wählen wir die Bestimmung der [Erdbeschleunigung](https://de.wikipedia.org/wiki/Schwerefeld) $g$ mit Hilfe eines Pendels, wie Sie sie im P1-Versuch [Pendel](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel) selbst durchführen werden. Wir haben mit Hilfe der kostenfreien Anwendung [phyphox](https://phyphox.org/de/home-de/) der RWTH Aachen einen reellen Datensatz vorbereitet den Sie, im Rahmen dieses Vorversuchs, weiterverarbeiten werden. Zur Aufzeichnung der Daten bestanden bis auf den Besitz eines Smartphones kaum apparative Voraussetzungen. Sie könnten das hier vorgestellte Experiment also auch bei sich zu Hause wiederholen Ihre Ergebnisse denen aus dem P1-Versuch Pendel vergleichen.
 
-Beachten Sie zudem die Hinweise zu den folgenden Themen in dieser [README.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/README.md) Datei: 
+## Lehrziele
 
-- Arbeiten mit dem Jupyter-server;
-- Arbeiten mit dem Jupyter-notebook;
-- Parameteranpassung mit dem PhyPraKit Skript *run_phyFit.py*;
-- Durchführung und Auswertung.
+Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem Vorversuch **Datenverarbeitung am Beispiel des Pendels** vermitteln möchten: 
 
+- Sie machen sich bewusst, dass in der modernen Physik jeder Messung ein Modell zugrunde liegt. 
+- Sie lernen verschiedene Wege kennen Modellparameter zu bestimmen und erhalten einen Einblick darin, welche Stärken und Schwächen diese haben.
+- Sie üben sich in der Anwendung statistischer Methoden zur exakten numerischen Bestimmung von Modellparametern, die Ihnen die Fakultät [frei und offen](https://de.wikipedia.org/wiki/Open_Source) zur Verfügung stellt.
+- In der Diskussion machen Sie sich den Unterschied zwischen Unsicherheiten bewusst , die statistischer Natur, und Unsicherheiten, die auf dem Mangel an Kenntnis der dem Experiment zugrunde liegenden Prozesse und Randbedingungen beruhen. 
+- Sie erkennen den Unterschied zwischen Messunsicherheiten und Messfehlern. 
+
+## Versuchsaufbau
+
+Wir haben die Anwendung [phyphox](https://phyphox.org/de/home-de/) auf ein Smartphone geladen und das Smartphone mit Klebestreifen auf eines der [Reversionspendel](https://de.wikipedia.org/wiki/Reversionspendel) aus dem P1-Versuch [Pendel](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel) montiert. Für die Messung haben wir die Anwendung **Gyroskop (Drehrate)** verwendet. Der Versuchsaufbau ist im folgenden Bild skizziert:
+
+![Versuchsaufbau](/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/p1-for-students/Vorversuch/figures/PendelVorversuch.png)
+
+Wir haben das Pendel in Schwingung versetzt, die resultierende Bewegung mit Hilfe der im Smartphone verbauten Beschleunigungssensoren ausgelesen und uns die resultierenden Datensätze im [csv-Format](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) per Mail zugeschickt. Außerdem haben wir alle für unsere Messung relevanten äußeren Parameter mit Unsicherheiten festgehalten. Alle wichtigen Informationen zu Pendel und Smartphone haben wir aus der Anleitung des P1-Versuchs [Pendel](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel) und den im Internet verfügbaren Datenblättern des Smartphones bezogen. Zum Teil haben wir die Abmessungen des Smartphones noch einmal mit einfachen Mitteln nachvollzogen. Dort, wo uns keine Informationen zu Unsicherheiten vorlagen haben wir sie abgeschätzt. Die Datensätze, die wir aufgenommen haben finden Sie in dieser [zip-Datei](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/p1/p1-versuchsanleitungen/Datenverarbeitung.zip). 
+
+## Wichtige Hinweise zum Versuch
+
+- Beim [csv-Format](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) handelt es sich um ein einfaches, sowohl von Menschen als auch Maschinen lesbares Dateiformat, um Daten in Spalten und Zeilen organisiert abzulegen.
+
+# Navigation
+
+- Wichtige Hinweise zu den Aspekten einer Messung und den von der Fakultät zur Verfügung gestellten Werkzeugen zur Datenanalyse finden Sie in der Datei [Hinweise-Datenverarbeitung.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vorversuch/doc/Hinweise-Datenverarbeitung.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vorversuch/doc/Hinweise-Aufgabe-1.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vorversuch/doc//Hinweise-Aufgabe-2.md).
+- Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 3 finden Sie in der Datei [Hinweise-Aufgabe-3.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Vorversuch/doc//Hinweise-Aufgabe-3.md).
+- Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Pendel/Datenblatt.md).  
