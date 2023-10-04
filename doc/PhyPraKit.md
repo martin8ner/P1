@@ -95,3 +95,7 @@ Sie werden sehen, dass Sie den Bogen mit etwas Übung schnell raus bekommen werd
 
 **Anm.:** Mit der gleichen `yaml`-Datei können Sie das Skript *plotData.py* ausführen.  
 
+# Navigation
+
+[Zurück zu P1-Praktikum](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students)
+
