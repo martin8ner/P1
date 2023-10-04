@@ -26,7 +26,7 @@ Die jeweils aktuelle Version aller Versuchsanleitungen und die dazugehörigen Da
 
 Das folgende Bild gibt Ihnen eine Vorstellung, wie die Webseite des gitlab-Servers des SCC in etwa aussieht. Beachten Sie, dass dieses Bild nicht den aktuellen Zustand des Servers widerspiegeln muss.  
 
-![SCC-gitlab](../figures/scc_gitlab.png)
+<img src="../figures/scc_gitlab.png" alt="figures" style="zoom:100%;" />
 
 Um das Repository aller Versuche (hier als Beispiel für die P1-Versuche) in Ihre Jupyter-Umgebung zu laden, gehen Sie z.B. wie folgt vor:
 
