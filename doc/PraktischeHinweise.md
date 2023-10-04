@@ -8,15 +8,15 @@ Die jeweils aktuelle Version aller Versuchsanleitungen und die dazugehörigen Da
 
 * **Für das P2**: [https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students. 
 
-Zu jedem Versuch erhalten Sie eine grundlegende Vorstellung des Versuchs, Hinweise zur physikalischen Einordnung, mit denen Sie den entsprechenden Versuch durchführen können und einen Durchführungsteil im Jupyter-notebook-Format. Wie Sie die Anleitungen vom gitlab-Server des SCC auf Ihre Arbeitsumgebung auf dem Jupyter-Server herunterladen und bearbeiten können erfahren Sie aus dem Dokument [Arbeiten auf dem Jupyter-Server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/Jupyter-server.md).  
+Zu jedem Versuch erhalten Sie eine grundlegende Vorstellung des Versuchs, Hinweise zur physikalischen Einordnung, mit denen Sie den entsprechenden Versuch durchführen können und einen Durchführungsteil im Jupyter-notebook-Format. Wie Sie die Anleitungen vom gitlab-Server des SCC auf Ihre Arbeitsumgebung auf dem Jupyter-Server herunterladen und bearbeiten können erfahren Sie aus dem Dokument [Arbeiten auf dem Jupyter-Server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/JupyterServer.md).  
 
-Zur Durchführung und Auswertung des Versuchs können Sie entweder ein neues Jupyter-notebook anlegen, oder Sie öffnen die Durchführung (mit dem Titel des Versuchs und der Endung **.ipynb*) als Jupyter-notebook per Doppelklick in Ihrer Arbeitsumgebung auf dem Jupyter-Server. 
+Zur Durchführung und Auswertung des Versuchs öffnen Sie die Durchführung (mit dem Titel des Versuchs und der Endung **.ipynb*) als Jupyter-notebook per Doppelklick in Ihrer Arbeitsumgebung auf dem Jupyter-Server. 
 
-Im letzteren Fall verwenden Sie einfach die Zellen, mit den Überschriften **"Lösung"**. Sie können den *kursiv*-gestellten Text aus den Zellen löschen. Als Anhalt, sollten Sie i.a. 
+Verwenden Sie die Zellen, mit den Überschriften **"Lösung"**. Sie können den *kursiv*-gestellten Text aus den Zellen löschen. Als Anhalt, sollten Sie i.a. 
 
 - eine Markdown-Zelle verwenden, in der Sie kurz beschreiben, was Sie als nächstes vorhaben und entsprechend aufgenommene Daten in Textform dokumentieren; 
-- gefolgt von einer Code-Zelle, in der Sie die Daten prozessieren, um ein physikalisch relevantes Ergebnis zu produzieren; 
-- gefolgt von einer Markdown-Zelle, in der Sie das erzielte Ergebnis, wiederum in Textform, dokumentieren und entsprechend diskutieren. 
+- gefolgt von einer Code-Zelle, in der Sie die Daten geeignet darstellen oder weiterverarbeiten, um ein physikalisch relevantes Ergebnis zu produzieren; 
+- gefolgt von einer Markdown-Zelle, in der Sie das erzielte Ergebnis, wieder in Textform, dokumentieren und entsprechend diskutieren. 
 
 Vergessen Sie nicht das Jupyter-notebook bevor Sie den Kontakt zum Server schließen (z.B. mit *Strg+s*) zu speichern. Andernfalls wäre Ihre Arbeit verloren.
 
@@ -34,7 +34,7 @@ Für diejenigen unter Ihnen, die [kafe2](https://etpwww.etp.kit.edu/~quast/kafe2
 
 ### Fehlerfortpflanzung in Python
 
-Die Softwarepakte kafe2 und PhyPraKit schließen die Verwendung Gausßscher Fehlerfortpflanzung nicht aus. Diese müssen Sie jedoch nicht mehr mühsam mit dem Taschenrechner oder aus einer Excel-Tabelle extrahieren. Es empfiehlt sich eine geeignete Python-Funktion direkt in eine Code-Zelle Ihres Jupyter-notebook Protokolls zu integrieren. Damit lässt sich die Fehlerfortpflanzung auf beliebig viele Messwerte und Parameter skalieren und es ist für Sie und Ihre:n Tutor:in deutlich transparenter eventuelle Fehler oder unzulässige Annahmen bei der Fehlerfortpflanzung zu erkennen, einzuschätzen und ggf. zu korrigieren.  
+Die Softwarepakte kafe2 und PhyPraKit schließen die Verwendung Gaußscher Fehlerfortpflanzung nicht aus. Diese müssen Sie jedoch nicht mehr mühsam mit dem Taschenrechner oder aus einer Excel-Tabelle extrahieren. Es empfiehlt sich eine geeignete Python-Funktion direkt in eine Code-Zelle Ihres Jupyter-notebook Protokolls zu integrieren. Damit lässt sich die Fehlerfortpflanzung auf beliebig viele Messwerte und Parameter skalieren und es ist für Sie und Ihre:n Tutor:in deutlich transparenter eventuelle Fehler oder unzulässige Annahmen bei der Fehlerfortpflanzung zu erkennen, einzuschätzen und ggf. zu korrigieren.  
 
 ### Alternative Methoden
 
@@ -51,7 +51,9 @@ Für uns steht das **Experimentieren und die inhaltlich konsistente und vollstä
 - sich ein Bild über die mit den aufgenommenen Daten verbundenen Unsicherheiten gemacht haben; 
 - alle Daten und Parameter zur Berechnung der (Teil-)Ergebnisse, einschließlich ihrer Unsicherheiten im Protokoll **(auch für Außenstehende) nachvollziehbar dokumentiert** haben. 
 
-Wir gehen davon aus, dass das Protokoll, als Jupyter-notebook, während der Versuchsdurchführung entsteht. Hierzu empfehlen wir die Anleitung im Jupyter-notebook-Format als Vorlage zu verwenden. Im Zuge dessen bietet es sich an die Durchführung während der Vorbereitung auf den Versuch bereits mit allen Informationen, die Sie für die Durchführung des Versuchs als notwendig erachten, oder mit vorbereiteten Tabellen-, Text- oder Code-Fragmenten zu versehen, die Sie während der Versuchsdurchführung dann nur noch modifizieren oder vervollständigen müssen. 
+Wir gehen davon aus, dass das Protokoll, als Jupyter-notebook, während der Versuchsdurchführung entsteht. Hierzu sollten Sie die Durchführung im Jupyter-notebook-Format als Vorlage verwenden. Es bietet sich an die Durchführung während der Vorbereitung auf den Versuch bereits mit allen Informationen, die Sie für die Durchführung des Versuchs als notwendig erachten, oder mit vorbereiteten Tabellen-, Text- oder Code-Fragmenten zu versehen, die Sie während der Versuchsdurchführung dann nur noch modifizieren oder vervollständigen müssen. 
+
+Beachten Sie, dass im Jupyter-notebook für die Durchführung des Versuchs weder Raum für die Einleitung des Versuchs noch für eventuelle Herleitungen vorgesehen ist. Beide Aspekte sind durch die Anleitung auf dem SCC gitlab-Server bereits hinreichend abgedeckt. Wir gehen selbstverständlich davon aus, dass Sie den Versuch vorbereitet und verstanden haben. Dies Sicherzustellen ist Bestandteil der Abfrage vor Versuchsbeginn.  
 
 Das Protokoll geht durch die folgenden letzten Schritte in die **einzureichende Auswertung** über: 
 
@@ -60,23 +62,23 @@ Das Protokoll geht durch die folgenden letzten Schritte in die **einzureichende 
 
 **Eine strukturierte und organisierte Vorgehensweise bei der Protokollführung, ebenso wie ein sehr gutes, grundlegendes Verständnis für alle den Versuch betreffenden physikalischen Zusammenhänge sind Grundvoraussetzungen, um diese Anforderungen erfüllen zu können.**
 
-Wir wünschen im Protokoll ausdrücklich **keine langen Herleitungen** physikalischer Zusammenhänge, die ohnehin aus der Literatur, oder den Hinweisen zu den Versuchen entnehmbar sind. Wir wünschen auch **keine Formatierung in Latex**, die über den in Markdown verwendbaren Satz physikalischer Formeln hinausgeht. Beides ist Ihnen freigestellt. Es geht jedoch weder in die Bewertung der eingereichten Auswertungen noch in das von uns veranschlagte Zeitbudget für den Arbeitsaufwand für die erfolgreiche Teilnahme an den P1 und P2 Praktika ein.
+Wir wünschen im Protokoll ausdrücklich **keine langen Herleitungen** physikalischer Zusammenhänge, die ohnehin aus der Literatur, oder den Hinweisen zu den Versuchen entnehmbar sind. Wir wünschen auch **keine Formatierung in Latex**, die über den in Markdown verwendbaren Satz physikalischer Formeln hinausgeht. Beides ist Ihnen freigestellt. Es geht jedoch weder in die Bewertung der eingereichten Auswertungen noch in das von uns veranschlagte Zeitbudget für den Arbeitsaufwand für die erfolgreiche Teilnahme an den P1- und P2-Praktika ein.
 
-Im Umkehrschluss ist die organisierte und strukturierte Dokumentation Ihrer Versuchsdurchführung nicht an ein Dokumentenformat gebunden. Es ist insbesondere bei dem Arbeiten mit Jupyter-notebook nicht Aufgabe der Tutor:innen (Teil-)Ergebnisse Ihres Protokolls in Code-Zellen des Jupyter-notebooks zusammen zu suchen. Wir gehen davon aus, dass Sie erzielte (Teil-)Ergebnisse z.B. im Anschluss an Code-Zellen in einer Markdown-Zelle klar kennzeichnen, zusammenfassen und diskutieren.
+Die organisierte und strukturierte Dokumentation Ihrer Versuchsdurchführung ist nicht an ein Dokumentenformat gebunden. Es ist insbesondere bei dem Arbeiten mit Jupyter-notebook nicht Aufgabe der Tutor:innen (Teil-)Ergebnisse Ihres Protokolls in Code-Zellen des Jupyter-notebooks zusammen zu suchen. Wir gehen davon aus, dass Sie erzielte (Teil-)Ergebnisse z.B. im Anschluss an Code-Zellen in einer Markdown-Zelle klar kennzeichnen, zusammenfassen und diskutieren.
 
-Im Zuge der Umstellung von Latex- auf Jupyter-notebook-Protokolle haben wir zuweilen die Kritik gehört, dass die Protokoll im Latex-Satz "professioneller" und "schöner" aussahen. Beachten Sie bei diesem Argument den folgenden Grundsatz: Es ist der *Inhalt*, der das professionelle Auftreten eines:r Physiker:in ausmacht und nicht die Form. Zäumen Sie daher das Pferd nicht von hinten auf, zuerst kommt der Inhalt, danach kommt die Form.  Sie werden im weiteren Verlauf Ihres Studiums noch genug Gelegenheiten haben, sich mit dem Satz von Latex-Dokumenten vertraut zu machen. 
+Im Zuge der Umstellung von Latex- auf Jupyter-notebook-Protokolle haben wir zuweilen die Kritik gehört, dass die Protokoll im Latex-Satz "professioneller" und "schöner" aussahen. Beachten Sie hierzu den folgenden Grundsatz: Es ist der *Inhalt*, der das professionelle Auftreten eines:r Physiker:in ausmacht und nicht die Form. Zäumen Sie daher das Pferd nicht von hinten auf, zuerst kommt der Inhalt, danach kommt die Form. Sie werden im weiteren Verlauf Ihres Studiums noch genug Gelegenheiten haben, sich mit dem Satz von Latex-Dokumenten vertraut zu machen. 
 
 ### Bevorzugtes Dokumentenformat
 
 Wir erwarten die Rückgabe der Versuchsauswertungen durch *fristgerechten upload*  der ausgefüllten Versuchs-Durchführung, **im Jupyter-notebook-Format, exportiert nach *pdf***, auf das ILIAS-System. In dieses Dokument kann Ihr:e Tutor:in elektronisch kommentieren. Es ist obligatorisch.
 
-Zum Export des Jupyter-notebooks nach *pdf* achten Sie auf unsere Hinweise zum [Arbeiten auf dem Jupyter-server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/Jupyter-server.md). 
+Zum Export des Jupyter-notebooks nach *pdf* achten Sie auf unsere Hinweise zum [Arbeiten auf dem Jupyter-server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/JupyterServer.md). 
 
 Ausnahmen von dieser Regel sind zulässig. Beachten Sie jedoch, dass Sie **in jedem Fall eine Version Ihres Protokolls in *pdf*-Format** auf dem ILIAS-System hinterlegen müssen, damit Ihr Versuch die Chance hat anerkannt zu werden. 
 
 ### Beispiel eines Protokolls/einer Auswertung
 
-Sie erhalten ein Beispiel dafür, wie eine Auswertung im Jupyter-notebook-Format (exportiert nach *pdf*) aussehen könnte, nach dem ersten Versuchstag des P1, als Musterlösung zum [Vorversuch Datenauswertung](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vorversuch) auf dem gitlab-Server des SCC. Dieses Beispiel können Sie als Vorlage für alle weiteren Versuchsauswertungen verwenden. 
+Wir veröffentlichen ein Beispiel dafür, wie eine Auswertung im Jupyter-notebook-Format (exportiert nach *pdf*) aussehen könnte, nach dem ersten Versuchstag des P1, als Musterlösung zum [Vorversuch Datenauswertung](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vorversuch) auf dem gitlab-Server des SCC. Dieses Beispiel können Sie als Vorlage für alle weiteren Versuchsauswertungen verwenden. 
 
 ### Bewertung
 
@@ -123,7 +125,7 @@ Sie studieren nicht BWL, sondern Physik. Bei allem Hang zur Ökonomie ist es fü
 
 **Wie sollen wir die Protokolle beim upload auf ILIAS benennen und kennzeichnen?** – Verwenden Sie für jede Version den Namen der entsprechenden Versuchsdurchführung, nach dem Export ins *pdf*-Format. Für die entsprechende Versionierung verwenden Sie die Möglichkeit zur Versionierung im ILAS-System. 
 
-**Was müssen wir denn noch an unserem Protokoll tun, um es als Version $\mathrm{v1}$ auf ILIAS hochzuladen?** – Wir gehen davon aus, dass Sie das Protokoll, dass Sie während des Versuchs aufgenommen haben nochmal in Hinblick auf Lesbarkeit und  Vollständigkeit überarbeiten. Überprüfen Sie Zwischenergebnisse und schließen Sie das Protokoll mit wohldefinierten Endergebnissen ab. Stellen Sie die aufgezeichneten Daten ggf. geeignet dar, versehen Sie alle Zwischen- und Endergebnisse mit Unsicherheiten und reflektieren und diskutieren Sie den Versuchsablauf und Ihre Ergebnisse. Dies sollte nicht mehr als 4 Stunden ihrer Zeit in Anspruch nehmen. Wir empfehlen dies zeitnah nach Beendigung des Versuchs zu tun, damit Sie die Durchführung des Versuchs noch in Ihrer Erinnerung präsent haben.
+**Was müssen wir nach dem *upload* der Version $\mathrm{v0}$ denn überhaupt noch an unserem Protokoll tun, um es als Version $\mathrm{v1}$ auf ILIAS hochzuladen?** – Wir gehen davon aus, dass Sie das Protokoll, dass Sie während des Versuchs aufgenommen haben nochmal in Hinblick auf Lesbarkeit und  Vollständigkeit überarbeiten. Überprüfen Sie Zwischenergebnisse und schließen Sie das Protokoll mit wohldefinierten Endergebnissen ab. Stellen Sie die aufgezeichneten Daten ggf. geeignet dar, versehen Sie alle Zwischen- und Endergebnisse mit Unsicherheiten und reflektieren und diskutieren Sie den Versuchsablauf und Ihre Ergebnisse. Dies sollte nicht mehr als 4 Stunden ihrer Zeit in Anspruch nehmen. Wir empfehlen dies zeitnah nach Beendigung des Versuchs zu tun, damit Sie die Durchführung des Versuchs noch in Ihrer Erinnerung präsent haben.
 
 **Was passiert, wenn wir die Version $\mathrm{v1}$ des Protokolls zu spät auf ILIAS hochgeladen haben?** – In diesem Fall können Sie nicht mehr erwarten, dass Ihr:e Tutor:in Ihr Protokoll bereits am folgenden Versuchstag gelesen und mit Anmerkungen versehen haben werden. Die Besprechung kann in einem solchen Fall wenig(er) zielgerichtet erfolgen. Sie sollten eine solche Situation unbedingt vermeiden.  
 
@@ -137,6 +139,8 @@ Sie studieren nicht BWL, sondern Physik. Bei allem Hang zur Ökonomie ist es fü
 
 **Was passiert, wenn wir ein "-" für unsere Auswertung bekommen?** – Sie können sich zwei Auswertungen mit nicht aufgelösten Beanstandungen (d.h. mit dem Vermerk "-") leisten. Falls für Sie mehr als zwei Protokolle mit ausstehenden Beanstandungen vorliegen, müssen Sie die entsprechenden Beanstandungen (ggf. zu einem Nachholtermin, nach Beendigung des regulären Praktikumsbetriebs) beheben. Versuche, die Sie ohne Beanstandungen absolviert haben bleiben Ihnen im System erhalten. Sie müssen Sie also nicht nochmal durchführen.  
 
+**Auf Grundlage des Jupyter-notebook können wir nicht zusammenarbeiten! Warum können wir nicht z.B. [Overleaf](https://de.overleaf.com/) verwenden?** – Wir wünschen uns, dass Sie die Vorbereitung, Durchführung und Auswertung der Versuche, als Team, gemeinsam, am gleichen Ort bestreiten. Wir wünschen uns explizit den für ein erfolgreiches Studium unerlässlichen, persönlichen Austausch. Außerdem sollten Sie den größten Teil des Versuchs und der Auswertung ohnehin bereits während des Praktikumstags absolvieren können. Die Verwendung von Jupyter-notebook stellt gegenüber der Verwendung von Overleaf also keinen gravierenden Nachteil dar. Die Verwendung von Werkzeugen, wie Overleaf ist Ihnen freigestellt. Sie geht jedoch nicht in das von uns veranschlagte Zeitbudget für den Arbeitsaufwand für die erfolgreiche Teilnahme an den P1- und P2-Praktika ein.
+
 ## Bewertung des Praktikums
 
 Wir weisen ausdrücklich darauf hin, dass das P1 und P2 **nur als bestanden gewertet wird. Eine Bewertung darüber hinaus wird nicht erteilt.** 
@@ -146,3 +150,7 @@ Das die von Ihnen durchgeführten Versuche mit dem Vermerk "**0**" bewertet werd
 Da Sie die Versuche i.a. zu zweit durchführen ist eine faire Beurteilung einzelner Personen auf Grundlage der getroffenen Vermerke im Praktikumsbuch nicht möglich. 
 
 In seltenen Fällen kommt es vor, dass Stipendiaten Beurteilungen ihrer Leistungen zum Nachweis bei entsprechenden Stiftungen benötigen. **Eine solche Beurteilung erfolgt persönlich durch einen Dozenten des Praktikums, der Sie während des Praktiumsverlaufs begleitet und/oder Sie noch einmal zu einem Gespräch einlädt. Melden Sie einen solchen Fall unbedingt vor Beginn des Praktikums beim entsprechenden Dozenten an.** Im Nachhinein kann eine solche Beurteilung nicht mehr vorgenommen werden.
+
+# Navigation
+
+[Zurück zu P1-Praktikum](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students)

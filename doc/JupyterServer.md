@@ -31,7 +31,7 @@ Das folgende Bild gibt Ihnen eine Vorstellung, wie die Webseite des gitlab-Serve
 Um das Repository aller Versuche (hier als Beispiel für die P1-Versuche) in Ihre Jupyter-Umgebung zu laden, gehen Sie z.B. wie folgt vor:
 
 - Gehen Sie im Menü Ihrer Jupyter-Umgebung auf das Verzeichnis **Git** und wählen Sie die Option **Clone a Repository** aus.
-- In einem neuen Fenster werden Sie daraufhin aufgefordert die URI-Adresse für das Repository anzugeben, das Sie klonen möchten. Diese finden Sie im [SCC Gitlab Repository](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students) (hier verlinkt für das P1).
+- In einem neuen Fenster werden Sie daraufhin aufgefordert die URI-Adresse für das Repository anzugeben, das Sie klonen möchten. Diese finden Sie im [SCC gitlab-Repository](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students) (hier verlinkt für das P1).
   - Öffnen Sie dazu das SCC Gitlab Repository für das [P1-Praktikum](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students) z.B. in einem neuen Reiter Ihres Browsers und klicken Sie den Knopf mit der Aufschrift **Clone** (blauer Knopf, rechts im obigen Bild). Wählen Sie aus dem sich öffnenden Untermenü die Option **Clone with HTTPS** aus. Die entsprechende Webadresse wird in die Zwischenablage Ihres Computers geladen.
   - Wechseln Sie in Ihrem Browser wieder in den Reiter mit Ihrer Jupyter-Umgebung und geben Sie die Webadresse für das zu klonende SCC-gitlab Repository an. 
   - Sie werden daraufhin nochmal gebeten sich dem SCC gitlab-Server gegenüber zu identifizieren. Verwenden Sie hierzu erneut Ihren Studierenden-Account am KIT. 

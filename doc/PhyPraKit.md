@@ -16,7 +16,7 @@ Mit der Option `–-help` in diesen Beispielen, rufen Sie den "Hilfe"-Text mit E
 
 Alle in diesem Text verwendeten Code-Beispiele sollten Sie in jedem SCC gitlab-Repository zu jedem der P1- und P2-Versuche direkt ausführen können.
 
-[^1]: Beachten Sie die Verwendung des [Magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html) **%run** zur Ausführung des Skripts aus eine Code-Zelle des Jupyter-notebooks. Weitere Hinweise hierzu erhalten Sie im Dokument [Arbeiten auf dem Jupyter-server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/Jupyter-server.md).
+[^1]: Beachten Sie die Verwendung des [Magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html) **%run** zur Ausführung des Skripts aus eine Code-Zelle des Jupyter-notebooks. Weitere Hinweise hierzu erhalten Sie im Dokument [Arbeiten auf dem Jupyter-Server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/JupyterServer.md).
 
 ## Parameteranpassung mit dem Skript *run_phyFit.py*
 
@@ -80,7 +80,7 @@ Sie sehen, dass das Modell einer Exponentialfunktion mit den Parametern $A$ und 
 
 Sie sollten die angepassten Parameter $A$ und $x_{0}$ der Modell-Funktion, das Datenlabel, das Label der Modell-Funktion und die Achsenbeschriftungen mit den entsprechenden Schlüsselworten in der `yaml`-Datei identifizieren können. 
 
-Ein voll funktionsfähiges Beispiel Jupyter-notebook finden Sie unter [./tools/PhyPraKit_example.ipynb](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/tools/PhyPraKit_example.ipynb).
+Ein voll funktionsfähiges Beispiel Jupyter-notebook finden Sie unter [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/tools/PhyPraKit_example.ipynb).
 
 ## Ein paar Tipps für Anfänger:innen auf diesem Gebiet: 
 

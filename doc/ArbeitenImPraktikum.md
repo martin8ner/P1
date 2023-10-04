@@ -95,7 +95,7 @@ Formatieren Sie Ihr Protokoll in *pdf*-Format und laden Sie es (als Version $\ma
 
 Die Auswertung des Versuchs erfolgt auf Grundlage Ihres Protokolls, vorzugsweise im Jupyter-notebook. Zu Ihrer Orientierung bzgl. des Umfangs gehen Sie davon aus, dass Sie **nicht mehr als 2 Stunden** für die verbleibende Auswertung des aktuellen Versuchs benötigen sollten. Beachten Sie, dass es das vorrangige Ziel der Auswertung ist, Ihre Messung und die erzielten Ergebnisse mit einer sinnvollen persönlichen Einschätzung einschließlich entsprechender *quantifizierter* Unsicherheiten **für Sie und Außenstehende verständlich zu dokumentieren.** Ihr Protokoll und die entsprechende Auswertung sollten *übersichtlich*, *nachvollziehbar* und *vollständig* sein. Wir verlangen explizit **keine Formatierung in Latex**. 
 
-Die Abgabe erfolgt durch das Hochladen einer *pdf*-Version des Jupyter-notebooks (als Version $\mathrm{v1}$) ins ILIAS-System. Beachten Sie hierzu die Hinweise, die wir für Sie in den Dokumenten [Praktische Hinweise zur Durchführung und Auswertung der Versuche](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/PraktischeHinweise.md) und [Arbeiten auf dem Jupyter-Server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/Jupyter-server.md?ref_type=heads) bereitgestellt haben.  
+Die Abgabe erfolgt durch das Hochladen einer *pdf*-Version des Jupyter-notebooks (als Version $\mathrm{v1}$) ins ILIAS-System. Beachten Sie hierzu die Hinweise, die wir für Sie in den Dokumenten [Praktische Hinweise zur Durchführung und Auswertung der Versuche](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/PraktischeHinweise.md) und [Arbeiten auf dem Jupyter-Server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/JupyterServer.md) bereitgestellt haben.  
 
 ## Einordnung des Praktikums und ECTS-Regelung
 
@@ -112,3 +112,7 @@ Bei der Berechnung der ECTS-Punkte für die Praktika legen wir das folgende Mode
 Damit ergeben sich bis zu **160 Stunden** Arbeitsaufwand im laufenden Semester. 
 
 Beachten Sie bei der Beurteilung des Arbeitsaufwands, dass die Praktika aus organisatorischen Gründen, bereits nach 10 Wochen und somit deutlich vor dem offiziellen Ende der Vorlesungszeit des Semesters enden. Dies räumt Ihnen die Möglichkeit ein sich gegen Ende der Vorlesungszeit angemessen auf anstehende Abschlussprüfungen vorzubereiten. Der Preis hierfür ist, dass sich der Arbeitsaufwand während des laufenden Praktikums entsprechend erhöht.
+
+# Navigation
+
+[Zurück zu P1-Praktikum](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students)
