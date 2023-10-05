@@ -1,4 +1,4 @@
-<img src="./figures/Logo_KIT.svg" width="200" style="float:right;" />
+<img src="../figures/Logo_KIT.svg" width="200" style="float:right;" />
 
 # Fakultät für Physik
 
@@ -6,7 +6,7 @@
 
 Versuch P1-53, 54, 55 (Stand: September 2023)
 
-[Raum F1-17](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/layoutobjekte/Lageplan_P1.png)
+[Raum F1-17](https://labs.physik.kit.edu/img/Praktikum/Lageplan_P1.png)
 
 
 

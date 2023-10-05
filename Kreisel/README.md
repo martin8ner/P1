@@ -4,9 +4,9 @@
 
 ## Physikalisches Praktikum P1 für Studierende der Physik
 
-Versuch P1-xx, xx, xx (Stand: Oktober 2023)
+Versuch P1-26, 27, 28 (Stand: Oktober 2023)
 
-[Raum F1-13](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/layoutobjekte/Lageplan_P1.png)
+[Raum F1-15](https://labs.physik.kit.edu/img/Praktikum/Lageplan_P1.png)
 
 
 

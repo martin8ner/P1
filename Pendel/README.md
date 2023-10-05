@@ -8,7 +8,7 @@
 
 Versuch P1-20, 21, 22 (Stand: Oktober 2023)
 
-[Raum F1-11](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/layoutobjekte/Lageplan_P1.png)
+[Raum F1-11](https://labs.physik.kit.edu/img/Praktikum/Lageplan_P1.png)
 
 
 

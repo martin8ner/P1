@@ -1,4 +1,4 @@
-<img src="./figures/Logo_KIT.svg"  width=200px style="float:right;" />
+<img src="../figures/Logo_KIT.svg"  width=200px style="float:right;" />
 
 # Fakultät für Physik 
 
