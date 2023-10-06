@@ -4,243 +4,68 @@
 
 ### Experiment und Zufall
 
+Für eine Messung mit wissenschaftlichem Anspruch versucht der/die Experimentator:in möglichst alle für den Ausgang der Messung relevanten Randbedingungen zu kontrollieren, d.h. entweder auszuschalten, oder festzuhalten und zu dokumentieren. Man bezeichnet dieses Vorgehen als **Messen unter Laborbedingungen**. 
 
+*A posteriori* ist jeder Ausgang einer wissenschaftlich erfolgreich durchgeführten Messung ein unveränderliches Resultat. Vor dem Akt der Messung ist ihr Ausgang jedoch ungewiss. Das liegt daran, dass sich nicht alle Randbedingungen einer Messung mit beliebiger Präsizion kontrollieren lassen. 
 
-Praktikumsvorversuch
+Unterliegt eine Beobachtung einer unbekannten Menge unkontrollierter Randbedingungen handelt es sich um ein [Zufallsexperiment](https://de.wikipedia.org/wiki/Zufallsexperiment). Die zu beobachtende Größe ist eine [Zufallsgröße](https://de.wikipedia.org/wiki/Zufallsvariable). Die Aussage, dass man in einer exakten Wissenschaft, wie der Physik, Zufallsexperimente durchführt klingt zunächst überraschend und vielleicht unbefriedigend. Dieser Umstand liegt aber bereits in den Begrifflichkeiten des Alltags begründet: In der Physik führen wir Experimente durch. **Experiment bedeutet "Versuch". Wenn Sie etwas versuchen, ist der Ausgang zunächst ungewiss.** 
 
-Raum: zu Hause
+### Klassische und moderne Wissenschaft
 
+Als Begründer der klassich-antiken wissenschaftlichen Methode gilt [Aristoteles](https://de.wikipedia.org/wiki/Aristoteles). Er dokumentierte als erster, dass die Durchführung kontrollierter Experimente (unter Laborbedingungen) zu reproduzierbaren Ergebnissen führen kann. Der Ausgang eines Experiments war *a posteriori* eine Gewissheit. Die wissenschaftliche Methode bestand darin die Ausgänge einzelner wissenschaftlicher Experimente und ihrer Randbedingungen so gewissenhaft wie möglich zu dokumentiern. Dadurch wurde das Experiment selbst, im Rahmen gewisser Erwartungen, reproduzierbar.
 
+Aritoteles griff bereits zu einem Mittel, das wir erst seit der [Neuzeit](https://de.wikipedia.org/wiki/Neuzeit) systematisch entwickelt und durchschaut haben: zur [Modellvorstellung](https://de.wikipedia.org/wiki/Statistisches_Modell).
 
-# Datenverarbeitung am Beispiel des Pendels
+Es ist offenbar, dass eine Fülle unzähliger Einzelmessungen schnell unkontrollierbar wird. Zudem besteht unser Streben als Menschen nicht darin, die Vergangenheit so exakt wie möglich zu dokumentieren. Unser Streben ist in die Zukunft gerichtet. Unser Wunsch ist es aus der Beobachtung der Vergangenheit, Aussagen über die Zukunft abzuleiten. Die Strategie der Modellvorstellung ist es, **eine Fülle unzählbarer Beobachtungen auf das handhabbare Maß einiger weniger Gesetze und Parameter zu reduzieren**. 
 
+So unterteilte Aristoteles in einer Modellvorstellung der Realität, die Bewegungen von Körpern in natürliche und erzwungene Bewegungen. Eine natürliche Bewegung ist es, wenn ein Stein sich zur Erde hin bewegt, sobald ein:e Experimentator:in ihn loslässt. Eine erzwungene Bewegung ist, wenn der/die Experimentator:in den Stein von der Erde weg, gen Himmel wirft. Die Gesetzmäßigkeit in diesem Bild besteht darin, dass die erzwungene stets in die natürliche Bewegung übergeht. Als Parameter können die Geschwindigkeit und Richtung angesehen werden, mit denen der Stein geworfen wird. Mit diesem Modell ist es möglich qualitativ den schiefen Wurf eines Steins zu beschreiben. Mit unserer heutigen Vorstellung der Vorgänge beim schiefen Wurf hat diese Modellvorstellung, in all ihrer Tiefe, allerdings sehr wenig gemein. 
 
+Der Erfolg von Aristoteles klassisch-antiker Modellvorstellung natürlicher und erzwungener Bewegungen von Körpern endete bei der **Beschreibung der Bewegung des Pendels**, eines entscheidenden Experiments, bei dem der Übergang von einer erzwungenen zu einer natürlichen Bewegung nicht auszumachen war, und das so den Weg in die wissenschaftliche Methodik der Neuzeit ebnete. Alle Grundsteine zu dieser Umschreibung der Welt wurden allerdings durch Aristoteles und dessen Lehrer [Platon](https://de.wikipedia.org/wiki/Platon) bereits gelegt. Sie spiegeln sich in Platons [Höhlengleichnis](https://de.wikipedia.org/wiki/H%C3%B6hlengleichnis) wieder, das beschreibt, wie wir Menschen die Welt wahrnehmen: wir sitzen gefesselt und unbeweglich mit dem Rücken zu einem Feuer in einer Höhle. Hinter unsrem Rücken spielt sich die Wahrheit ab. Wir erkennen allerding nur die schattenhaften Abbilder dieser Wahrheit an der Höhlenwand uns gegenüber, die wir als unsere Realität wahrnehmen. Plato erkannte, dass es die Wahrheit ([Idee](https://de.wikipedia.org/wiki/Ideenlehre)) eines mathematischen Kreises gab, auch wenn seine kläglichen Versuche selbst einen Kreis zu zeichnen unvollkommene Abbilder dieser Wahrheit bleiben mussten. 
 
-## Motivation
+Dieses Gleichnis ist zentraler Baustein der Vorstellung unseres heutigen Erkenntnisgewinns, wie in **Abbildung 1** dargestellt:   
 
-Im Mittelpunkt jedes physikalischen Experiments steht die Messung als nachvollziehbare Erfassung und Weiterverarbeitung von Daten unter Laborbedingungen. In diesem Praktikumsvorversuch möchten wir Sie anhand eines einfachen physikalischen Vorgangs mit den wichtigsten Methoden der (meist computergestützten) Datenverarbeitung in der modernen Physik vertraut machen. Sie werden sehen, dass das Messen schnell zur Messkunst avancieren kann. 
+<img src="../figures/PlatosHoehle.png" style="zoom:100%;" />
 
-Als Aufgabe wählen wir die Bestimmung der Erdbeschleunigung ($g$) mit Hilfe eines Pendels. Wir haben mit Hilfe der kostenfreien *app* [phyphox](https://phyphox.org/de/home-de/) der RWTH Aachen einen Datensatz für Sie vorbereitet den wir mit Ihnen gemeinsam weiterverarbeiten möchten. Sie können das hier vorgestellte Experiment bei sich zu Hause noch einmal von Grund auf neu durchführen. Beachten Sie dabei (hier wie im gesamten P1): "experimentieren" bedeutet "versuchen" – nicht jeder Versuch muss zu einem erfolgreichen Ausgang führen. Wie im gesamten P1, geht es uns mit diesem Vorversuch nicht darum, dass Sie uns die beste Messung von $g$ präsentieren. Uns ist wichtig, dass Sie sich mit den zur Verfügung stehenden Daten vertraut machen, sich mit den vorgestellten Möglichkeiten zur weiteren Datenverarbeitung ernsthaft auseinandersetzen und vielleicht auch neue, eigene Ideen entwickeln.  
+**Abbilding 1** (Darstellung des modernen wissenschaftlichen Erkenntnisgewinns)
 
-## Anmerkungen zum Vorversuch
+---
 
-Wir listen im Folgenden die wichtigsten Lernziele auf, die wir Ihnen mit dem Vorversuch des P1 vermitteln möchten: 
-
-- Sie erhalten einen ersten Einblick darin, welche Stärken und Schwächen eine Messung haben kann?
-- Sie lernen, dass Sie mit Hilfe ausgedehnter Messreihen Messunsicherheiten deutlich verringern können?
-- Sie gehen mit einem mächtigen Werkzeugkasten aus diesem Versuch hervor, mit dem Sie auch größere Datenmengen mit den Ansprüchen eines Physikers analysieren können. 
-- Sie lernen, wie Sie mit Hilfe dieses Werkzeugkastens physikalisch bedeutungsvolle Parameter aus der Anpassung von Modellen an die Daten bestimmen können?
-- Sie lernen was der Unterschied zwischen einer Messunsicherheit und einem Messfehler ist?
-
-Machen Sie sich zur Vorbereitung auf das Praktikum den folgenden Umstand bewusst: jeder Messung der modernen Physik liegt ein Modell zugrunde. Die Messung hat i.a. die Bestimmung eines Parameters innerhalb eines solchen Modells zum Ziel.  
-
-## Versuchsaufbau
-
-Wir haben die *app* [phyphox](https://phyphox.org/de/home-de/) auf ein Smartphone geladen und das Smartphone mit Klebestreifen auf eines der [Reversionspendel](https://de.wikipedia.org/wiki/Reversionspendel) aus dem Versuch "P1-20, 21, 22 Pendel" montiert. Für die Messung haben wir die Anwendung "Beschleunigung ohne $g$" verwendet. Der Versuchsaufbau ist im folgenden Bild skizziert:
-
-![Versuchsaufbau](./figures/PendelVorversuch.png)
-
-Wir haben das Pendel in Schwingung versetzt, die resultierende Bewegung mit Hilfe der im Smartphone verbauten Beschleunigungssensoren ausgelesen und uns die resultierenden Datensätze im [csv-Format](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) per Mail zugeschickt. Außerdem haben wir alle für unsere Messung relevanten äußeren Parameter festgehalten. Die Datensätze, die wir aufgenommen haben finden Sie in dieser [zip-Datei](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/p1/p1-versuchsanleitungen/Datenverarbeitung.zip). 
-
-## Anmerkungen zum Versuchsaufbau
-
-- Beim csv-Format handelt es sich um ein einfaches sowohl von Menschen als auch Maschinen lesbares Format, um Daten in Spalten und Zeilen organisiert abzulegen.
-- Alle wichtigen Informationen zu Pendel und Smartphone haben wir aus der Anleitung des Versuchs "P1-20, 21, 22 Pendel" und den im Internet verfügbaren Datenblättern des Smartphones bezogen. Zum Teil haben wir die Abmessungen des Smartphones noch einmal mit einfachen Mitteln nachvollzogen. 
-
-## Aufgabe 1: Aufsetzen der Arbeitsumgebung
-
-### Aufgabe 1.1: Wie sehen die Daten aus?
-
-Entpacken Sie die oben verlinkte [zip-Datei](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/p1/p1-versuchsanleitungen/Datenverarbeitung.zip) in ein Verzeichnis Ihrer Wahl. Untersuchen Sie die Größen der darin befindlichen Dateien mit den Endungen *.csv*. Schauen Sie sich dann die Dateien in einem Texteditor an, um ihre Struktur zu verstehen. Diese Dateien sind die Grundlage für jedes weitere Vorgehen im weiteren Verlauf dieses Vorversuchs.
-
-### Aufgabe 1.2: Legen Sie sich Ihre Werkzeuge zurecht 
-
-Bei so großen Datenmengen ist eine manuelle Weiterverarbeitung der Daten unmöglich. Wir werden dazu die Programmiersprache [python](https://www.python.org/) verwenden. Wir möchten Ihnen weiterhin die Modulsammlung [PhyPraKit](https://readthedocs.org/projects/phyprakit/) vorstellen. Installieren Sie sich beide Softwarepakete und dokumentieren Sie Ihre Installationswege. Beachten Sie hier zu auch Anmerkung 1.1. 
-
-## Anmerkungen zu Aufgabe 1
-
-### Anmerkung 1.1 
-
-Lesen Sie sich zur Verwendung von python und PhyPraKit mit den Betriebssystemen Linux, OS oder Windows die Anleitung zur [Datenauswertung in den Grundpraktika zur Physik](https://etpwww.etp.kit.edu/~quast/Skripte/Datenauswertung.html)  durch, die wir für Sie zusammengestellt haben. Wir unterstützen Sie gerne bei der Einrichtung der für das P1 nützlichen Werkzeuge auf Ihrem bevorzugten Betriebssystem. Falls Sie mit python nicht sehr vertraut sind können Sie sich auf die Verwendung von zwei einfachen Skripten zur weiteren Verarbeitung der Daten beschränken.
-
-Ein Werkzeug soll ein Hilfsmittel sein. Während wir Ihnen bestimmte Hilfsmittel vorstellen können Sie den Versuch auch mit jedem weiteren Ihnen bekannten Hilfsmittel durchführen, dessen Verwendung Ihnen vertrauter ist.  Für uns ist wichtig, dass Sie sich in der Anfangsphase des P1 so einrichten, dass Sie –egal mit welchen Hilfsmitteln– zukünftig in der Lage sein werden Daten wie diese, den Ansprüchen des Studiums gemäß weiter zu verarbeiten.  
-
-### Anmerkung 1.2
-
-Inklusive aller Werkzeuge, die wir Ihnen zur Verwendung vorschlagen, sollten Sie mit $50\,\mathrm{MB}$ Speicher auskommen.
-
-### Anmerkung 1.3
-
-Die *app* phyphox hat die Beschleunigungssensoren des Smartphones mit einer festen [Abtastrate](https://de.wikipedia.org/wiki/Abtastung_(Signalverarbeitung)) (engl. *sampling rate*) von $100\,\mathrm{Hz}$ ausgelesen. Um die Eigenschaften der Schwingung für uns ausreichend gut erfassen zu können haben wir $5\,\mathrm{min}$ lang gemessen. Sie können sich schnell klar machen mit welcher Datenmenge Sie zunächst zu tun haben werden. Die Periode der Schwingung haben wir während des Versuchs zu $\text{1–2}\,\mathrm{s}$ abgeschätzt. Wir haben daher als ersten Schritt der Weiterverarbeitung die Signalrate um den Faktor 10 reduziert, indem wir nur jede 10. Zeile der csv-Datei ausgelesen haben. Man bezeichnet diese Vorgehensweise als *down sampling*.  Diesen nachprozessierten Datensatz finden Sie in der Datei
-
-```shell
-RawData_down_sampled_500_2200_10.csv
-```
-
-die wir für alle weiteren Versuchsteile nutzen werden.
-
-## Lösung:
-
-*Sie können Ihre Lösung/Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
-
-## Aufgabe 2: Erste Schritte
-
-### Aufgabe 2.1  Visualisierung der Daten 
-
-Der erste Schritt, um sich mit großen Datensätzen zurechtzufinden ist sie besser sichtbar zu machen. Wählen Sie ein für Sie gut geeignetes Werkzeug aus, um die aufgezeichneten Daten graphisch darzustellen. Wir schlagen das Skript *plotData.py* aus dem tools-Verzeichnis der Modulsammlung PhyPraKit vor. Dieses Skript erlaubt es Ihnen Daten auf der $x$-Achse gegen Daten auf der $y$-Achse graphisch darzustellen. Ein Beispiel für eine mögliche Eingabe für das Skript *plotData.py* finden Sie mit der Datei *data.yaml* aus dem tools-Verzeichnis der Modulsammlung PhyPraKit. Die Verwendung des Skripts mit Ihrer eigenen Eingabedatei könnte z.B. so aussehen: 
-
-```shell
-python3 /PhyPraKit/tools/plotData.py my_data.yaml
-```
-
-Beachten Sie zur Eingabedatei Anmerkung 1.2.  
-
-### Aufgabe 2.2: Anpassung eines Modells an die Daten 
-
-Der nächste Schritt ist die Anpassung eines einfachen Modells an die beobachteten Daten. Dies können Sie erreichen, indem Sie Ihre Eingabedatei um die Definition einer python-Funktion erweitern, die der mathematischen Abbildung des Modells entspricht. Ein solcher "Funktionsblock" in Ihrer *yaml*-Datei könnte z.B. so aussehen:
-
-```yaml
-model_label: "Hamonic oscillation"
-model_function: |
-  def my_model(x, A=0.8, omega=4., phi=0.):
-      return A*np.cos(omega*x+phi)
-```
-
-Der Funktionsname *my_model* ist frei gewählt. Beachten Sie, dass dieses Modell beim Aufruf des Skripts *plotData.py* mit den Daten zusammen dargestellt wird. Die hierzu verwendeten Funktionsparameter entsprechen den Defaultwerten der Funktionsargumente. 
-
-Wenn Sie das Modell nicht nur mit fest vorgegebenen Parametern, zusammen mit den Daten darstellen, sondern an die Daten anpassen möchten führen Sie das Skript *run_phyFit.py* aus dem tools-Verzeichnis der Modulsammlung PhyPraKit mit der gleichen Eingabedatei aus. Dies könnte für Sie z.B. so aussehen:
-
-```shell
-python3 PhyPraKit/tools/run_phyFit.py my_data.yaml 
-```
-
-Stellen Sie die Daten geeignet dar und fügen Sie Ihrer Auswertung eine graphische Darstellung zu. Verwenden Sie für diese Aufgabe den Datensatz 
-
-```shell
-RawData_down_sampled_500_2200_10.csv
-```
-
-## Anmerkungen zu Aufgabe 2
-
-### Anmerkung 2.1
-
-Beachten Sie, dass die Skripte *plotData.py* und *run_phyFit.py* ihre Eingangs- und Konfigurationsdaten nicht im csv-Format sondern in der Struktursprache [yaml](https://de.wikipedia.org/wiki/YAML)  erwarten. Die Notwendigkeit Daten um zu formatieren ist ein häufiges Problem in der Datenverarbeitung. Sie können zur Umformatierung das Skript *cvs2yaml.py* im tools-Verzeichnis der Modulsammlung PhyPraKit verwenden.
-
-### Anmerkung 2.2
-
-Beachten Sie, dass Sie für eine Anpassung mit Hilfe der Funktion *xyFit* des Skripts *run_phyFit.py* Unsicherheiten für die Daten in $x$- und $y$-Richtung angeben müssen. Wir haben Abschätzungen für diese Unsicherheiten für Sie in der Datei
-
-```shell
-uncertainties_data.py
-```
-
-in der [zip-Datei](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/p1/p1-versuchsanleitungen/Datenverarbeitung.zip) hinterlegt. 
-
-### Anmerkung 2.3
-
-Wenn Sie Aufgabe 2 zu Ihrer Zufriedenheit abgeschlossen haben sind Sie mit allen Werkzeugen ausgestattet, die Sie benötigen, um die weitere Analyse der Daten fortsetzen zu können. Mehr als die Skripte *plotData.py* und *run_phyFit.py* und ein Grundverständnis, wie man die beiden Skripte mit Hilfe der Struktursprache yaml ansteuert werden Sie für diesen Vorversuch nicht benötigen.  
-
-## Lösung:
-
-*Sie können Ihre Lösung/Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
-
-## Aufgabe 3: Ein einfaches Modell zur Bestimmung von $g$
-
-Wir legen unserer ersten Messung das einfache Modell eines [mathematischen Pendels](https://de.wikipedia.org/wiki/Mathematisches_Pendel) zugrunde. 
-$$
-\begin{split}
-& m\,l^{2}\,\,\ddot{\phi} + m\,g\,l\,\phi = 0, \\
-\end{split}
-$$
-wobei $m$ einer Punktmasse und $l$ dem Abstand der Punktmasse vom Angelpunkt des Pendels entsprechen. Diese Differentialgleichung wird von harmonischen Schwingungen der Form 
-$$
-\begin{split}
-& \phi(t) = \phi_{0}\cos\left(\omega\,t + \delta\right) \\
-\end{split}
-$$
-gelöst, wobei $\phi_{0}$ die Amplitude, $\omega$ die Kreisfrequenz und $\delta$ eine freie Phase der Schwingung sind. Mit Hilfe dieses Modells können Sie bei gegebenem $l$ die Größe von $g$ mit Hilfe der Gleichung
-$$
-\begin{equation}
-g = \frac{4\,\pi^{2}}{T^{2}}l
-\end{equation}
-$$
-aus der Periode $T$ der Schwingung bestimmen. Zusätzliche Information, die Sie zur Lösung dieser Aufgabe benötigen, finden Sie in der Datei 
-
-```shell
-parameters_task_3.py 
-```
-
-### Aufgabe 3.1: Die Referenzmessung 
-
-Bestimmen Sie einen einzelnen Wert für $T$ aus der angegebenen *csv*-Datei. Überlegen Sie sich eine sinnvolle Unsicherheit $\Delta T$ und ermitteln Sie einen ersten Wert für $g$ mit entsprechender Unsicherheit $\Delta g$ mit Hilfe linearer Fehlerfortpflanzung. Vergleichen Sie das Ergebnis mit Ihrer Erwartung  und setzen Sie es in Bezug zu $\Delta g$. Beachten Sie hierzu Anmerkung 3.1 
-
-### Aufgabe 3.2: Eine erste Verbesserung 
-
-Erstellen Sie eine *yaml*-Datei für die Anpassung einer harmonischen Schwingung, wie in Gl. (2) angegeben, an die Daten aus der angegebenen *csv*-Datei, so dass Sie $T$ aus einer Anpassung an die Daten bestimmen können. Notieren Sie sich die Qualität dieser Anpassung (quantifiziert durch die Größe $\chi^{2}/n_{\mathrm{dof}}$) und die ermittelten Werte mit entsprechenden Unsicherheiten für alle Parameter. Fügen Sie Ihrer Auswertung eine graphische Darstellung zu. Berechnen Sie aus den bestimmten Werten für $T$ und $\Delta T$ verbesserte Abschätzungen für $g$ und $\Delta g$. Vergleichen Sie das Ergebnis mit Ihrer Erwartung und setzen Sie es in Bezug zu $\Delta g$.    
-
-## Anmerkungen zu Aufgabe 3
-
-### Anmerkung 3.1
-
-Als Referenzwert für Ihre Messungen können Sie den Wert 
+Diese Vorstellung ist untrennbar mit den Namen großer Denker der neuzeitlichen Wissenschaften und der Physik, wie [René Descartes](https://de.wikipedia.org/wiki/Ren%C3%A9_Descartes), [Isaak Newton](https://de.wikipedia.org/wiki/Isaac_Newton), und [Galileio Galilei](https://de.wikipedia.org/wiki/Galileo_Galilei) verbunden, die alle fast Zeitgenossen und regelrechte Revolutionäre und Abteneurer ihrer Zeit waren! Auf Galileio Galilei sind z.B. die [Einführung der Mathematik als universale Sprache der Natur](https://de.wikipedia.org/wiki/Galileo_Galilei#Hochschullehrer_in_Pisa,_1589%E2%80%931592) in die Physik, oder die Entdeckung der Energieerhaltung zurückzuführen. Bis dato beschrieben Wissenschaftler und Philosophen Naturvorgänge seitenweise in lateinischer Sprache. Vor Galilei war ein einfacher Zusammenhang, wie 
 $$
 \begin{equation*}
-g_{\mathrm{exp}} = (9.809599\pm0.000034)\,\mathrm{m/s^{2}}
+m\,g\,h = \frac{1}{2}m\,v^{2};\qquad v = \sqrt{2g\,h},
 \end{equation*}
 $$
-verwenden. Dieser Wert wurde aus der Global Gravtiy Database des Bureau Gravimetrique International (BGI) für die Stadt Mannheim (bei $49,49^{\circ}$ nördlicher Breite und $8,53^{\circ}$ westlicher Länge auf einer Referenzhöhe von $101\,\mathrm{m}$) ausgelesen. 
+wie Sie ihn bereits aus der Mittelstufe der Schule kennen das Objekt mehrerer Buchseiten umfassender Reflexionen. Aus heutiger Sicht erscheint uns eine solche Vorstellung unvorstellbar weit entfernt. 
 
-## Lösung
+### Das mathematische Modell
 
-*Sie können Ihre Lösung/Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
+**Abbilding 1** zeigt die Rolle des Experiments im Erkenntnisgewinn: Aus wiederholten reproduzierbaren Experimenten extrahieren wir Gesetzmäßigkeiten und konstruieren ein **mathematisches Modell**. Die physikalische Beobachtung der äußeren Welt wird in die Welt der Mathematik *übersetzt*. Die mathematisch strengen Gesetze des Modells suggierieren Verständnis der beobachteten Vorgänge. Diese Eigenschaft bezeichnet man als [Erklärungskraft](https://en.wikipedia.org/wiki/Explanatory_power) eines Modells, das Vorgänge *a posteriori* nicht anhand unzähliger, dokumentierter Einzelfälle, sondern anhand einiger, weniger Parameter zu erklären vermag. Die Gesetze des Modells erlauben zudem Vorhersagen über zukünftige Beobachtungen. Diese Eigenschaft bezeichnet man als [Vorhersagekraft](https://en.wikipedia.org/wiki/Predictive_power). Die Parameter des Modells sind Anknüpfungspunkte des abstrakt-mathematischen Modells an die Realität. Zukünftige Beobachtungen erlauben es schließlich das Modell zu bestätigen oder als unzureichend zu disqualifizieren. 
 
-## Aufgabe 4: Erweiterung des ursprünglichen Modells
+Wirklich verblüffend für uns ist es, wenn ein Modell zunächst unbeabsichtigte, manchmal abwegig wirkende Vorhersagen trifft, die zum Zeitpunkt seiner Einführung nicht absehbar oder äußerst umstritten sind und später durch Experimente als "unveränderliche Resultate" bestätigt werden.
 
-Eine offensichtliche Unzulänglichkeit des vorherigen Modells besteht in der Vernachlässigung der physikalischen Ausdehnungen des Pendels. Wir werden unser Modell entsprechend erweitern. Die Formel zur Bestimmung von $g$ nimmt dadurch die folgende Form an: 
+Ein Beispiel für ein Modell aus der Antike, das nicht bestätigt werden konnte und mit der Zeit an Bedeutung verlor, ist die oben diskutierte Modellvorstellung natürlicher und erzwungener Bewegungen von Körpern, des Aristoteles. 
 
+Ein ungleich erfolgreicheres Beispiel liefert das Wechselspiel zwischen [Galilei-](https://de.wikipedia.org/wiki/Galilei-Transformation) und [Poincarré-Transformation](https://de.wikipedia.org/wiki/Poincar%C3%A9-Gruppe) für den [Wechsel von Bezugssystemen](https://de.wikipedia.org/wiki/Bezugssystem). Die Vorhersagen der speziellen und später allgemeinen Relativitätstheorie, bewegen sich in der reinen Welt der Mathematik, in die wir die uns umgebende Natur übersetzen. Sie sind zuweilen hochgradig nicht-intuitiv, wirken zum Teil abwegig und lassen sich in kinematische Bereiche weit jenseits unseres Alltagserlebens extrapolieren. Dennoch lassen sich solche Bereiche nicht nur indirekt, z.B. durch die Beobachtung ferner Himmelsobjekte, sondern auch direkt und leiblich, mit den Mitteln der heutigen Technik erreichen, so dass wie getroffene Vorhersagen aus eigener Erfahrung und mit einer Exaktheit experimentell bestätigen können, die uns schwindeln lässt. **Dennoch würde kein vernünftiger Mensch zur Beschreibung eines schiefen Wurfs Newton's Axiome gegen das Kalkül der allgemeinen Relativitätstheorie eintauschen.**     
+
+Ein hervorragendes, drittes Beispiel aus der jüngeren Geschichte der Physik ist die Revolution der [Quantenmechanik](https://de.wikipedia.org/wiki/Quantenmechanik). Es handelt sich dabei um ein hochgradig mathematisches Konstrukt, das viele Jahre angezweifelt wurde, und um dessen Interpretation namhafte Pioniere der Quantenmechanik Jahrzehnte lang gerungen haben, dessen teilweise abwegige, nicht-intuitive, und überraschende Vorhersagen, ein ums andere mal, und inzwischen auch mit atemberaubender Präzision bestätigt werden konnten und können. 
+
+Geht man noch einen Schritt weiter in Richtung der [relativitischen Quantenmechanik](https://de.wikipedia.org/wiki/Dirac-Gleichung), entfernt man sich noch weiter aus der Komfortzone der alltäglichen Intuition. Die von [Paul Dirac](https://de.wikipedia.org/wiki/Paul_Dirac) entdeckte und nach ihm benannte Dirac-Gleichung war die Antwort der kanonischen Quantisierung auf die Einsteinsche relativistische Energie-Impuls-Beziehung:
 $$
-g = \frac{4\,\pi^{2}}{T^{2}}\frac{I}{m\,\ell},
+\begin{equation*}
+E^{2} = \vec{p}^{2}+m^{2}; \qquad E=\sqrt{\vec{p}^{2}+m^{2}}.
+\end{equation*}
 $$
-wobei $I$ und $m$ dem Trägheitsmoment und der Masse der gesamten Pendelkonstruktion (inklusive aller Montageteile und Smartphone!) und $\ell$ dem Abstand des Schwerpunkts dieser Konstruktion vom Angelpunkt des Pendels entsprechen.  Zusätzliche Information zu den im Folgenden diskutierten Modellen finden Sie in der Datei 
+Die Lösungen der Dirac-Gleichungen führte zur Einführung eines neuartigen physikalischen Objekts neben ([Pseudo-](https://de.wikipedia.org/wiki/Pseudoskalar))[Skalar](https://de.wikipedia.org/wiki/Skalar_(Mathematik)), ([Axial-](https://de.wikipedia.org/wiki/Pseudovektor))[Vektor](https://de.wikipedia.org/wiki/Vektor) und [Tensor](https://de.wikipedia.org/wiki/Tensor): dem [Spinor](https://de.wikipedia.org/wiki/Spinor). Der Spinor ist Bestandteil der Beschreibung der quantenmechanischen Ausbreitung eines Teilchenzustands mit positiver Energie **und zur gleichen Zeit** die Ausbreitung eines Teilchenzustands mit negativer Energie. Dies ist eine direkte mathematische Konsequenz der relativistischen Energie-Impuls-Beziehung, in der $E$ quadratisch auftritt. In anderen Zusammenhängen ist von andern nahmhaften Physikern die Aussage überliefert, "wer sowas bestellt" habe. Diese Aussage ist sicher gleichermaßen auf den Spinor, als Bestandteil der allgemeinen Lösung der Dirac-Gleichung anwendbar. Paul Dirac entwickelte die Vorstellung eines Teilchen-Loch-Modells, wie man es heute aus der Festkörperphysik kennt. Ein Modell, das ebenfalls nicht mehr viel mit unserer heutigen **physikalischen Interpretation der Lösungen der Dirac-Gleichung** zu tun hat. Heute Interpretieren wir die Lösungen der Dirac-Gleichung im Bild von [Stückelberg](https://de.wikipedia.org/wiki/Ernst_Carl_Gerlach_St%C3%BCckelberg)-[Feynman](https://de.wikipedia.org/wiki/Richard_Feynman), haben eine sogenannte [zweite Quantisierung](https://de.wikipedia.org/wiki/Zweite_Quantisierung) eingeführt und besitzten im Rahmen der [Quantenfeldtheorie](https://de.wikipedia.org/wiki/Quantenfeldtheorie) mathematische Kalküle, mit deren Hilfe wir die Entstehung von Teilchen aus dem Nichts und deren Annihilation beschreiben können, Vorgänge, die wir täglich expermentell nachweisen. 
 
-```shell
-parameters_task_4.py 
-```
+Diese Entwicklung berührt einen weiteren wichtigen Aspekt heutiger mathematischer Modelle zur Beschreibung physikalischer Vorgänge. Bei all den triumphalen Erfolgen der Mathematik handelt es sich um eine Schwäche dieser Strategie des Erkenntnisgewinns, die auch in **Abbildung 1** prominent abgebildet zu erkennen ist: das mathematische Modell erfordert die Übersetzung der Beobachtung in die Welt der Mathematik und —wichtiger noch—, die **Rückübersetzung der Vorhersagen aus der Welt der Mathematik in die Realität – die Interpretation**. Letztere kann sich – jenseits unserer Alltagsintuition – also sowohl schwierig, als auch uneindeutig herausstellen. Paul Diracs Interpretation der Lösungen der Dirac-Gleichung erwies sich als ebenso unzureichend, wie Aristoteles Interpretation der natürlichen und erzwungenen Bewegung von Körpern. Die Bewegung eines Transatlantikfluges kann sowohl mit den Methoden der speziellen Relativitätstheorie, als mit Hilfe der Newtonschen Axiome beschrieben werden. Die Bestimmung des Schwerefelds der Erde kann auf Grundlage der Newtonschen Mechanik, der allgemeinen Relativitätstheorie oder der Annahme, dass die Erde flach und die Erdbeschleunigung $g$ eine Konstante sei erfolgen. Sie kann ein detailliertes Modell über die Massenbelegung der Erde beinhalten, die Erde als homogene, massive Kugel oder als Massepunkt beinhalten. Modernste Diskussionen zur Erzeugung von Modellen in der Quantenkosmologie beziehen den Einfluss des Beobachters auf die Beobachtung mit ein.    
 
-### Aufgabe 4.1: Erweiterung des Modells 
+### Was also ist exakte Wissenschaft?
 
-Modifizieren Sie Ihr Modell, so dass es dem Modell eines [physikalischen Pendels](https://de.wikipedia.org/wiki/Physikalisches_Pendel) entspricht und berechnen Sie aus den in Aufgabe 3.2 bestimmten Werten für $T$ und $\Delta T$ eine neue Abschätzung von $g$ und $\Delta g$ und diskutieren Sie das Ergebnis. 
+In diesem Vorversuch bestimmen Sie $g$ auf Grundlage verschiedener einfacher Modelle: einmal vernachlässigen Sie die endliche Ausdehnung der Messapparatur, einmal nicht. Dennoch gelangen Sie innerhalb einer abgeschätzten Konfidenz immer wieder zu ähnlichen Ergebnissen. Nicht immer, aber im besten Fall, stimmen diese verschiedenen Ergebnisse, im Rahmen der abgeschätzten Konfidenz in sie, überein. 
 
-### Aufgabe 4.2: Direkte Bestimmung von $g$ 
+Wann ist dies der Fall? – Wenn Sie nach best-möglichem Kenntnisstand, alle Unabwägbarkeiten, von außen einfließender Modellparameter (Informationen) in eine seriöse Abschätzung Ihrer Konfidenz in das ermittelte Ergebnis haben einfließen lassen. 
 
-Sie können $g$ und $\Delta g$ auch direkt aus der Anpassung bestimmen. Formulieren Sie ihre Modellfunktion entsprechend um, führen Sie die Anpassung erneut durch und vergleichen Sie die Ergebnisse mit den Ergebnissen aus Aufgabe 4.1. Beachten Sie zur Bestimmung von $\Delta g$ die Anmerkung 4.1.
+Epistemologisch scheint dem Messvorgang eine unveränderliche Wahrheit zugrunde zu liegen, der wir uns mit Hilfe des mathematischen Modells nähern. Das Modell wird aber immer eine Näherung bleiben. Befinden Sie sich mit Ihrem Experiment in Bereichen der Wahrnehmung, in denen die zu machende Beobachtung klar hervortritt, verliert die Modellfrage an Relevanz: unabhängig davon, ob Sie $g$ aus dem Modell eines physikalischen Pendels, eines mathematischen Pendels, mit oder ohne Berücksichtigung der Dämpfung, Auftrieb in Luft, der Besonderheiten der Auflage des Keils, oder unter Berücksichtigung der genauen geographischen Lage in Karlsruhe bestimmen, werden Sie inneralb von 5–15% immer einen Wert um $g=9,81\hspace{0.05cm}\mathrm{m/s^{2}}$ bestimmen. **An den Grenzen der Erkenntnis, d.h. zum Beispiel auch dann, wenn Sie die Genauigkeit einer Messung an die Grenzen des Machbaren führen, tritt Modellabhängigkeit zutage.** Es ist diese Grenze des Machbaren, wo die Modellvorhersagen sich wirklich unterscheiden, wo sich die Spreu vom Weizen trennt, wo der Erkenntnisgewinn einsetzt. Es ist ein zu tiefst experimenteller Prozess. 
 
-### Aufgabe 4.3: Übergang zu einer [gedämpften Schwingung](https://de.wikipedia.org/wiki/Schwingung#Linear_ged%C3%A4mpfte_Schwingung) 
-
-Das Pendel erfährt in seiner Bewegung zusätzlich eine Dämpfung. Legen wir ein Modell linearer Dämpfung zugrunde verändert sich die Formel zur Bestimmung von $g$ wie folgt: 
-$$
-g = \left(\frac{4\,\pi^{2}}{T^{2}}+\frac{1}{\tau^{2}}\right)\frac{I}{m\,\ell},
-$$
-wobei $\tau$ einer Abklingzeit in Sekunden entspricht. Wie Sie sehen handelt es sich um eine Korrektur, die die Abschätzung von $g$ zu größeren Werten hin beeinflusst. Verändern Sie ihr Modell entsprechend und beantworten Sie die folgenden Fragen: ist das zugrundeliegende Modell mit den Daten kompatibel? Wie könnten Sie die Hypothese, dass das zugrundeliegende Modell die Daten beschreiben kann, besser testen? Wie groß ist der Einfluss, den dieser Effekt ggf. auf die Messung von $g$ hat? 
-
-## Anmerkungen zu Aufgabe 4
-
-### Anmerkung 4.1
-
-Beachten Sie, dass das der Wert von $\Delta g$ aus der Anpassung aus Aufgabe 4.2 nur die Unsicherheiten der Datenpunkte widerspiegelt. Wie würden Sie den Einfluss der Variationen in $I$, $m$, und $\ell$ auf $\Delta g$ abschätzen?
-
-## Lösung:
-
-*Sie können Ihre Lösung/Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
-
-## Bonusaufgabe: Vom bloßen Messen zur Kunst
-
-Die Anmerkung zu Aufgabe 4.2 wirft eine Frage auf, die wir im Rahmen dieses Vorversuchs bisher offen gelassen haben: wie sind die Unsicherheiten auf die zusätzlichen Parameter der Messung korreliert? Wenn Sie möchten können Sie dieser Frage mit den folgenden Bonusaufgaben nachgehen. Die Bearbeitung dieser Fragen ist jedoch nicht verpflichtend.
-
-### Bonusaufgabe 1: Korrelierte Unsicherheiten:
-
-Jede Variation eines der drei Parameter $m$, $I$ oder $\ell$ in Aufgabe 4.2 hat einen nicht-trivialen Einfluss auf die jeweils anderen Parameter. Durch quadratische Addition von $\Delta I$, $\Delta m$, und $\Delta \ell$ unterlegen Sie die Annahme, das alle drei Variationen unabhängig sind. Diese Annahme ist auf jeden Fall falsch. Machen Sie einen Vorschlag zur Lösung dieses Problems. 
-
-### Bonusaufgabe 2: Die Kunst des Experimentierens 
-
-Diskutieren Sie, wie dieser Versuch konzeptionell verbessert werden könnte, um die in Bonusaufgabe 1 diskutierten Probleme von vornherein zu vermeiden.  
+Was also ist exakte Wissenschaft in der heutigen Zeit? – Es ist die Suche nach einem Surrogat einer uns unbekannten, möglichen Wahrheit, reduziert auf ein für uns handhabares Maß an Parametern und unsere sorgfältig abgeschätzte Konfidenz, in diese Paremeter. Je weiter wir diese Surrogate, diese Modelle innerhalb der Grenzen des Machbaren ausleuchten und auf den Prüfstand intelligenter Experimente stellen, desto näher werden wir dieser unfassbaren Wahrheit kommen, die wir doch nie erreichen werden. An den Grenzen der Erkenntnis wird die exakte Wissenschaft zur Kunst. Zur **experimentellen Kunst**. Zur Kunst **Parameter auf geschickte Weise zu bestimmen die Konfidenz in sie weder zu groß noch zu klein abzuschätzen**.  
