@@ -29,3 +29,7 @@
 
 - Beachten Sie, dass die Skripte *plotData.py* und *run_phyFit.py* aus der *PhyPraKit* Modusammlung die Eingangs- und Konfigurationsdaten nicht im *csv*-Format sondern in der Struktursprache [yaml](https://de.wikipedia.org/wiki/YAML)  erwarten. Die Notwendigkeit Daten um zu formatieren ist ein häufiges Problem in der Datenverarbeitung. Sie können zur Umformatierung das Skript *cvs2yaml.py* verwenden.
 
+# Navigation
+
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vorversuch)
+
