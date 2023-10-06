@@ -1,8 +1,8 @@
-<img src="./figures/Logo_KIT.svg"  width=200px style="float:right;" />
+# Hinweise für den Versuch Datenverarbeitung am Beispiel des Pendles
 
-# Fakultät für Physik 
+## Messung und Parameterschätzung
 
-## Physikalisches Praktikum P1 für Studierende der Physik
+### Experiment und Zufall
 
 
 
