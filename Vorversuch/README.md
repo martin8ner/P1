@@ -38,7 +38,7 @@ Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem
 
 Wir haben die Anwendung [phyphox](https://phyphox.org/de/home-de/) auf ein Smartphone geladen und das Smartphone mit Klebestreifen auf eines der [Reversionspendel](https://de.wikipedia.org/wiki/Reversionspendel) aus dem P1-Versuch [Pendel](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel) montiert. Für die Messung haben wir die Anwendung **Beschleunigung (ohne $g$)** verwendet. Der Versuchsaufbau ist im folgenden Bild skizziert:
 
-![Versuchsaufbau](/home/rwolf/Data/Vorlesungen/2022/2022-WS-P1/p1-for-students/Vorversuch/figures/PendelVorversuch.png)
+<img src="./figures/PendelVorversuch.png" style="zoom:100%;" />
 
 Wir haben das Pendel in Schwingung versetzt, die resultierende Bewegung mit Hilfe der im Smartphone eingebauten Beschleunigungssensoren ausgelesen und uns die resultierenden Datensätze im [*csv*-Format](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) per Mail zugeschickt. Außerdem haben wir alle für unsere Messung relevanten äußeren Parameter mit Unsicherheiten festgehalten. Alle wichtigen Informationen zu Pendel und Smartphone haben wir aus der Anleitung des P1-Versuchs [Pendel](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Pendel) und den im Internet verfügbaren Datenblättern des Smartphones bezogen. Zum Teil haben wir die Abmessungen des Smartphones noch einmal mit einfachen Mitteln nachvollzogen. Dort, wo uns keine Informationen zu Unsicherheiten vorlagen haben wir sie abgeschätzt. Die Datensätze, die wir aufgenommen haben finden Sie nach *download* des Versuchs in Ihrer Arbeitsumgebung. 
 
