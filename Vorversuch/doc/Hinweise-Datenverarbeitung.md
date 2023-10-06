@@ -24,7 +24,7 @@ Der Erfolg von Aristoteles klassisch-antiker Modellvorstellung natürlicher und 
 
 Dieses Gleichnis ist zentraler Baustein der Vorstellung unseres heutigen Erkenntnisgewinns, wie in **Abbildung 1** dargestellt:   
 
-<img src="../figures/PlatosHoehle.png" style="zoom:100%;" />
+<img src="../figures/PlatosHoehle.png" style="zoom:60%;" />
 
 **Abbilding 1** (Darstellung des modernen wissenschaftlichen Erkenntnisgewinns)
 
@@ -69,3 +69,8 @@ Wann ist dies der Fall? – Wenn Sie nach best-möglichem Kenntnisstand, alle Un
 Epistemologisch scheint dem Messvorgang eine unveränderliche Wahrheit zugrunde zu liegen, der wir uns mit Hilfe des mathematischen Modells nähern. Das Modell wird aber immer eine Näherung bleiben. Befinden Sie sich mit Ihrem Experiment in Bereichen der Wahrnehmung, in denen die zu machende Beobachtung klar hervortritt, verliert die Modellfrage an Relevanz: unabhängig davon, ob Sie $g$ aus dem Modell eines physikalischen Pendels, eines mathematischen Pendels, mit oder ohne Berücksichtigung der Dämpfung, Auftrieb in Luft, der Besonderheiten der Auflage des Keils, oder unter Berücksichtigung der genauen geographischen Lage in Karlsruhe bestimmen, werden Sie inneralb von 5–15% immer einen Wert um $g=9,81\hspace{0.05cm}\mathrm{m/s^{2}}$ bestimmen. **An den Grenzen der Erkenntnis, d.h. zum Beispiel auch dann, wenn Sie die Genauigkeit einer Messung an die Grenzen des Machbaren führen, tritt Modellabhängigkeit zutage.** Es ist diese Grenze des Machbaren, wo die Modellvorhersagen sich wirklich unterscheiden, wo sich die Spreu vom Weizen trennt, wo der Erkenntnisgewinn einsetzt. Es ist ein zu tiefst experimenteller Prozess. 
 
 Was also ist exakte Wissenschaft in der heutigen Zeit? – Es ist die Suche nach einem Surrogat einer uns unbekannten, möglichen Wahrheit, reduziert auf ein für uns handhabares Maß an Parametern und unsere sorgfältig abgeschätzte Konfidenz, in diese Paremeter. Je weiter wir diese Surrogate, diese Modelle innerhalb der Grenzen des Machbaren ausleuchten und auf den Prüfstand intelligenter Experimente stellen, desto näher werden wir dieser unfassbaren Wahrheit kommen, die wir doch nie erreichen werden. An den Grenzen der Erkenntnis wird die exakte Wissenschaft zur Kunst. Zur **experimentellen Kunst**. Zur Kunst **Parameter auf geschickte Weise zu bestimmen die Konfidenz in sie weder zu groß noch zu klein abzuschätzen**.  
+
+# Navigation
+
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vorversuch)
+
