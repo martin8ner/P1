@@ -19,9 +19,9 @@ $$
 $$
 gelöst, wobei $A$ die Amplitude, $\omega$ die [Kreisfrequenz](https://de.wikipedia.org/wiki/Kreisfrequenz) und $\phi$ eine freie Phase der Schwingung sind. Die Parameter $A$ und $\phi$ werden durch die Anfangswerte des jeweiligen Problems festgelegt; $\omega$ folgt aus einer Sekundärgleichung zu Gleichung **(1)** und ist eine Eigenschaft des Pendels. Mit Hilfe dieses Modells können Sie bei gegebenem $\ell$ die Größe von $g$ mit Hilfe der Gleichung
 $$
-\begin{equation*}
+\begin{equation}
 g = \frac{4\,\pi^{2}}{T^{2}}\ell
-\end{equation*}
+\end{equation}
 $$
 aus der Periode $T$ der Schwingung bestimmen. 
 

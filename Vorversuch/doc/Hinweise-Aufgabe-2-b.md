@@ -19,7 +19,7 @@ $$
 \end{split}
 \end{equation*}
 $$
-Dem Umstand, dass die Taylorreihe bereits nach dem ersten Term abbricht wird tragen wir durch das Attribut *lineare* Fehlerfortpflanzung Rechnung. 
+Dem Umstand, dass die Taylorreihe bereits nach dem ersten Term abbricht tragen wir durch das Attribut *lineare* Fehlerfortpflanzung Rechnung. 
 
 Liegen Unsicherheiten auf mehrere Parameter $\{\hat{\theta}_{j}:\hspace{0.05cm}j=1\ldots n\}$ vor, muss in $n$ Dimensionen gerechnet werden: 
 $$
