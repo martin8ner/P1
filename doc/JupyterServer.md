@@ -193,7 +193,7 @@ Beim direkten Export von Jupyter-notebook ins *pdf*-Format, wie oben beschrieben
 
 Sie können externe Grafiken aber über *matplotlib* direkt ins Jupyter-notebook einbetten. **Auf diese Weise funktioniert der Export für die Bildformate *png* und *jpg* ins *pdf*-Format, ohne Probleme**. 
 
-Ein Beispiel, wie Sie externe Graphiken in Jupyter-notebook einbetten können finden Sie in der Datei [add_figures.ipynb](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/tools/add_figure.py). 
+Ein Beispiel, wie Sie externe Graphiken in Jupyter-notebook einbetten können finden Sie in der Datei [add_figures.ipynb](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/tools/add_figures.ipynb). 
 
 # Navigation
 
