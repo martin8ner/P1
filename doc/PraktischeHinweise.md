@@ -6,7 +6,7 @@ Die jeweils aktuelle Version aller Versuchsanleitungen und die dazugehörigen Da
 
 * **Für das P1**: [https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main). 
 
-* **Für das P2**: [https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students. 
+* **Für das P2**: [https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students). 
 
 Zu jedem Versuch erhalten Sie eine grundlegende Vorstellung des Versuchs, Hinweise zur physikalischen Einordnung, mit denen Sie den entsprechenden Versuch durchführen können und einen Durchführungsteil im Jupyter-notebook-Format. Wie Sie die Anleitungen vom gitlab-Server des SCC auf Ihre Arbeitsumgebung auf dem Jupyter-Server herunterladen und bearbeiten können erfahren Sie aus dem Dokument [Arbeiten auf dem Jupyter-Server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/JupyterServer.md).  
 
@@ -30,7 +30,7 @@ Wir gehen davon aus, dass Studierende im Hauptfach Physik mit dem Programmpaket 
 
 ### PhyPraKit
 
-Für diejenigen unter Ihnen, die [kafe2](https://etpwww.etp.kit.edu/~quast/kafe2/htmldoc/) nicht kennen, oder sich im Umgang damit nicht sicher fühlen, stellt die Fakultät die Modulsammlung [PhyPraKit](https://etpwww.etp.kit.edu/~quast/PhyPraKit/htmldoc/) bereit, aus der Sie voraussichtlich lediglich die Skripte *run_phyFit.py* (zur Parameterschätzung) und ggf. *plotData.py* (für die Darstellung von Datenreihen) benötigen werden. Beide Skripte können Sie mit einer verhältnismäßig einfachen Konfigurationsdatei ansteuern. Die Verwendung dieser beiden Skripte und der zugehörigen Konfigurationsdatei erklären wir Ihnen im Dokument [Verwendung der PhyPraKit Module](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/PhyPraKit.md?ref_type=heads). 
+Für diejenigen unter Ihnen, die [kafe2](https://etpwww.etp.kit.edu/~quast/kafe2/htmldoc/) nicht kennen, oder sich im Umgang damit nicht sicher fühlen, stellt die Fakultät die Modulsammlung [PhyPraKit](https://etpwww.etp.kit.edu/~quast/PhyPraKit/htmldoc/) bereit, aus der Sie voraussichtlich lediglich die Skripte *run_phyFit.py* (zur Parameterschätzung) und ggf. *plotData.py* (für die Darstellung von Datenreihen) benötigen werden. Beide Skripte können Sie mit einer verhältnismäßig einfachen Konfigurationsdatei ansteuern. Die Verwendung dieser beiden Skripte und der zugehörigen Konfigurationsdatei erklären wir Ihnen im Dokument [Verwendung der PhyPraKit Module](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/PhyPraKit.md). 
 
 ### Fehlerfortpflanzung in Python
 
@@ -70,15 +70,53 @@ Im Zuge der Umstellung von Latex- auf Jupyter-notebook-Protokolle haben wir zuwe
 
 ### Bevorzugtes Dokumentenformat
 
-Wir erwarten die Rückgabe der Versuchsauswertungen durch *fristgerechten upload*  der ausgefüllten Versuchs-Durchführung, **im Jupyter-notebook-Format, exportiert nach *pdf***, auf das ILIAS-System. In dieses Dokument kann Ihr:e Tutor:in elektronisch kommentieren. Es ist obligatorisch.
+Wir erwarten die Rückgabe der Versuchsauswertungen durch *fristgerechten upload*  der ausgefüllten Versuchs-Durchführung, **im Jupyter-notebook-Format, exportiert nach *pdf***, auf das [ILIAS-System](https://ilias.studium.kit.edu/login.php?client_id=produktiv&cmd=force_login&lang=en). In dieses Dokument kann Ihr:e Tutor:in elektronisch kommentieren. Es ist obligatorisch.
 
-Zum Export des Jupyter-notebooks nach *pdf* achten Sie auf unsere Hinweise zum [Arbeiten auf dem Jupyter-server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/JupyterServer.md). 
+Zum Export des Jupyter-notebooks nach *pdf* achten Sie auf unsere Hinweise zum [Arbeiten auf dem Jupyter-server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/JupyterServer.md). Achten Sie ferner darauf alle Code-Zellen auszuführen, bevor Sie das Jupyter-notebook nach *pdf* exportieren. 
 
-Ausnahmen von dieser Regel sind zulässig. Beachten Sie jedoch, dass Sie **in jedem Fall eine Version Ihres Protokolls in *pdf*-Format** auf dem ILIAS-System hinterlegen müssen, damit Ihr Versuch die Chance hat anerkannt zu werden. 
+Ausnahmen von dieser Regel sind zulässig. Beachten Sie jedoch, dass Sie **in jedem Fall eine Version Ihres Protokolls in *pdf*-Format** auf dem [ILIAS-System](https://ilias.studium.kit.edu/login.php?client_id=produktiv&cmd=force_login&lang=en) hinterlegen müssen, damit Ihr Versuch die Chance hat anerkannt zu werden. 
 
 ### Beispiel eines Protokolls/einer Auswertung
 
-Wir veröffentlichen ein Beispiel dafür, wie eine Auswertung im Jupyter-notebook-Format (exportiert nach *pdf*) aussehen könnte, nach dem ersten Versuchstag des P1, als Musterlösung zum [Vorversuch Datenauswertung](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vorversuch) auf dem gitlab-Server des SCC. Dieses Beispiel können Sie als Vorlage für alle weiteren Versuchsauswertungen verwenden. 
+Wir veröffentlichen ein Beispiel dafür, wie eine Auswertung im Jupyter-notebook-Format (exportiert nach *pdf*) aussehen könnte, nach dem ersten Versuchstag des P1, als Musterlösung zum [Vorversuch Datenauswertung](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vorversuch) auf dem gitlab-Server des SCC. Dieses Beispiel können Sie dann als Vorlage für alle weiteren Versuchsauswertungen verwenden. 
+
+### Hochladen des Protokolls auf ILIAS
+
+Laden Sie alle Versionen Ihres Protokolls zu Dokumentationszwecken aufs [ILIAS](https://ilias.studium.kit.edu/login.php?client_id=produktiv&cmd=force_login&lang=en)-System hoch. Wir haben hierzu unter den Gruppenbezeichnung Mo01, Mo02, … Bereiche, für alle Montags- und Donnerstagsgruppen eingerichtet, in denen Sie entsprechende Rechte zum *upload* haben sollten. Hinterlegen Sie dort den *pdf*-Dokument des jeweiligen Versuchs, wie Sie es aus dem Export des Jupyter-Servers erhalten. Der Dateiname sollte aus dem Versuchsnamen und der Endung *.pdf* bestehen (z.B. ```Vorversuch.pdf```). 
+
+Die erste Version ($\mathrm{v0}$) Ihres Protokolls sollten Sie, als *initiale* Version, als letzten Handgriff direkt nach Durchführung des Versuchs, am Ende des Praktikumstages hochladen. Für alle weiteren Versionen gehen Sie wie folgt vor: 
+
+- Klicken in dem Ihrer Gruppe zugeordneten ILIAS-Bereich aus dem Menü, rechts in der Zeile der hochgeladenen *initialen* Version Ihres Protokolls, den obersten Menüpunkt "Versionen", wie in **Bild 1** zu sehen, an: 
+
+   <img src="../figures/ILIAS-version-0.png" alt="figures" style="zoom:100%;" />
+
+  **Bild 1** (Menüpunkt "Versionen" auf dem ILIAS-System)
+
+  ---
+
+  Dadurch sollten Sie auf ein neues Fenster geführt werden, in dem Ihnen alle von dieser Datei angelegten Versionen angezeigt werden.  
+
+- Klicken Sie die Fläche "Neue Version anlegen", wie in **Bild 2** zu sehen, an: 
+
+   <img src="../figures/ILIAS-version-1.png" alt="figures" style="zoom:100%;" />
+
+  **Bild 2** (Anlegen einer neuen Versionen des Protokolls auf dem ILIAS-System)
+
+  ---
+
+  Dadurch sollten Sie auf ein weiteres Fenster, wie in **Bild 3** gezeigt, geführt werden:
+
+   <img src="../figures/ILIAS-version-2.png" alt="figures" style="zoom:100%;" />
+
+  **Bild 3** (Abschluss des Vorgangs zum Hochladen einer neuen Version des Protokolls auf dem ILIAS-System)
+
+  ---
+
+  
+
+- Das Feld "Titel" können Sie freilassen oder dort den Namen des Versuchs angeben. Sie können in einer kurzen "Zusammenfassung" Sinn und Zweck der hochzuladenden Datei dokumentieren. Wählen Sie die Datei aus, die Sie hochladen möchten und klicken Sie auf das Feld "Neue Version anlegen", um den Vorgang abzuschließen.
+
+Wir werden im Folgenden die Versionsbezeichnungen $\mathrm{v0}$, $\mathrm{v1}$, $\mathrm{v2}$ verwenden. Diese Bezeichnungen sollen lediglich den Korrekturstatus des Protokolls wiedergeben. Die physische Versionierung der Protokolle sollte ausschließlich durch den *upload* als jeweils neue Version aufs ILIAS-System erfolgen.  
 
 ### Bewertung
 
@@ -87,7 +125,7 @@ Ihr:e Tutor:in wird die von Ihnen eingereichte Versuchsauswertung im *pdf*-Forma
 - **Beanstandungen**: Hierbei handelt es sich z.B. um inhaltliche Fehler; Unzulänglichkeiten, die Ihr Protokoll/Ihre Auswertung nicht nachvollziehbar oder unverständlich machen; nicht gekennzeichnete oder näher dokumentierte, fehlende Aufgabenteile oder; fehlende Einschätzungen oder Unsicherheiten der (Teil-)Ergebnisse. Dabei geht es uns v.a. um inhaltliche Beanstandungen, die von substantieller Natur für das Verständnis des Versuchs und die sachliche Einschätzung Ihrer Arbeit und Ihrer Ergebnisse sind. Beachten Sie, dass es für uns in erster Linie unerheblich ist, wie genau oder ungenau Sie mit Ihrer Messung eine gegebene Erwartung getroffen haben. Wichtig ist die Einschätzung innerhalb der von Ihnen während des Versuchs veranschlagten Unsicherheiten. Selbst wenn Sie im Rahmen dieser Unsicherheiten, nach Ihrem Dafürhalten, mit Ihrem Ergebnis "weit von Ihrer Erwartung abweichen" sollten kann dies für uns immer noch in Ordnung sein kann, wenn Sie Ihre Messung ernsthaft und sorgfältig auf den Prüfstand stellen, reflektieren und diskutieren.   
 - **Anmerkungen**: Hierbei handelt es sich um alle weiteren Kommentare zu Ihrer Auswertung. Als Studenten der Physik sollten Sie den Anspruch haben eine semantisch, grammatikalisch und orthographisch einwandfreie Auswertung abzugeben! Ihre physikalische Argumentation sollte, nach Einschätzung Ihre:r Tutor:in korrekt sein. Vielleicht ist Ihr:e Tutor:in geneigt Ihnen den ein oder anderen Tipp an die Hand zu geben, wie Sie Ihre Messung oder Auswertung noch besser hätten durchführen können.  
 
-**Beanstandungen sollten Sie auf jeden Fall korrigieren** und die korrigierte Auswertung (als Version $\mathrm{v2}$) erneut auf das ILIAS-System hochladen. Hierzu steht Ihnen die Versionierung von *uploads* auf ILIAS zur Verfügung. Wir empfehlen Ihnen dabei auch auf die Anmerkungen Ihr:er Tutor:in einzugehen. 
+**Beanstandungen sollten Sie auf jeden Fall korrigieren** und die korrigierte Auswertung (als Version $\mathrm{v2}$) erneut aufs ILIAS-System hochladen. Hierzu steht Ihnen die Versionierung von Dateien auf ILIAS zur Verfügung. Wir empfehlen Ihnen dabei nicht nur auf die Beanstandungen sondern auch auf die Anmerkungen Ihr:er Tutor:in einzugehen. 
 
 Die Bewertung der Auswertung erfolgt **spätestens 14 reguläre Studientage (d.h. zwei Versuchstage während des laufenden Betriebs) nach Versuchsdurchführung**, per Eintrag ins Praktikumsbuch, wie folgt:
 
