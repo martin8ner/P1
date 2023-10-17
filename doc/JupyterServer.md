@@ -80,11 +80,11 @@ Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um **Textzell
   %run /opt/conda/bin/run_phyFit.py --help
   ```
 
-  Ein Beispiel für Die Ausführung diese *Magic command* können Sie in **Bild 6** sehen:
+  Ein Beispiel für Die Ausführung diese *Magic command* können Sie in **Bild 3** sehen:
 
    <img src="../figures/Magic_command.png" alt="figures" style="zoom:100%;" />
 
-  **Bild 5** (*Upload* eines *SSH Key* auf den gitlab-Server des SCC)
+  **Bild 3** (Ausführung eines *Magic command* im Jupyter-notebook)
 
   ---
 
