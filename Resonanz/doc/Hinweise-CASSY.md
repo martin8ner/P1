@@ -119,4 +119,4 @@ Wie Sie sehen können Sie aus diesem Beispiel alle Funktionen herauslesen, die I
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Resonanz) | [Weiter](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-1.md)
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz)

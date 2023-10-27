@@ -40,85 +40,14 @@ Das folgende Bild gibt Ihnen eine Vorstellung, wie die Webseite des SCC gitlab-S
 
 ---
 
-#### Hinterlegen des SSH Key
-
-Um das Repository aller Versuche (hier als Beispiel für die P1-Versuche) in Ihre Arbeitsumgebung vom SCC gitlab-Server auf dem Jupyter-Server laden zu können benötigen Sie einen *SSH Key*, den Sie unter Ihrem Account auf dem SCC gitlab-Server **einmalig zur Authentifizierung** hinterlegen müssen. 
-
-Gehen Sie dabei beim allerersten *Download* eines Repository vom SCC gitlab-Server in Ihre Arbeitsumgebung auf dem Jupyter-Server, wie folgt vor: 
-
-- Öffnen Sie ein Terminal.
-
-- Wechseln Sie im Terminal mit `cd` ins Verzeichnis `~/.ssh/`, wie im folgenden gezeigt:
-
-  ```shell
-  USER@jupyter-USER:~$ cd ~/.ssh/
-  ```
-
-- Erzeugen Sie dort einen *SSH Key*, wie im folgenden gezeigt:
-
-  ```shell
-  USER@jupyter-USER:~/.ssh$ ssh-keygen -b 2048 -t rsa
-  ```
-
-- Sie werden daraufhin um einige optionale Angaben gebeten, die Sie alle mit der `Enter`-Taste überspringen können.
-
-- Nach diesen Schritten sollte Ihr *.ssh*-Verzeichnis wie folgt aussehen: 
-
-  ```shell
-  USER@jupyter-USER:~/.ssh$ ls
-  id_rsa  id_rsa.pub  known_hosts
-  ```
-
-- In der Datei `id_rsa.pub` befindet sich der *SSH Key* zu Ihrem Account auf dem Jupyter-Server. 
-
-- Den Inhalt der Datei `id_rsa.pub` können Sie z.B. mit dem Befehl *less*, wie im folgenden gezeigt im Terminal des Jupyter-Servers ausgeben lassen: 
-
-  ```shell
-  USER@jupyter-USER:~/.ssh$ less id_rsa.pub 
-  ```
-
-- Öffnen Sie in einem anderen Reiter Ihres Browsers den [SCC gitlab-Server](https://gitlab.kit.edu/). 
-
-- Wechseln Sie auf Ihr Profil, z.B. über den Link oben rechts, im linken Teilfenster in **Bild 2**. Gehen Sie dazu über den Menüpunkt "Edit profile". Ihr Browser-Fenster sollte daraufhin in etwa, wie in **Bild 3** gezeigt, aussehen:
-
-  <img src="../figures/SSH-key-1.png" alt="figures" style="zoom:100%;" />
-
-  **Bild 3** (Ein Profil auf dem SCC gitlab-Server)
-
-  ---
-
-- An 8. Stelle im linken Teilfenster finden Sie den Menü-Punkt *SSH Keys*, den Sie anklicken sollten. Sie sollten damit auf ein Bild, wie in **Bild 4** gezeigt, geführt werden: 
-
-  <img src="../figures/SSH-key-2.png" alt="figures" style="zoom:100%;" />
-
-  **Bild 4** (Auf dem SCC gitlab-Server hinterlegte *SSH Keys*)
-
-  ---
-
-- Klicken Sie auf das Feld "Add new key" (oben rechts in **Bild 4**). Sie sollten damit auf ein Bild, wie in **Bild 5** gezeigt, geführt werden:  
-
-  <img src="../figures/SSH-key-3.png" alt="figures" style="zoom:100%;" />
-
-  **Bild 5** (*Upload* eines *SSH Key* auf den gitlab-Server des SCC)
-
-  ---
-
-- Fügen Sie per *copy & paste* den *SSH Key* aus der Datei `id_rsa.pub` aus dem *.ssh*-Verzeichnis Ihrer Arbeitsumgebung auf dem Jupyter-Server in das Feld *Key* ein. 
-
-- Sie können das Ablaufdatum (*Expiration-date* im **Bild 5**) für diesen *SSH Key* löschen. Löschen Sie es nicht läuft der *Key* zum eingestellten Datum aus und muss neu angelegt werden. 
-
-- Klicken Sie zum Abschluss des Vorgangs auf das Feld "Add key".
-
-Diesen Vorgang müssen Sie nur ein einziges mal beim ersten *Download* vom SCC gitlab-Server in Ihre Arbeitsumgebung auf dem Jupyter-Server durchführen.  
-
-#### Download aus dem SCC gitlab-Server 
+##  Download aus dem SCC gitlab-Server 
 
 Um z.B. das **students** Repository des P1-Praktikums vom [SCC gitlab-Server](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students) in Ihre Arbeitsumgebung auf dem Jupyter-Server zu laden gehen Sie wie folgt vor:
 
 - Gehen Sie im Menü Ihrer Arbeitsumgebung auf dem Jupyter-Server auf das Verzeichnis **Git** und wählen Sie die Option **Clone a Repository** aus.
 - In einem neuen Fenster werden Sie daraufhin aufgefordert die URI-Adresse für das Repository anzugeben, das Sie *clonen* möchten. Diese finden Sie im entsprechenden [SCC gitlab-Repository](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students) (hier verlinkt für das P1-Praktikum).
-  - Öffnen Sie dazu das SCC Gitlab Repository für das [P1-Praktikum](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students) z.B. in einem neuen Reiter Ihres Browsers und klicken Sie auf das blaue Feld mit der Aufschrift **Clone** (rechts in **Bild 2**). Wählen Sie aus dem sich öffnenden Untermenü die Option **Clone with SSH** aus. Die entsprechende Webadresse wird in die Zwischenablage Ihres Computers geladen.
-  - Wechseln Sie in Ihrem Browser wieder in den Reiter mit Ihrer Arbeitsumgebung auf dem Jupyter-Server und geben Sie die Webadresse für das zu klonende SCC-gitlab Repository an. 
+  - Öffnen Sie dazu das SCC Gitlab Repository für das [P1-Praktikum](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students) z.B. in einem neuen Reiter Ihres Browsers und klicken Sie auf das blaue Feld mit der Aufschrift **Clone** (rechts in **Bild 2**). Wählen Sie aus dem sich öffnenden Untermenü die Option **Clone with HTTPS** aus. Die entsprechende Webadresse wird in die Zwischenablage Ihres Computers geladen.
+  - Wechseln Sie in Ihrem Browser wieder in den Reiter mit Ihrer Arbeitsumgebung auf dem Jupyter-Server und geben Sie die Webadresse für das zu clonende SCC-gitlab Repository an. 
   - Das Repository wird nun in Ihre Arbeitsumgebung geladen. Diese Vorgang kann einige Zeit dauern. 
 
 
@@ -151,11 +80,11 @@ Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um **Textzell
   %run /opt/conda/bin/run_phyFit.py --help
   ```
 
-  Ein Beispiel für Die Ausführung diese *Magic command* können Sie in **Bild 6** sehen:
+  Ein Beispiel für Die Ausführung diese *Magic command* können Sie in **Bild 3** sehen:
 
    <img src="../figures/Magic_command.png" alt="figures" style="zoom:100%;" />
 
-  **Bild 5** (*Upload* eines *SSH Key* auf den gitlab-Server des SCC)
+  **Bild 3** (Ausführung eines *Magic command* im Jupyter-notebook)
 
   ---
 
