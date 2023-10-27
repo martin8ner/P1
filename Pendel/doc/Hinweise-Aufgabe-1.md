@@ -53,7 +53,7 @@ $$
 die zwar immer noch [exakt lösbar](https://de.wikipedia.org/wiki/Mathematisches_Pendel#Exakte_L%C3%B6sung), aber nicht mehr analytisch geschlossen darstellbar ist. Die Lösung erfordert die Verwendung [elliptischer Funktionen](https://de.wikipedia.org/wiki/Jacobische_elliptische_Funktionen#Die_drei_grundlegenden_Jacobischen_Funktionen). Die Periode lässt sich in diesem Fall durch eine Reihenentwicklung annähern, deren erste Korrektur wie folgt aussieht:
 $$
 \begin{equation}
-T_{0}(\varphi_{0}) = T_{0}\left(1+\frac{1}{2}\sin\left(\varphi_{0}/2\right)\right).
+T_{0}(\varphi_{0}) = T_{0}\left(1+\frac{1}{4}\sin^{2}\left(\varphi_{0}/2\right)\right).
 \end{equation}
 $$
 ### Hinweise zur Durchführung
