@@ -2,7 +2,7 @@
 
 Für diejenigen unter Ihnen, die sich in der Verwendung der Programmiersprache [python](https://www.python.org/) nicht sicher fühlen, aber dennoch nicht auf die korrekte Anwendung statistischer Methoden zur Parameterschätzung in den P1- und P2-Praktika verzichten wollen hat Prof. Günter Quast am Institut für Experimentelle Teilchenphysik (ETP) die Python Modulsammlung [PhyPraKit](https://etpwww.etp.kit.edu/~quast/PhyPraKit/htmldoc/) entwickelt.
 
-Aus dieser Modulsammlung werden Sie voraussichtlich nur die Skripte `run_phyFit.py` und ggf. `plotData.py` benötigen. Auf dem Jupyter-Server können Sie beide Skripte sowohl aus einem Terminal, als auch direkt aus einer Code-Zelle eines Juypter-notebooks aufrufen. Der Aufruf des Skripts `run_phyFit.py` aus einem Terminal Ihrer Jupyter-Umgebung sieht z.B. so aus: 
+Aus dieser Modulsammlung werden Sie voraussichtlich nur die Skripte `run_phyFit.py`, `csv2yml.py` und ggf. `plotData.py` benötigen. Auf dem Jupyter-Server können Sie diese Skripte sowohl aus einem Terminal, als auch direkt aus einer Code-Zelle eines Juypter-notebooks aufrufen. Der Aufruf des Skripts `run_phyFit.py` aus einem Terminal Ihrer Jupyter-Umgebung sieht z.B. so aus: 
 
 `run_PhyFit.py –-help`
 
@@ -10,9 +10,9 @@ Der Aufruf des gleichen Skripts direkt aus einer Code-Zelle eines Jupyter-notebo
 
 `%run /opt/conda/bin/run_phyFit.py --help`
 
-Beachten Sie die Angabe des vollen Pfades zum Skript. 
+Beachten Sie die Angabe **des vollen Pfades** (`/opt/conda/bin/`) zum Skript, wenn Sie es mit Hilfe des [Magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html) `%run` aus einer Code-Zelle des Jupyter-notebooks aufrufen. 
 
-Mit der Option `–-help` in diesen Beispielen, rufen Sie den "Hilfe"-Text mit Erklärungen zur Anwendung des Skripts auf. Wenn Sie eine Parameteranpassung an Daten durchführen wollen müssen Sie dem Skript *run_phyFit.py* sowohl die Daten, als auch das anzupassende Modell mit den entsprechenden Parametern bekannt machen. Dies erreichen Sie mit Hilfe einer Konfigurationsdatei, die im [`yaml`](https://de.wikipedia.org/wiki/YAML)-Format abgefasst ist. Wir werden Ihnen im Folgenden die wichtigsten Eigenschaften einer solchen Konfgurationsdatei anhand der Verwendung mit dem Skript `run_phyFit.py` erklären. 
+Mit der Option `–-help` in diesen Beispielen, rufen Sie den "Hilfe"-Text mit Erklärungen zur Anwendung des Skripts auf. Wenn Sie eine Parameteranpassung an Daten durchführen wollen müssen Sie dem Skript *run_phyFit.py* sowohl die Daten, als auch das anzupassende Modell mit den entsprechenden Parametern bekannt machen. Dies erreichen Sie mit Hilfe einer Konfigurationsdatei, die im [`yaml`](https://de.wikipedia.org/wiki/YAML)-Format abgefasst ist. Wir werden Ihnen im Folgenden die wichtigsten Eigenschaften einer solchen Konfigurationsdatei anhand der Verwendung mit dem Skript `run_phyFit.py` erklären. 
 
 Alle in diesem Text verwendeten Code-Beispiele sollten Sie in jedem SCC gitlab-Repository zu jedem der P1- und P2-Versuche direkt ausführen können.
 
