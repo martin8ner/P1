@@ -16,4 +16,4 @@ Die zu Ihrer Verfügung stehenden Aufbauten bieten Ihnen die Möglichkeit sich m
 
 # Navigation
 
-[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Kreisel/doc/Hinweise-Aufgabe-1-a.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel)
+[Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/doc/Hinweise-Aufgabe-1-a.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel)
