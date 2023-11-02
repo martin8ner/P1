@@ -49,7 +49,7 @@ Gebräuchlicher ist Gleichung **(1)** in der Gestalt
 $$
 \begin{equation}
 \begin{split}
-&\Delta f(\boldsymbol{\theta}) = \sum\limits_{j=1}^{n}\left(\frac{\partial f(\boldsymbol{\theta})}{\partial\theta_{j}}\,\Delta\hat{\theta}_{j}\right)^{2}, \\
+&\Delta f(\boldsymbol{\theta}) = \sqrt{\sum\limits_{j=1}^{n}\left(\frac{\partial f(\boldsymbol{\theta})}{\partial\theta_{j}}\,\Delta\hat{\theta}_{j}\right)^{2}}, \\
 &\text{mit:}\\
 &\\
 &\Delta\hat{\theta}_{j}^{2} = \sigma_{j}^{2},\\
