@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Kreisel
 
-## Aufgabe 1: Physik starrer Körper [1/3]
+## Aufgabe 1: Physik starrer Körper [2/3]
 
 ### Bestimmung von $\theta_{i}$ aus $\boldsymbol{\Theta}$
 
@@ -131,4 +131,4 @@ Die (kleinste) größte Hauptachse des Trägheitsellipsoids entspricht dabei dem
 
 # Navigation
 
-[Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/coc/Hinweise_Aufgabe_1.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/doc/Hinweise-Aufgabe-1-a.md)
+[Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/coc/Hinweise_Aufgabe_1.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/doc/Hinweise-Aufgabe-1-b.md)

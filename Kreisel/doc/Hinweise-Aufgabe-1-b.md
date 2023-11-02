@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Kreisel
 
-## Aufgabe 1: Physik starrer Körper [1/3]
+## Aufgabe 1: Physik starrer Körper [3/3]
 
 ### Hinweise zur Durchführung
 
@@ -16,4 +16,4 @@ Die zu Ihrer Verfügung stehenden Aufbauten bieten Ihnen die Möglichkeit sich m
 
 # Navigation
 
-[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Kreisel/doc/Hinweise-Aufgabe-1-a.md) | [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Geometrische_Optik)
+[Zurück](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/blob/main/Kreisel/doc/Hinweise-Aufgabe-1-a.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel)

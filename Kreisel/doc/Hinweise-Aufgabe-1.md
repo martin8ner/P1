@@ -1,10 +1,10 @@
 # Hinweise für den Versuch Kreisel
 
-## Aufgabe 1: Physik starrer Körper [1/2]
+## Aufgabe 1: Physik starrer Körper [1/3]
 
 ### Winkelgeschwindigkeit und Trägheitstensor
 
-Zur Beschreibung der Dynamik des Massepunkts in der Mechanik verwenden wir die physikalischen Größen Geschwindigkeit ($\vec{v}$), Impuls ($\vec{p}$) und Kraft ($\vec{F}$). Mit dem Kreisel betrachten wir einen ausgedehnten, starren Körper, in Rotation, zu dessen Beschreibung wir zu $\vec{v}$, $\vec{p}$ und $\vec{F}$ äquivalente Größen heranziehen:  
+In der Mechanik verwenden wir zur Beschreibung der Dynamik eines Massepunkts die physikalischen Größen Geschwindigkeit ($\vec{v}$), Impuls ($\vec{p}$) und Kraft ($\vec{F}$). Mit dem Kreisel betrachten wir einen rotierenden, starren Körper, mit endlicher Ausdehnung, zu dessen Beschreibung wir zu $\vec{v}$, $\vec{p}$ und $\vec{F}$ äquivalente Größen heranziehen:  
 
 - Das Äquivalent zu $\vec{v}$ ist die **Winkelgeschwindigkeit** $\vec{\omega}$; 
 - das Äquivalent zu $\vec{p}$ ist der **Drehimpuls** $\vec{L}$; und 
@@ -18,7 +18,7 @@ $$
 \vec{M} = \vec{r}\times \vec{F}. \\
 \end{equation*}
 $$
-Ein Zusammenhang zwischen $\vec{L}$ und $\vec{\omega}$ ergibt sich daraus zu 
+Der Zusammenhang zwischen $\vec{L}$ und $\vec{\omega}$ ergibt sich daraus zu 
 $$
 \begin{equation}
 \vec{L} = \vec{r}\times\vec{p} = \mathrm{d}m \left(\vec{r}\times\vec{v}\right) = \mathrm{d}m \left(\vec{r}\times\left(\vec{r}\times\vec{\omega}\right)\right).
@@ -30,7 +30,7 @@ $$
 \vec{a}\times\vec{b}\times\vec{c} = \big(\vec{b}\cdot\vec{a}\big)\,\vec{c} - \big(\vec{c}\cdot\vec{a}\big)\,\vec{b}
 \end{equation*}
 $$
-Das Kreuzprodukt $\vec{b}\times\vec{c}$ kann durch einen Vektor $\vec{\kappa}$ beschrieben werden, der senkrecht auf die aus $\vec{b}$ und $\vec{c}$ aufgespannte Ebene steht. Das erneute Kreuzprodukt $\vec{a}\times\vec{\kappa}$ führt auf einen Vektor, der wiederum in diese Ebene fällt. Als Konsequenz kann dieser Vektor als eine Linearkombination aus $\vec{b}$ und $\vec{c}$ geschrieben werden. Diese Linearkombination ergibt sich aus den vorangestellten [Skalarprodukten](https://de.wikipedia.org/wiki/Skalarprodukt). 
+Das Kreuzprodukt $\vec{b}\times\vec{c}$ kann durch einen Vektor $\vec{\kappa}$ beschrieben werden, der senkrecht auf die aus $\vec{b}$ und $\vec{c}$ aufgespannte Ebene steht. Das erneute Kreuzprodukt $\vec{a}\times\vec{\kappa}$ führt auf einen Vektor, der wieder in diese Ebene zurückfällt. Als Konsequenz kann der resultierende Vektor als eine Linearkombination aus $\vec{b}$ und $\vec{c}$ geschrieben werden. Diese Linearkombination ergibt sich aus den vorangestellten [Skalarprodukten](https://de.wikipedia.org/wiki/Skalarprodukt). 
 
 Anwendung auf Gleichung **(1)** führt auf: 
 $$
@@ -100,7 +100,7 @@ L_{z} \\
 \right),
 \end{equation}
 $$
-wofür wir $\boldsymbol{\Theta}$ als $3\times3$-Matrix verwendet haben. In bestimmten Fällen kann ein solches Gleichungssystem, durch eine Transformation $\bold{U}$ auf eine geeignete Basis 
+wofür wir $\boldsymbol{\Theta}$ als $3\times3$-Matrix dargestellt haben. In bestimmten Fällen kann ein solches Gleichungssystem, durch eine Transformation $\bold{U}$ auf eine geeignete Basis 
 $$
 \begin{equation*}
 \boldsymbol{\widetilde{\Theta}} = \bold{U}\cdot\boldsymbol{\Theta}\cdot\bold{U}^{-1}
@@ -109,7 +109,7 @@ $$
 entkoppelt werden, so dass $\boldsymbol{\widetilde{\Theta}}$ die Form einer [Diagonalmatrix](https://de.wikipedia.org/wiki/Diagonalmatrix) annimmt. Die Suche nach solchen Abbildungen $\bold{U}$ bezeichnet man als [Eigenwertproblem](https://de.wikipedia.org/wiki/Eigenwerte_und_Eigenvektoren). Die Matrix $\boldsymbol{\widetilde{\Theta}}$ führt die Basisvektoren des Vektors 
 $$
 \begin{equation*}
-\vec{\tilde{\omega}} = \bold{U}\cdot\vec{\omega}
+\vec{\tilde{\omega}} \equiv \bold{U}\cdot\vec{\omega}
 \end{equation*}
 $$
 bis auf die Multiplikation mit dem Eigenwert $\theta_{i}$ in sich selbst über. Die Transformation $\bold{U}$ entspricht also einem Wechsel von einer beliebigen Orthonormalbasis in eine Orthonormalbasis, die durch $\boldsymbol{\widetilde{\Theta}}$ in sich selbst abgebildet wird. 
@@ -164,9 +164,9 @@ $$
 L_{i} = \theta_{i}\,\delta_{ij}\,\omega_{j}.
 \end{equation*}
 $$
-Die $\{\theta_{i}\}$ heisst in diesem Fall Hauptträgheitsmomente.
+Die $\{\theta_{i}\}$ heißen in diesem Fall Hauptträgheitsmomente.
 
 # Navigation
 
-[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Kreisel/doc/Hinweise-Aufgabe-1.md)
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/doc/Hinweise-Aufgabe-1-a.md)
 
