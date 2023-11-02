@@ -1,4 +1,4 @@
-# Wilkommen im P1-Praktikum
+# Willkommen im P1-Praktikum
 
 In diesem Repository finden Sie einleitende Informationen zum Praktikum und Informationen zu allen angebotenen Versuchen des P1-Praktikums. 
 
@@ -13,27 +13,27 @@ In diesem Repository finden Sie einleitende Informationen zum Praktikum und Info
 In diesem Semester bieten wir die folgenden Versuche an: 
 
 - [Vorversuch Datenverarbeitung](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vorversuch) (am Beispiel des Pendels)
-- Elektrische Messverfahren 
--  Ferromagnetische Hysterese
-- Schaltlogik
+- [Elektrische Messverfahren](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Elektrische_Messverfahren) (*)
+-  [Ferromagnetische Hysterese](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Ferromagnetische_Hysterese) (*)
+- [Schaltlogik](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Schaltlogik) (*)
 - [Vierpole und Leitungen](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Vierpole_und_Leitungen)
-- Oszilloskop
+- [Oszilloskop](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Oszilloskop) (*)
 - [Resonanz](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz)
 - [Pendel](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Pendel)
-- Kreisel
-- Elastizität
-- Aeromechanik
+- [Kreisel](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel) (*)
+- [Elastizität](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Elastizitaet) (*)
+- [Aeromechanik](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Aeromechanik) (*)
 - [Geometrische Optik](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Geometrische_Optik)
 - [Lichtgeschwindigkeit](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Lichtgeschwindigkeit)
 - [Spezifische Ladung des Elektrons](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Spezifische_Ladung_des_Elektrons)
 
-Die Struktur der Versuchsanleitungen ist in allen Versuchen gleich. Sobald Sie das Repository eines der Versuche betreten, finden Sie dort eine kurze Übersicht und Einführung zum Versuch. Diese Umfasst:
+Das P1 befindet sich derzeit in einer Umbruchphase. Die mit einem (*) versehenen Versuche laufen noch mit den alten Anleitungen an. Für alle anderen Versuche haben wir die Anleitungen umgestellt, so dass Sie die notwendigen Informationen zur Vorbereitung leicht zugänglich und in aufbereiteter Form im entsprechenden SCC gitlab-Verzeichnis finden können. Die Struktur der neuen Versuchsanleitungen ist in allen Versuchen gleich. Sobald Sie das Verzeichnis eines der Versuche betreten, finden Sie dort eine kurze Übersicht und Einführung zum Versuch. Diese umfasst:
 
 - Eine Motivation des Versuchs;
 - Lehrziele;
 - Bilder zum Versuch; 
-- Verknüpfungen zu den Hinweisen zur Versuchsdurchführung und den für den Versuch relevanten Daten (in der jeweiligen Datei `Datenblatt.md`)
+- Verknüpfungen zu den Hinweisen zur Versuchsdurchführung und den für den Versuch relevanten Daten und externen Parameter (in der jeweiligen Datei `Datenblatt.md`)
 
-Die Übersicht und Einführung, sowie die verknüpften Hinweise sollten Sie in die Lage versetzen den Versuch durchzuführen. Die physikalischen Sachverhalte mit denen Sie sich während des Versuchs auseinandersetzen werden können Sie mit Hilfe einschlägiger Literatur weiter vertiefen. 
+Die Übersicht und Einführung, sowie die verknüpften Hinweise sollten Sie in die Lage versetzen den Versuch durchzuführen. Die physikalischen Sachverhalte mit denen Sie sich während des Versuchs auseinandersetzen werden, können Sie mit Hilfe einschlägiger Literatur weiter vertiefen. 
 
-Die Versuchsdurchführung beginnen Sie mit dem Jupyter-notebook, das den Titel es Versuchs und die Endung **.ipynb* trägt auf dem Jupyter-Server der Fakultät. Fügen Sie dort die Text- und Code-Zellen ein, die Sie für das Protokoll der Versuchsdurchführung und die anschließende Auswertung benötigen.  Beachten Sie die [Praktischen Hinweise zur Durchführung und Auswertung der Versuche](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/PraktischeHinweise.md). 
+Die Durchführung jedes Versuchs beginnen Sie mit dem Jupyter-notebook, das den Titel des Versuchs und die Endung **.ipynb* trägt, am besten auf dem Jupyter-Server der Fakultät. Fügen Sie dort die Text- und Code-Zellen ein, die Sie für das Protokoll der Versuchsdurchführung und die anschließende Auswertung benötigen.  Beachten Sie die [Praktischen Hinweise zur Durchführung und Auswertung der Versuche](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/PraktischeHinweise.md). 
