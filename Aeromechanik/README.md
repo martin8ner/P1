@@ -12,5 +12,12 @@ Versuch P1-23, 24, 25 (Stand: Oktober 2023)
 
 # Aeromechanik
 
-In Bearbeitung
+Das P1 befindet sich derzeit in der Umstellung zu verbesserten Anleitungen, die alle notwendigen Informationen zur Vorbereitung auf den Versuch beinhalten. 
+
+**Dieser Versuch wird vorläufig noch nach der alten Anleitung durchgeführt.** 
+
+- Abbildungen zum Versuch finden Sie im Verzeichnis `figures`. 
+- Informationen zur Vorbereitung auf den Versuch nach der alten Anleitung finden Sie im Verzeichnis `doc`. 
+
+Im Verzeichnis `doc` finden Sie auch die originale Version der alten Anleitung, die z.T. noch etwas mehr Information enthält, als die Jupyter-notebook Version. In einigen Fällen weichen Nummerierungen und Reihenfolge der Versuchsteile in den alten Anleitungen von der jeweiligen Version in Jupyter-notebook ab. In diesen Fällen ist die jeweilige Version der **Durchführung in Jupyter-notebook** für Sie maßgeblich! 
 
