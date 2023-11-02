@@ -57,7 +57,7 @@ Vor jedem weiteren Versuch bietet es sich an, nochmal eventuelle Änderungen in 
 
 ## Arbeiten mit dem Jupyter-notebook
 
-Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um **Textzellen** (Markdown) oder **Code-Zellen** handeln, in die Sie direkt Code in der Prorammiersprache python eingeben können. Eine kurze Einführung in Jupyter-notebook können Sie [hier](https://www-ekp.physik.uni-karlsruhe.de/~quast/jupyter/jupyterTutorial.html) finden. Ein Jupyter-cheat sheet finden Sie z.B. [hier](https://www.edureka.co/blog/wp-content/uploads/2018/10/Jupyter_Notebook_CheatSheet_Edureka.pdf). Für die Durchführung der Versuche des P1- (oder P2-)Praktikums können die folgenden Jupyter-*features* von Bedeutung/Nutzen für Sie sein: 
+Das Jupyter-notebook wird in Zellen bearbeitet. Es kann sich dabei um **Textzellen** (Markdown) oder **Code-Zellen** handeln, in die Sie direkt Code in der Prorammiersprache python eingeben können. Eine kurze Einführung in Jupyter-notebook können Sie [hier](https://etpwww.etp.kit.edu/~quast/jupyter/jupyterTutorial.html) finden. Ein Jupyter-cheat sheet finden Sie z.B. [hier](https://www.edureka.co/blog/wp-content/uploads/2018/10/Jupyter_Notebook_CheatSheet_Edureka.pdf). Für die Durchführung der Versuche des P1- (oder P2-)Praktikums können die folgenden Jupyter-*features* von Bedeutung/Nutzen für Sie sein: 
 
 - *Esc+m*: Wechsele Zellenmodus zu Markdown
 
