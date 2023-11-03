@@ -32,8 +32,8 @@ Das P1 befindet sich derzeit in einer Umbruchphase. Die mit einem (*) versehenen
 - Eine Motivation des Versuchs;
 - Lehrziele;
 - Bilder zum Versuch; 
-- Verknüpfungen zu den Hinweisen zur Versuchsdurchführung und den für den Versuch relevanten Daten und externen Parameter (in der jeweiligen Datei `Datenblatt.md`)
+- Verknüpfungen zu den Hinweisen zur Versuchsdurchführung, sowie zu den für den Versuch relevanten Daten und externen Parametern (in der jeweiligen Datei `Datenblatt.md`)
 
-Die Übersicht und Einführung, sowie die verknüpften Hinweise sollten Sie in die Lage versetzen den Versuch durchzuführen. Die physikalischen Sachverhalte mit denen Sie sich während des Versuchs auseinandersetzen werden, können Sie mit Hilfe einschlägiger Literatur weiter vertiefen. 
+Die Übersicht und Einführung zum Versuch, sowie die verknüpften Hinweise sollten Sie in die Lage versetzen den Versuch durchführen zu können. Die physikalischen Sachverhalte mit denen Sie sich während des Versuchs auseinandersetzen werden, können Sie mit Hilfe einschlägiger Literatur weiter vertiefen. 
 
-Die Durchführung jedes Versuchs beginnen Sie mit dem Jupyter-notebook, das den Titel des Versuchs und die Endung **.ipynb* trägt, am besten auf dem Jupyter-Server der Fakultät. Fügen Sie dort die Text- und Code-Zellen ein, die Sie für das Protokoll der Versuchsdurchführung und die anschließende Auswertung benötigen.  Beachten Sie die [Praktischen Hinweise zur Durchführung und Auswertung der Versuche](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/PraktischeHinweise.md). 
+Die Durchführung jedes Versuchs beginnen Sie mit dem Jupyter-notebook, das den Titel des Versuchs und die Endung **.ipynb* trägt, am besten auf dem Jupyter-Server der Fakultät. Fügen Sie dort die Text- und Code-Zellen ein, die Sie für das Protokoll der Versuchsdurchführung und die anschließende Auswertung benötigen.  Beachten Sie hierzu die [Praktischen Hinweise zur Durchführung und Auswertung der Versuche](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/doc/PraktischeHinweise.md). 
