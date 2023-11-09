@@ -107,7 +107,7 @@ $$
 x_{\hat{n}}z_{\hat{n}}\Theta_{xz}\right)\right)
 \end{equation}
 $$
-man durch Einsetzen in Gleichung **(1)** erhält.  Das Trägheitsellipsoid besitzt drei Hauptachsen. Durch Gleichung **(3)** wird die Lage des Ellipsoids in einem allgemeinen Koordinatensystem $K$, wie in Skizze 2 gezeigt,
+man durch Einsetzen in Gleichung **(1)** erhält.  Das Trägheitsellipsoid besitzt drei Hauptachsen. Durch Gleichung **(3)** wird die Lage des Ellipsoids in einem allgemeinen Koordinatensystem $K$, wie in Skizze 2 gezeigt, beschrieben.
 
 <img src="../figures/Traegheitsellipsoid.png" width="900" style="zoom:100%;" />
 
@@ -115,7 +115,7 @@ man durch Einsetzen in Gleichung **(1)** erhält.  Das Trägheitsellipsoid besit
 
 ---
 
-beschrieben. Nach Hauptachsentransformation fallen die Hauptachsen des Trägheitsellipsoids mit den Koordinatenachsen $\widetilde{K}$ zusammen und Gleichung **(3)** erhält die sog. Normalform
+Nach Hauptachsentransformation fallen die Hauptachsen des Trägheitsellipsoids mit den Koordinatenachsen von $\widetilde{K}$ zusammen und Gleichung **(3)** erhält die sog. Normalform
 $$
 \begin{equation*}
 \begin{split}
@@ -127,7 +127,24 @@ $$
 \end{split}
 \end{equation*}
 $$
-Die (kleinste) größte Hauptachse des Trägheitsellipsoids entspricht dabei dem (größten) kleinsten Hauptträgheitsmoment.
+Die (kleinste) größte Hauptachse des Trägheitsellipsoids entspricht dabei dem (größten) kleinsten Hauptträgheitsmoment. 
+
+### Klassifikation von Kreiseln
+
+Sind zwei Hauptträgheitsmomente (ohne Einschränkung der Allgemeinheit z.B. $\theta_{x}=\theta_{y}=\theta_{\perp}$) gleich, bezeichnet man die durch die entsprechenden Hauptachsen aufgespannte Ebene als *Äquatorebene*. Das Trägheitsmoment entlang jeder beliebigen Achse innerhalb dieser Ebene ist gleich dem sog. *äquatorealen Trägheitsmoment* $\theta_{\perp}$. Einen solchen Kreisel bezeichnet man als symmetrisch. Das Trägheitsellipsoid ist in diesem Fall symmterisch bezüglich der dritten ($z$-)Achse, die als Figurenachse bezeichnet wird. 
+
+- Für den Fall $\theta_{\perp}<\theta_{z}$ ist das Trägheitsellipsoid abgeplattet. Der Kreisel wir als *oblat* bezeichnet. 
+- Für den Fall $\theta_{\perp}>\theta_{z}$ ist das Trägheitsellipsoid verlängert. Der Kreisel wird als *prolat* bezeichnet. 
+
+Wenn zusätzlich
+$$
+\begin{equation*}
+\theta_{x}=\theta_{y}=\theta_{z}=\theta
+\end{equation*}
+$$
+gilt, spricht man von einen kugelsymmetrischen Kreisel. In diesem Fall ist das Trägheitsmoment jeder beliebigen Achse gleich $\theta$. 
+
+**Beachten Sie, dass ein kugelsymmetrischer Kreisel seiner physischen Erscheinung nach selbst nicht kugelsymmetrisch sein muss.** Zum Beispiel ist ein Quader mit quadratischer Grundfläche ein symmetrischer Kreisel und ein Würfel ein kugelsymmetrischer Kreisel.  
 
 # Navigation
 
