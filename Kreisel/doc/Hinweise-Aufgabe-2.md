@@ -31,7 +31,7 @@ Der genaue Ablauf dieser Bewegung hängt von der Beschaffenheit des Kreisels ab:
 - Für den prolaten Kreisel ($\theta_{z}\lt\theta_{\perp}$, **Skizze 3** mittig, **Skizze 4** links) liegt $\vec{\omega}$ zwischen $\hat{z}$ und $\vec{L}$; der *äußere* Mantel des Gangpolkegels rollt auf dem äußeren Mantel des Rastpolkegels ab; in $K$ kreisen $\vec{\omega}$ und $\hat{z}$ in Phase um $\vec{L}$.  
 - Für den oblaten Kreisel ($\theta_{z}\gt\theta_{\perp}$, **Skizze 3** rechts, **Skizze 4** rechts) liegt $\vec{L}$ zwischen $\hat{z}$ und $\vec{\omega}$; der *innere* Mantel des Gangpolkegels rollt auf dem äußeren Mantel des Rastpolkegels ab; in $K$ kreisen $\vec{\omega}$ und $\hat{z}$ gegenphasig um $\vec{L}$. 
 
-<img src="/home/rwolf/Data/Vorlesungen/2023/P1-Praktikum/students/Kreisel/figures/Polkegel.png" width="900" style="zoom:100%;" />
+<img src="../figures/Polkegel.png" width="900" style="zoom:100%;" />
 
 **Skizze 4** (Bewegungsablauf des Kreisels für den (links) prolaten und (rechts) oblaten symmetrischen Kreisel)
 
@@ -45,7 +45,7 @@ $$
 $$
 wie in **Skizze 5** dargestellt. Ebenfalls in die Skizze eingetragen sind der Öffnungswinkel des Gangpolkegels $\alpha$ und der Öffnungswinkel des Nutationskegels $\beta$. 
 
-<img src="/home/rwolf/Data/Vorlesungen/2023/P1-Praktikum/students/Kreisel/figures/Nutation.png" width="900" style="zoom:100%;" />
+<img src="../figures/Nutation.png" width="900" style="zoom:100%;" />
 
 **Skizze 5** (Definitionen zum quantitativen Verständnis der Nutation)
 
