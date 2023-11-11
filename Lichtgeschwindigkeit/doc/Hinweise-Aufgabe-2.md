@@ -37,8 +37,13 @@ Sie können feststellen, dass die Phase $\varphi$ unverändert vom ursprünglich
 
 Es gilt zwar $\Delta\varphi=\Delta\overline{\varphi}$, die Frequenzen $\omega$ und $\overline{\omega}\equiv\omega-\omega^{\prime}$ unterscheiden sich jedoch. Der Verlauf auf der Zeitachse des Oszilloskops erscheint daher um den Faktor $\omega/\overline{\omega}$  gedehnt:
 
-
-
+$$
+\begin{equation}
+\Delta \overline{\varphi} = \Delta \varphi;\qquad
+\overline{\omega}\,\Delta\overline{t} = \omega\,\Delta t;\qquad
+\Delta \overline{t} = \omega/\overline{\omega}\,\Delta t,
+\end{equation}
+$$
 wobei $\Delta \overline{t}$ einem auf dem Oszilloskop dargestellten Zeitfenster (mit dem Verlauf $\cos((\overline{\omega})\,t+\varphi)$) und $\Delta t$ einem Zeitfenster des ursprünglichen Signals (mit dem Verlauf $\cos(\omega\,t+\varphi)$) entsprechen. Durch den gedehnten Maßstab können auch sehr kurze Zeitdifferenzen im Eingangssignal aufgelöst werden. Es handelt sich also effektiv um eine **"Messbereichserweiterung" des Oszilloskops hin zu kürzeren Zeitabständen**.
 
 Um $\Delta\varphi$ deutlich sichtbar zu machen wird das Referenzsignal mit einem Störsignal der Frequenz $59,9\,\mathrm{MHz}$ multiplikativ gemischt. Mittels eines [Tiefpassfilters](https://de.wikipedia.org/wiki/Tiefpass) werden die hochfrequenten Anteile des gemischten Signals unterdrückt und die niederfrequenten Anteile auf einem einfachen computergestützten Oszilloskop, als Funktion der Zeit dargestellt.
@@ -55,15 +60,3 @@ Um $\Delta\varphi$ deutlich sichtbar zu machen wird das Referenzsignal mit einem
 
 [Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Lichtgeschwindigkeit)
 
-
-
-
-
-
-$$
-\begin{equation}
-\Delta \overline{\varphi} = \Delta \varphi;
-%\overline{\omega}\,\Delta\overline{t} = \omega\,\Delta t;
-%\Delta \overline{t} = \omega/\overline{\omega}\,\Delta t,
-\end{equation}
-$$
