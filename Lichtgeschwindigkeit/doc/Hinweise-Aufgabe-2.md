@@ -58,5 +58,5 @@ Um $\Delta\varphi$ deutlich sichtbar zu machen wird das Referenzsignal mit einem
 
 # Navigation
 
-[Main](https://git.scc.kit.edu/etp-lehre/p1-for-students/-/tree/main/Lichtgeschwindigkeit)
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Lichtgeschwindigkeit)
 
