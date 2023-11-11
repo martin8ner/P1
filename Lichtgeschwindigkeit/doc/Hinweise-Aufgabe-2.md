@@ -39,9 +39,9 @@ Es gilt zwar $\Delta\varphi=\Delta\overline{\varphi}$, die Frequenzen $\omega$ u
 
 $$
 \begin{equation}
-\Delta \overline{\varphi} = \Delta \varphi;\qquad
-\overline{\omega}\,\Delta\overline{t} = \omega\,\Delta t; \qquad
-\Delta \overline{t} = \omega/\overline{\omega}\,\Delta t,
+\Delta \overline{\varphi} = \Delta \varphi;
+%\overline{\omega}\,\Delta\overline{t} = \omega\,\Delta t;
+%\Delta \overline{t} = \omega/\overline{\omega}\,\Delta t,
 \end{equation}
 $$
 wobei $\Delta \overline{t}$ einem auf dem Oszilloskop dargestellten Zeitfenster (mit dem Verlauf $\cos((\overline{\omega})\,t+\varphi)$) und $\Delta t$ einem Zeitfenster des ursprünglichen Signals (mit dem Verlauf $\cos(\omega\,t+\varphi)$) entsprechen. Durch den gedehnten Maßstab können auch sehr kurze Zeitdifferenzen im Eingangssignal aufgelöst werden. Es handelt sich also effektiv um eine **"Messbereichserweiterung" des Oszilloskops hin zu kürzeren Zeitabständen**.
