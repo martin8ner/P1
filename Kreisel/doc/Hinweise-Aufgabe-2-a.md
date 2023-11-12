@@ -62,7 +62,7 @@ $$
 
 #### Kreiselkompass
 
-$\vec{\omega}_{E}$ Der Kreiselkompass, wie er im P1 zu Demonstrationszwecken verwendet wird, ist ebenfalls kardanisch gelagert, jedoch ist der innere Kardanrahmen durch Schraubenfedern an den äußeren Kardanrahmen gebunden. Die Funktionsweise eines Kreiselkompasses ist in **Skizze 7** gezeigt, in der die Nordhalbkugel der Erde schematisch dargestellt ist:
+Der Kreiselkompass, wie er im P1 zu Demonstrationszwecken verwendet wird, ist ebenfalls kardanisch gelagert, jedoch ist der innere Kardanrahmen durch Schraubenfedern an den äußeren Kardanrahmen gebunden. Die Funktionsweise eines Kreiselkompasses ist in **Skizze 7** gezeigt, in der die Nordhalbkugel der Erde schematisch dargestellt ist:
 
 <img src="../figures/KreiselkompassSkizze.png" width="900" style="zoom:100%;" />
 
@@ -70,7 +70,7 @@ $\vec{\omega}_{E}$ Der Kreiselkompass, wie er im P1 zu Demonstrationszwecken ver
 
 ---
 
-Die folgende Diskussion erfordert wie wiederholte Anwendung der "Rechten-Hand-Regel". 
+$\vec{\omega}_{E}$ Die folgende Diskussion erfordert wie wiederholte Anwendung der "Rechten-Hand-Regel". 
 
 Die Erde dreht sich mit der Winkelgeschwindigkeit $\vec{\omega}_{E}$. Ein Kreiselkompass, der auf Höhe des Äquators, in Ost-West-Richtung ausgerichtet ist erfährt durch die Drehung der Erde das Drehmoment $\vec{M}$. Dies führt zur Präzession mit der Winkelgeschwindigkeit $\vec{\Omega}$, die die Figurenachse des Kreisels in Nord-Süd-Richtung ($\vec{L}$ im Bild nach unten) und damit parallel zu $\vec{\omega}_{E}$ ausrichtet. Dieser Umstand ist, in drei Positionen auf der Erde, in den unteren drei Achsen aus $\vec{L}$, $\vec{\Omega}$ und $\vec{M}$ dargestellt. 
 
