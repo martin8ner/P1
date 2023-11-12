@@ -2,7 +2,7 @@
 
 ## Aufgabe 2: Kardanisch gelagerter Kreisel
 
-$\vec{\omega}_{E}$ Die obigen Betrachtungen gelten für einen einfachen symmetrischen Kreisel. Im Fall des in (**Abbildung 1** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Kreisel/doc/Hinweise-Aufgabe-2.md)) gezeigten, kardanisch gelagerten Kreisels, wie er im Praktikum zum Einsatz kommt, müssen die Trägheitsmomente der *massiven* Kardanrahmen bei der Beschreibung der Kreiselbewegung berücksichtigt werden. Bei Drehungen um $\hat{x}$ dreht sich der innere, bei Drehungen um $\hat{y}$ sowohl der innere, als auch der äußere Kardanrahmen mit. Für die Trägheitsmomente gilt daher: 
+Die obigen Betrachtungen gelten für einen einfachen symmetrischen Kreisel. Im Fall des in (**Abbildung 1** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Kreisel/doc/Hinweise-Aufgabe-2.md)) gezeigten, kardanisch gelagerten Kreisels, wie er im Praktikum zum Einsatz kommt, müssen die Trägheitsmomente der *massiven* Kardanrahmen bei der Beschreibung der Kreiselbewegung berücksichtigt werden. Bei Drehungen um $\hat{x}$ dreht sich der innere, bei Drehungen um $\hat{y}$ sowohl der innere, als auch der äußere Kardanrahmen mit. Für die Trägheitsmomente gilt daher: 
 $$
 \begin{equation*}
 \begin{split}
@@ -62,7 +62,7 @@ $$
 
 #### Kreiselkompass
 
-Der Kreiselkompass, wie er im P1 zu Demonstrationszwecken verwendet wird, ist ebenfalls kardanisch gelagert, jedoch ist der innere Kardanrahmen durch Schraubenfedern an den äußeren Kardanrahmen gebunden. Die Funktionsweise eines Kreiselkompasses ist in **Skizze 7** gezeigt, in der die Nordhalbkugel der Erde schematisch dargestellt ist:
+$\vec{\omega}_{E}$ Der Kreiselkompass, wie er im P1 zu Demonstrationszwecken verwendet wird, ist ebenfalls kardanisch gelagert, jedoch ist der innere Kardanrahmen durch Schraubenfedern an den äußeren Kardanrahmen gebunden. Die Funktionsweise eines Kreiselkompasses ist in **Skizze 7** gezeigt, in der die Nordhalbkugel der Erde schematisch dargestellt ist:
 
 <img src="../figures/KreiselkompassSkizze.png" width="900" style="zoom:100%;" />
 
