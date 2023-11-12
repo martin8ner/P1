@@ -70,7 +70,7 @@ Der Kreiselkompass, wie er im P1 zu Demonstrationszwecken verwendet wird, ist eb
 
 ---
 
-$\vec{\omega}_{E}$ Die folgende Diskussion erfordert wie wiederholte Anwendung der "Rechten-Hand-Regel". 
+Die folgende Diskussion erfordert wie wiederholte Anwendung der "Rechten-Hand-Regel". 
 
 Die Erde dreht sich mit der Winkelgeschwindigkeit $\vec{\omega}_{E}$. Ein Kreiselkompass, der auf Höhe des Äquators, in Ost-West-Richtung ausgerichtet ist erfährt durch die Drehung der Erde das Drehmoment $\vec{M}$. Dies führt zur Präzession mit der Winkelgeschwindigkeit $\vec{\Omega}$, die die Figurenachse des Kreisels in Nord-Süd-Richtung ($\vec{L}$ im Bild nach unten) und damit parallel zu $\vec{\omega}_{E}$ ausrichtet. Dieser Umstand ist, in drei Positionen auf der Erde, in den unteren drei Achsen aus $\vec{L}$, $\vec{\Omega}$ und $\vec{M}$ dargestellt. 
 
