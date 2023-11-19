@@ -133,8 +133,8 @@ Die (kleinste) größte Hauptachse des Trägheitsellipsoids entspricht dabei dem
 
 Sind zwei Hauptträgheitsmomente (ohne Einschränkung der Allgemeinheit z.B. $\theta_{x}=\theta_{y}=\theta_{\perp}$) gleich, bezeichnet man die durch die entsprechenden Hauptachsen aufgespannte Ebene als *Äquatorebene*. Das Trägheitsmoment entlang jeder beliebigen Achse innerhalb dieser Ebene ist gleich dem sog. *äquatorealen Trägheitsmoment* $\theta_{\perp}$. Einen solchen Kreisel bezeichnet man als symmetrisch. Das Trägheitsellipsoid ist in diesem Fall symmterisch bezüglich der dritten ($z$-)Achse, die als Figurenachse bezeichnet wird. 
 
-- Für den Fall $\theta_{\perp}<\theta_{z}$ ist das Trägheitsellipsoid abgeplattet. Der Kreisel wir als *oblat* bezeichnet. 
-- Für den Fall $\theta_{\perp}>\theta_{z}$ ist das Trägheitsellipsoid verlängert. Der Kreisel wird als *prolat* bezeichnet. 
+- Für den Fall $\theta_{\perp}\lt\theta_{z}$ ist das Trägheitsellipsoid abgeplattet. Der Kreisel wir als *oblat* bezeichnet. 
+- Für den Fall $\theta_{\perp}\gt\theta_{z}$ ist das Trägheitsellipsoid verlängert. Der Kreisel wird als *prolat* bezeichnet. 
 
 Wenn zusätzlich
 $$
