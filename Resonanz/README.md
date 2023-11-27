@@ -8,8 +8,6 @@ Versuch P1-12, 22 (Stand: Oktober 2023)
 
 [Raum F1-21](https://labs.physik.kit.edu/img/Praktikum/Lageplan_P1.png)
 
-
-
 # Resonanz
 
 ## Motivation
@@ -49,3 +47,4 @@ Sie benötigen einen **USB-Stick oder sonstigen Datenträger** zur Übermittlung
 - Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 1 finden Sie in der Datei [Hinweise-Aufgabe-1.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-Aufgabe-1.md) 
 - Wichtige Hinweise zur Vorbereitung und Durchführung von Aufgabe 2 finden Sie in der Datei [Hinweise-Aufgabe-2.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-Aufgabe-2.md).
 - Wichtige technische Daten zum Versuch finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/Datenblatt.md).  
+

@@ -6,6 +6,8 @@
 
 #### Aufgabe 1.1: Schwingung ohne äußere Dämpfung
 
+1. 
+
 Verwenden Sie Gleichung (**(6)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz/doc/Hinweise-Aufgabe-1.md)) als Modell für die Anpassung an die aufgezeichneten Daten. Der funktionale Zusammenhang in Gleichung **(6)** bleibt im Fall einer Zeitableitung, bis auf Betrag und Phase der Schwingung unverändert. Sie können das gleiche Modell also auch zur Anpassung von $\omega(t)$ verwenden.
 
 #### Aufgabe 1.2: Bestimmung des Trägheitsmoments $\Theta$
@@ -46,3 +48,4 @@ Bestimmen Sie $Q$ aus Gleichung (**(8)** [hier](https://gitlab.kit.edu/kit/etp-l
 # Navigation
 
 [Zurück](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-1.md) | [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz)
+

@@ -70,6 +70,7 @@ $$
 Q\equiv\left.\frac{\Delta\Omega}{\Omega}\right|_{\Omega_{\mathrm{res}}}
 \end{equation*}
 $$
+
 ab. 
 
 ### Elektrische Schwingung
@@ -154,3 +155,4 @@ Da im Schwingkreis $Q\gg1$ sein kann, können $|U_{L}|$ und $|U_{C}|$ die Amplit
 # Navigation
 
 [Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Resonanz) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/Resonanz/doc/Hinweise-Aufgabe-2-a.md)
+
